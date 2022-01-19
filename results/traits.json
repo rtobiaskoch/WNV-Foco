@@ -1,0 +1,510 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "Australia",
+        "Mexico",
+        "USA",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.3769616132733705,
+        0.27119004747118464,
+        0.3518483392554448
+      ],
+      "rate": 19.838415042287835,
+      "transition_matrix": [
+        [
+          0.0,
+          1.1769167630185666,
+          1.6327748936815936
+        ],
+        [
+          1.1769167630185666,
+          0.0,
+          1.7095927306512504
+        ],
+        [
+          1.6327748936815936,
+          1.7095927306512504,
+          0.0
+        ]
+      ]
+    },
+    "state": {
+      "alphabet": [
+        "Australia/unknown",
+        "Mexico/unknown",
+        "USA/unknown",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.3769616132733705,
+        0.27119004747118464,
+        0.3518483392554448
+      ],
+      "rate": 19.838415042287835,
+      "transition_matrix": [
+        [
+          0.0,
+          1.1769167630185666,
+          1.6327748936815936
+        ],
+        [
+          1.1769167630185666,
+          0.0,
+          1.7095927306512504
+        ],
+        [
+          1.6327748936815936,
+          1.7095927306512504,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "DQ080067": {
+      "country": "Mexico",
+      "country_confidence": {
+        "Mexico": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "Mexico/unknown",
+      "state_confidence": {
+        "Mexico/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "HM488228": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "HM756674": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "JF957173": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KJ145808": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KJ501153": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KJ501203": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KJ501352": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KJ501404": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KJ501491": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KR348920": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KR349002": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX394408": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "Australia/unknown",
+      "state_confidence": {
+        "Australia/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX547392": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX547474": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX547608": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KY782121": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "MH166909": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "MH507743": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "MH507913": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.46423083671934834,
+        "Mexico": 0.17899957249295823,
+        "USA": 0.35676959078769344
+      },
+      "country_entropy": 1.0318941729333828,
+      "state": "Australia/unknown",
+      "state_confidence": {
+        "Australia/unknown": 0.46423083671934834,
+        "Mexico/unknown": 0.17899957249295823,
+        "USA/unknown": 0.35676959078769344
+      },
+      "state_entropy": 1.0318941729333828
+    },
+    "NODE_0000001": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999966547054676
+      },
+      "country_entropy": 4.782665270595724e-05,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999966547054676
+      },
+      "state_entropy": 4.782665270595724e-05
+    },
+    "NODE_0000002": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.999997023242496
+      },
+      "country_entropy": 4.2904615502374506e-05,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.999997023242496
+      },
+      "state_entropy": 4.2904615502374506e-05
+    },
+    "NODE_0000003": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999684518527586
+      },
+      "country_entropy": 0.0003802301281630307,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999684518527586
+      },
+      "state_entropy": 0.0003802301281630307
+    },
+    "NODE_0000004": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999639628968
+      },
+      "country_entropy": 6.785482678540137e-07,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999999639628968
+      },
+      "state_entropy": 6.785482678540137e-07
+    },
+    "NODE_0000006": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999944770111936
+      },
+      "country_entropy": 7.618998668903184e-05,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999944770111936
+      },
+      "state_entropy": 7.618998668903184e-05
+    },
+    "NODE_0000007": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999970258044083
+      },
+      "country_entropy": 4.287024108725162e-05,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999970258044083
+      },
+      "state_entropy": 4.287024108725162e-05
+    },
+    "NODE_0000008": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999969106392445
+      },
+      "country_entropy": 4.441310859975379e-05,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999969106392445
+      },
+      "state_entropy": 4.441310859975379e-05
+    },
+    "NODE_0000009": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999900930520093
+      },
+      "country_entropy": 0.00013087882131679156,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999900930520093
+      },
+      "state_entropy": 0.00013087882131679156
+    },
+    "NODE_0000010": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999857394069168
+      },
+      "country_entropy": 0.00018319823817353428,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999857394069168
+      },
+      "state_entropy": 0.00018319823817353428
+    },
+    "NODE_0000011": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999998715645874
+      },
+      "country_entropy": 2.233652539275563e-06,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999998715645874
+      },
+      "state_entropy": 2.233652539275563e-06
+    },
+    "NODE_0000013": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9995834958696728
+      },
+      "country_entropy": 0.003714431956883751,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9995834958696728
+      },
+      "state_entropy": 0.003714431956883751
+    },
+    "NODE_0000014": {
+      "country": "USA",
+      "country_confidence": {
+        "Mexico": 0.010168065183104778,
+        "USA": 0.9897313424236789
+      },
+      "country_entropy": 0.057797850547209505,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "Mexico/unknown": 0.010168065183104778,
+        "USA/unknown": 0.9897313424236789
+      },
+      "state_entropy": 0.057797850547209505
+    },
+    "NODE_0000015": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999680960567747
+      },
+      "country_entropy": 0.0003665923711776546,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999680960567747
+      },
+      "state_entropy": 0.0003665923711776546
+    },
+    "NODE_0000016": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9987715851946891
+      },
+      "country_entropy": 0.010297850199146507,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9987715851946891
+      },
+      "state_entropy": 0.010297850199146507
+    },
+    "NODE_0000018": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999853310626107
+      },
+      "country_entropy": 0.00018807606381217532,
+      "state": "USA/unknown",
+      "state_confidence": {
+        "USA/unknown": 0.9999853310626107
+      },
+      "state_entropy": 0.00018807606381217532
+    }
+  }
+}

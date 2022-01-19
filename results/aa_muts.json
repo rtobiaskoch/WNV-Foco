@@ -1,0 +1,854 @@
+{
+  "annotations": {
+    "2K": {
+      "end": 6915,
+      "seqid": "config/reference.gb",
+      "start": 6847,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "NS1": {
+      "end": 3525,
+      "seqid": "config/reference.gb",
+      "start": 2470,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "NS2A": {
+      "end": 4218,
+      "seqid": "config/reference.gb",
+      "start": 3526,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "NS2B": {
+      "end": 4611,
+      "seqid": "config/reference.gb",
+      "start": 4219,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "NS3": {
+      "end": 6468,
+      "seqid": "config/reference.gb",
+      "start": 4612,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "NS4A": {
+      "end": 6846,
+      "seqid": "config/reference.gb",
+      "start": 6469,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "NS4B": {
+      "end": 7680,
+      "seqid": "config/reference.gb",
+      "start": 6916,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "NS5": {
+      "end": 10395,
+      "seqid": "config/reference.gb",
+      "start": 7681,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "capsid": {
+      "end": 465,
+      "seqid": "config/reference.gb",
+      "start": 97,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "env": {
+      "end": 2469,
+      "seqid": "config/reference.gb",
+      "start": 967,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "nuc": {
+      "end": 11029,
+      "seqid": "config/reference.gb",
+      "start": 1,
+      "strand": "+",
+      "type": "source"
+    },
+    "prM": {
+      "end": 966,
+      "seqid": "config/reference.gb",
+      "start": 466,
+      "strand": "+",
+      "type": "CDS"
+    }
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "nodes": {
+    "DQ080067": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [
+          "L180W"
+        ],
+        "NS5": [],
+        "capsid": [],
+        "env": [
+          "K291R"
+        ],
+        "prM": []
+      }
+    },
+    "HM488228": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [
+          "E109G"
+        ],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": [
+          "T115A"
+        ]
+      }
+    },
+    "HM756674": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [
+          "V551A"
+        ],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "JF957173": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [
+          "T57A"
+        ],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [
+          "I21V",
+          "I200T"
+        ],
+        "NS5": [
+          "I192M",
+          "T795I"
+        ],
+        "capsid": [],
+        "env": [],
+        "prM": [
+          "V153G"
+        ]
+      }
+    },
+    "KJ145808": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [
+          "I462V"
+        ],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [
+          "E812K"
+        ],
+        "capsid": [],
+        "env": [
+          "H396L",
+          "W397R"
+        ],
+        "prM": []
+      }
+    },
+    "KJ501153": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [
+          "V135I"
+        ],
+        "NS2A": [
+          "V155A",
+          "I183V"
+        ],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [
+          "L70F"
+        ],
+        "NS4B": [],
+        "NS5": [
+          "H42Y",
+          "E390G"
+        ],
+        "capsid": [],
+        "env": [
+          "A51T",
+          "A120T"
+        ],
+        "prM": []
+      }
+    },
+    "KJ501203": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [
+          "K110N"
+        ],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [
+          "F92L"
+        ],
+        "NS4B": [
+          "M230I"
+        ],
+        "NS5": [
+          "S38L"
+        ],
+        "capsid": [
+          "F46S",
+          "V47L",
+          "L48F",
+          "A49V",
+          "L50F"
+        ],
+        "env": [],
+        "prM": []
+      }
+    },
+    "KJ501352": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [
+          "K8R",
+          "M29L",
+          "M177I"
+        ],
+        "NS5": [],
+        "capsid": [],
+        "env": [
+          "F485S"
+        ],
+        "prM": []
+      }
+    },
+    "KJ501404": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [
+          "T898I"
+        ],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "KJ501491": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [
+          "N158S"
+        ],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "KR348920": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [
+          "G227S",
+          "P634S"
+        ],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "KR349002": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [
+          "M34R"
+        ],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [
+          "F119L"
+        ],
+        "NS5": [
+          "T25N"
+        ],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "KX394408": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "KX547392": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [
+          "A177V"
+        ],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "KX547474": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [
+          "H119Y"
+        ],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "KX547608": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [
+          "M90V",
+          "L212F"
+        ],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [
+          "I118L"
+        ],
+        "env": [],
+        "prM": []
+      }
+    },
+    "KY782121": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [
+          "Y35H"
+        ],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [
+          "N26T"
+        ],
+        "NS5": [
+          "H42Y"
+        ],
+        "capsid": [],
+        "env": [
+          "A51T"
+        ],
+        "prM": []
+      }
+    },
+    "MH166909": {
+      "aa_muts": {
+        "2K": [
+          "V9M"
+        ],
+        "NS1": [],
+        "NS2A": [
+          "I146V"
+        ],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [
+          "K647R"
+        ],
+        "capsid": [
+          "G7E"
+        ],
+        "env": [
+          "T208S"
+        ],
+        "prM": []
+      }
+    },
+    "MH507743": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [
+          "A3T",
+          "G184S"
+        ],
+        "NS2B": [
+          "T34S"
+        ],
+        "NS3": [
+          "S467L"
+        ],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "MH507913": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000000": {
+      "aa_muts": {},
+      "aa_sequences": {
+        "2K": "SQTDNQLAVFLICVLTLVSAVAA",
+        "NS1": "DTGCAIDISRQELRCGSGVFIHNDVEAWMDRYKYYPETPQGLAKIIQKAHKEGVCGLRSVSRLEHQMWEAVKDELNTLLKENGVDLSIVVEKQEGMYKSAPRRLTATTEKLEIGWKAWGKSILFAPELANNTFVIDGPETKECPTQNRAWNSLEVEDFGFGLTSTRMFLRVRESNTTECDSKIIGTAVKNNLAIHSDLSYWIESRLNDTWKLERAVLGEVKSCTWPETHTLWGDGVLESDLIIPITLAGPRSNHNRRPGYKTQSQGPWDEGRVEIDFDYCPGTTVTLSESCGHRGPATRTTTESGKLITDWCCRSCTLPPLRYQTDNGCWYGMEIRPQRHDEKTLVQSQVNA",
+        "NS2A": "YNADMIDPFQLGLLVVFLATQEVLRKRWTAKISMPAILIALLVLVFGGITYTDVLRYVILVGAAFAESNSGGDVVHLALMATFKIQPVFMVASFLKARWTNQENILLMLAAAFFQMAYYDARQILLWEMPDVLNSLAVAWMILRAITFTTTSNVVVPLLALLTPGLRCLNLDVYRILLLMVGIGSLIREKRSAAAKKKGASLLCLALASTGFFNPMILAAGLIACDPNRKR",
+        "NS2B": "GWPATEVMTAVGLMFAIVGGLAELDIDSMAIPMTIAGLMFAAFVISGKSTDMWIERTADISWEGDAEITGSSERVDVRLDDDGNFQLMNDPGAPWKIWMLRMACLAISAYTPWAILPSVVGFWITLQYTKR",
+        "NS3": "GGVLWDTPSPKEYKKGDTTTGVYRIMTRGLLGSYQAGAGVMVEGVFHTLWHTTKGAALMSGEGRLDPYWGSVKEDRLCYGGPWKLQHKWNGQDEVQMIVVEPGKNVKNVQTKPGVFKTPEGEIGAVTLDFPTGTSGSPIVDKNGDVIGLYGNGVIMPNGSYISAIVQGERMDEPVPAGFEPEMLRKKQITVLDLHPGAGKTRRILPQIIKEAINRRLRTAVLAPTRVVAAEMAEALRGLPIRYQTSAVAREHNGNEIVDVMCHATLTHRLMSPHRVPNYNLFVMDEAHFTDPASIAARGYISTRVELGEAAAIFMTATPPGTSDPFPESNAPISDLQTEIPDRAWNSGYEWITEYIGKTVWFVPSVKMGNEIALCLQRAGKKVIQLNRKSYETEYPKCKNDDWDFVVTTDISEMGANFKASRVIDSRKSVKPTIITEGEGRVILGEPSAVTAASAAQRRGRIGRNPSQVGDEYCYGGHTNEDDSNCAHWTEARIMLDNINMPNGLIAQFYQPEREKVYTMDGEYRLRGEERKNFLELLRTADLPVWLAYKVAAAGVSYHDRRWCFDGPRTNTILEDNNEVEVITKLGERKILRPRWIDARVYSDHQALKSFKDFASGKR",
+        "NS4A": "SQIGFIEVLGKMPEHFMGKTWEALDTMYVVATAEKGGRAHRMALEELPDALQTIALIALLSVMTMGVFFLLMQRKGIGKIGLGGVVLGAATFFCWMAEVPGTKIAGMLLLSLLLMIVLIPEPEKQR",
+        "NS4B": "NEMGWLDKTKSDISGLFGQRIETKENFSIGEFLLDLRPATAWSLYAVTTAVLTPLLKHLITSDYINTSLTSINVQASALFTLARGFPFVDVGVSSLLLAAGCWGQVTLTVTVTSATLLFCHYAYMVPGWQAEAMRSAQRRTAAGIMKNAVVDGIVATDVPELERTTPIMQKKVGQVMLILVSLAALVVNPSVKTVREAGILITAAAVTLWENGASSVWNATTAIGLCHIMRGGWLSCLSITWTLIKNMEKPGLKR",
+        "NS5": "GGAKGRTLGEVWKERLNQMTKEEFIRYRKEAITEVDRSAAKHARKERNITGGHPVSRGTAKLRWLVERRFLEPVGKVIDLGCGRGGWCYYMATQKRVQEVRGYTKGGPGHEEPQLVQSYGWNIVTMKSGVDVFYRPSECCDTLLCDIGESSSSAEVEEHRTLRVLEMVEDWLHRGPKEFCVKVLCPYMPKVIEKMELLQRRYGGGLVRNPLSRNSTHEMYWVSRASGNVVHSVNMTSQVLLGRMEKKTWKGPQYEEDVNLGSGTRAVGKPLLNSDTSKIKNRIERLRREYSSTWHHDENHPYRTWNYHGSYEVKPTGSASSLVNGVVRLLSKPWDTITNVTTMAMTDTTPFGQQRVFKEKVDTKAPEPPEGVKYVLNETTNWLWAFLAREKRPRMCSREEFIRKVNSNAALGAMFEEQNQWRSAREAVEDPKFWEMVDEEREAHLRGECHTCIYNMMGKREKKPGEFGKAKGSRAIWFMWLGARFLEFEALGFLNEDHWLGRKNSGGGVEGLGLQKLGYILREVGTRPGGRIYADDTAGWDTRITRADLENEAKVLELLDGEHRRLARAIIELTYRHKVVKVMRPAADGRTVMDVISREDQRGSGQVVTYALNTFTNLAVQLVRMMEGEGVIGPDDVEKLTKGKGPKVRTWLFENGEERLSRMAVSGDDCVVKPLDDRFATSLHFLNAMSKVRKDIQEWKPSTGWYDWQQVPFCSNHFTELIMKDGRTLVTPCRGQDELVGRARISPGAGWNVRDTACLAKSYAQMWLLLYFHRRDLRLMANAICSAVPVNWVPTGRTTWSIHAGGEWMTTEDMLEVWNRVWIEENEWMEDKTPVEKWSDVPYSGKREDIWCGSLIGTRARATWAENIQVAINQVRSIIGDEKYVDYMSSLKRYEDTTLVEDTVL",
+        "capsid": "MSKKPGGPGKSRAVNMLKRGMPRVLSLIGLKRAMLSLIDGRGPTRFVLALLAFFRFTAIAPTRAVLDRWRSVNKQTAMKHLLSFKKELGTLTSAINRRSSKQKKRGGKTGIAFMIGLIAGVGA",
+        "env": "FNCLGMSNRDFLEGVSGATWVDLVLEGDSCVTIMSKDKPTIDVKMMNMEAANLAEVRSYCYLATVSELSTKAACPTMGEAHNDKRADPSFVCKQGVVDRGWGNGCGLFGKGSIDTCAKFACSTKATGRTILKENIKYEVAIFVHGPTTVESHGNYFTQTGAAQAGRFSITPAAPSYTLKLGEYGEVTVDCEPRSGIDTSAYYVMTVGTKTFLVHREWFMDLNLPWSSAESNVWRNRETLMEFEEPHATKQSVIALGSQEGALHQALAGAIPVEFSSNTVKLTSGHLKCRVKMEKLQLKGTTYGVCSKAFKFLGTPADTGHGTVVLELQYTGTDGPCKIPISSVASLNDLTPVGRLVTVNPFVSVSTANAKVLIELEPPFGDSYIVVGRGEQQINHHWHKSGSSIGKAFTATLKGAQRLAALGDTAWDFGSVGGVFTSVGKAVHQVFGGAFRSLFGGMSWITQGLLGALLLWMGINARDRSIALTFLAVGGVLLFLSVNVHA",
+        "prM": "VTLSNFQGKVMMTVNATDVTDIITIPTAAGKNLCIVRAMDVGYMCDDTITYECPVLSAGNDPEDIDCWCTKLAVYVRYGRCTKTRHSRRSRRSLTVQTHGESTLSNKKGAWMDSTKATRYLVKTESWILRNPGYALVAAVIGWMLGSNTMQRVVFAVLLLLVAPAYS"
+      }
+    },
+    "NODE_0000001": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000002": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [
+          "R546S"
+        ],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000003": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000004": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000006": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [
+          "K24R"
+        ],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000007": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000008": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000009": {
+      "aa_muts": {
+        "2K": [
+          "S19G"
+        ],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000010": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [
+          "I162M"
+        ],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000011": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [
+          "T85A"
+        ],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000013": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [
+          "R314K"
+        ],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000014": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000015": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [
+          "I85T"
+        ],
+        "NS4B": [
+          "V176I"
+        ],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000016": {
+      "aa_muts": {
+        "2K": [
+          "L15M"
+        ],
+        "NS1": [
+          "I88V",
+          "R102K",
+          "I135V",
+          "R170K",
+          "V236I",
+          "I245V",
+          "S264N",
+          "N327S"
+        ],
+        "NS2A": [
+          "A112V",
+          "Y119H",
+          "M129I",
+          "F212L"
+        ],
+        "NS2B": [
+          "G64S",
+          "A103V"
+        ],
+        "NS3": [
+          "V175I",
+          "A249P",
+          "R304K",
+          "A331S",
+          "I356T",
+          "I384V",
+          "V407I",
+          "C486F",
+          "S610A"
+        ],
+        "NS4A": [
+          "F5L",
+          "V85I",
+          "A89V"
+        ],
+        "NS4B": [
+          "G15S",
+          "T23V",
+          "I29M",
+          "S95A",
+          "S114A",
+          "L186V"
+        ],
+        "NS5": [
+          "I25T",
+          "T33I",
+          "R47G",
+          "I49V",
+          "L162I",
+          "K177R",
+          "K247R",
+          "E312D",
+          "K314R",
+          "R531K",
+          "T731V",
+          "S877A"
+        ],
+        "capsid": [
+          "R41K",
+          "T44I",
+          "S71G",
+          "F113V",
+          "G120S"
+        ],
+        "env": [
+          "E67D",
+          "S89A",
+          "K93R",
+          "T126I",
+          "F156S",
+          "T159A",
+          "A162T",
+          "S199N",
+          "E229G",
+          "N231T",
+          "I338V",
+          "S365A",
+          "A410T"
+        ],
+        "prM": [
+          "I22V",
+          "L72S",
+          "S105A",
+          "A156V"
+        ]
+      }
+    },
+    "NODE_0000018": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [
+          "T108M",
+          "Q349L"
+        ],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [
+          "R26K"
+        ],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    }
+  },
+  "reference": {
+    "2K": "SQTDNQLAVFLICVLTLVSAVAA",
+    "NS1": "DTGCAIDISRQELRCGSGVFIHNDVEAWMDRYKYYPETPQGLAKIIQKAHKEGVCGLRSVSRLEHQMWEAVKDELNTLLKENGVDLSIVVEKQEGMYKSAPRRLTATTEKLEIGWKAWGKSILFAPELANNTFVIDGPETKECPTQNRAWNSLEVEDFGFGLTSTRMFLRVRESNTTECDSKIIGTAVKNNLAIHSDLSYWIESRLNDTWKLERAVLGEVKSCTWPETHTLWGDGVLESDLIIPITLAGPRSNHNRRPGYKTQSQGPWDEGRVEIDFDYCPGTTVTLSESCGHRGPATRTTTESGKLITDWCCRSCTLPPLRYQTDNGCWYGMEIRPQRHDEKTLVQSQVNA",
+    "NS2A": "YNADMIDPFQLGLLVVFLATQEVLRKRWTAKISMPAILIALLVLVFGGITYTDVLRYVILVGAAFAESNSGGDVVHLALMATFKIQPVFMVASFLKARWTNQENILLMLAAAFFQMAYYDARQILLWEMPDVLNSLAVAWMILRAITFTTTSNVVVPLLALLTPGLRCLNLDVYRILLLMVGIGSLIREKRSAAAKKKGASLLCLALASTGFFNPMILAAGLIACDPNRKR",
+    "NS2B": "GWPATEVMTAVGLMFAIVGGLAELDIDSMAIPMTIAGLMFAAFVISGKSTDMWIERTADISWEGDAEITGSSERVDVRLDDDGNFQLMNDPGAPWKIWMLRMACLAISAYTPWAILPSVVGFWITLQYTKR",
+    "NS3": "GGVLWDTPSPKEYKKGDTTTGVYRIMTRGLLGSYQAGAGVMVEGVFHTLWHTTKGAALMSGEGRLDPYWGSVKEDRLCYGGPWKLQHKWNGQDEVQMIVVEPGKNVKNVQTKPGVFKTPEGEIGAVTLDFPTGTSGSPIVDKNGDVIGLYGNGVIMPNGSYISAIVQGERMDEPVPAGFEPEMLRKKQITVLDLHPGAGKTRRILPQIIKEAINRRLRTAVLAPTRVVAAEMAEALRGLPIRYQTSAVAREHNGNEIVDVMCHATLTHRLMSPHRVPNYNLFVMDEAHFTDPASIAARGYISTRVELGEAAAIFMTATPPGTSDPFPESNAPISDLQTEIPDRAWNSGYEWITEYIGKTVWFVPSVKMGNEIALCLQRAGKKVIQLNRKSYETEYPKCKNDDWDFVVTTDISEMGANFKASRVIDSRKSVKPTIITEGEGRVILGEPSAVTAASAAQRRGRIGRNPSQVGDEYCYGGHTNEDDSNCAHWTEARIMLDNINMPNGLIAQFYQPEREKVYTMDGEYRLRGEERKNFLELLRTADLPVWLAYKVAAAGVSYHDRRWCFDGPRTNTILEDNNEVEVITKLGERKILRPRWIDARVYSDHQALKSFKDFASGKR",
+    "NS4A": "SQIGFIEVLGKMPEHFMGKTWEALDTMYVVATAEKGGRAHRMALEELPDALQTIALIALLSVMTMGVFFLLMQRKGIGKIGLGGVVLGAATFFCWMAEVPGTKIAGMLLLSLLLMIVLIPEPEKQR",
+    "NS4B": "NEMGWLDKTKSDISGLFGQRIETKENFSIGEFLLDLRPATAWSLYAVTTAVLTPLLKHLITSDYINTSLTSINVQASALFTLARGFPFVDVGVSSLLLAAGCWGQVTLTVTVTSATLLFCHYAYMVPGWQAEAMRSAQRRTAAGIMKNAVVDGIVATDVPELERTTPIMQKKVGQVMLILVSLAALVVNPSVKTVREAGILITAAAVTLWENGASSVWNATTAIGLCHIMRGGWLSCLSITWTLIKNMEKPGLKR",
+    "NS5": "GGAKGRTLGEVWKERLNQMTKEEFIRYRKEAITEVDRSAAKHARKERNITGGHPVSRGTAKLRWLVERRFLEPVGKVIDLGCGRGGWCYYMATQKRVQEVRGYTKGGPGHEEPQLVQSYGWNIVTMKSGVDVFYRPSECCDTLLCDIGESSSSAEVEEHRTLRVLEMVEDWLHRGPKEFCVKVLCPYMPKVIEKMELLQRRYGGGLVRNPLSRNSTHEMYWVSRASGNVVHSVNMTSQVLLGRMEKKTWKGPQYEEDVNLGSGTRAVGKPLLNSDTSKIKNRIERLRREYSSTWHHDENHPYRTWNYHGSYEVKPTGSASSLVNGVVRLLSKPWDTITNVTTMAMTDTTPFGQQRVFKEKVDTKAPEPPEGVKYVLNETTNWLWAFLAREKRPRMCSREEFIRKVNSNAALGAMFEEQNQWRSAREAVEDPKFWEMVDEEREAHLRGECHTCIYNMMGKREKKPGEFGKAKGSRAIWFMWLGARFLEFEALGFLNEDHWLGRKNSGGGVEGLGLQKLGYILREVGTRPGGRIYADDTAGWDTRITRADLENEAKVLELLDGEHRRLARAIIELTYRHKVVKVMRPAADGRTVMDVISREDQRGSGQVVTYALNTFTNLAVQLVRMMEGEGVIGPDDVEKLTKGKGPKVRTWLFENGEERLSRMAVSGDDCVVKPLDDRFATSLHFLNAMSKVRKDIQEWKPSTGWYDWQQVPFCSNHFTELIMKDGRTLVTPCRGQDELVGRARISPGAGWNVRDTACLAKSYAQMWLLLYFHRRDLRLMANAICSAVPVNWVPTGRTTWSIHAGGEWMTTEDMLEVWNRVWIEENEWMEDKTPVEKWSDVPYSGKREDIWCGSLIGTRARATWAENIQVAINQVRSIIGDEKYVDYMSSLKRYEDTTLVEDTVL",
+    "capsid": "MSKKPGGPGKSRAVNMLKRGMPRVLSLIGLKRAMLSLIDGRGPTRFVLALLAFFRFTAIAPTRAVLDRWRSVNKQTAMKHLLSFKKELGTLTSAINRRSSKQKKRGGKTGIAFMIGLIAGVGA",
+    "env": "FNCLGMSNRDFLEGVSGATWVDLVLEGDSCVTIMSKDKPTIDVKMMNMEAANLAEVRSYCYLATVSELSTKAACPTMGEAHNDKRADPSFVCKQGVVDRGWGNGCGLFGKGSIDTCAKFACSTKATGRTILKENIKYEVAIFVHGPTTVESHGNYFTQTGAAQAGRFSITPAAPSYTLKLGEYGEVTVDCEPRSGIDTSAYYVMTVGTKTFLVHREWFMDLNLPWSSAESNVWRNRETLMEFEEPHATKQSVIALGSQEGALHQALAGAIPVEFSSNTVKLTSGHLKCRVKMEKLQLKGTTYGVCSKAFKFLGTPADTGHGTVVLELQYTGTDGPCKIPISSVASLNDLTPVGRLVTVNPFVSVSTANAKVLIELEPPFGDSYIVVGRGEQQINHHWHKSGSSIGKAFTATLKGAQRLAALGDTAWDFGSVGGVFTSVGKAVHQVFGGAFRSLFGGMSWITQGLLGALLLWMGINARDRSIALTFLAVGGVLLFLSVNVHA",
+    "prM": "VTLSNFQGKVMMTVNATDVTDIITIPTAAGKNLCIVRAMDVGYMCDDTITYECPVLSAGNDPEDIDCWCTKLAVYVRYGRCTKTRHSRRSRRSLTVQTHGESTLSNKKGAWMDSTKATRYLVKTESWILRNPGYALVAAVIGWMLGSNTMQRVVFAVLLLLVAPAYS"
+  }
+}

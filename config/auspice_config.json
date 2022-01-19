@@ -1,0 +1,40 @@
+{
+  "title": "Global West Nile virus",
+  "maintainers": [
+    {"name": "Tobias Koch", "url": "http://grubaughlab.com/"}
+  ],
+  "build_url": "",
+  "colorings": [
+
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "state",
+      "title": "state",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "country",
+    "state"
+  ],
+  "panels": [
+     "tree",
+     "map"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "country",
+    "state"
+  ]
+}
