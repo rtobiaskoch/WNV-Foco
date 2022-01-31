@@ -13,18 +13,33 @@
     },
     {
       "key": "country",
-      "title": "Country",
+      "title": "country",
       "type": "categorical"
     },
     {
-      "key": "state",
-      "title": "state",
+      "key": "region",
+      "title": "region",
+      "type": "categorical"
+    },
+    {
+      "key": "host",
+      "title": "host",
+      "type": "categorical"
+    },
+    {
+      "key": "host_genus",
+      "title": "host_genus",
+      "type": "categorical"
+    },
+    {
+      "key": "lineage",
+      "title": "lineage",
       "type": "categorical"
     }
   ],
   "geo_resolutions": [
     "country",
-    "state"
+    "region"
   ],
   "panels": [
      "tree",
@@ -35,6 +50,9 @@
   },
   "filters": [
     "country",
-    "state"
+    "region",
+    "host",
+    "lineage",
+    "host_genus"
   ]
 }
