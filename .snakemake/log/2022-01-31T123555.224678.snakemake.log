@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+all           1              1              1
+export        1              1              1
+total         2              1              1
+
+Select jobs to execute...
+
+[Mon Jan 31 12:35:55 2022]
+Job 1: Exporting data files for for auspice
+
+[Mon Jan 31 12:35:58 2022]
+Finished job 1.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Mon Jan 31 12:35:58 2022]
+localrule all:
+    input: auspice/WNV-Global.json
+    jobid: 0
+    resources: tmpdir=/var/folders/ll/m20yk3l572l90z0g991n_jt80000gn/T
+
+[Mon Jan 31 12:35:58 2022]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/.snakemake/log/2022-01-31T123555.224678.snakemake.log

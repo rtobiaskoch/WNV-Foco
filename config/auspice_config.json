@@ -3,7 +3,7 @@
   "maintainers": [
     {"name": "Tobias Koch", "url": "http://grubaughlab.com/"}
   ],
-  "build_url": "",
+  "build_url": "https://github.com/rtobiaskoch/WNV-nextstrain",
   "colorings": [
 
     {
