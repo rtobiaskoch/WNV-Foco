@@ -1,92 +1,92 @@
 country	Germany	51.165691	10.451526
 country	USA	37.09024	-95.712891
-country	Nigeria	9.081999	8.675277
-country	Mexico	23.634501	-102.552784
 country	Italy	41.87194	12.56738
-country	Russia	61.52401	105.318756
-country	Greece	39.074208	21.824312
-country	Austria	47.516231	14.550072
-country	Slovakia	48.669026	19.699024
-country	British Virgin Islands	18.420695	-64.639968
-country	India	20.593684	78.96288
 country	Czech Republic	49.817492	15.472962
-country	Ukraine	48.379433	31.16558
-country	Colombia	4.570868	-74.297333
-country	Australia	-25.274398	133.775136
-country	Canada	56.130366	-106.346771
-country	Slovenia	46.151241	14.995463
-country	South Africa	-30.559482	22.937506
-country	France	46.227638	2.213749
-country	Brazil	-14.235004	-51.92528
-country	Kenya	-0.023559	37.906193
-country	Bulgaria	42.733883	25.48583
-country	Spain	40.463667	-3.74922
 country	Cyprus	35.126413	33.429859
-country	Azerbaijan	40.143105	47.576927
-country	China	35.86166	104.195397
 country	Serbia	44.016521	21.005859
+country	Greece	39.074208	21.824312
+country	Russia	61.52401	105.318756
+country	Austria	47.516231	14.550072
 country	Senegal	14.497401	-14.452362
-country	Zambia	-13.133897	27.849332
-country	Hungary	47.162494	19.503304
+country	Azerbaijan	40.143105	47.576927
 country	Israel	31.046051	34.851612
-country	Namibia	-22.95764	18.49041
-country	Morocco	31.791702	-7.09262
-country	Romania	45.943161	24.96676
-country	Central African Republic	6.611111	20.939444
-country	United Arab Emirates	23.424076	53.847818
-country	Egypt	26.820553	30.802498
-country	Netherlands	52.132633	5.291266
-country	Madagascar	-18.766947	46.869107
-country	Turkey	38.963745	35.243322
+country	Australia	-25.274398	133.775136
+country	Bulgaria	42.733883	25.48583
+country	Kenya	-0.023559	37.906193
+country	France	46.227638	2.213749
+country	South Africa	-30.559482	22.937506
 country	Argentina	-38.416097	-63.616672
-country	Democratic Republic of the Congo	-4.038333	21.758664
+country	Canada	56.130366	-106.346771
+country	Madagascar	-18.766947	46.869107
+country	Slovakia	48.669026	19.699024
+country	Romania	45.943161	24.96676
 country	Tunisia	33.886917	9.537499
+country	Brazil	-14.235004	-51.92528
+country	Zambia	-13.133897	27.849332
 country	Belgium	50.503887	4.469936
+country	India	20.593684	78.96288
+country	Hungary	47.162494	19.503304
 country	Iran	32.427908	53.688046
+country	Mexico	23.634501	-102.552784
+country	Spain	40.463667	-3.74922
+country	Democratic Republic of the Congo	-4.038333	21.758664
+country	Colombia	4.570868	-74.297333
+country	British Virgin Islands	18.420695	-64.639968
+country	Morocco	31.791702	-7.09262
+country	Netherlands	52.132633	5.291266
+country	Namibia	-22.95764	18.49041
+country	Ukraine	48.379433	31.16558
+country	United Arab Emirates	23.424076	53.847818
+country	Central African Republic	6.611111	20.939444
 country	Uganda	1.373333	32.290275
+country	Egypt	26.820553	30.802498
+country	Slovenia	46.151241	14.995463
+country	Nigeria	9.081999	8.675277
+country	China	35.86166	104.195397
+country	Turkey	38.963745	35.243322
 state	Germany/unknown	51.165691	10.451526
 state	USA/unknown	37.09024	-95.712891
-state	Nigeria/unknown	9.081999	8.675277
-state	Mexico/unknown	23.634501	-102.552784
 state	Italy/unknown	41.87194	12.56738
-state	Russia/unknown	61.52401	105.318756
-state	Greece/unknown	39.074208	21.824312
-state	Austria/unknown	47.516231	14.550072
-state	Slovakia/unknown	48.669026	19.699024
-state	British Virgin Islands/unknown	18.420695	-64.639968
-state	India/unknown	20.593684	78.96288
 state	Czech Republic/unknown	49.817492	15.472962
-state	Ukraine/unknown	48.379433	31.16558
-state	Colombia/unknown	4.570868	-74.297333
-state	Australia/unknown	-25.274398	133.775136
-state	Canada/unknown	56.130366	-106.346771
-state	Slovenia/unknown	46.151241	14.995463
-state	South Africa/unknown	-30.559482	22.937506
-state	France/unknown	46.227638	2.213749
-state	Brazil/unknown	-14.235004	-51.92528
-state	Kenya/unknown	-0.023559	37.906193
-state	Bulgaria/unknown	42.733883	25.48583
-state	Spain/unknown	40.463667	-3.74922
 state	Cyprus/unknown	35.126413	33.429859
-state	Azerbaijan/unknown	40.143105	47.576927
-state	China/unknown	35.86166	104.195397
 state	Serbia/unknown	44.016521	21.005859
+state	Greece/unknown	39.074208	21.824312
+state	Russia/unknown	61.52401	105.318756
+state	Austria/unknown	47.516231	14.550072
 state	Senegal/unknown	14.497401	-14.452362
-state	Zambia/unknown	-13.133897	27.849332
-state	Hungary/unknown	47.162494	19.503304
+state	Azerbaijan/unknown	40.143105	47.576927
 state	Israel/unknown	31.046051	34.851612
-state	Namibia/unknown	-22.95764	18.49041
-state	Morocco/unknown	31.791702	-7.09262
-state	Romania/unknown	45.943161	24.96676
-state	Central African Republic/unknown	6.611111	20.939444
-state	United Arab Emirates/unknown	23.424076	53.847818
-state	Egypt/unknown	26.820553	30.802498
-state	Netherlands/unknown	52.132633	5.291266
-state	Madagascar/unknown	-18.766947	46.869107
-state	Turkey/unknown	38.963745	35.243322
+state	Australia/unknown	-25.274398	133.775136
+state	Bulgaria/unknown	42.733883	25.48583
+state	Kenya/unknown	-0.023559	37.906193
+state	France/unknown	46.227638	2.213749
+state	South Africa/unknown	-30.559482	22.937506
 state	Argentina/unknown	-38.416097	-63.616672
-state	Democratic Republic of the Congo/unknown	-4.038333	21.758664
+state	Canada/unknown	56.130366	-106.346771
+state	Madagascar/unknown	-18.766947	46.869107
+state	Slovakia/unknown	48.669026	19.699024
+state	Romania/unknown	45.943161	24.96676
 state	Tunisia/unknown	33.886917	9.537499
+state	Brazil/unknown	-14.235004	-51.92528
+state	Zambia/unknown	-13.133897	27.849332
 state	Belgium/unknown	50.503887	4.469936
+state	India/unknown	20.593684	78.96288
+state	Hungary/unknown	47.162494	19.503304
 state	Iran/unknown	32.427908	53.688046
+state	Mexico/unknown	23.634501	-102.552784
+state	Spain/unknown	40.463667	-3.74922
+state	Democratic Republic of the Congo/unknown	-4.038333	21.758664
+state	Colombia/unknown	4.570868	-74.297333
+state	British Virgin Islands/unknown	18.420695	-64.639968
+state	Morocco/unknown	31.791702	-7.09262
+state	Netherlands/unknown	52.132633	5.291266
+state	Namibia/unknown	-22.95764	18.49041
+state	Ukraine/unknown	48.379433	31.16558
+state	United Arab Emirates/unknown	23.424076	53.847818
+state	Central African Republic/unknown	6.611111	20.939444
 state	Uganda/unknown	1.373333	32.290275
+state	Egypt/unknown	26.820553	30.802498
+state	Slovenia/unknown	46.151241	14.995463
+state	Nigeria/unknown	9.081999	8.675277
+state	China/unknown	35.86166	104.195397
+state	Turkey/unknown	38.963745	35.243322
