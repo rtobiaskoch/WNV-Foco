@@ -1,0 +1,3 @@
+AttributeError in line 81 of /Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/Snakefile:
+'Rules' object has no attribute 'mask'
+  File "/Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/Snakefile", line 81, in <module>

@@ -1,0 +1,3 @@
+NameError in line 83 of /Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/Snakefile:
+name 'options' is not defined
+  File "/Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/Snakefile", line 83, in <module>

@@ -1,5 +1,5 @@
 strain	accession	date	country	state	region	host	lineage	host_genus
-LR743425	LR743425	2019-07-03	Germany	Germany/unknown	Europe	bird	2	Bubo
+LR743428	LR743428	2019-08-18	Germany	Germany/unknown	Europe	bird	2	Bubo
 HM488199	HM488199	2007-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 GQ851607	GQ851607	1965-06-01	Nigeria	Nigeria/unknown	Africa	unknown	1a	unknown
 DQ080069	DQ080069	2003-08-01	Mexico	Mexico/unknown	North America	ungulate	1a	Equus
@@ -11,18 +11,18 @@ KP789958	KP789958	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
 KX547525	KX547525	2002-09-02	USA	USA/unknown	North America	bird	1a	Corvus
 FJ159129	FJ159129	2006-06-01	Russia	Russia/unknown	Asia	mosquito	4	Uranotaenia
 MH508025	MH508025	2011-08-04	USA	USA/unknown	North America	mosquito	1a	Culex
-MN480792	MN480792	2018-08-01	Greece	Greece/unknown	Europe	human	2	Homo
+MN480795	MN480795	2018-08-01	Greece	Greece/unknown	Europe	human	2	Homo
 KP780840	KP780840	2014-08-21	Austria	Austria/unknown	Europe	bird	2	Nestor
-MF984348	MF984348	2016-06-01	Austria	Austria/unknown	Europe	human	2	Homo
+MF984351	MF984351	2016-06-01	Austria	Austria/unknown	Europe	mosquito	2	Culex
 JF957165	JF957165	2006-06-01	USA	USA/unknown	North America	human	1a	Homo
 KX547310	KX547310	2003-08-26	USA	USA/unknown	North America	mosquito	1a	Culex
-MF984352	MF984352	2016-06-01	Austria	Austria/unknown	Europe	mosquito	2	Culex
+MH244511	MH244511	2013-06-01	Slovakia	Slovakia/unknown	Europe	bird	2	Accipiter
 DQ411034	DQ411034	2002-06-01	Russia	Russia/unknown	Asia	mosquito	1a	Anopheles
-LR743423	LR743423	2019-08-31	Germany	Germany/unknown	Europe	bird	2	Accipiter
-MN812759	MN812759	2018-06-01	Russia	Russia/unknown	Asia	human	2	Homo
+LR743426	LR743426	2019-08-31	Germany	Germany/unknown	Europe	bird	2	Bubo
+MN812762	MN812762	2018-06-01	Russia	Russia/unknown	Asia	human	2	Homo
 MH507623	MH507623	2007-03-19	USA	USA/unknown	North America	bird	1a	Corvus
 KT207791	KT207791	2014-07-15	Italy	Italy/unknown	Europe	mosquito	2	Culicidae
-MN812758	MN812758	2018-06-01	Russia	Russia/unknown	Asia	mosquito	2	Culex
+MN812761	MN812761	2018-06-01	Russia	Russia/unknown	Asia	human	2	Homo
 KC736486	KC736486	2012-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 MW142223	MW142223	2020-08-01	Germany	Germany/unknown	Europe	human	2	Homo
 KF367469	KF367469	2013-03-30	British Virgin Islands	British Virgin Islands/unknown	North America	bird	1a	Phoenicopterus
@@ -36,7 +36,7 @@ MH507751	MH507751	2017-08-03	USA	USA/unknown	North America	bird	1a	Corvus
 KM203861	KM203861	2013-08-08	Czech Republic	Czech Republic/unknown	Europe	mosquito	2	Culex
 HM488205	HM488205	2008-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KR348931	KR348931	2009-01-09	USA	USA/unknown	North America	mosquito	1a	Culex
-LR743430	LR743430	2019-08-08	Germany	Germany/unknown	Europe	bird	2	Cyanistes
+LR743433	LR743433	2018-09-01	Germany	Germany/unknown	Europe	bird	2	Accipiter
 JX041631	JX041631	1980-06-01	Ukraine	Ukraine/unknown	Europe	bird	2	unknown
 MH507615	MH507615	2014-10-07	USA	USA/unknown	North America	bird	1a	Corvus
 KJ501238	KJ501238	2008-06-01	USA	USA/unknown	North America	bird	1a	Larus
@@ -46,20 +46,20 @@ JF957168	JF957168	2007-06-01	USA	USA/unknown	North America	human	1a	Homo
 GQ379158	GQ379158	2007-08-01	USA	USA/unknown	North America	mosquito	1a	Culex
 MH507951	MH507951	2008-09-26	USA	USA/unknown	North America	bird	1a	Corvus
 KJ501150	KJ501150	2011-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KY703856	KY703856	1992-06-01	Senegal	Senegal/unknown	Africa	mosquito	8	Culex
+LR743421	LR743421	2019-08-30	Germany	Germany/unknown	Europe	bird	2	Parus
 JN716372	JN716372	2008-07-01	Colombia	Colombia/unknown	South America	bird	1a	Phoenicopterus
-KX394386	KX394386	1974-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+KX394389	KX394389	1974-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 JF957172	JF957172	2007-06-01	USA	USA/unknown	North America	bird	1a	unknown
 MH507941	MH507941	2007-08-15	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501276	KJ501276	2002-06-01	USA	USA/unknown	North America	bird	1a	Bubo
-MF984341	MF984341	2015-06-01	Austria	Austria/unknown	Europe	human	2	Homo
-MH819451	MH819451	2005-08-12	Canada	Canada/unknown	North America	mosquito	1a	Culex
+MF984344	MF984344	2015-06-01	Austria	Austria/unknown	Europe	bird	2	Accipiter
+MH819454	MH819454	2006-08-29	Canada	Canada/unknown	North America	mosquito	1a	Culex
 MF175874	MF175874	2015-08-19	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501223	KJ501223	2012-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 FJ483549	FJ483549	2008-06-01	Italy	Italy/unknown	Europe	bird	1a	Corvus
 DQ176637	DQ176637	2002-08-01	USA	USA/unknown	North America	bird	1a	Quiscalus
 MN939562	MN939562	2018-06-01	Italy	Italy/unknown	Europe	human	2	Homo
-MH986055	MH986055	2018-06-01	Germany	Germany/unknown	Europe	bird	2	Turdus
+MK947396	MK947396	2018-06-01	Slovenia	Slovenia/unknown	Europe	mosquito	2	Culicidae
 EF429200	EF429200	1958-06-01	South Africa	South Africa/unknown	Africa	human	2	Homo
 KT934802	KT934802	2009-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 KT934801	KT934801	2011-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
@@ -73,12 +73,12 @@ KC333377	KC333377	2012-06-14	USA	USA/unknown	North America	bird	1a	Cyanocitta
 KJ501362	KJ501362	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KJ501228	KJ501228	2012-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547376	KX547376	2010-09-16	USA	USA/unknown	North America	mosquito	1a	Culex
-MH244512	MH244512	2013-06-01	Slovakia	Slovakia/unknown	Europe	bird	2	Accipiter
+MH643887	MH643887	2018-04-26	Brazil	Brazil/unknown	South America	ungulate	1a	Equus
 KU573077	KU573077	2008-06-01	Italy	Italy/unknown	Europe	bird	1a	Pica
 KJ501327	KJ501327	2003-06-01	USA	USA/unknown	North America	bird	1a	Haliaeetus
 KC243146	KC243146	2010-11-27	Kenya	Kenya/unknown	Africa	tick	1a	Rhipicephalus
 KF647249	KF647249	2013-08-01	Italy	Italy/unknown	Europe	human	2	Homo
-KX394405	KX394405	1963-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+KX394408	KX394408	1963-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 KJ501359	KJ501359	2003-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KT934800	KT934800	2009-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 KJ501533	KJ501533	2012-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
@@ -89,30 +89,30 @@ FJ483548	FJ483548	2008-06-01	Italy	Italy/unknown	Europe	bird	1a	Corvus
 KU206781	KU206781	2015-08-27	Bulgaria	Bulgaria/unknown	Europe	human	2	Homo
 KJ883349	KJ883349	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
 EF429198	EF429198	2001-06-01	South Africa	South Africa/unknown	Africa	human	2	Homo
-MH643887	MH643887	2018-04-26	Brazil	Brazil/unknown	South America	ungulate	1a	Equus
+MH819448	MH819448	2005-08-31	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KX547523	KX547523	2005-07-16	USA	USA/unknown	North America	bird	1a	Corvus
 MH170268	MH170268	2007-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
 KX547539	KX547539	2007-08-22	USA	USA/unknown	North America	bird	1a	Corvus
 MH819470	MH819470	2014-09-15	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KR348995	KR348995	2005-08-23	USA	USA/unknown	North America	mosquito	1a	Culex
-KX394394	KX394394	1978-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+KX394397	KX394397	1960-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
 MZ964752	MZ964752	2021-08-01	Germany	Germany/unknown	Europe	human	2	Homo
 MF175861	MF175861	2015-08-19	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547570	KX547570	2005-09-02	USA	USA/unknown	North America	bird	1a	Cyanocitta
 MH507745	MH507745	2017-06-23	USA	USA/unknown	North America	bird	1a	Corvus
 HM488114	HM488114	2002-06-01	USA	USA/unknown	North America	mosquito	1a	Aedes
-LR743428	LR743428	2019-08-18	Germany	Germany/unknown	Europe	bird	2	Bubo
+LR743431	LR743431	2019-09-04	Germany	Germany/unknown	Europe	bird	2	Pluvialis
 KJ501430	KJ501430	2006-06-01	USA	USA/unknown	North America	bird	1a	Pelecanus
 FJ766332	FJ766332	2007-10-01	Spain	Spain/unknown	Europe	bird	1a	Aquila
-MF984339	MF984339	2015-06-01	Austria	Austria/unknown	Europe	human	2	Homo
+MF984342	MF984342	2015-06-01	Austria	Austria/unknown	Europe	human	2	Homo
 GQ903680	GQ903680	1968-06-01	Cyprus	Cyprus/unknown	Europe	unknown	2	unknown
 HM488188	HM488188	2004-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 JX041630	JX041630	1967-06-01	Azerbaijan	Azerbaijan/unknown	Europe	bird	1a	unknown
-LR743443	LR743443	2018-09-05	Germany	Germany/unknown	Europe	bird	2	Bubo
+LR743446	LR743446	2019-08-19	Germany	Germany/unknown	Europe	bird	2	Trichoglossus
 KX547280	KX547280	2012-09-10	USA	USA/unknown	North America	mosquito	1a	Culiseta
 KY782108	KY782108	2010-08-24	USA	USA/unknown	North America	bird	1a	Turdus
 MH507634	MH507634	2008-08-07	USA	USA/unknown	North America	bird	1a	Aphelocoma
-LR743421	LR743421	2019-08-30	Germany	Germany/unknown	Europe	bird	2	Parus
+LR743424	LR743424	2019-08-04	Germany	Germany/unknown	Europe	bird	2	Bubo
 DQ666451	DQ666451	2005-08-01	USA	USA/unknown	North America	human	1a	Homo
 KJ501270	KJ501270	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
 MH924836	MH924836	2018-08-22	Germany	Germany/unknown	Europe	bird	2	Strix
@@ -137,10 +137,10 @@ HM488250	HM488250	2003-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KX547168	KX547168	2012-09-27	USA	USA/unknown	North America	bird	1a	Haemorhous
 DQ164193	DQ164193	2002-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 MN939558	MN939558	2016-06-01	Italy	Italy/unknown	Europe	human	2	Homo
-MN812762	MN812762	2018-06-01	Russia	Russia/unknown	Asia	human	2	Homo
+MT341470	MT341470	2019-07-01	Greece	Greece/unknown	Europe	mosquito	2	Culex
 MH507773	MH507773	2012-08-27	USA	USA/unknown	North America	mosquito	1a	Culex
 MH507769	MH507769	2010-08-12	USA	USA/unknown	North America	mosquito	1a	Culex
-MN481591	MN481591	2018-08-23	Greece	Greece/unknown	Europe	dog	2	Canis
+MH819451	MH819451	2005-08-12	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KJ577738	KJ577738	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
 DQ080065	DQ080065	2003-08-01	Mexico	Mexico/unknown	North America	bird	1a	Quiscalus
 MH507910	MH507910	2005-07-06	USA	USA/unknown	North America	mosquito	1a	Culex
@@ -163,8 +163,8 @@ KP109692	KP109692	2014-06-01	Austria	Austria/unknown	Europe	mosquito	2	Culex
 HM488218	HM488218	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 MN794939	MN794939	2019-06-01	Germany	Germany/unknown	Europe	bird	2	Prunella
 KT757318	KT757318	2013-06-01	Serbia	Serbia/unknown	Europe	mosquito	2	Culex
-KX258461	KX258461	2015-07-28	USA	USA/unknown	North America	unknown	slev	unknown
-KX394408	KX394408	1963-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+KX394381	KX394381	1975-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
+KX394411	KX394411	1978-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
 KJ501251	KJ501251	2009-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 FJ766331	FJ766331	2007-10-01	Spain	Spain/unknown	Europe	bird	1a	Aquila
 MF175868	MF175868	2014-06-03	USA	USA/unknown	North America	mosquito	1a	Culex
@@ -185,7 +185,7 @@ GQ851602	GQ851602	1960-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin
 AY268132	AY268132	2000-06-01	France	France/unknown	Europe	ungulate	1a	unknown
 MT968004	MT968004	2014-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
 KX547398	KX547398	2002-08-23	USA	USA/unknown	North America	bird	1a	Corvus
-KX394389	KX394389	1974-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+KX394392	KX394392	1963-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
 HM488191	HM488191	2004-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KC496016	KC496016	2010-06-01	Serbia	Serbia/unknown	Europe	mosquito	2	Culex
 MF175877	MF175877	2015-11-11	USA	USA/unknown	North America	mosquito	1a	Culex
@@ -195,21 +195,20 @@ MH819447	MH819447	2013-08-26	Canada	Canada/unknown	North America	mosquito	1a	Cul
 HM488155	HM488155	2006-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 MH507715	MH507715	2009-06-18	USA	USA/unknown	North America	bird	1a	Haemorhous
 KX547289	KX547289	2005-10-05	USA	USA/unknown	North America	bird	1a	Corvus
-MN481596	MN481596	2011-07-06	Greece	Greece/unknown	Europe	bird	2	Gallus
+KX394386	KX394386	1974-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 DQ080068	DQ080068	2003-08-01	Mexico	Mexico/unknown	North America	bird	1a	unknown
 MH819463	MH819463	2014-08-21	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KF823805	KF823805	2013-08-01	Italy	Italy/unknown	Europe	human	2	Homo
 MH507686	MH507686	2017-10-05	USA	USA/unknown	North America	bird	1a	Corvus
 MH507825	MH507825	2017-08-02	USA	USA/unknown	North America	mosquito	1a	Culex
 KM012171	KM012171	2012-06-01	USA	USA/unknown	North America	human	1a	Homo
-MN481592	MN481592	2012-08-02	Greece	Greece/unknown	Europe	mosquito	2	Culicidae
+MF984341	MF984341	2015-06-01	Austria	Austria/unknown	Europe	human	2	Homo
 DQ116961	DQ116961	2004-06-01	Hungary	Hungary/unknown	Europe	bird	2	Accipiter
 HM488195	HM488195	2005-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
 MH244510	MH244510	2014-06-01	Slovakia	Slovakia/unknown	Europe	bird	2	Accipiter
 KX394409	KX394409	1963-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 AF481864	AF481864	1998-08-28	Israel	Israel/unknown	Asia	bird	1a	Ciconiidae
 LR743437	LR743437	2018-08-31	Germany	Germany/unknown	Europe	bird	2	Strix
-KU573082	KU573082	2013-06-01	Italy	Italy/unknown	Europe	bird	2	Corvus
 MH170275	MH170275	2002-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 DQ411032	DQ411032	2002-06-01	Russia	Russia/unknown	Asia	bird	1a	Columba
 MN812757	MN812757	2018-06-01	Russia	Russia/unknown	Asia	mosquito	2	Culex
@@ -223,22 +222,22 @@ HM756677	HM756677	2005-06-01	USA	USA/unknown	North America	bird	1a	Loriini
 MN619802	MN619802	2018-06-01	Russia	Russia/unknown	Asia	mosquito	2	Culex
 KJ501478	KJ501478	2003-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
 MH507718	MH507718	2010-07-21	USA	USA/unknown	North America	bird	1a	Aphelocoma
-LR743431	LR743431	2019-09-04	Germany	Germany/unknown	Europe	bird	2	Pluvialis
-LR743433	LR743433	2018-09-01	Germany	Germany/unknown	Europe	bird	2	Accipiter
+MH244512	MH244512	2013-06-01	Slovakia	Slovakia/unknown	Europe	bird	2	Accipiter
+MN794938	MN794938	2019-06-01	Germany	Germany/unknown	Europe	bird	2	Passer
 LR989885	LR989885	2019-06-01	Germany	Germany/unknown	Europe	bird	2	Larus
 KX547386	KX547386	2000-07-21	USA	USA/unknown	North America	mosquito	1a	Culex
 KC601756	KC601756	2011-02-01	India	India/unknown	Asia	human	1a	Homo
 KX547261	KX547261	2002-09-04	USA	USA/unknown	North America	bird	1a	Passer
-MN149538	MN149538	2006-05-01	Russia	Russia/unknown	Asia	bird	1a	Acrocephalus
+KT934799	KT934799	2000-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 MF175843	MF175843	2015-06-23	USA	USA/unknown	North America	mosquito	1a	Culex
-MH819448	MH819448	2005-08-31	Canada	Canada/unknown	North America	mosquito	1a	Culex
+KX394394	KX394394	1978-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 KJ883345	KJ883345	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
 KX547171	KX547171	2011-08-03	USA	USA/unknown	North America	mosquito	1a	Culiseta
 MH508027	MH508027	2012-06-19	USA	USA/unknown	North America	mosquito	1a	Culex
-KT757322	KT757322	2013-06-01	Serbia	Serbia/unknown	Europe	mosquito	2	Culex
+KT757320	KT757320	2013-06-01	Serbia	Serbia/unknown	Europe	mosquito	2	Culex
 KX547308	KX547308	2004-09-30	USA	USA/unknown	North America	bird	1a	Cyanocitta
 JF920757	JF920757	2008-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KX258462	KX258462	2015-07-14	USA	USA/unknown	North America	unknown	slev	unknown
+KU978770	KU978770	1988-02-12	India	India/unknown	Asia	human	5	Homo
 KJ501425	KJ501425	2007-06-01	USA	USA/unknown	North America	bird	1a	Pelecanus
 MH819446	MH819446	2015-10-06	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KX547358	KX547358	2013-09-20	USA	USA/unknown	North America	mosquito	1a	Culex
@@ -252,18 +251,18 @@ KX394402	KX394402	1960-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	
 MW383508	MW383508	2020-06-01	Namibia	Namibia/unknown	Africa	mosquito	2	Culex
 KJ501454	KJ501454	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KY782117	KY782117	2010-08-18	USA	USA/unknown	North America	mosquito	1a	Culex
-MF984349	MF984349	2016-06-01	Austria	Austria/unknown	Europe	ungulate	2	Equus
+LR743443	LR743443	2018-09-05	Germany	Germany/unknown	Europe	bird	2	Bubo
 KJ883341	KJ883341	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
 MH507785	MH507785	2013-08-28	USA	USA/unknown	North America	mosquito	1a	Culex
 HM488116	HM488116	2005-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 MH507777	MH507777	2012-08-29	USA	USA/unknown	North America	mosquito	1a	Culex
 MH507907	MH507907	2005-07-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KY703855	KY703855	1993-06-01	Senegal	Senegal/unknown	Africa	tick	7	Rhipicephalus
+KU978769	KU978769	2003-05-30	Mexico	Mexico/unknown	North America	bird	1a	Corvus
 HM147822	HM147822	1958-06-01	South Africa	South Africa/unknown	Africa	unknown	2	unknown
 KX547219	KX547219	2007-08-30	USA	USA/unknown	North America	mosquito	1a	Culex
 MN939559	MN939559	2016-06-01	Italy	Italy/unknown	Europe	human	2	Homo
-MH021189	MH021189	2017-10-01	Belgium	Belgium/unknown	Europe	human	2	Homo
-KP109691	KP109691	2014-06-01	Austria	Austria/unknown	Europe	human	2	Homo
+MF984339	MF984339	2015-06-01	Austria	Austria/unknown	Europe	human	2	Homo
+KM203863	KM203863	2013-08-08	Czech Republic	Czech Republic/unknown	Europe	mosquito	2	Culex
 MH507707	MH507707	2007-06-24	USA	USA/unknown	North America	bird	1a	Aphelocoma
 KJ501105	KJ501105	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501539	KJ501539	2011-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
@@ -271,10 +270,10 @@ AY701413	AY701413	2003-06-01	Morocco	Morocco/unknown	Africa	ungulate	1a	Equus
 MW915462	MW915462	2017-09-01	Spain	Spain/unknown	Europe	bird	1a	Accipiter
 MF175818	MF175818	2013-09-26	USA	USA/unknown	North America	mosquito	1a	Culex
 HM051416	HM051416	1953-06-01	Israel	Israel/unknown	Asia	human	1a	Homo
-KU978769	KU978769	2003-05-30	Mexico	Mexico/unknown	North America	bird	1a	Corvus
+KX394404	KX394404	1963-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 KJ501244	KJ501244	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 MF175806	MF175806	2012-09-24	USA	USA/unknown	North America	mosquito	1a	Culex
-KF823806	KF823806	2013-10-01	Italy	Italy/unknown	Europe	human	2	Homo
+KF647253	KF647253	2013-08-01	Italy	Italy/unknown	Europe	human	1a	Homo
 MT967989	MT967989	2013-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
 KX547180	KX547180	2006-09-07	USA	USA/unknown	North America	bird	1a	Corvus
 KJ501472	KJ501472	2003-06-01	USA	USA/unknown	North America	bird	1a	Corvus
@@ -287,17 +286,17 @@ LR743456	LR743456	2019-08-26	Germany	Germany/unknown	Europe	bird	2	Passer
 MZ605382	MZ605382	2004-06-01	Hungary	Hungary/unknown	Europe	bird	2	Accipiter
 KJ501140	KJ501140	2011-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 LR743451	LR743451	2019-09-04	Germany	Germany/unknown	Europe	bird	2	Bubo
-KM052152	KM052152	1977-06-01	South Africa	South Africa/unknown	Africa	ungulate	2	Equus
+KJ934710	KJ934710	2013-08-27	Romania	Romania/unknown	Europe	tick	2	Hyalomma
 LR743454	LR743454	2019-09-09	Germany	Germany/unknown	Europe	bird	2	Parus
 MF984346	MF984346	2016-06-01	Austria	Austria/unknown	Europe	human	2	Homo
-MH819467	MH819467	2013-08-19	Canada	Canada/unknown	North America	mosquito	1a	Culex
+MF984345	MF984345	2015-06-01	Austria	Austria/unknown	Europe	bird	2	Falco
 MH170272	MH170272	2007-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501516	KJ501516	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KX547482	KX547482	2013-08-07	USA	USA/unknown	North America	mosquito	1a	Culiseta
 DQ080070	DQ080070	2003-08-01	Mexico	Mexico/unknown	North America	bird	1a	Quiscalus
 MH819461	MH819461	2004-09-07	Canada	Canada/unknown	North America	mosquito	1a	Culex
 MW142224	MW142224	2020-08-01	Germany	Germany/unknown	Europe	human	2	Homo
-MH819469	MH819469	2006-08-29	Canada	Canada/unknown	North America	mosquito	1a	Aedes
+MN794937	MN794937	2019-06-01	Germany	Germany/unknown	Europe	bird	2	Turdus
 DQ374652	DQ374652	2004-06-01	Russia	Russia/unknown	Asia	bird	1a	Corvus
 MN480794	MN480794	2018-09-01	Greece	Greece/unknown	Europe	mosquito	2	Culex
 HM756663	HM756663	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
@@ -305,7 +304,7 @@ KX547497	KX547497	2012-08-01	USA	USA/unknown	North America	mosquito	1a	Culex
 MH166883	MH166883	2002-06-01	USA	USA/unknown	North America	bird	1a	unknown
 MH507797	MH507797	2014-07-07	USA	USA/unknown	North America	mosquito	1a	Culex
 MH507997	MH507997	2009-09-04	USA	USA/unknown	North America	mosquito	1a	Culex
-KT359349	KT359349	2014-06-01	Hungary	Hungary/unknown	Europe	human	2	Homo
+MN939564	MN939564	2016-06-01	Italy	Italy/unknown	Europe	human	2	Homo
 JF957180	JF957180	2009-06-01	USA	USA/unknown	North America	human	1a	Homo
 KJ501222	KJ501222	2012-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 MH507986	MH507986	2016-04-14	USA	USA/unknown	North America	bird	1a	Corvus
@@ -314,17 +313,17 @@ KX547332	KX547332	2005-08-08	USA	USA/unknown	North America	bird	1a	Corvus
 GQ851608	GQ851608	1967-06-01	Central African Republic	Central African Republic/unknown	Africa	unknown	1a	unknown
 MF175829	MF175829	2013-08-06	USA	USA/unknown	North America	mosquito	1a	Culex
 MH508017	MH508017	2011-07-13	USA	USA/unknown	North America	mosquito	1a	Culex
-LR743446	LR743446	2019-08-19	Germany	Germany/unknown	Europe	bird	2	Trichoglossus
+MF984349	MF984349	2016-06-01	Austria	Austria/unknown	Europe	ungulate	2	Equus
 HM488232	HM488232	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culiseta
-KT757321	KT757321	2013-06-01	Serbia	Serbia/unknown	Europe	mosquito	2	Culex
+KC496015	KC496015	2010-06-01	Hungary	Hungary/unknown	Europe	ungulate	2	Equus
 MN794936	MN794936	2019-06-01	Germany	Germany/unknown	Europe	human	2	Homo
-MN619800	MN619800	2018-06-01	Russia	Russia/unknown	Asia	mosquito	2	Culex
+KT207792	KT207792	2014-08-18	Italy	Italy/unknown	Europe	mosquito	2	Culicidae
 KJ501377	KJ501377	2001-06-01	USA	USA/unknown	North America	bird	1a	Bubo
-LR743458	LR743458	2019-09-03	Germany	Germany/unknown	Europe	bird	2	Bubo
+MH819469	MH819469	2006-08-29	Canada	Canada/unknown	North America	mosquito	1a	Aedes
 KR348947	KR348947	2007-09-18	USA	USA/unknown	North America	mosquito	1a	Culex
-KP780838	KP780838	2009-09-16	Austria	Austria/unknown	Europe	bird	2	Nestor
+MN619800	MN619800	2018-06-01	Russia	Russia/unknown	Asia	mosquito	2	Culex
 LR743442	LR743442	2019-08-08	Germany	Germany/unknown	Europe	bird	2	Cyanistes
-MF984345	MF984345	2015-06-01	Austria	Austria/unknown	Europe	bird	2	Falco
+KM659876	KM659876	2014-06-01	Austria	Austria/unknown	Europe	human	2	Homo
 KJ501366	KJ501366	2003-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KX547320	KX547320	2002-09-17	USA	USA/unknown	North America	bird	1a	Cyanocitta
 KR348926	KR348926	2008-12-06	USA	USA/unknown	North America	mosquito	1a	Culex
@@ -337,44 +336,44 @@ DQ318020	DQ318020	1972-06-01	Central African Republic	Central African Republic/u
 LR743444	LR743444	2019-08-06	Germany	Germany/unknown	Europe	bird	2	Strix
 KX547212	KX547212	2003-09-30	USA	USA/unknown	North America	mosquito	1a	Culex
 MK947397	MK947397	2018-08-23	Slovenia	Slovenia/unknown	Europe	human	2	Homo
-KX394411	KX394411	1978-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
-KY523178	KY523178	2009-06-01	Uganda	Uganda/unknown	Africa	mosquito	2	Culex
-KX394391	KX394391	1974-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
-KT934798	KT934798	2000-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
-JQ928174	JQ928174	2011-09-01	Italy	Italy/unknown	Europe	human	1a	Homo
+KY703854	KY703854	1990-06-01	Senegal	Senegal/unknown	Africa	mosquito	1a	Culex
+MH819458	MH819458	2005-08-25	Canada	Canada/unknown	North America	mosquito	1a	Culex
+KC407673	KC407673	2012-06-01	Serbia	Serbia/unknown	Europe	bird	2	Accipiter
+LR743429	LR743429	2018-09-19	Germany	Germany/unknown	Europe	bird	2	Strix
+JN858070	JN858070	2011-09-01	Italy	Italy/unknown	Europe	human	2	Homo
 KX547281	KX547281	2004-06-04	USA	USA/unknown	North America	bird	1a	Corvus
 KX394396	KX394396	1960-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 MF175876	MF175876	2015-08-19	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501332	KJ501332	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KM012177	KM012177	2012-06-01	USA	USA/unknown	North America	human	1a	Homo
 MN481589	MN481589	2018-07-17	Greece	Greece/unknown	Europe	bird	2	Gallus
-KX394400	KX394400	1960-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
+KJ883348	KJ883348	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
 MH170249	MH170249	2006-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-JX041634	JX041634	1999-06-01	Russia	Russia/unknown	Asia	human	1a	Homo
-KT163243	KT163243	2015-01-01	India	India/unknown	Asia	unknown	1a	unknown
+JX041632	JX041632	1955-06-01	India	India/unknown	Asia	mosquito	5	Culex
+KP789959	KP789959	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
 JF415919	JF415919	2007-06-01	USA	USA/unknown	North America	mosquito	1a	Aedes
-JQ928175	JQ928175	2011-09-01	Italy	Italy/unknown	Europe	human	1a	Homo
+JN887352	JN887352	2011-06-01	Australia	Australia/unknown	Oceania	ungulate	kunjin	Equus
 MH166911	MH166911	2002-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
 LR743450	LR743450	2019-09-09	Germany	Germany/unknown	Europe	bird	2	Phoenicopterus
-JX556213	JX556213	2012-08-03	Italy	Italy/unknown	Europe	human	1a	Homo
+JX123031	JX123031	2011-03-15	Australia	Australia/unknown	Oceania	ungulate	kunjin	Equus
 MH507799	MH507799	2014-07-22	USA	USA/unknown	North America	mosquito	1a	Culex
 GQ507484	GQ507484	2007-08-16	USA	USA/unknown	North America	human	1a	Homo
-KJ883344	KJ883344	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
+KJ883342	KJ883342	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
 KX547579	KX547579	2012-07-20	USA	USA/unknown	North America	mosquito	1a	Aedes
 KR348917	KR348917	2008-08-18	USA	USA/unknown	North America	mosquito	1a	Culex
-KX394381	KX394381	1975-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
+KT934798	KT934798	2000-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 HM488198	HM488198	2005-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 MW142225	MW142225	2020-08-01	Germany	Germany/unknown	Europe	human	2	Homo
 MF984343	MF984343	2015-06-01	Austria	Austria/unknown	Europe	human	2	Homo
-LR743426	LR743426	2019-08-31	Germany	Germany/unknown	Europe	bird	2	Bubo
+MT341471	MT341471	2019-07-01	Greece	Greece/unknown	Europe	mosquito	2	Culex
 HM488143	HM488143	2004-06-01	USA	USA/unknown	North America	mosquito	1a	Aedes
-KT757319	KT757319	2013-06-01	Serbia	Serbia/unknown	Europe	mosquito	2	Culex
-KU978770	KU978770	1988-02-12	India	India/unknown	Asia	human	5	Homo
+KT359349	KT359349	2014-06-01	Hungary	Hungary/unknown	Europe	human	2	Homo
+KP780837	KP780837	2008-08-29	Austria	Austria/unknown	Europe	bird	2	Nestor
 HM488235	HM488235	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culiseta
-MH819459	MH819459	2014-09-04	Canada	Canada/unknown	North America	mosquito	1a	Culex
+KU588135	KU588135	2015-06-01	United Arab Emirates	United Arab Emirates/unknown	Asia	ungulate	1a	Camelus
 KX547619	KX547619	2002-08-15	USA	USA/unknown	North America	mosquito	1a	Culiseta
-KX394392	KX394392	1963-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
-KJ883348	KJ883348	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
+KX394393	KX394393	1963-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
+KX394399	KX394399	1960-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
 MH507892	MH507892	2004-08-05	USA	USA/unknown	North America	mosquito	1a	Culex
 MN794935	MN794935	2019-06-01	Germany	Germany/unknown	Europe	human	2	Homo
 KJ501281	KJ501281	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
@@ -386,233 +385,231 @@ HQ671710	HQ671710	2000-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 MN939561	MN939561	2018-06-01	Italy	Italy/unknown	Europe	human	2	Homo
 HM488175	HM488175	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 MF175852	MF175852	2015-10-21	USA	USA/unknown	North America	mosquito	1a	Culex
-LR743424	LR743424	2019-08-04	Germany	Germany/unknown	Europe	bird	2	Bubo
-MK947396	MK947396	2018-06-01	Slovenia	Slovenia/unknown	Europe	mosquito	2	Culicidae
-KX394393	KX394393	1963-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
+JX123030	JX123030	2011-03-07	Australia	Australia/unknown	Oceania	ungulate	kunjin	Equus
+DQ411035	DQ411035	2002-06-01	Russia	Russia/unknown	Asia	mosquito	1a	Anopheles
+MN481596	MN481596	2011-07-06	Greece	Greece/unknown	Europe	bird	2	Gallus
 KX547378	KX547378	2002-09-11	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501189	KJ501189	2007-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KC407673	KC407673	2012-06-01	Serbia	Serbia/unknown	Europe	bird	2	Accipiter
+JX556213	JX556213	2012-08-03	Italy	Italy/unknown	Europe	human	1a	Homo
 MF175866	MF175866	2014-09-09	USA	USA/unknown	North America	mosquito	1a	Culex
-DQ176636	DQ176636	1978-06-01	Madagascar	Madagascar/unknown	Africa	bird	2	Coracopsis
-FJ425721	FJ425721	2007-06-01	Russia	Russia/unknown	Asia	human	2	Homo
+KF647250	KF647250	2013-08-01	Italy	Italy/unknown	Europe	human	2	Homo
+FJ159130	FJ159130	2005-06-01	Russia	Russia/unknown	Asia	mosquito	4	Uranotaenia
 HM488242	HM488242	2008-06-01	USA	USA/unknown	North America	bird	1a	Poecile
 MH910045	MH910045	2018-08-01	Germany	Germany/unknown	Europe	human	2	Homo
-EF429199	EF429199	2000-06-01	South Africa	South Africa/unknown	Africa	human	2	Homo
+KU573081	KU573081	2013-06-01	Italy	Italy/unknown	Europe	bird	2	Pica
 HM488171	HM488171	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 KR348992	KR348992	2006-09-22	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501427	KJ501427	2002-06-01	USA	USA/unknown	North America	bird	1a	Ictinia
 LR743453	LR743453	2019-08-14	Germany	Germany/unknown	Europe	ungulate	2	Equus
-JN051152	JN051152	2003-05-01	Mexico	Mexico/unknown	North America	bird	1a	Corvus
+JF707789	JF707789	2008-06-01	Spain	Spain/unknown	Europe	mosquito	1a	Culex
 MN481590	MN481590	2018-07-17	Greece	Greece/unknown	Europe	ungulate	2	Equus
-MN238669	MN238669	2017-06-01	Iran	Iran/unknown	Asia	mosquito	2	Culex
-KU588135	KU588135	2015-06-01	United Arab Emirates	United Arab Emirates/unknown	Asia	ungulate	1a	Camelus
+KY703855	KY703855	1993-06-01	Senegal	Senegal/unknown	Africa	tick	7	Rhipicephalus
+AF260968	AF260968	1951-06-01	Egypt	Egypt/unknown	Africa	unknown	1a	unknown
 MH507665	MH507665	2014-11-10	USA	USA/unknown	North America	bird	1a	Accipiter
 KX547200	KX547200	2012-08-16	USA	USA/unknown	North America	mosquito	1a	Culex
 JQ700441	JQ700441	2011-06-01	USA	USA/unknown	North America	human	1a	Homo
-KF647253	KF647253	2013-08-01	Italy	Italy/unknown	Europe	human	1a	Homo
+KF647251	KF647251	2013-08-01	Italy	Italy/unknown	Europe	human	2	Homo
 HM488186	HM488186	2003-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 MF175848	MF175848	2015-07-27	USA	USA/unknown	North America	mosquito	1a	Culex
 MH507850	MH507850	2007-07-09	USA	USA/unknown	North America	bird	1a	Aphelocoma
-FJ159131	FJ159131	2005-06-01	Russia	Russia/unknown	Asia	mosquito	4	Uranotaenia
+MF984350	MF984350	2016-06-01	Austria	Austria/unknown	Europe	ungulate	2	Equus
 GQ507481	GQ507481	2006-08-22	USA	USA/unknown	North America	human	1a	Homo
 MH166912	MH166912	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
 KX547343	KX547343	2012-08-08	USA	USA/unknown	North America	mosquito	1a	Aedes
 KJ501492	KJ501492	2005-06-01	USA	USA/unknown	North America	bird	1a	Pelecanus
 KX547449	KX547449	2011-07-06	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501509	KJ501509	2001-06-01	USA	USA/unknown	North America	bird	1a	Euphagus
-DQ080071	DQ080071	2002-08-01	Mexico	Mexico/unknown	North America	ungulate	1a	Equus
+KX394391	KX394391	1974-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 KJ145815	KJ145815	2002-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KJ501123	KJ501123	2004-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 MH507759	MH507759	2006-08-07	USA	USA/unknown	North America	mosquito	1a	Culex
-MN794938	MN794938	2019-06-01	Germany	Germany/unknown	Europe	bird	2	Passer
+LR743430	LR743430	2019-08-08	Germany	Germany/unknown	Europe	bird	2	Cyanistes
 KJ145818	KJ145818	2003-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-LR989888	LR989888	2019-06-01	Germany	Germany/unknown	Europe	bird	2	Larus
+DQ374653	DQ374653	2002-06-01	Russia	Russia/unknown	Asia	bird	1a	Corvus
 KJ501162	KJ501162	2007-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 HM488194	HM488194	2005-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MN480795	MN480795	2018-08-01	Greece	Greece/unknown	Europe	human	2	Homo
-AY268133	AY268133	1997-06-01	Tunisia	Tunisia/unknown	Africa	human	1a	Homo
+FJ425721	FJ425721	2007-06-01	Russia	Russia/unknown	Asia	human	2	Homo
+AY262283	AY262283	1998-06-01	Kenya	Kenya/unknown	Africa	mosquito	1a	Culex
 KJ501301	KJ501301	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
-KP789955	KP789955	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
+KP789953	KP789953	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
 KJ501304	KJ501304	2002-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 MH986056	MH986056	2018-06-01	Germany	Germany/unknown	Europe	bird	2	Turdus
 HM488125	HM488125	1999-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KJ501104	KJ501104	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 HM756664	HM756664	2002-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-KP789954	KP789954	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
-KJ577739	KJ577739	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
-MZ964751	MZ964751	2021-08-01	Germany	Germany/unknown	Europe	human	2	Homo
-KJ501252	KJ501252	2008-06-01	USA	USA/unknown	North America	bird	1a	Passer
+MW036633	MW036633	2020-09-01	Netherlands	Netherlands/unknown	Europe	mosquito	2	Culex
+KF823807	KF823807	2013-09-01	Italy	Italy/unknown	Europe	human	1a	Homo
+GQ851605	GQ851605	1957-06-01	India	India/unknown	Asia	mosquito	5	Culicidae
 JF920744	JF920744	2007-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KX394399	KX394399	1960-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
+JF719069	JF719069	2010-08-01	Spain	Spain/unknown	Europe	ungulate	1a	Equus
 MN481595	MN481595	2010-09-30	Greece	Greece/unknown	Europe	bird	2	Columbidae
 KJ501319	KJ501319	2002-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MT968024	MT968024	2017-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
-JF719069	JF719069	2010-08-01	Spain	Spain/unknown	Europe	ungulate	1a	Equus
+MH508024	MH508024	2011-08-04	USA	USA/unknown	North America	mosquito	1a	Culex
+KJ501181	KJ501181	2010-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547517	KX547517	2009-09-04	USA	USA/unknown	North America	bird	1a	Corvus
 KX547423	KX547423	2004-07-16	USA	USA/unknown	North America	bird	1a	Quiscalus
 HM488210	HM488210	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culiseta
 KX394387	KX394387	1974-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 MH166913	MH166913	2004-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
-MH507691	MH507691	2017-10-05	USA	USA/unknown	North America	mosquito	1a	Culicidae
-MK473443	MK473443	2017-07-01	Greece	Greece/unknown	Europe	bird	2	Pica
-KJ501151	KJ501151	2004-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+MN149538	MN149538	2006-05-01	Russia	Russia/unknown	Asia	bird	1a	Acrocephalus
+FJ159131	FJ159131	2005-06-01	Russia	Russia/unknown	Asia	mosquito	4	Uranotaenia
+LR743445	LR743445	2019-09-03	Germany	Germany/unknown	Europe	bird	2	Strix
 MH170266	MH170266	2007-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KU573083	KU573083	2013-06-01	Italy	Italy/unknown	Europe	mosquito	2	Culex
-KP789956	KP789956	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
+KU573080	KU573080	2013-06-01	Italy	Italy/unknown	Europe	mosquito	2	Culex
+KP789954	KP789954	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
 KR348957	KR348957	2010-12-08	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501115	KJ501115	2005-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-MH507942	MH507942	2007-08-15	USA	USA/unknown	North America	mosquito	1a	Culex
-MH507998	MH507998	2009-09-04	USA	USA/unknown	North America	mosquito	1a	Culex
-MN812761	MN812761	2018-06-01	Russia	Russia/unknown	Asia	human	2	Homo
-KY703854	KY703854	1990-06-01	Senegal	Senegal/unknown	Africa	mosquito	1a	Culex
+KJ501151	KJ501151	2004-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+MH507765	MH507765	2009-07-28	USA	USA/unknown	North America	mosquito	1a	Culex
+KU573082	KU573082	2013-06-01	Italy	Italy/unknown	Europe	bird	2	Corvus
+MH819465	MH819465	2015-09-09	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KX547480	KX547480	2003-09-22	USA	USA/unknown	North America	mosquito	1a	Culex
 DQ164188	DQ164188	2003-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MH507938	MH507938	2007-08-15	USA	USA/unknown	North America	mosquito	1a	Culex
+KJ883344	KJ883344	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
 KJ501329	KJ501329	2003-06-01	USA	USA/unknown	North America	bird	1a	Branta
-KJ501176	KJ501176	2008-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KF647251	KF647251	2013-08-01	Italy	Italy/unknown	Europe	human	2	Homo
+MH507767	MH507767	2011-08-11	USA	USA/unknown	North America	mosquito	1a	Culex
+JN051153	JN051153	2003-05-01	Mexico	Mexico/unknown	North America	bird	1a	Corvus
 KJ501116	KJ501116	2008-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-DQ118127	DQ118127	2003-06-01	Hungary	Hungary/unknown	Europe	bird	1a	Anatidae
+DQ080071	DQ080071	2002-08-01	Mexico	Mexico/unknown	North America	ungulate	1a	Equus
 KJ501239	KJ501239	2008-06-01	USA	USA/unknown	North America	bird	1a	Phalacrocorax
-MH507723	MH507723	2011-08-22	USA	USA/unknown	North America	bird	1a	Pheucticus
+MH507679	MH507679	2015-08-28	USA	USA/unknown	North America	mosquito	1a	Culicidae
 KR348943	KR348943	2004-04-14	USA	USA/unknown	North America	mosquito	1a	Culex
-KJ883347	KJ883347	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
-MT341472	MT341472	2018-08-01	Bulgaria	Bulgaria/unknown	Europe	mosquito	2	Culex
+KT163243	KT163243	2015-01-01	India	India/unknown	Asia	unknown	1a	unknown
+LR989888	LR989888	2019-06-01	Germany	Germany/unknown	Europe	bird	2	Larus
 KX547581	KX547581	2003-07-29	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547263	KX547263	2002-09-16	USA	USA/unknown	North America	bird	1a	Cardinalis
-KJ145821	KJ145821	2006-06-01	USA	USA/unknown	North America	bird	1a	Corvus
+LR743425	LR743425	2019-07-03	Germany	Germany/unknown	Europe	bird	2	Bubo
 KJ501510	KJ501510	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
 DQ431694	DQ431694	2003-06-01	USA	USA/unknown	North America	human	1a	Homo
-LR743452	LR743452	2019-09-04	Germany	Germany/unknown	Europe	bird	2	Strix
+MT968012	MT968012	2016-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
 KC736490	KC736490	2012-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KX394382	KX394382	2011-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+DQ080066	DQ080066	2003-08-01	Mexico	Mexico/unknown	North America	bird	1a	Phalacrocoracidae
 GQ507477	GQ507477	2005-08-01	USA	USA/unknown	North America	human	1a	Homo
-DQ318019	DQ318019	1988-06-01	Senegal	Senegal/unknown	Africa	mosquito	2	culex
+DQ176636	DQ176636	1978-06-01	Madagascar	Madagascar/unknown	Africa	bird	2	Coracopsis
 KR348953	KR348953	2008-09-25	USA	USA/unknown	North America	mosquito	1a	Culex
 KX394390	KX394390	1974-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
-HM147823	HM147823	1988-06-01	Madagascar	Madagascar/unknown	Africa	unknown	2	unknown
-MH507996	MH507996	2009-07-30	USA	USA/unknown	North America	mosquito	1a	Culex
-JX041628	JX041628	1970-06-01	Azerbaijan	Azerbaijan/unknown	Europe	tick	1a	Ornithodoros
-LR743434	LR743434	2018-09-03	Germany	Germany/unknown	Europe	bird	2	Strix
-MH507973	MH507973	2015-07-28	USA	USA/unknown	North America	bird	1a	Aphelocoma
-KR349025	KR349025	2007-07-25	USA	USA/unknown	North America	mosquito	1a	Culex
-MF984337	MF984337	2015-06-01	Austria	Austria/unknown	Europe	human	2	Homo
-GQ379161	GQ379161	2006-02-01	Argentina	Argentina/unknown	South America	ungulate	1a	Equus
-KT934803	KT934803	2011-06-01	Australia	Australia/unknown	Oceania	ungulate	kunjin	Equus
-MH170238	MH170238	2003-06-01	USA	USA/unknown	North America	bird	1a	Turdus
-KJ145830	KJ145830	2010-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-LR743448	LR743448	2019-09-09	Germany	Germany/unknown	Europe	bird	2	Spheniscus
-JF707789	JF707789	2008-06-01	Spain	Spain/unknown	Europe	mosquito	1a	Culex
-KX394397	KX394397	1960-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
-KX547565	KX547565	2013-09-24	USA	USA/unknown	North America	mosquito	1a	Culiseta
-AF260969	AF260969	1996-06-01	Romania	Romania/unknown	Europe	mosquito	1a	Culex
-GQ851605	GQ851605	1957-06-01	India	India/unknown	Asia	mosquito	5	Culicidae
+KX375812	KX375812	2013-06-01	Serbia	Serbia/unknown	Europe	human	2	Homo
+MH507976	MH507976	2015-08-28	USA	USA/unknown	North America	bird	1a	Corvus
+LR743447	LR743447	2019-09-24	Germany	Germany/unknown	Europe	mosquito	2	Culex
 KX394395	KX394395	1999-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+KJ501197	KJ501197	2011-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+KR349025	KR349025	2007-07-25	USA	USA/unknown	North America	mosquito	1a	Culex
+MH507996	MH507996	2009-07-30	USA	USA/unknown	North America	mosquito	1a	Culex
+KU573083	KU573083	2013-06-01	Italy	Italy/unknown	Europe	mosquito	2	Culex
+KJ958922	KJ958922	2011-06-01	Turkey	Turkey/unknown	Asia	ungulate	1a	Equus
+MH170238	MH170238	2003-06-01	USA	USA/unknown	North America	bird	1a	Turdus
+KJ501176	KJ501176	2008-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+LR743448	LR743448	2019-09-09	Germany	Germany/unknown	Europe	bird	2	Spheniscus
+LR743457	LR743457	2019-09-05	Germany	Germany/unknown	Europe	bird	2	Accipiter
+GQ379160	GQ379160	2006-02-01	Argentina	Argentina/unknown	South America	ungulate	1a	Equus
+KX547565	KX547565	2013-09-24	USA	USA/unknown	North America	mosquito	1a	Culiseta
+MH507945	MH507945	2009-06-17	USA	USA/unknown	North America	mosquito	1a	Culex
+GQ851603	GQ851603	1991-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+KU573078	KU573078	2009-06-01	Italy	Italy/unknown	Europe	mosquito	1a	Culex
 KR348984	KR348984	2011-01-09	USA	USA/unknown	North America	mosquito	1a	Culex
-MH244511	MH244511	2013-06-01	Slovakia	Slovakia/unknown	Europe	bird	2	Accipiter
+MK473443	MK473443	2017-07-01	Greece	Greece/unknown	Europe	bird	2	Pica
 MH166921	MH166921	2008-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
 KX547321	KX547321	2005-09-07	USA	USA/unknown	North America	bird	1a	Baeolophus
 KX547610	KX547610	2004-08-10	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547502	KX547502	2006-09-13	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501432	KJ501432	2012-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KJ501279	KJ501279	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
-KX394398	KX394398	1960-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
-DQ256376	DQ256376	1980-06-01	India	India/unknown	Asia	human	5	Homo
-LR743457	LR743457	2019-09-05	Germany	Germany/unknown	Europe	bird	2	Accipiter
-MH507971	MH507971	2015-07-02	USA	USA/unknown	North America	bird	1a	Corvus
-JX123030	JX123030	2011-03-07	Australia	Australia/unknown	Oceania	ungulate	kunjin	Equus
+JX041629	JX041629	1967-06-01	Azerbaijan	Azerbaijan/unknown	Europe	bird	1a	unknown
+MF175862	MF175862	2015-06-09	USA	USA/unknown	North America	mosquito	1a	Culex
+KX394388	KX394388	1974-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+KJ501174	KJ501174	2008-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+KT934804	KT934804	2012-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 KR348994	KR348994	2005-08-24	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547359	KX547359	2006-08-14	USA	USA/unknown	North America	bird	1a	Corvus
 KJ501118	KJ501118	2011-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 KR348918	KR348918	2011-03-10	USA	USA/unknown	North America	mosquito	1a	Culex
-MH507679	MH507679	2015-08-28	USA	USA/unknown	North America	mosquito	1a	Culicidae
-KP789960	KP789960	2013-06-01	Italy	Italy/unknown	Europe	human	2	Homo
+JN183889	JN183889	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+MW142226	MW142226	2020-08-01	Germany	Germany/unknown	Europe	human	2	Homo
 KX547230	KX547230	2002-09-20	USA	USA/unknown	North America	mosquito	1a	Culex
-KJ501188	KJ501188	2005-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+DQ118127	DQ118127	2003-06-01	Hungary	Hungary/unknown	Europe	bird	1a	Anatidae
 KJ501343	KJ501343	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MZ964753	MZ964753	2021-08-01	Germany	Germany/unknown	Europe	human	2	Homo
+KJ501188	KJ501188	2005-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547188	KX547188	2003-08-15	USA	USA/unknown	North America	mosquito	1a	Culex
-MW036633	MW036633	2020-09-01	Netherlands	Netherlands/unknown	Europe	mosquito	2	Culex
+MN619803	MN619803	2018-06-01	Russia	Russia/unknown	Asia	mosquito	2	Culex
 KJ501294	KJ501294	2003-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MF984351	MF984351	2016-06-01	Austria	Austria/unknown	Europe	mosquito	2	Culex
-MT341470	MT341470	2019-07-01	Greece	Greece/unknown	Europe	mosquito	2	Culex
+MT905060	MT905060	2019-06-13	Brazil	Brazil/unknown	South America	ungulate	1a	Equus
+MH507977	MH507977	2015-09-04	USA	USA/unknown	North America	bird	1a	Corvus
 HM756651	HM756651	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Ochlerotatus
-KU573081	KU573081	2013-06-01	Italy	Italy/unknown	Europe	bird	2	Pica
-KJ883343	KJ883343	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
-MF175862	MF175862	2015-06-09	USA	USA/unknown	North America	mosquito	1a	Culex
-MH507757	MH507757	2005-06-13	USA	USA/unknown	North America	mosquito	1a	Culex
-KY229067	KY229067	2012-07-31	USA	USA/unknown	North America	mosquito	1a	Culex
+LR743458	LR743458	2019-09-03	Germany	Germany/unknown	Europe	bird	2	Bubo
+KX547304	KX547304	2004-09-02	USA	USA/unknown	North America	bird	1a	Corvus
+MH507632	MH507632	2008-06-25	USA	USA/unknown	North America	bird	1a	Accipiter
+MH507973	MH507973	2015-07-28	USA	USA/unknown	North America	bird	1a	Aphelocoma
 KX394401	KX394401	1960-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
 MN652880	MN652880	2018-08-01	Greece	Greece/unknown	Europe	mosquito	2	Culex
 DQ666449	DQ666449	2005-08-01	USA	USA/unknown	North America	human	1a	Homo
 MF175821	MF175821	2013-08-20	USA	USA/unknown	North America	mosquito	1a	Culex
-AY701412	AY701412	1996-06-01	Morocco	Morocco/unknown	Africa	ungulate	1a	Equus
+AY278442	AY278442	2000-06-01	Russia	Russia/unknown	Asia	human	1a	Homo
 KX547510	KX547510	2007-09-14	USA	USA/unknown	North America	mosquito	1a	Culex
-JN858069	JN858069	2011-09-01	Italy	Italy/unknown	Europe	human	1a	Homo
+MN480792	MN480792	2018-08-01	Greece	Greece/unknown	Europe	human	2	Homo
 LR743435	LR743435	2019-08-20	Germany	Germany/unknown	Europe	bird	2	Accipiter
-KF588365	KF588365	2013-08-01	Italy	Italy/unknown	Europe	human	2	Homo
+HM147823	HM147823	1988-06-01	Madagascar	Madagascar/unknown	Africa	unknown	2	unknown
 KJ501249	KJ501249	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-KU978767	KU978767	1988-02-12	Madagascar	Madagascar/unknown	Africa	mosquito	2	Culex
+DQ256376	DQ256376	1980-06-01	India	India/unknown	Asia	human	5	Homo
 KJ501416	KJ501416	2006-06-01	USA	USA/unknown	North America	bird	1a	Charadrius
 KX547195	KX547195	2007-09-19	USA	USA/unknown	North America	bird	1a	Corvus
 JF415929	JF415929	2005-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
 MF175808	MF175808	2012-09-19	USA	USA/unknown	North America	mosquito	1a	Culex
-MN238670	MN238670	2018-06-01	Iran	Iran/unknown	Asia	mosquito	2	Culex
-JX041632	JX041632	1955-06-01	India	India/unknown	Asia	mosquito	5	Culex
-KX547549	KX547549	2003-10-02	USA	USA/unknown	North America	bird	1a	Corvus
-HM152775	HM152775	2000-06-01	Israel	Israel/unknown	Asia	human	1a	Homo
+MH819455	MH819455	2006-08-30	Canada	Canada/unknown	North America	mosquito	1a	Culex
+DQ318019	DQ318019	1988-06-01	Senegal	Senegal/unknown	Africa	mosquito	2	culex
+MH507854	MH507854	2008-03-13	USA	USA/unknown	North America	bird	1a	Zenaida
+HM147824	HM147824	1958-06-01	Democratic Republic of the Congo	Democratic Republic of the Congo/unknown	Africa	unknown	2	unknown
 HM488170	HM488170	2008-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 KR348982	KR348982	2011-01-09	USA	USA/unknown	North America	mosquito	1a	Culex
 MH166899	MH166899	2002-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
 KJ501339	KJ501339	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
-KP789953	KP789953	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
-MN794937	MN794937	2019-06-01	Germany	Germany/unknown	Europe	bird	2	Turdus
-KM203863	KM203863	2013-08-08	Czech Republic	Czech Republic/unknown	Europe	mosquito	2	Culex
-HM147824	HM147824	1958-06-01	Democratic Republic of the Congo	Democratic Republic of the Congo/unknown	Africa	unknown	2	unknown
-DQ411035	DQ411035	2002-06-01	Russia	Russia/unknown	Asia	mosquito	1a	Anopheles
-JN183889	JN183889	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-HM538581	HM538581	2007-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-MH507930	MH507930	2006-08-04	USA	USA/unknown	North America	mosquito	1a	Culex
-KY782122	KY782122	2010-09-03	USA	USA/unknown	North America	mosquito	1a	Culex
+KU978767	KU978767	1988-02-12	Madagascar	Madagascar/unknown	Africa	mosquito	2	Culex
+HQ671738	HQ671738	2004-06-01	USA	USA/unknown	North America	bird	1a	Corvus
+MN812758	MN812758	2018-06-01	Russia	Russia/unknown	Asia	mosquito	2	Culex
+MF984337	MF984337	2015-06-01	Austria	Austria/unknown	Europe	human	2	Homo
+KY782105	KY782105	2012-07-18	USA	USA/unknown	North America	bird	1a	Turdus
+MF984347	MF984347	2016-06-01	Austria	Austria/unknown	Europe	human	2	Homo
+MH507938	MH507938	2007-08-15	USA	USA/unknown	North America	mosquito	1a	Culex
+MW142227	MW142227	2020-08-01	Germany	Germany/unknown	Europe	human	2	Homo
+MH507713	MH507713	2008-08-21	USA	USA/unknown	North America	bird	1a	Aphelocoma
 MH819464	MH819464	2004-09-15	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KX547257	KX547257	2007-09-24	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501333	KJ501333	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
 KJ501521	KJ501521	2006-06-01	USA	USA/unknown	North America	bird	1a	Pelecanus
-MH819457	MH819457	2005-08-19	Canada	Canada/unknown	North America	mosquito	1a	Culex
-MF984350	MF984350	2016-06-01	Austria	Austria/unknown	Europe	ungulate	2	Equus
-MT341471	MT341471	2019-07-01	Greece	Greece/unknown	Europe	mosquito	2	Culex
+MW036634	MW036634	2020-08-01	Netherlands	Netherlands/unknown	Europe	mosquito	2	Culex
+KC333376	KC333376	2012-06-14	USA	USA/unknown	North America	bird	1a	Cyanocitta
+KJ501433	KJ501433	2012-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KX547544	KX547544	2009-08-26	USA	USA/unknown	North America	bird	1a	Accipiter
-MH507890	MH507890	2017-07-07	USA	USA/unknown	North America	bird	1a	Corvus
+KJ883347	KJ883347	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
 JF920742	JF920742	2007-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 GQ507482	GQ507482	2006-09-03	USA	USA/unknown	North America	human	1a	Homo
 MH939153	MH939153	2014-06-01	Romania	Romania/unknown	Europe	mosquito	2	Anopheles
-MH508029	MH508029	2012-07-18	USA	USA/unknown	North America	mosquito	1a	Culex
+KJ145830	KJ145830	2010-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 JF957175	JF957175	2009-06-01	USA	USA/unknown	North America	human	1a	Homo
 KC333385	KC333385	2012-07-11	USA	USA/unknown	North America	bird	1a	Cyanocitta
-KC954092	KC954092	2012-09-01	Italy	Italy/unknown	Europe	human	1a	Homo
-KP789959	KP789959	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
-MH507876	MH507876	2011-08-05	USA	USA/unknown	North America	bird	1a	Aphelocoma
-DQ374653	DQ374653	2002-06-01	Russia	Russia/unknown	Asia	bird	1a	Corvus
-KX547571	KX547571	2005-09-13	USA	USA/unknown	North America	bird	1a	Corvus
-MT968012	MT968012	2016-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
-LR743432	LR743432	2019-08-30	Germany	Germany/unknown	Europe	bird	2	Phoenicoparrus
-KY782115	KY782115	2010-08-04	USA	USA/unknown	North America	mosquito	1a	Culex
-KJ501488	KJ501488	2003-06-01	USA	USA/unknown	North America	bird	1a	Pelecanus
-MH507753	MH507753	2017-08-28	USA	USA/unknown	North America	bird	1a	Corvus
-MH507767	MH507767	2011-08-11	USA	USA/unknown	North America	mosquito	1a	Culex
-KX547478	KX547478	2001-09-08	USA	USA/unknown	North America	mosquito	1a	Culex
-MH507952	MH507952	2009-09-29	USA	USA/unknown	North America	bird	1a	Corvus
-MW142226	MW142226	2020-08-01	Germany	Germany/unknown	Europe	human	2	Homo
-MH819460	MH819460	2013-08-19	Canada	Canada/unknown	North America	mosquito	1a	Culex
-HM488247	HM488247	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-AY712948	AY712948	2003-08-01	USA	USA/unknown	North America	mosquito	1a	Culex
-MH507840	MH507840	2007-06-14	USA	USA/unknown	North America	bird	1a	Aphelocoma
-KX547521	KX547521	2005-08-18	USA	USA/unknown	North America	bird	1a	Corvus
-JN858070	JN858070	2011-09-01	Italy	Italy/unknown	Europe	human	2	Homo
 DQ080067	DQ080067	2003-08-01	Mexico	Mexico/unknown	North America	bird	1a	Butorides
+KP789957	KP789957	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
+MH507772	MH507772	2012-09-04	USA	USA/unknown	North America	mosquito	1a	Culex
+MT968005	MT968005	2016-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
+KX547571	KX547571	2005-09-13	USA	USA/unknown	North America	bird	1a	Corvus
+EF429199	EF429199	2000-06-01	South Africa	South Africa/unknown	Africa	human	2	Homo
+LR743432	LR743432	2019-08-30	Germany	Germany/unknown	Europe	bird	2	Phoenicoparrus
+MH508020	MH508020	2011-07-13	USA	USA/unknown	North America	mosquito	1a	Culex
+KJ501488	KJ501488	2003-06-01	USA	USA/unknown	North America	bird	1a	Pelecanus
+KP789955	KP789955	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
+MH507817	MH507817	2016-07-07	USA	USA/unknown	North America	mosquito	1a	Culex
+KX547478	KX547478	2001-09-08	USA	USA/unknown	North America	mosquito	1a	Culex
+MH507971	MH507971	2015-07-02	USA	USA/unknown	North America	bird	1a	Corvus
+KP789956	KP789956	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
+MH819466	MH819466	2016-08-16	Canada	Canada/unknown	North America	mosquito	1a	Culex
+HM488247	HM488247	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
+MN812760	MN812760	2018-06-01	Russia	Russia/unknown	Asia	human	2	Homo
+HM538581	HM538581	2007-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+KX547521	KX547521	2005-08-18	USA	USA/unknown	North America	bird	1a	Corvus
+KX394406	KX394406	1963-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+MZ964751	MZ964751	2021-08-01	Germany	Germany/unknown	Europe	human	2	Homo
 KJ501308	KJ501308	2010-06-01	USA	USA/unknown	North America	bird	1a	Pelecanus
-MH549209	MH549209	2017-07-01	Greece	Greece/unknown	Europe	bird	2	Pica
-KM659876	KM659876	2014-06-01	Austria	Austria/unknown	Europe	human	2	Homo
+LR743452	LR743452	2019-09-04	Germany	Germany/unknown	Europe	bird	2	Strix
+KM203862	KM203862	2013-08-08	Czech Republic	Czech Republic/unknown	Europe	mosquito	2	Culex
 MH939154	MH939154	2014-06-01	Romania	Romania/unknown	Europe	mosquito	2	Culex
 JF488096	JF488096	2009-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KX547455	KX547455	2003-08-13	USA	USA/unknown	North America	mosquito	1a	Culex
@@ -620,122 +617,122 @@ KR349012	KR349012	2005-07-28	USA	USA/unknown	North America	mosquito	1a	Culex
 HM488241	HM488241	2008-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 FJ151394	FJ151394	1999-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 LR743427	LR743427	2019-07-14	Germany	Germany/unknown	Europe	bird	2	Accipiter
-MN480793	MN480793	2018-08-01	Greece	Greece/unknown	Europe	human	2	Homo
-KX394383	KX394383	1972-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
-KY782109	KY782109	2005-08-03	USA	USA/unknown	North America	bird	1a	Turdus
+AY712948	AY712948	2003-08-01	USA	USA/unknown	North America	mosquito	1a	Culex
+MH507972	MH507972	2015-07-21	USA	USA/unknown	North America	bird	1a	Corvus
+MT341472	MT341472	2018-08-01	Bulgaria	Bulgaria/unknown	Europe	mosquito	2	Culex
 KJ501111	KJ501111	2009-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KF179640	KF179640	2008-06-01	Austria	Austria/unknown	Europe	bird	2	Accipiter
-DQ377179	DQ377179	2002-06-01	Russia	Russia/unknown	Asia	bird	1a	Corvus
-MH508030	MH508030	2012-07-19	USA	USA/unknown	North America	mosquito	1a	Culex
-KU573078	KU573078	2009-06-01	Italy	Italy/unknown	Europe	mosquito	1a	Culex
+KC954092	KC954092	2012-09-01	Italy	Italy/unknown	Europe	human	1a	Homo
+JX041628	JX041628	1970-06-01	Azerbaijan	Azerbaijan/unknown	Europe	tick	1a	Ornithodoros
+KX394382	KX394382	2011-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+MH819457	MH819457	2005-08-19	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KJ501399	KJ501399	2002-06-01	USA	USA/unknown	North America	bird	1a	Haemorhous
 KX547226	KX547226	2007-07-25	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501437	KJ501437	2012-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KJ501274	KJ501274	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KJ501255	KJ501255	2008-06-01	USA	USA/unknown	North America	bird	1a	Pelecanus
 KJ501299	KJ501299	2002-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MT968009	MT968009	2018-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
-KX394406	KX394406	1963-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
-KT934799	KT934799	2000-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
-JF415923	JF415923	2009-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KJ501325	KJ501325	2002-06-01	USA	USA/unknown	North America	unknown	1a	unknown
-KX547202	KX547202	2004-09-26	USA	USA/unknown	North America	bird	1a	Larus
 MT968000	MT968000	2015-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
+MH507998	MH507998	2009-09-04	USA	USA/unknown	North America	mosquito	1a	Culex
+KT934797	KT934797	1991-06-01	Australia	Australia/unknown	Oceania	human	kunjin	Homo
+JF415923	JF415923	2009-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+MH507616	MH507616	2015-10-02	USA	USA/unknown	North America	bird	1a	Corvus
+KX547202	KX547202	2004-09-26	USA	USA/unknown	North America	bird	1a	Larus
+MH986055	MH986055	2018-06-01	Germany	Germany/unknown	Europe	bird	2	Turdus
 HQ671729	HQ671729	2006-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 HQ671721	HQ671721	2008-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 JF920731	JF920731	2006-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547542	KX547542	2004-06-07	USA	USA/unknown	North America	bird	1a	Corvus
-KT757323	KT757323	2013-06-01	Serbia	Serbia/unknown	Europe	mosquito	2	Culex
+MN480793	MN480793	2018-08-01	Greece	Greece/unknown	Europe	human	2	Homo
 KJ501380	KJ501380	2002-06-01	USA	USA/unknown	North America	bird	1a	Bubo
 KJ501495	KJ501495	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
-HQ671738	HQ671738	2004-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-KJ501212	KJ501212	2012-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-MH507734	MH507734	2013-08-02	USA	USA/unknown	North America	bird	1a	Turdus
-KJ958922	KJ958922	2011-06-01	Turkey	Turkey/unknown	Asia	ungulate	1a	Equus
-MH507662	MH507662	2014-10-03	USA	USA/unknown	North America	bird	1a	Corvus
+KT757321	KT757321	2013-06-01	Serbia	Serbia/unknown	Europe	mosquito	2	Culex
+MH507952	MH507952	2009-09-29	USA	USA/unknown	North America	bird	1a	Corvus
+MT968024	MT968024	2017-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
+KX394400	KX394400	1960-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
+MH507876	MH507876	2011-08-05	USA	USA/unknown	North America	bird	1a	Aphelocoma
 MH170274	MH170274	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
 KX547557	KX547557	2009-09-22	USA	USA/unknown	North America	bird	1a	Cyanocitta
-KX394388	KX394388	1974-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
-KJ501433	KJ501433	2012-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MH507977	MH507977	2015-09-04	USA	USA/unknown	North America	bird	1a	Corvus
-MH507972	MH507972	2015-07-21	USA	USA/unknown	North America	bird	1a	Corvus
+MT968009	MT968009	2018-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
+MH507834	MH507834	2006-08-14	USA	USA/unknown	North America	bird	1a	Passer
+MH507757	MH507757	2005-06-13	USA	USA/unknown	North America	mosquito	1a	Culex
+AF260969	AF260969	1996-06-01	Romania	Romania/unknown	Europe	mosquito	1a	Culex
 KJ501283	KJ501283	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MH508024	MH508024	2011-08-04	USA	USA/unknown	North America	mosquito	1a	Culex
-KJ501524	KJ501524	2006-06-01	USA	USA/unknown	North America	bird	1a	Actitis
+MF797870	MF797870	2016-07-01	Cyprus	Cyprus/unknown	Europe	human	1a	Homo
+KP780838	KP780838	2009-09-16	Austria	Austria/unknown	Europe	bird	2	Nestor
 KJ501282	KJ501282	2001-06-01	USA	USA/unknown	North America	bird	1a	Bubo
-KP780837	KP780837	2008-08-29	Austria	Austria/unknown	Europe	bird	2	Nestor
-LR743429	LR743429	2018-09-19	Germany	Germany/unknown	Europe	bird	2	Strix
-MH507976	MH507976	2015-08-28	USA	USA/unknown	North America	bird	1a	Corvus
-MF984344	MF984344	2015-06-01	Austria	Austria/unknown	Europe	bird	2	Accipiter
+KP109691	KP109691	2014-06-01	Austria	Austria/unknown	Europe	human	2	Homo
+KT757322	KT757322	2013-06-01	Serbia	Serbia/unknown	Europe	mosquito	2	Culex
+KJ501212	KJ501212	2012-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+MN481592	MN481592	2012-08-02	Greece	Greece/unknown	Europe	mosquito	2	Culicidae
 MN481593	MN481593	2012-08-22	Greece	Greece/unknown	Europe	mosquito	2	Culicidae
-AY532665	AY532665	1937-06-01	Uganda	Uganda/unknown	Africa	human	2	Homo
+AY268133	AY268133	1997-06-01	Tunisia	Tunisia/unknown	Africa	human	1a	Homo
 KJ501257	KJ501257	2002-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MN619803	MN619803	2018-06-01	Russia	Russia/unknown	Asia	mosquito	2	Culex
+MH508029	MH508029	2012-07-18	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547573	KX547573	2003-08-04	USA	USA/unknown	North America	mosquito	1a	Culex
-LR743422	LR743422	2019-08-26	Germany	Germany/unknown	Europe	bird	2	Accipiter
-KM203860	KM203860	2013-08-08	Czech Republic	Czech Republic/unknown	Europe	mosquito	2	Culex
-MH819450	MH819450	2016-08-16	Canada	Canada/unknown	North America	mosquito	1a	Culex
-FJ159130	FJ159130	2005-06-01	Russia	Russia/unknown	Asia	mosquito	4	Uranotaenia
-MT968005	MT968005	2016-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
-KJ934710	KJ934710	2013-08-27	Romania	Romania/unknown	Europe	tick	2	Hyalomma
-LR743447	LR743447	2019-09-24	Germany	Germany/unknown	Europe	mosquito	2	Culex
-MH507632	MH507632	2008-06-25	USA	USA/unknown	North America	bird	1a	Accipiter
+KJ501183	KJ501183	2005-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+KJ577739	KJ577739	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
+MZ964753	MZ964753	2021-08-01	Germany	Germany/unknown	Europe	human	2	Homo
+KF179640	KF179640	2008-06-01	Austria	Austria/unknown	Europe	bird	2	Accipiter
+MN954648	MN954648	2016-06-01	Australia	Australia/unknown	Oceania	reptile	kunjin	Crocodylus
+KM052152	KM052152	1977-06-01	South Africa	South Africa/unknown	Africa	ungulate	2	Equus
+JQ928174	JQ928174	2011-09-01	Italy	Italy/unknown	Europe	human	1a	Homo
+MN652879	MN652879	2018-07-01	Greece	Greece/unknown	Europe	mosquito	2	Culex
 KX547472	KX547472	2006-08-31	USA	USA/unknown	North America	bird	1a	Cyanocitta
-MH507765	MH507765	2009-07-28	USA	USA/unknown	North America	mosquito	1a	Culex
-KJ501181	KJ501181	2010-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-DQ080064	DQ080064	2003-08-01	Mexico	Mexico/unknown	North America	bird	1a	Fulica
+MH507649	MH507649	2009-09-15	USA	USA/unknown	North America	bird	1a	Corvus
+KY229068	KY229068	2012-08-01	USA	USA/unknown	North America	mosquito	1a	Culex
+KT934803	KT934803	2011-06-01	Australia	Australia/unknown	Oceania	ungulate	kunjin	Equus
 KJ501322	KJ501322	2002-06-01	USA	USA/unknown	North America	bird	1a	Pelecanus
 MN652878	MN652878	2018-07-01	Greece	Greece/unknown	Europe	mosquito	2	Culex
-MN939560	MN939560	2016-06-01	Italy	Italy/unknown	Europe	human	2	Homo
+MH819467	MH819467	2013-08-19	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KR348977	KR348977	2011-08-15	USA	USA/unknown	North America	mosquito	1a	Culex
-MN812760	MN812760	2018-06-01	Russia	Russia/unknown	Asia	human	2	Homo
-MH508020	MH508020	2011-07-13	USA	USA/unknown	North America	mosquito	1a	Culex
-KJ501183	KJ501183	2005-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-JX015520	JX015520	2009-08-11	Mexico	Mexico/unknown	North America	mosquito	1a	Culex
-KF823807	KF823807	2013-09-01	Italy	Italy/unknown	Europe	human	1a	Homo
+MN939560	MN939560	2016-06-01	Italy	Italy/unknown	Europe	human	2	Homo
+MH507890	MH507890	2017-07-07	USA	USA/unknown	North America	bird	1a	Corvus
+MH507840	MH507840	2007-06-14	USA	USA/unknown	North America	bird	1a	Aphelocoma
+JQ928175	JQ928175	2011-09-01	Italy	Italy/unknown	Europe	human	1a	Homo
+MF984352	MF984352	2016-06-01	Austria	Austria/unknown	Europe	mosquito	2	Culex
 LC318700	LC318700	2016-05-16	Zambia	Zambia/unknown	Africa	mosquito	2	Culex
 MH819462	MH819462	2015-09-09	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KJ501489	KJ501489	2002-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MW036634	MW036634	2020-08-01	Netherlands	Netherlands/unknown	Europe	mosquito	2	Culex
-KX547304	KX547304	2004-09-02	USA	USA/unknown	North America	bird	1a	Corvus
-MH507649	MH507649	2009-09-15	USA	USA/unknown	North America	bird	1a	Corvus
-HM756662	HM756662	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MN939564	MN939564	2016-06-01	Italy	Italy/unknown	Europe	human	2	Homo
-MT863561	MT863561	2018-10-06	France	France/unknown	Europe	bird	2	Accipiter
 MH819468	MH819468	2004-08-08	Canada	Canada/unknown	North America	mosquito	1a	Culex
-KJ501197	KJ501197	2011-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KT934797	KT934797	1991-06-01	Australia	Australia/unknown	Oceania	human	kunjin	Homo
-MH507817	MH507817	2016-07-07	USA	USA/unknown	North America	mosquito	1a	Culex
+KJ501483	KJ501483	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
+EF429197	EF429197	1989-06-01	South Africa	South Africa/unknown	Africa	human	2	Homo
+HM756662	HM756662	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
+KP789960	KP789960	2013-06-01	Italy	Italy/unknown	Europe	human	2	Homo
+MT863561	MT863561	2018-10-06	France	France/unknown	Europe	bird	2	Accipiter
 MH507650	MH507650	2009-09-30	USA	USA/unknown	North America	bird	1a	Corvus
+MH507869	MH507869	2010-07-22	USA	USA/unknown	North America	bird	1a	Passer
+KT757323	KT757323	2013-06-01	Serbia	Serbia/unknown	Europe	mosquito	2	Culex
+MN481591	MN481591	2018-08-23	Greece	Greece/unknown	Europe	dog	2	Canis
+KY782109	KY782109	2005-08-03	USA	USA/unknown	North America	bird	1a	Turdus
 HM488183	HM488183	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
-MF984342	MF984342	2015-06-01	Austria	Austria/unknown	Europe	human	2	Homo
+MH021189	MH021189	2017-10-01	Belgium	Belgium/unknown	Europe	human	2	Homo
 DQ164186	DQ164186	2002-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MN652879	MN652879	2018-07-01	Greece	Greece/unknown	Europe	mosquito	2	Culex
+HM152775	HM152775	2000-06-01	Israel	Israel/unknown	Asia	human	1a	Homo
 MH166914	MH166914	2009-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
-DQ080066	DQ080066	2003-08-01	Mexico	Mexico/unknown	North America	bird	1a	Phalacrocoracidae
-MH819454	MH819454	2006-08-29	Canada	Canada/unknown	North America	mosquito	1a	Culex
+DQ080064	DQ080064	2003-08-01	Mexico	Mexico/unknown	North America	bird	1a	Fulica
+MH819450	MH819450	2016-08-16	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KX547374	KX547374	2002-08-23	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547334	KX547334	2012-06-18	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501419	KJ501419	2004-06-01	USA	USA/unknown	North America	bird	1a	Pelecanus
-KF647250	KF647250	2013-08-01	Italy	Italy/unknown	Europe	human	2	Homo
+MG004536	MG004536	2016-08-25	USA	USA/unknown	North America	mosquito	1a	Culex
 KJ501401	KJ501401	2001-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-MN954648	MN954648	2016-06-01	Australia	Australia/unknown	Oceania	reptile	kunjin	Crocodylus
+MN238670	MN238670	2018-06-01	Iran	Iran/unknown	Asia	mosquito	2	Culex
 KJ786935	KJ786935	2012-08-22	USA	USA/unknown	North America	bird	1a	Mimus
-MH507869	MH507869	2010-07-22	USA	USA/unknown	North America	bird	1a	Passer
-AF260968	AF260968	1951-06-01	Egypt	Egypt/unknown	Africa	unknown	1a	unknown
+MH549209	MH549209	2017-07-01	Greece	Greece/unknown	Europe	bird	2	Pica
+KX394398	KX394398	1960-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
 LR743449	LR743449	2019-09-04	Germany	Germany/unknown	Europe	bird	2	Accipiter
-JF920753	JF920753	2008-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+MH507942	MH507942	2007-08-15	USA	USA/unknown	North America	mosquito	1a	Culex
 AF404755	AF404755	2000-08-01	USA	USA/unknown	North America	bird	1a	Bonasa
-KF647252	KF647252	2013-08-01	Italy	Italy/unknown	Europe	human	2	Homo
+DQ377179	DQ377179	2002-06-01	Russia	Russia/unknown	Asia	bird	1a	Corvus
 KX547491	KX547491	2007-09-04	USA	USA/unknown	North America	bird	1a	Corvus
-MW142227	MW142227	2020-08-01	Germany	Germany/unknown	Europe	human	2	Homo
+KX547549	KX547549	2003-10-02	USA	USA/unknown	North America	bird	1a	Corvus
 KR348968	KR348968	2008-07-22	USA	USA/unknown	North America	mosquito	1a	Culex
 KC711059	KC711059	2012-10-09	USA	USA/unknown	North America	mosquito	1a	Culex
 MH819453	MH819453	2016-08-09	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KX547404	KX547404	2008-08-18	USA	USA/unknown	North America	bird	1a	Corvus
 KX547275	KX547275	2004-09-03	USA	USA/unknown	North America	bird	1a	Cyanocitta
 MH819449	MH819449	2014-09-22	Canada	Canada/unknown	North America	mosquito	1a	Culex
-AY278442	AY278442	2000-06-01	Russia	Russia/unknown	Asia	human	1a	Homo
+MH508030	MH508030	2012-07-19	USA	USA/unknown	North America	mosquito	1a	Culex
 KR348955	KR348955	2007-05-12	USA	USA/unknown	North America	mosquito	1a	Culex
 MH166887	MH166887	2002-06-01	USA	USA/unknown	North America	mosquito	1a	Culicidae
 KX547443	KX547443	2012-08-17	USA	USA/unknown	North America	mosquito	1a	Aedes
@@ -743,94 +740,94 @@ MF984338	MF984338	2015-06-01	Austria	Austria/unknown	Europe	human	2	Homo
 DQ431696	DQ431696	2003-06-01	USA	USA/unknown	North America	human	1a	Homo
 JF415927	JF415927	2009-06-01	USA	USA/unknown	North America	mosquito	1a	Aedes
 KX394407	KX394407	1963-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Anopheles
-JN887352	JN887352	2011-06-01	Australia	Australia/unknown	Oceania	ungulate	kunjin	Equus
-MH819466	MH819466	2016-08-16	Canada	Canada/unknown	North America	mosquito	1a	Culex
-GQ851603	GQ851603	1991-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+JN858069	JN858069	2011-09-01	Italy	Italy/unknown	Europe	human	1a	Homo
+KF588365	KF588365	2013-08-01	Italy	Italy/unknown	Europe	human	2	Homo
+GQ379161	GQ379161	2006-02-01	Argentina	Argentina/unknown	South America	ungulate	1a	Equus
 KR348963	KR348963	2011-02-09	USA	USA/unknown	North America	mosquito	1a	Culex
-MH507854	MH507854	2008-03-13	USA	USA/unknown	North America	bird	1a	Zenaida
+MN812759	MN812759	2018-06-01	Russia	Russia/unknown	Asia	human	2	Homo
 KX547440	KX547440	2008-08-19	USA	USA/unknown	North America	bird	1a	Corvus
-KP789957	KP789957	2014-06-01	Italy	Italy/unknown	Europe	human	2	Homo
-JN393308	JN393308	2008-04-15	South Africa	South Africa/unknown	Africa	ungulate	2	Equus
-KY229068	KY229068	2012-08-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KT207792	KT207792	2014-08-18	Italy	Italy/unknown	Europe	mosquito	2	Culicidae
+MH507930	MH507930	2006-08-04	USA	USA/unknown	North America	mosquito	1a	Culex
+JN051152	JN051152	2003-05-01	Mexico	Mexico/unknown	North America	bird	1a	Corvus
+KJ501524	KJ501524	2006-06-01	USA	USA/unknown	North America	bird	1a	Actitis
+KJ883343	KJ883343	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
 HM488197	HM488197	2005-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 GU828001	GU828001	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-JX041629	JX041629	1967-06-01	Azerbaijan	Azerbaijan/unknown	Europe	bird	1a	unknown
+JX015520	JX015520	2009-08-11	Mexico	Mexico/unknown	North America	mosquito	1a	Culex
 KX547351	KX547351	2004-08-04	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547596	KX547596	2005-08-11	USA	USA/unknown	North America	bird	1a	Quiscalus
 KJ501357	KJ501357	2003-06-01	USA	USA/unknown	North America	bird	1a	Asio
 KX394403	KX394403	1963-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Anopheles
-AY765264	AY765264	1997-06-01	Czech Republic	Czech Republic/unknown	Europe	mosquito	rabensburg	Culex
-EF429197	EF429197	1989-06-01	South Africa	South Africa/unknown	Africa	human	2	Homo
+AY701412	AY701412	1996-06-01	Morocco	Morocco/unknown	Africa	ungulate	1a	Equus
+MH819460	MH819460	2013-08-19	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KY594040	KY594040	2010-06-01	Greece	Greece/unknown	Europe	human	2	Homo
 KR348969	KR348969	2011-06-24	USA	USA/unknown	North America	mosquito	1a	Culex
 HM488174	HM488174	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547578	KX547578	2005-10-18	USA	USA/unknown	North America	bird	1a	Cyanocitta
 MW383507	MW383507	2020-06-01	Namibia	Namibia/unknown	Africa	mosquito	2	Culex
-MH507945	MH507945	2009-06-17	USA	USA/unknown	North America	mosquito	1a	Culex
-KJ831223	KJ831223	2013-08-01	Austria	Austria/unknown	Europe	mosquito	4	Uranotaenia
-KM203862	KM203862	2013-08-08	Czech Republic	Czech Republic/unknown	Europe	mosquito	2	Culex
-KY782105	KY782105	2012-07-18	USA	USA/unknown	North America	bird	1a	Turdus
-AY262283	AY262283	1998-06-01	Kenya	Kenya/unknown	Africa	mosquito	1a	Culex
-MH507772	MH507772	2012-09-04	USA	USA/unknown	North America	mosquito	1a	Culex
+MH507700	MH507700	2016-01-27	USA	USA/unknown	North America	bird	1a	Corvus
+JF920753	JF920753	2008-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
+MH507753	MH507753	2017-08-28	USA	USA/unknown	North America	bird	1a	Corvus
+KJ501252	KJ501252	2008-06-01	USA	USA/unknown	North America	bird	1a	Passer
+MN481594	MN481594	2012-09-05	Greece	Greece/unknown	Europe	mosquito	2	Culicidae
+MH507691	MH507691	2017-10-05	USA	USA/unknown	North America	mosquito	1a	Culicidae
 HM756657	HM756657	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KC496015	KC496015	2010-06-01	Hungary	Hungary/unknown	Europe	ungulate	2	Equus
-HQ537483	HQ537483	2010-06-01	Greece	Greece/unknown	Europe	mosquito	2	Culex
+KY782122	KY782122	2010-09-03	USA	USA/unknown	North America	mosquito	1a	Culex
+HM152773	HM152773	2000-06-01	Israel	Israel/unknown	Asia	human	1a	Homo
 HQ671699	HQ671699	2002-06-01	USA	USA/unknown	North America	mosquito	1a	Ochlerotatus
-JN051153	JN051153	2003-05-01	Mexico	Mexico/unknown	North America	bird	1a	Corvus
-KX258460	KX258460	2015-07-14	USA	USA/unknown	North America	mosquito	slev	Culex
+KX394405	KX394405	1963-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+MH819459	MH819459	2014-09-04	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KJ501384	KJ501384	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
 JN367277	JN367277	2004-06-01	USA	USA/unknown	North America	bird	1a	Corvus
 KX547174	KX547174	2013-07-16	USA	USA/unknown	North America	mosquito	1a	Culex
 MF175835	MF175835	2014-08-10	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547481	KX547481	2005-09-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
-MH507616	MH507616	2015-10-02	USA	USA/unknown	North America	bird	1a	Corvus
+LR743455	LR743455	2019-09-17	Germany	Germany/unknown	Europe	mosquito	2	Culex
 KX547479	KX547479	2005-09-07	USA	USA/unknown	North America	mosquito	1a	Aedes
 KJ145827	KJ145827	2010-06-01	USA	USA/unknown	North America	bird	1a	Corvus
-JX123031	JX123031	2011-03-15	Australia	Australia/unknown	Oceania	ungulate	kunjin	Equus
+JX041634	JX041634	1999-06-01	Russia	Russia/unknown	Asia	human	1a	Homo
 KX547493	KX547493	2004-09-19	USA	USA/unknown	North America	bird	1a	Corvus
 KJ501295	KJ501295	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
 KX547582	KX547582	2010-07-02	USA	USA/unknown	North America	mosquito	1a	Culex
-MH819455	MH819455	2006-08-30	Canada	Canada/unknown	North America	mosquito	1a	Culex
-MF797870	MF797870	2016-07-01	Cyprus	Cyprus/unknown	Europe	human	1a	Homo
-KF179639	KF179639	2012-09-01	Greece	Greece/unknown	Europe	human	2	Homo
+LR743422	LR743422	2019-08-26	Germany	Germany/unknown	Europe	bird	2	Accipiter
+KJ145821	KJ145821	2006-06-01	USA	USA/unknown	North America	bird	1a	Corvus
+KT757319	KT757319	2013-06-01	Serbia	Serbia/unknown	Europe	mosquito	2	Culex
 JN183885	JN183885	2008-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
-MH507834	MH507834	2006-08-14	USA	USA/unknown	North America	bird	1a	Passer
-KX394404	KX394404	1963-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+KF179639	KF179639	2012-09-01	Greece	Greece/unknown	Europe	human	2	Homo
+LR743423	LR743423	2019-08-31	Germany	Germany/unknown	Europe	bird	2	Accipiter
 KJ501391	KJ501391	2003-06-01	USA	USA/unknown	North America	bird	1a	Pelecanus
-MN939563	MN939563	2018-06-01	Italy	Italy/unknown	Europe	human	2	Homo
-KJ501174	KJ501174	2008-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-MH507700	MH507700	2016-01-27	USA	USA/unknown	North America	bird	1a	Corvus
+KF823806	KF823806	2013-10-01	Italy	Italy/unknown	Europe	human	2	Homo
+MH507662	MH507662	2014-10-03	USA	USA/unknown	North America	bird	1a	Corvus
+JN393308	JN393308	2008-04-15	South Africa	South Africa/unknown	Africa	ungulate	2	Equus
 HQ671742	HQ671742	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
 KX547222	KX547222	2012-07-06	USA	USA/unknown	North America	mosquito	1a	Aedes
 KX547283	KX547283	2012-08-30	USA	USA/unknown	North America	mosquito	1a	Aedes
-KC333376	KC333376	2012-06-14	USA	USA/unknown	North America	bird	1a	Cyanocitta
-MT905060	MT905060	2019-06-13	Brazil	Brazil/unknown	South America	ungulate	1a	Equus
+AY532665	AY532665	1937-06-01	Uganda	Uganda/unknown	Africa	human	2	Homo
+MF984348	MF984348	2016-06-01	Austria	Austria/unknown	Europe	human	2	Homo
 MH170243	MH170243	2006-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-MF984347	MF984347	2016-06-01	Austria	Austria/unknown	Europe	human	2	Homo
+KY782115	KY782115	2010-08-04	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547331	KX547331	2002-09-26	USA	USA/unknown	North America	bird	1a	Cyanocitta
-HM152773	HM152773	2000-06-01	Israel	Israel/unknown	Asia	human	1a	Homo
-LR743455	LR743455	2019-09-17	Germany	Germany/unknown	Europe	mosquito	2	Culex
-MH507713	MH507713	2008-08-21	USA	USA/unknown	North America	bird	1a	Aphelocoma
-MN481594	MN481594	2012-09-05	Greece	Greece/unknown	Europe	mosquito	2	Culicidae
-MH819458	MH819458	2005-08-25	Canada	Canada/unknown	North America	mosquito	1a	Culex
+MH507723	MH507723	2011-08-22	USA	USA/unknown	North America	bird	1a	Pheucticus
+MH507908	MH507908	2005-07-01	USA	USA/unknown	North America	mosquito	1a	Culex
+HQ537483	HQ537483	2010-06-01	Greece	Greece/unknown	Europe	mosquito	2	Culex
+MH507734	MH507734	2013-08-02	USA	USA/unknown	North America	bird	1a	Turdus
+AY765264	AY765264	1997-06-01	Czech Republic	Czech Republic/unknown	Europe	mosquito	rabensburg	Culex
 MH819471	MH819471	2004-09-07	Canada	Canada/unknown	North America	mosquito	1a	Culex
 KJ501147	KJ501147	2008-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-MG004536	MG004536	2016-08-25	USA	USA/unknown	North America	mosquito	1a	Culex
+KM203860	KM203860	2013-08-08	Czech Republic	Czech Republic/unknown	Europe	mosquito	2	Culex
 MN619801	MN619801	2018-06-01	Russia	Russia/unknown	Asia	mosquito	2	Culex
-KJ883342	KJ883342	2013-06-01	Greece	Greece/unknown	Europe	human	2	Homo
+KJ831223	KJ831223	2013-08-01	Austria	Austria/unknown	Europe	mosquito	4	Uranotaenia
 KR348978	KR348978	2008-06-27	USA	USA/unknown	North America	mosquito	1a	Culex
-KX375812	KX375812	2013-06-01	Serbia	Serbia/unknown	Europe	human	2	Homo
+KF647252	KF647252	2013-08-01	Italy	Italy/unknown	Europe	human	2	Homo
 JF703163	JF703163	2005-11-08	USA	USA/unknown	North America	mosquito	1a	Culex
-MH819465	MH819465	2015-09-09	Canada	Canada/unknown	North America	mosquito	1a	Culex
-GQ379160	GQ379160	2006-02-01	Argentina	Argentina/unknown	South America	ungulate	1a	Equus
+MN939563	MN939563	2018-06-01	Italy	Italy/unknown	Europe	human	2	Homo
+KY523178	KY523178	2009-06-01	Uganda	Uganda/unknown	Africa	mosquito	2	Culex
 HM488139	HM488139	2003-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KT934804	KT934804	2012-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
-KT757320	KT757320	2013-06-01	Serbia	Serbia/unknown	Europe	mosquito	2	Culex
-MH507908	MH507908	2005-07-01	USA	USA/unknown	North America	mosquito	1a	Culex
+MN238669	MN238669	2017-06-01	Iran	Iran/unknown	Asia	mosquito	2	Culex
+KY703856	KY703856	1992-06-01	Senegal	Senegal/unknown	Africa	mosquito	8	Culex
+LR743434	LR743434	2018-09-03	Germany	Germany/unknown	Europe	bird	2	Strix
 KR348941	KR348941	2011-08-30	USA	USA/unknown	North America	mosquito	1a	Culex
 KX547528	KX547528	2007-08-24	USA	USA/unknown	North America	bird	1a	Cyanocitta
-KJ501483	KJ501483	2002-06-01	USA	USA/unknown	North America	bird	1a	Cyanocitta
-LR743445	LR743445	2019-09-03	Germany	Germany/unknown	Europe	bird	2	Strix
+KX394383	KX394383	1972-06-01	Australia	Australia/unknown	Oceania	mosquito	kunjin	Culex
+KJ501325	KJ501325	2002-06-01	USA	USA/unknown	North America	unknown	1a	unknown
 KJ501207	KJ501207	2012-06-01	USA	USA/unknown	North America	mosquito	1a	Culex
-KU573080	KU573080	2013-06-01	Italy	Italy/unknown	Europe	mosquito	2	Culex
+KY229067	KY229067	2012-07-31	USA	USA/unknown	North America	mosquito	1a	Culex

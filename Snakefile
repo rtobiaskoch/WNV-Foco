@@ -2,6 +2,12 @@ rule all:
     input:
         auspice_json = "auspice/WNV-Global.json",
 
+rule options:
+	params:
+		threads = 4
+
+options = rules.options.params
+
 input_fasta = "data/sequences.fasta",
 input_metadata = "data/metadata.tsv",
 dropped_strains = "config/dropped_strains.txt",
@@ -73,6 +79,49 @@ rule tree:
             --output {output.tree}
         """
 
+### Inferring bootstrap tree using IQTree
+
+rule iqtree:
+	message: "Building bootstrap tree"
+	input:
+		alignment = rules.align.output.alignment
+	params:
+		threads = options.threads
+	output:
+		tree = "results/masked.tree"
+	shell:
+		"""
+		iqtree \
+			-s {input.alignment} \
+			-bb 5 \
+			-nt {params.threads} \
+			-m GTR
+		mv results/masked.fasta.treefile {output.tree}
+		"""
+
+
+## Renaming taxa in bootstrap tree
+
+rule rename:
+	message: "Renaming taxa in bootstrap tree"
+	input:
+		tree = rules.iqtree.output.tree,
+		names = "config/rename.tsv"
+	output:
+		new_tree = "results/tree_ren.tree"
+	params:
+		format = "tree",
+		action = "rename"
+	shell:
+		"""
+		python3 scripts/seqtree_handler.py \
+			--input {input.tree} \
+			--format {params.format} \
+			--action {params.action} \
+			--list {input.names} \
+			--output {output.new_tree}
+		"""
+
 rule refine:
     message:
         """
@@ -105,8 +154,7 @@ rule refine:
             --coalescent {params.coalescent} \
             --date-confidence \
             --date-inference {params.date_inference} \
-            --clock-filter-iqd {params.clock_filter_iqd} \
-	   --root KX258461
+            --clock-filter-iqd {params.clock_filter_iqd}
         """
 
 rule ancestral:
