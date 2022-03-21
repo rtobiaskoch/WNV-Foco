@@ -1,0 +1,13 @@
+region	Europe	#2E1F7A
+region	North America	#7A1F1F
+region	South America	#7A7A1F
+region	Africa	#80D270
+region	Asia	#D270C2
+region	Oceania	#637EBC
+		
+country	Italy	#7db5a9
+country	Greece	#d46259
+country	Mexico	#d4c680
+		
+lineage	2	#ff933b
+lineage	4	#5dafcf

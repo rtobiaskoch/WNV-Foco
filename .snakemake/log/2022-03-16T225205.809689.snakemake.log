@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count    min threads    max threads
+-------  -------  -------------  -------------
+options        1              1              1
+total          1              1              1
+
+Select jobs to execute...
+
+[Wed Mar 16 22:52:05 2022]
+localrule options:
+    jobid: 0
+    resources: tmpdir=/var/folders/ll/m20yk3l572l90z0g991n_jt80000gn/T
+
+[Wed Mar 16 22:52:05 2022]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/.snakemake/log/2022-03-16T225205.809689.snakemake.log

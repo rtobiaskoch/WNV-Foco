@@ -15,6 +15,7 @@ reference = "config/reference.gb",
 colors = "config/colors.tsv",
 lat_longs = "config/lat_longs.tsv",
 auspice_config = "config/auspice_config.json"
+input_clades = "config/clades.tsv"
 
 rule filter:
     message:
@@ -32,7 +33,7 @@ rule filter:
         sequences = "results/filtered.fasta"
     params:
         group_by = "country year month",
-        sequences_per_group = 20,
+        sequences_per_group = 1000,
         min_date = 1900
     shell:
         """
@@ -66,18 +67,18 @@ rule align:
             --fill-gaps
         """
 
-rule tree:
-    message: "Building tree"
-    input:
-        alignment = rules.align.output.alignment
-    output:
-        tree = "results/tree_raw.nwk"
-    shell:
-        """
-        augur tree \
-            --alignment {input.alignment} \
-            --output {output.tree}
-        """
+## rule tree:
+##    message: "Building tree"
+##    input:
+##        alignment = rules.align.output.alignment
+##    output:
+##        tree = "results/tree_raw.nwk"
+##    shell:
+##        """
+##        augur tree \
+##            --alignment {input.alignment} \
+##            --output {output.tree}
+##        """
 
 ### Inferring bootstrap tree using IQTree
 
@@ -93,7 +94,7 @@ rule iqtree:
 		"""
 		iqtree \
 			-s {input.alignment} \
-			-bb 5 \
+			-bb 1000 \
 			-nt {params.threads} \
 			-m GTR
 		mv results/masked.fasta.treefile {output.tree}
@@ -129,7 +130,7 @@ rule refine:
           - estimate timetree
           - use {params.coalescent} coalescent timescale
           - estimate {params.date_inference} node dates
-          - filter tips more than {params.clock_filter_iqd} IQDs from clock expectation
+        - filter tips more than {params.clock_filter_iqd} IQDs from clock expectation
         """
     input:
         tree = rules.tree.output.tree,
@@ -141,7 +142,7 @@ rule refine:
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 4
+        clock_filter_iqd = 1000
     shell:
         """
         augur refine \
@@ -154,7 +155,8 @@ rule refine:
             --coalescent {params.coalescent} \
             --date-confidence \
             --date-inference {params.date_inference} \
-            --clock-filter-iqd {params.clock_filter_iqd}
+            --clock-filter-iqd {params.clock_filter_iqd} \
+            --root MN057643_Niger_2016_NA
         """
 
 rule ancestral:
@@ -191,6 +193,22 @@ rule translate:
             --reference-sequence {input.reference} \
             --output-node-data {output.node_data} \
         """
+rule clades:
+    message: " Labeling clades as specified in config/clades.tsv"
+    input:
+        tree = rules.prune_outgroup.output.tree,
+        aa_muts = rules.translate.output.node_data,
+        nuc_muts = rules.ancestral.output.node_data,
+        clades = input_clades
+    output:
+        clade_data = "results/clades.json"
+    shell:
+        """
+        augur clades --tree {input.tree} \
+            --mutations {input.nuc_muts} {input.aa_muts} \
+            --clades {input.clades} \
+            --output {output.clade_data}
+        """
 
 rule traits:
     message: "Inferring ancestral traits for {params.columns!s}"
@@ -200,7 +218,7 @@ rule traits:
     output:
         node_data = "results/traits.json",
     params:
-        columns = "country state"
+        columns = "country state region"
     shell:
         """
         augur traits \
@@ -214,6 +232,7 @@ rule traits:
 rule export:
     message: "Exporting data files for for auspice"
     input:
+        clades = rules.clades.output.clade_data,
         tree = rules.refine.output.tree,
         metadata = input_metadata,
         branch_lengths = rules.refine.output.node_data,
@@ -230,7 +249,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
+            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.clades} {input.aa_muts} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \

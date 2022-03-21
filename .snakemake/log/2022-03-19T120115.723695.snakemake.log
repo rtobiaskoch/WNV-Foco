@@ -1,0 +1,60 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+ancestral        1              1              1
+export           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+total            5              1              1
+
+Select jobs to execute...
+
+[Sat Mar 19 12:01:15 2022]
+Job 1: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 8 IQDs from clock expectation
+        
+
+[Sat Mar 19 12:14:29 2022]
+Finished job 1.
+1 of 5 steps (20%) done
+Select jobs to execute...
+
+[Sat Mar 19 12:14:30 2022]
+Job 6: Reconstructing ancestral sequences and mutations
+
+
+[Sat Mar 19 12:14:30 2022]
+Job 5: Inferring ancestral traits for country state region
+
+[Sat Mar 19 12:15:21 2022]
+Finished job 6.
+2 of 5 steps (40%) done
+Select jobs to execute...
+
+[Sat Mar 19 12:15:21 2022]
+Job 7: Translating amino acid sequences
+
+[Sat Mar 19 12:15:27 2022]
+Finished job 7.
+3 of 5 steps (60%) done
+[Sat Mar 19 12:15:28 2022]
+Finished job 5.
+4 of 5 steps (80%) done
+Select jobs to execute...
+
+[Sat Mar 19 12:15:28 2022]
+Job 0: Exporting data files for for auspice
+
+[Sat Mar 19 12:15:32 2022]
+Finished job 0.
+5 of 5 steps (100%) done
+Complete log: /Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/.snakemake/log/2022-03-19T120115.723695.snakemake.log

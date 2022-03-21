@@ -1,0 +1,17 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+ancestral        1              1              1
+export           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+total            5              1              1
+
+Select jobs to execute...
+RuleException in line 125 of /Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/Snakefile:
+'Params' object has no attribute 'clock_filter_iqd'

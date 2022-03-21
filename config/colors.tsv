@@ -1,0 +1,15 @@
+region	Europe	#ff933b
+region	North America	#4671eb
+region	South America	#f83628
+region	Africa	#54a0db
+region	Asia	#bcd661
+region	Oceania	#84ce92
+		
+lineage	1a	#4671eb
+lineage	2	#ff933b
+lineage	4	#f0c847
+lineage	5	#bcd661
+lineage	7	#54a0db
+lineage	8	#8f6ac0
+lineage	kunjin	#84ce92
+lineage	rabensburg	#f83628

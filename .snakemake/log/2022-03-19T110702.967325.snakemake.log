@@ -1,0 +1,38 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+ancestral        1              1              1
+export           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+total            5              1              1
+
+Select jobs to execute...
+
+[Sat Mar 19 11:07:03 2022]
+Job 1: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 8 IQDs from clock expectation
+        
+
+[Sat Mar 19 11:07:14 2022]
+Error in rule refine:
+    jobid: 1
+    output: results/tree.nwk, results/branch_lengths.json
+    shell:
+        
+        augur refine             --tree results/tree_raw.nwk             --alignment results/aligned.fasta             --metadata data/metadata.tsv             --output-tree results/tree.nwk             --output-node-data results/branch_lengths.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 8             --root MN057643
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/.snakemake/log/2022-03-19T110702.967325.snakemake.log

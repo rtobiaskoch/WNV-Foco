@@ -1,0 +1,13 @@
+`        augur refine \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --output-tree {output.tree} \
+            --output-node-data {output.node_data} \
+            --timetree \
+            --coalescent {params.coalescent} \
+            --date-confidence \
+            --date-inference {params.date_inference} \
+            --clock-filter-iqd {params.clock_filter_iqd} \
+	   --root KX258461
+        """
