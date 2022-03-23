@@ -67,17 +67,47 @@ rule align:
             --fill-gaps
         """
 
-rule tree:
-    message: "Building tree"
+### Inferring bootstrap tree using IQTree
+
+rule iqtree:
+    message: "Building bootstrap tree"
     input:
         alignment = rules.align.output.alignment
+    params:
+        threads = options.threads
     output:
-        tree = "results/tree_raw.nwk"
+        tree = "results/masked.tree"
     shell:
         """
-       augur tree \
-           --alignment {input.alignment} \
-            --output {output.tree}
+        iqtree \
+            -s {input.alignment} \
+            -B 1000 \
+            -nt {params.threads} \
+            -m GTR
+        mv results/masked.fasta.treefile {output.tree}
+        """
+
+
+## Renaming taxa in bootstrap tree
+
+rule rename:
+    message: "Renaming taxa in bootstrap tree"
+    input:
+        tree = rules.iqtree.output.tree,
+        names = "config/rename.tsv"
+    output:
+        new_tree = "results/tree_ren.tree"
+    params:
+        format = "tree",
+        action = "rename"
+    shell:
+        """
+        python3 scripts/seqtree_handler.py \
+            --input {input.tree} \
+            --format {params.format} \
+            --action {params.action} \
+            --list {input.names} \
+            --output {output.new_tree}
         """
 
 rule refine:
@@ -90,7 +120,7 @@ rule refine:
           - filter tips more than {params.clock_filter_iqd} IQDs from clock expectation
         """
     input:
-        tree = rules.tree.output.tree,
+        tree = rules.rename.output.new_tree,
         alignment = rules.align.output,
         metadata = input_metadata
     output:

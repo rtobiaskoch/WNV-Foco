@@ -1,81 +1,0 @@
-inputfile = orig
-12 x 11029 - 10302 d
-nthread = 1
-nadd = 0
-inputfile = infile
-thresholdtorev = 0.000000
-reflim = 5000
-mode = a
-generating a scoring matrix for nucleotide (dist=200) ... done
-
-Step 1/2
-1   
-
-Step 2/2
- 1 / 12 (1 threads)   
-makedirectionlist (nuc) Version 7.490
-alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
-1 thread(s)
-
-directionfile = _direction
-inputfile = infile
-subalignment = 0
-subalignmentoffset = 0
-12 x 11029 - 10302 d
-directionfile = _direction
-inputfile = orig
-subalignment = 0
-subalignmentoffset = 0
-12 x 11029 - 10302 d
-nthread = 1
-nthreadpair = 1
-nthreadtb = 1
-ppenalty_ex = 0
-stacksize: 8176 kb
-generating a scoring matrix for nucleotide (dist=200) ... done
-Gap Penalty = -1.53, +0.00, +0.00
-
-
-
-Making a distance matrix ..
-
-There are 3 ambiguous characters.
-    1 / 12 (thread    0)
-done.
-
-Constructing a UPGMA tree (efffree=0) ... 
-    0 / 12   10 / 12
-done.
-
-Progressive alignment 1/2... 
-STEP     1 / 11 (thread    0) fSTEP     2 / 11 (thread    0) fSTEP     3 / 11 (thread    0) fSTEP     4 / 11 (thread    0) fSTEP     5 / 11 (thread    0) fSTEP     6 / 11 (thread    0) fSTEP     7 / 11 (thread    0) fSTEP     8 / 11 (thread    0) fSTEP     9 / 11 (thread    0) fSTEP    10 / 11 (thread    0) fSTEP    11 / 11 (thread    0) f
-done.
-
-Making a distance matrix from msa.. 
-    0 / 12 (thread    0)
-done.
-
-Constructing a UPGMA tree (efffree=1) ... 
-    0 / 12   10 / 12
-done.
-
-Progressive alignment 2/2... 
-STEP     1 / 11 (thread    0) fSTEP     2 / 11 (thread    0) fSTEP     3 / 11 (thread    0) fSTEP     4 / 11 (thread    0) fSTEP     5 / 11 (thread    0) fSTEP     6 / 11 (thread    0) fSTEP     7 / 11 (thread    0) fSTEP     8 / 11 (thread    0) fSTEP     9 / 11 (thread    0) fSTEP    10 / 11 (thread    0) fSTEP    11 / 11 (thread    0) f
-done.
-
-disttbfast (nuc) Version 7.490
-alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
-1 thread(s)
-
-
-Strategy:
- FFT-NS-2 (Fast but rough)
- Progressive method (guide trees were built 2 times.)
-
-If unsure which option to use, try 'mafft --auto input > output'.
-For more information, see 'mafft --help', 'mafft --man' and the mafft page.
-
-The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
-It tends to insert more gaps into gap-rich regions than previous versions.
-To disable this change, add the --leavegappyregion option.
-
