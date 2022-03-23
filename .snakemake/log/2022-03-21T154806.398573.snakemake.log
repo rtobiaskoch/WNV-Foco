@@ -1,0 +1,3 @@
+AttributeError in line 156 of /Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/Snakefile:
+'Rules' object has no attribute 'prune_outgroup'
+  File "/Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/Snakefile", line 156, in <module>

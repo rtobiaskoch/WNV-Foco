@@ -3,8 +3,8 @@ rule all:
         auspice_json = "auspice/WNV-Global.json",
 
 rule options:
-	params:
-		threads = 4
+    params:
+        threads = 4
 
 options = rules.options.params
 
@@ -67,61 +67,18 @@ rule align:
             --fill-gaps
         """
 
-## rule tree:
-##    message: "Building tree"
-##    input:
-##        alignment = rules.align.output.alignment
-##    output:
-##        tree = "results/tree_raw.nwk"
-##    shell:
-##        """
-##        augur tree \
-##            --alignment {input.alignment} \
-##            --output {output.tree}
-##        """
-
-### Inferring bootstrap tree using IQTree
-
-rule iqtree:
-	message: "Building bootstrap tree"
-	input:
-		alignment = rules.align.output.alignment
-	params:
-		threads = options.threads
-	output:
-		tree = "results/masked.tree"
-	shell:
-		"""
-		iqtree \
-			-s {input.alignment} \
-			-bb 1000 \
-			-nt {params.threads} \
-			-m GTR
-		mv results/masked.fasta.treefile {output.tree}
-		"""
-
-
-## Renaming taxa in bootstrap tree
-
-rule rename:
-	message: "Renaming taxa in bootstrap tree"
-	input:
-		tree = rules.iqtree.output.tree,
-		names = "config/rename.tsv"
-	output:
-		new_tree = "results/tree_ren.tree"
-	params:
-		format = "tree",
-		action = "rename"
-	shell:
-		"""
-		python3 scripts/seqtree_handler.py \
-			--input {input.tree} \
-			--format {params.format} \
-			--action {params.action} \
-			--list {input.names} \
-			--output {output.new_tree}
-		"""
+rule tree:
+    message: "Building tree"
+    input:
+        alignment = rules.align.output.alignment
+    output:
+        tree = "results/tree_raw.nwk"
+    shell:
+        """
+       augur tree \
+           --alignment {input.alignment} \
+            --output {output.tree}
+        """
 
 rule refine:
     message:
@@ -130,7 +87,7 @@ rule refine:
           - estimate timetree
           - use {params.coalescent} coalescent timescale
           - estimate {params.date_inference} node dates
-        - filter tips more than {params.clock_filter_iqd} IQDs from clock expectation
+          - filter tips more than {params.clock_filter_iqd} IQDs from clock expectation
         """
     input:
         tree = rules.tree.output.tree,
@@ -142,7 +99,7 @@ rule refine:
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 1000
+        clock_filter_iqd = 10
     shell:
         """
         augur refine \
@@ -156,7 +113,7 @@ rule refine:
             --date-confidence \
             --date-inference {params.date_inference} \
             --clock-filter-iqd {params.clock_filter_iqd} \
-            --root MN057643_Niger_2016_NA
+            --root KY703856_Senegal_1992_8_mosquito
         """
 
 rule ancestral:
@@ -196,7 +153,7 @@ rule translate:
 rule clades:
     message: " Labeling clades as specified in config/clades.tsv"
     input:
-        tree = rules.prune_outgroup.output.tree,
+        tree = rules.refine.output.tree,
         aa_muts = rules.translate.output.node_data,
         nuc_muts = rules.ancestral.output.node_data,
         clades = input_clades
@@ -232,7 +189,6 @@ rule traits:
 rule export:
     message: "Exporting data files for for auspice"
     input:
-        clades = rules.clades.output.clade_data,
         tree = rules.refine.output.tree,
         metadata = input_metadata,
         branch_lengths = rules.refine.output.node_data,
@@ -241,6 +197,7 @@ rule export:
         aa_muts = rules.translate.output.node_data,
         colors = colors,
         lat_longs = lat_longs,
+        clades = rules.clades.output.clade_data,
         auspice_config = auspice_config
     output:
         auspice_json = rules.all.input.auspice_json,

@@ -1,0 +1,74 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+align            1              1              1
+ancestral        1              1              1
+clades           1              1              1
+export           1              1              1
+filter           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+tree             1              1              1
+total            9              1              1
+
+Select jobs to execute...
+
+[Mon Mar 21 15:51:57 2022]
+Job 4: 
+        Filtering to
+          - 1000 sequence(s) per country year month
+          - from 1900 onwards
+          - excluding strains in config/dropped_strains.txt
+        
+
+[Mon Mar 21 15:51:59 2022]
+Finished job 4.
+1 of 9 steps (11%) done
+Select jobs to execute...
+
+[Mon Mar 21 15:51:59 2022]
+Job 3: 
+        Aligning sequences to config/reference.gb
+          - filling gaps with N
+        
+
+[Mon Mar 21 15:55:39 2022]
+Finished job 3.
+2 of 9 steps (22%) done
+Select jobs to execute...
+
+[Mon Mar 21 15:55:39 2022]
+Job 2: Building tree
+
+[Mon Mar 21 15:57:00 2022]
+Finished job 2.
+3 of 9 steps (33%) done
+Select jobs to execute...
+
+[Mon Mar 21 15:57:00 2022]
+Job 1: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 10 IQDs from clock expectation
+        
+
+[Mon Mar 21 15:57:05 2022]
+Error in rule refine:
+    jobid: 1
+    output: results/tree.nwk, results/branch_lengths.json
+    shell:
+        
+        augur refine             --tree results/tree_raw.nwk             --alignment results/aligned.fasta             --metadata data/metadata.tsv             --output-tree results/tree.nwk             --output-node-data results/branch_lengths.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 10             --root KY703856_Senegal_1992_mosquito
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/.snakemake/log/2022-03-21T155157.071551.snakemake.log

@@ -1,0 +1,11 @@
+strain	accession	date	country	state	region	host	lineage	host_genus
+AF260969_Romania_1996_1a_mosquito	AF260969	1996-06-01	Romania	Romania/unknown	Europe	mosquito	1a	Culex
+AY701412_Morocco_1996_1a_ungulate	AY701412	1996-06-01	Morocco	Morocco/unknown	Africa	ungulate	1a	Equus
+DQ411031_Russia_2001_1a_bird	DQ411031	2001-06-01	Russia	Russia/unknown	Asia	bird	1a	Corvus
+EF429199_SouthAfrica_2000_2_human	EF429199	2000-06-01	South Africa	South Africa/unknown	Africa	human	2	Homo
+KX394402_Australia_1960_kunjin_NA	KX394402	1960-06-01	Australia	Australia/unknown	Oceania	unknown	kunjin	unknown
+LR743428_Germany_2019_2_bird	LR743428	2019-08-18	Germany	Germany/unknown	Europe	bird	2	Bubo
+LR743447_Germany_2019_2_mosquito	LR743447	2019-09-24	Germany	Germany/unknown	Europe	mosquito	2	Culex
+MF175829_USA_2013_1a_mosquito	MF175829	2013-08-06	USA	USA/unknown	North America	mosquito	1a	Culex
+MF175836_USA_2015_1a_mosquito	MF175836	2015-07-08	USA	USA/unknown	North America	mosquito	1a	Culex
+MN481595_Greece_2010_2_bird	MN481595	2010-09-30	Greece	Greece/unknown	Europe	bird	2	Columbidae

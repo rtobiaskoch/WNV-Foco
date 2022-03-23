@@ -1,0 +1,75 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "nodes": {
+    "KJ501281_USA_2002_1a_bird": {
+      "clade_membership": "1WN02"
+    },
+    "KJ501299_USA_2002_1a_bird": {
+      "clade_membership": "1NY99"
+    },
+    "KJ501378_USA_2001_1a_bird": {
+      "clade_membership": "1NY99"
+    },
+    "KJ501509_USA_2001_1a_bird": {
+      "clade_membership": "1WN02"
+    },
+    "KJ577738_Greece_2013_2_human": {
+      "clade_membership": "2SEE"
+    },
+    "KT359349_Hungary_2014_2_human": {
+      "clade_annotation": "2EE",
+      "clade_membership": "2EE"
+    },
+    "KX547556_USA_2012_1a_mosquito": {
+      "clade_membership": "1WN02"
+    },
+    "KX547597_USA_2004_1a_bird": {
+      "clade_membership": "1WN02"
+    },
+    "KY703856_Senegal_1992_8_mosquito": {
+      "clade_membership": "unassigned"
+    },
+    "LR743445_Germany_2019_2_bird": {
+      "clade_membership": "unassigned"
+    },
+    "MN480794_Greece_2018_2_mosquito": {
+      "clade_membership": "2SEE"
+    },
+    "NODE_0000000": {
+      "clade_membership": "unassigned"
+    },
+    "NODE_0000001": {
+      "clade_annotation": "1NY99",
+      "clade_membership": "1NY99"
+    },
+    "NODE_0000002": {
+      "clade_membership": "1WN02"
+    },
+    "NODE_0000005": {
+      "clade_annotation": "1WN02",
+      "clade_membership": "1WN02"
+    },
+    "NODE_0000006": {
+      "clade_membership": "unassigned"
+    },
+    "NODE_0000007": {
+      "clade_membership": "unassigned"
+    },
+    "NODE_0000008": {
+      "clade_membership": "unassigned"
+    },
+    "NODE_0000009": {
+      "clade_annotation": "2SEE",
+      "clade_membership": "2SEE"
+    },
+    "NODE_0000010": {
+      "clade_membership": "1WN02"
+    },
+    "NODE_0000011": {
+      "clade_membership": "1WN02"
+    }
+  }
+}
