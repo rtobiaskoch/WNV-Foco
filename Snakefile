@@ -3,8 +3,8 @@ rule all:
         auspice_json = "auspice/WNV-Global.json",
 
 rule options:
-    params:
-        threads = 4
+	params:
+		threads = 4
 
 options = rules.options.params
 
@@ -15,7 +15,6 @@ reference = "config/reference.gb",
 colors = "config/colors.tsv",
 lat_longs = "config/lat_longs.tsv",
 auspice_config = "config/auspice_config.json"
-input_clades = "config/clades.tsv"
 
 rule filter:
     message:
@@ -67,47 +66,17 @@ rule align:
             --fill-gaps
         """
 
-### Inferring bootstrap tree using IQTree
-
-rule iqtree:
-    message: "Building bootstrap tree"
+rule tree:
+    message: "Building tree"
     input:
         alignment = rules.align.output.alignment
-    params:
-        threads = options.threads
     output:
-        tree = "results/masked.tree"
+        tree = "results/tree_raw.nwk"
     shell:
         """
-        iqtree \
-            -s {input.alignment} \
-            -B 1000 \
-            -nt {params.threads} \
-            -m GTR
-        mv results/masked.fasta.treefile {output.tree}
-        """
-
-
-## Renaming taxa in bootstrap tree
-
-rule rename:
-    message: "Renaming taxa in bootstrap tree"
-    input:
-        tree = rules.iqtree.output.tree,
-        names = "config/rename.tsv"
-    output:
-        new_tree = "results/tree_ren.tree"
-    params:
-        format = "tree",
-        action = "rename"
-    shell:
-        """
-        python3 scripts/seqtree_handler.py \
-            --input {input.tree} \
-            --format {params.format} \
-            --action {params.action} \
-            --list {input.names} \
-            --output {output.new_tree}
+       augur tree \
+           --alignment {input.alignment} \
+            --output {output.tree}
         """
 
 rule refine:
@@ -120,7 +89,7 @@ rule refine:
           - filter tips more than {params.clock_filter_iqd} IQDs from clock expectation
         """
     input:
-        tree = rules.rename.output.new_tree,
+        tree = rules.tree.output.tree,
         alignment = rules.align.output,
         metadata = input_metadata
     output:
@@ -143,7 +112,7 @@ rule refine:
             --date-confidence \
             --date-inference {params.date_inference} \
             --clock-filter-iqd {params.clock_filter_iqd} \
-            --root KY703856_Senegal_1992_8_mosquito
+            --root KY703856/Senegal/1992/8/mosquito
         """
 
 rule ancestral:
@@ -180,22 +149,6 @@ rule translate:
             --reference-sequence {input.reference} \
             --output-node-data {output.node_data} \
         """
-rule clades:
-    message: " Labeling clades as specified in config/clades.tsv"
-    input:
-        tree = rules.refine.output.tree,
-        aa_muts = rules.translate.output.node_data,
-        nuc_muts = rules.ancestral.output.node_data,
-        clades = input_clades
-    output:
-        clade_data = "results/clades.json"
-    shell:
-        """
-        augur clades --tree {input.tree} \
-            --mutations {input.nuc_muts} {input.aa_muts} \
-            --clades {input.clades} \
-            --output {output.clade_data}
-        """
 
 rule traits:
     message: "Inferring ancestral traits for {params.columns!s}"
@@ -227,7 +180,6 @@ rule export:
         aa_muts = rules.translate.output.node_data,
         colors = colors,
         lat_longs = lat_longs,
-        clades = rules.clades.output.clade_data,
         auspice_config = auspice_config
     output:
         auspice_json = rules.all.input.auspice_json,
@@ -236,7 +188,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.clades} {input.aa_muts} \
+            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
