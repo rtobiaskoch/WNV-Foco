@@ -14,7 +14,7 @@ dropped_strains = "config/dropped_strains.txt",
 reference = "config/reference.gb",
 colors = "config/colors.tsv",
 lat_longs = "config/lat_longs.tsv",
-auspice_config = "config/auspice_config.json"
+auspice_config = "config/auspice_config.json",
 input_clades = "config/clades.tsv"
 
 rule filter:
@@ -33,7 +33,7 @@ rule filter:
         sequences = "results/filtered.fasta"
     params:
         group_by = "country year month",
-        sequences_per_group = 1000,
+        sequences_per_group = 100,
         min_date = 1900
     shell:
         """
@@ -99,7 +99,7 @@ rule refine:
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 10
+        clock_filter_iqd = 100
     shell:
         """
         augur refine \
@@ -112,8 +112,7 @@ rule refine:
             --coalescent {params.coalescent} \
             --date-confidence \
             --date-inference {params.date_inference} \
-            --clock-filter-iqd {params.clock_filter_iqd} \
-            --root KY703856/Senegal/1992/8/mosquito
+            --clock-filter-iqd {params.clock_filter_iqd}
         """
 
 rule ancestral:
@@ -154,10 +153,10 @@ rule translate:
 rule clades:
     message: " Labeling clades as specified in config/clades.tsv"
     input:
-        tree = rules.tree.output.tree,
+        tree = rules.refine.output.tree,
         aa_muts = rules.translate.output.node_data,
         nuc_muts = rules.ancestral.output.node_data,
-        clades = input_clades
+        input_clades = files.clades
     output:
         clade_data = "results/clades.json"
     shell:

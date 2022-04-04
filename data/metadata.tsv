@@ -10,11 +10,11 @@ AF481864/Israel/1998/1a/bird	AF481864	1998-08-28	Israel	Asia	1a	bird	Ciconiidae	
 AY262283/Kenya/1998/1a/mosquito	AY262283	1998-06-01	Kenya	Africa	1a	mosquito	Culex	Kenya/unknown
 AY268132/France/2000/1a/ungulate	AY268132	2000-06-01	France	Europe	1a	ungulate	unknown	France/unknown
 AY268133/Tunisia/1997/1a/human	AY268133	1997-06-01	Tunisia	Africa	1a	human	Homo	Tunisia/unknown
-AY278442/Russia/2000/1a/human	AY278442	2000-06-01	Russia	Asia	1a	human	Homo	Russia/unknown
+AY278442/Russia/2000/1a/human	AY278442	2000-06-01	Russia	Europe	1a	human	Homo	Russia/unknown
 AY532665/Uganda/1937/2/human	AY532665	1937-06-01	Uganda	Africa	2	human	Homo	Uganda/unknown
 AY701412/Morocco/1996/1a/ungulate	AY701412	1996-06-01	Morocco	Africa	1a	ungulate	Equus	Morocco/unknown
 AY701413/Morocco/2003/1a/ungulate	AY701413	2003-06-01	Morocco	Africa	1a	ungulate	Equus	Morocco/unknown
-AY765264/CzechRepublic/1997/rabensburg/mosquito	AY765264	1997-06-01	Czech Republic	Europe	rabensburg	mosquito	Culex	Czech Republic/unknown
+AY765264/CzechRepublic/1997/3_rabensburg/mosquito	AY765264	1997-06-01	Czech Republic	Europe	3_rabensburg	mosquito	Culex	Czech Republic/unknown
 DQ080060/Mexico/2004/1a/bird	DQ080060	2004-08-01	Mexico	North America	1a	bird	Corvus	Mexico/unknown
 DQ080063/Mexico/2003/1a/bird	DQ080063	2003-08-01	Mexico	North America	1a	bird	Columbidae	Mexico/unknown
 DQ080064/Mexico/2003/1a/bird	DQ080064	2003-08-01	Mexico	North America	1a	bird	Fulica	Mexico/unknown
@@ -35,16 +35,16 @@ DQ164197/USA/2002/1a/human	DQ164197	2002-06-01	USA	North America	1a	human	Homo	U
 DQ164202/USA/2002/1a/human	DQ164202	2002-06-01	USA	North America	1a	human	Homo	USA/unknown
 DQ176636/Madagascar/1978/2/bird	DQ176636	1978-06-01	Madagascar	Africa	2	bird	Coracopsis	Madagascar/unknown
 DQ176637/USA/2002/1a/bird	DQ176637	2002-08-01	USA	North America	1a	bird	Quiscalus	USA/unknown
-DQ256376/India/1980/5/human	DQ256376	1980-06-01	India	Asia	5	human	Homo	India/unknown
+DQ256376/India/1980/1c_5/human	DQ256376	1980-06-01	India	Asia	1c_5	human	Homo	India/unknown
 DQ318019/Senegal/1988/2/mosquito	DQ318019	1988-06-01	Senegal	Africa	2	mosquito	culex	Senegal/unknown
 DQ318020/CentralAfricanRepublic/1972/2/human	DQ318020	1972-06-01	Central African Republic	Africa	2	human	Homo	Central African Republic/unknown
-DQ374652/Russia/2004/1a/bird	DQ374652	2004-06-01	Russia	Asia	1a	bird	Corvus	Russia/unknown
-DQ374653/Russia/2002/1a/bird	DQ374653	2002-06-01	Russia	Asia	1a	bird	Corvus	Russia/unknown
-DQ377179/Russia/2002/1a/bird	DQ377179	2002-06-01	Russia	Asia	1a	bird	Corvus	Russia/unknown
-DQ411031/Russia/2001/1a/bird	DQ411031	2001-06-01	Russia	Asia	1a	bird	Corvus	Russia/unknown
-DQ411032/Russia/2002/1a/bird	DQ411032	2002-06-01	Russia	Asia	1a	bird	Columba	Russia/unknown
-DQ411034/Russia/2002/1a/mosquito	DQ411034	2002-06-01	Russia	Asia	1a	mosquito	Anopheles	Russia/unknown
-DQ411035/Russia/2002/1a/mosquito	DQ411035	2002-06-01	Russia	Asia	1a	mosquito	Anopheles	Russia/unknown
+DQ374652/Russia/2004/1a/bird	DQ374652	2004-06-01	Russia	Europe	1a	bird	Corvus	Russia/unknown
+DQ374653/Russia/2002/1a/bird	DQ374653	2002-06-01	Russia	Europe	1a	bird	Corvus	Russia/unknown
+DQ377179/Russia/2002/1a/bird	DQ377179	2002-06-01	Russia	Europe	1a	bird	Corvus	Russia/unknown
+DQ411031/Russia/2001/1a/bird	DQ411031	2001-06-01	Russia	Europe	1a	bird	Corvus	Russia/unknown
+DQ411032/Russia/2002/1a/bird	DQ411032	2002-06-01	Russia	Europe	1a	bird	Columba	Russia/unknown
+DQ411034/Russia/2002/1a/mosquito	DQ411034	2002-06-01	Russia	Europe	1a	mosquito	Anopheles	Russia/unknown
+DQ411035/Russia/2002/1a/mosquito	DQ411035	2002-06-01	Russia	Europe	1a	mosquito	Anopheles	Russia/unknown
 DQ431694/USA/2003/1a/human	DQ431694	2003-06-01	USA	North America	1a	human	Homo	USA/unknown
 DQ431696/USA/2003/1a/human	DQ431696	2003-06-01	USA	North America	1a	human	Homo	USA/unknown
 DQ431697/USA/2003/1a/human	DQ431697	2003-06-01	USA	North America	1a	human	Homo	USA/unknown
@@ -58,12 +58,12 @@ EF429197/SouthAfrica/1989/2/human	EF429197	1989-06-01	South Africa	Africa	2	huma
 EF429198/SouthAfrica/2001/2/human	EF429198	2001-06-01	South Africa	Africa	2	human	Homo	South Africa/unknown
 EF429199/SouthAfrica/2000/2/human	EF429199	2000-06-01	South Africa	Africa	2	human	Homo	South Africa/unknown
 EF429200/SouthAfrica/1958/2/human	EF429200	1958-06-01	South Africa	Africa	2	human	Homo	South Africa/unknown
-EU249803/India/1968/1a/bat	EU249803	1968-06-01	India	Asia	1a	bat	Rousettus	India/unknown
+EU082200/Senegal/1968/7_koutango/NA	EU082200	1968-06-01	Senegal	Africa	7_koutango	NA	unknown	Senegal/unknown
 FJ151394/USA/1999/1a/bird	FJ151394	1999-06-01	USA	North America	1a	bird	Corvus	USA/unknown
-FJ159129/Russia/2006/4/mosquito	FJ159129	2006-06-01	Russia	Asia	4	mosquito	Uranotaenia	Russia/unknown
-FJ159130/Russia/2005/4/mosquito	FJ159130	2005-06-01	Russia	Asia	4	mosquito	Uranotaenia	Russia/unknown
-FJ159131/Russia/2005/4/mosquito	FJ159131	2005-06-01	Russia	Asia	4	mosquito	Uranotaenia	Russia/unknown
-FJ425721/Russia/2007/2/human	FJ425721	2007-06-01	Russia	Asia	2	human	Homo	Russia/unknown
+FJ159129/Russia/2006/4/mosquito	FJ159129	2006-06-01	Russia	Europe	4	mosquito	Uranotaenia	Russia/unknown
+FJ159130/Russia/2005/4/mosquito	FJ159130	2005-06-01	Russia	Europe	4	mosquito	Uranotaenia	Russia/unknown
+FJ159131/Russia/2005/4/mosquito	FJ159131	2005-06-01	Russia	Europe	4	mosquito	Uranotaenia	Russia/unknown
+FJ425721/Russia/2007/2/human	FJ425721	2007-06-01	Russia	Europe	2	human	Homo	Russia/unknown
 FJ483548/Italy/2008/1a/bird	FJ483548	2008-06-01	Italy	Europe	1a	bird	Corvus	Italy/unknown
 FJ483549/Italy/2008/1a/bird	FJ483549	2008-06-01	Italy	Europe	1a	bird	Corvus	Italy/unknown
 FJ766331/Spain/2007/1a/bird	FJ766331	2007-10-01	Spain	Europe	1a	bird	Aquila	Spain/unknown
@@ -73,10 +73,10 @@ GQ379161/Argentina/2006/1a/ungulate	GQ379161	2006-02-01	Argentina	South America	
 GQ507477/USA/2005/1a/human	GQ507477	2005-08-01	USA	North America	1a	human	Homo	USA/unknown
 GQ507479/USA/2005/1a/human	GQ507479	2005-09-09	USA	North America	1a	human	Homo	USA/unknown
 GQ507480/USA/2005/1a/human	GQ507480	2005-10-04	USA	North America	1a	human	Homo	USA/unknown
-GQ851602/Australia/1960/kunjin/mosquito	GQ851602	1960-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-GQ851603/Australia/1991/kunjin/mosquito	GQ851603	1991-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-GQ851604/India/1957/5/NA	GQ851604	1957-06-01	India	Asia	5	NA	unknown	India/unknown
-GQ851605/India/1957/5/mosquito	GQ851605	1957-06-01	India	Asia	5	mosquito	Culicidae	India/unknown
+GQ851602/Australia/1960/1b_kunjin/mosquito	GQ851602	1960-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+GQ851603/Australia/1991/1b_kunjin/mosquito	GQ851603	1991-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+GQ851604/India/1957/1c_5/NA	GQ851604	1957-06-01	India	Asia	1c_5	NA	unknown	India/unknown
+GQ851605/India/1957/1c_5/mosquito	GQ851605	1957-06-01	India	Asia	1c_5	mosquito	Culicidae	India/unknown
 GQ851606/Senegal/1979/1a/NA	GQ851606	1979-06-01	Senegal	Africa	1a	NA	unknown	Senegal/unknown
 GQ851607/Nigeria/1965/1a/NA	GQ851607	1965-06-01	Nigeria	Africa	1a	NA	unknown	Nigeria/unknown
 GQ851608/CentralAfricanRepublic/1967/1a/NA	GQ851608	1967-06-01	Central African Republic	Africa	1a	NA	unknown	Central African Republic/unknown
@@ -169,7 +169,7 @@ JN716371/Colombia/2008/1a/bird	JN716371	2008-07-01	Colombia	South America	1a	bir
 JN716372/Colombia/2008/1a/bird	JN716372	2008-07-01	Colombia	South America	1a	bird	Phoenicopterus	Colombia/unknown
 JN858069/Italy/2011/1a/human	JN858069	2011-09-01	Italy	Europe	1a	human	Homo	Italy/unknown
 JN858070/Italy/2011/2/human	JN858070	2011-09-01	Italy	Europe	2	human	Homo	Italy/unknown
-JN887352/Australia/2011/kunjin/ungulate	JN887352	2011-06-01	Australia	Oceania	kunjin	ungulate	Equus	Australia/unknown
+JN887352/Australia/2011/1b_kunjin/ungulate	JN887352	2011-06-01	Australia	Oceania	1b_kunjin	ungulate	Equus	Australia/unknown
 JQ700441/USA/2011/1a/human	JQ700441	2011-06-01	USA	North America	1a	human	Homo	USA/unknown
 JQ928174/Italy/2011/1a/human	JQ928174	2011-09-01	Italy	Europe	1a	human	Homo	Italy/unknown
 JQ928175/Italy/2011/1a/human	JQ928175	2011-09-01	Italy	Europe	1a	human	Homo	Italy/unknown
@@ -179,11 +179,11 @@ JX041628/Azerbaijan/1970/1a/tick	JX041628	1970-06-01	Azerbaijan	Europe	1a	tick	O
 JX041629/Azerbaijan/1967/1a/bird	JX041629	1967-06-01	Azerbaijan	Europe	1a	bird	unknown	Azerbaijan/unknown
 JX041630/Azerbaijan/1967/1a/bird	JX041630	1967-06-01	Azerbaijan	Europe	1a	bird	unknown	Azerbaijan/unknown
 JX041631/Ukraine/1980/2/bird	JX041631	1980-06-01	Ukraine	Europe	2	bird	unknown	Ukraine/unknown
-JX041632/India/1955/5/mosquito	JX041632	1955-06-01	India	Asia	5	mosquito	Culex	India/unknown
-JX041633/Russia/1963/1a/tick	JX041633	1963-06-01	Russia	Asia	1a	tick	Hyalomma	Russia/unknown
-JX041634/Russia/1999/1a/human	JX041634	1999-06-01	Russia	Asia	1a	human	Homo	Russia/unknown
-JX123030/Australia/2011/kunjin/ungulate	JX123030	2011-03-07	Australia	Oceania	kunjin	ungulate	Equus	Australia/unknown
-JX123031/Australia/2011/kunjin/ungulate	JX123031	2011-03-15	Australia	Oceania	kunjin	ungulate	Equus	Australia/unknown
+JX041632/India/1955/1c_5/mosquito	JX041632	1955-06-01	India	Asia	1c_5	mosquito	Culex	India/unknown
+JX041633/Russia/1963/1a/tick	JX041633	1963-06-01	Russia	Europe	1a	tick	Hyalomma	Russia/unknown
+JX041634/Russia/1999/1a/human	JX041634	1999-06-01	Russia	Europe	1a	human	Homo	Russia/unknown
+JX123030/Australia/2011/1b_kunjin/ungulate	JX123030	2011-03-07	Australia	Oceania	1b_kunjin	ungulate	Equus	Australia/unknown
+JX123031/Australia/2011/1b_kunjin/ungulate	JX123031	2011-03-15	Australia	Oceania	1b_kunjin	ungulate	Equus	Australia/unknown
 JX442279/China/2011/1a/mosquito	JX442279	2011-06-01	China	Asia	1a	mosquito	Culex	China/unknown
 JX556213/Italy/2012/1a/human	JX556213	2012-08-03	Italy	Europe	1a	human	Homo	Italy/unknown
 KC243146/Kenya/2010/1a/tick	KC243146	2010-11-27	Kenya	Africa	1a	tick	Rhipicephalus	Kenya/unknown
@@ -373,15 +373,15 @@ KT757320/Serbia/2013/2/mosquito	KT757320	2013-06-01	Serbia	Europe	2	mosquito	Cul
 KT757321/Serbia/2013/2/mosquito	KT757321	2013-06-01	Serbia	Europe	2	mosquito	Culex	Serbia/unknown
 KT757322/Serbia/2013/2/mosquito	KT757322	2013-06-01	Serbia	Europe	2	mosquito	Culex	Serbia/unknown
 KT757323/Serbia/2013/2/mosquito	KT757323	2013-06-01	Serbia	Europe	2	mosquito	Culex	Serbia/unknown
-KT934796/Australia/1984/kunjin/ungulate	KT934796	1984-06-01	Australia	Oceania	kunjin	ungulate	Equus	Australia/unknown
-KT934797/Australia/1991/kunjin/human	KT934797	1991-06-01	Australia	Oceania	kunjin	human	Homo	Australia/unknown
-KT934798/Australia/2000/kunjin/mosquito	KT934798	2000-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KT934799/Australia/2000/kunjin/mosquito	KT934799	2000-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KT934800/Australia/2009/kunjin/mosquito	KT934800	2009-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KT934801/Australia/2011/kunjin/mosquito	KT934801	2011-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KT934802/Australia/2009/kunjin/mosquito	KT934802	2009-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KT934803/Australia/2011/kunjin/ungulate	KT934803	2011-06-01	Australia	Oceania	kunjin	ungulate	Equus	Australia/unknown
-KT934804/Australia/2012/kunjin/mosquito	KT934804	2012-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
+KT934796/Australia/1984/1b_kunjin/ungulate	KT934796	1984-06-01	Australia	Oceania	1b_kunjin	ungulate	Equus	Australia/unknown
+KT934797/Australia/1991/1b_kunjin/human	KT934797	1991-06-01	Australia	Oceania	1b_kunjin	human	Homo	Australia/unknown
+KT934798/Australia/2000/1b_kunjin/mosquito	KT934798	2000-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KT934799/Australia/2000/1b_kunjin/mosquito	KT934799	2000-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KT934800/Australia/2009/1b_kunjin/mosquito	KT934800	2009-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KT934801/Australia/2011/1b_kunjin/mosquito	KT934801	2011-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KT934802/Australia/2009/1b_kunjin/mosquito	KT934802	2009-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KT934803/Australia/2011/1b_kunjin/ungulate	KT934803	2011-06-01	Australia	Oceania	1b_kunjin	ungulate	Equus	Australia/unknown
+KT934804/Australia/2012/1b_kunjin/mosquito	KT934804	2012-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
 KU206781/Bulgaria/2015/2/human	KU206781	2015-08-27	Bulgaria	Europe	2	human	Homo	Bulgaria/unknown
 KU573077/Italy/2008/1a/bird	KU573077	2008-06-01	Italy	Europe	1a	bird	Pica	Italy/unknown
 KU573078/Italy/2009/1a/mosquito	KU573078	2009-06-01	Italy	Europe	1a	mosquito	Culex	Italy/unknown
@@ -393,41 +393,41 @@ KU573083/Italy/2013/2/mosquito	KU573083	2013-06-01	Italy	Europe	2	mosquito	Culex
 KU588135/UnitedArabEmirates/2015/1a/ungulate	KU588135	2015-06-01	United Arab Emirates	Asia	1a	ungulate	Camelus	United Arab Emirates/unknown
 KU978766/Colombia/2008/1a/bird	KU978766	2008-07-01	Colombia	South America	1a	bird	Phoenicopterus	Colombia/unknown
 KU978767/Madagascar/1988/2/mosquito	KU978767	1988-02-12	Madagascar	Africa	2	mosquito	Culex	Madagascar/unknown
-KU978768/Russia/1963/1a/tick	KU978768	1963-06-01	Russia	Asia	1a	tick	Hyalomma	Russia/unknown
+KU978768/Russia/1963/1a/tick	KU978768	1963-06-01	Russia	Europe	1a	tick	Hyalomma	Russia/unknown
 KU978769/Mexico/2003/1a/bird	KU978769	2003-05-30	Mexico	North America	1a	bird	Corvus	Mexico/unknown
-KU978770/India/1988/5/human	KU978770	1988-02-12	India	Asia	5	human	Homo	India/unknown
+KU978770/India/1988/1c_5/human	KU978770	1988-02-12	India	Asia	1c_5	human	Homo	India/unknown
 KX375812/Serbia/2013/2/human	KX375812	2013-06-01	Serbia	Europe	2	human	Homo	Serbia/unknown
-KX394381/Australia/1975/kunjin/NA	KX394381	1975-06-01	Australia	Oceania	kunjin	NA	unknown	Australia/unknown
-KX394382/Australia/2011/kunjin/mosquito	KX394382	2011-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394383/Australia/1972/kunjin/mosquito	KX394383	1972-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394384/Australia/1974/kunjin/mosquito	KX394384	1974-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394385/Australia/1974/kunjin/mosquito	KX394385	1974-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394386/Australia/1974/kunjin/mosquito	KX394386	1974-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394387/Australia/1974/kunjin/mosquito	KX394387	1974-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394388/Australia/1974/kunjin/mosquito	KX394388	1974-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394389/Australia/1974/kunjin/mosquito	KX394389	1974-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394390/Australia/1974/kunjin/mosquito	KX394390	1974-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394391/Australia/1974/kunjin/mosquito	KX394391	1974-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394392/Australia/1963/kunjin/NA	KX394392	1963-06-01	Australia	Oceania	kunjin	NA	unknown	Australia/unknown
-KX394393/Australia/1963/kunjin/NA	KX394393	1963-06-01	Australia	Oceania	kunjin	NA	unknown	Australia/unknown
-KX394394/Australia/1978/kunjin/mosquito	KX394394	1978-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394395/Australia/1999/kunjin/mosquito	KX394395	1999-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394396/Australia/1960/kunjin/mosquito	KX394396	1960-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394397/Australia/1960/kunjin/NA	KX394397	1960-06-01	Australia	Oceania	kunjin	NA	unknown	Australia/unknown
-KX394398/Australia/1960/kunjin/mosquito	KX394398	1960-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394399/Australia/1960/kunjin/NA	KX394399	1960-06-01	Australia	Oceania	kunjin	NA	unknown	Australia/unknown
-KX394400/Australia/1960/kunjin/NA	KX394400	1960-06-01	Australia	Oceania	kunjin	NA	unknown	Australia/unknown
-KX394401/Australia/1960/kunjin/NA	KX394401	1960-06-01	Australia	Oceania	kunjin	NA	unknown	Australia/unknown
-KX394402/Australia/1960/kunjin/NA	KX394402	1960-06-01	Australia	Oceania	kunjin	NA	unknown	Australia/unknown
-KX394403/Australia/1963/kunjin/mosquito	KX394403	1963-06-01	Australia	Oceania	kunjin	mosquito	Anopheles	Australia/unknown
-KX394404/Australia/1963/kunjin/mosquito	KX394404	1963-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394405/Australia/1963/kunjin/mosquito	KX394405	1963-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394406/Australia/1963/kunjin/mosquito	KX394406	1963-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394407/Australia/1963/kunjin/mosquito	KX394407	1963-06-01	Australia	Oceania	kunjin	mosquito	Anopheles	Australia/unknown
-KX394408/Australia/1963/kunjin/mosquito	KX394408	1963-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394409/Australia/1963/kunjin/mosquito	KX394409	1963-06-01	Australia	Oceania	kunjin	mosquito	Culex	Australia/unknown
-KX394410/Australia/1965/kunjin/bird	KX394410	1965-06-01	Australia	Oceania	kunjin	bird	Oriolus	Australia/unknown
-KX394411/Australia/1978/kunjin/NA	KX394411	1978-06-01	Australia	Oceania	kunjin	NA	unknown	Australia/unknown
+KX394381/Australia/1975/1b_kunjin/NA	KX394381	1975-06-01	Australia	Oceania	1b_kunjin	NA	unknown	Australia/unknown
+KX394382/Australia/2011/1b_kunjin/mosquito	KX394382	2011-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394383/Australia/1972/1b_kunjin/mosquito	KX394383	1972-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394384/Australia/1974/1b_kunjin/mosquito	KX394384	1974-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394385/Australia/1974/1b_kunjin/mosquito	KX394385	1974-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394386/Australia/1974/1b_kunjin/mosquito	KX394386	1974-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394387/Australia/1974/1b_kunjin/mosquito	KX394387	1974-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394388/Australia/1974/1b_kunjin/mosquito	KX394388	1974-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394389/Australia/1974/1b_kunjin/mosquito	KX394389	1974-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394390/Australia/1974/1b_kunjin/mosquito	KX394390	1974-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394391/Australia/1974/1b_kunjin/mosquito	KX394391	1974-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394392/Australia/1963/1b_kunjin/NA	KX394392	1963-06-01	Australia	Oceania	1b_kunjin	NA	unknown	Australia/unknown
+KX394393/Australia/1963/1b_kunjin/NA	KX394393	1963-06-01	Australia	Oceania	1b_kunjin	NA	unknown	Australia/unknown
+KX394394/Australia/1978/1b_kunjin/mosquito	KX394394	1978-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394395/Australia/1999/1b_kunjin/mosquito	KX394395	1999-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394396/Australia/1960/1b_kunjin/mosquito	KX394396	1960-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394397/Australia/1960/1b_kunjin/NA	KX394397	1960-06-01	Australia	Oceania	1b_kunjin	NA	unknown	Australia/unknown
+KX394398/Australia/1960/1b_kunjin/mosquito	KX394398	1960-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394399/Australia/1960/1b_kunjin/NA	KX394399	1960-06-01	Australia	Oceania	1b_kunjin	NA	unknown	Australia/unknown
+KX394400/Australia/1960/1b_kunjin/NA	KX394400	1960-06-01	Australia	Oceania	1b_kunjin	NA	unknown	Australia/unknown
+KX394401/Australia/1960/1b_kunjin/NA	KX394401	1960-06-01	Australia	Oceania	1b_kunjin	NA	unknown	Australia/unknown
+KX394402/Australia/1960/1b_kunjin/NA	KX394402	1960-06-01	Australia	Oceania	1b_kunjin	NA	unknown	Australia/unknown
+KX394403/Australia/1963/1b_kunjin/mosquito	KX394403	1963-06-01	Australia	Oceania	1b_kunjin	mosquito	Anopheles	Australia/unknown
+KX394404/Australia/1963/1b_kunjin/mosquito	KX394404	1963-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394405/Australia/1963/1b_kunjin/mosquito	KX394405	1963-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394406/Australia/1963/1b_kunjin/mosquito	KX394406	1963-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394407/Australia/1963/1b_kunjin/mosquito	KX394407	1963-06-01	Australia	Oceania	1b_kunjin	mosquito	Anopheles	Australia/unknown
+KX394408/Australia/1963/1b_kunjin/mosquito	KX394408	1963-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394409/Australia/1963/1b_kunjin/mosquito	KX394409	1963-06-01	Australia	Oceania	1b_kunjin	mosquito	Culex	Australia/unknown
+KX394410/Australia/1965/1b_kunjin/bird	KX394410	1965-06-01	Australia	Oceania	1b_kunjin	bird	Oriolus	Australia/unknown
+KX394411/Australia/1978/1b_kunjin/NA	KX394411	1978-06-01	Australia	Oceania	1b_kunjin	NA	unknown	Australia/unknown
 KX547168/USA/2012/1a/bird	KX547168	2012-09-27	USA	North America	1a	bird	Haemorhous	USA/unknown
 KX547171/USA/2011/1a/mosquito	KX547171	2011-08-03	USA	North America	1a	mosquito	Culiseta	USA/unknown
 KX547174/USA/2013/1a/mosquito	KX547174	2013-07-16	USA	North America	1a	mosquito	Culex	USA/unknown
@@ -532,6 +532,7 @@ KY216155/USA/2012/1a/mosquito	KY216155	2012-07-31	USA	North America	1a	mosquito	
 KY523178/Uganda/2009/2/mosquito	KY523178	2009-06-01	Uganda	Africa	2	mosquito	Culex	Uganda/unknown
 KY594040/Greece/2010/2/human	KY594040	2010-06-01	Greece	Europe	2	human	Homo	Greece/unknown
 KY703854/Senegal/1990/1a/mosquito	KY703854	1990-06-01	Senegal	Africa	1a	mosquito	Culex	Senegal/unknown
+KY703855/Senegal/1993/7_koutango/tick	KY703855	1993-06-01	Senegal	Africa	7_koutango	tick	Rhipicephalus	Senegal/unknown
 KY703856/Senegal/1992/8/mosquito	KY703856	1992-06-01	Senegal	Africa	8	mosquito	Culex	Senegal/unknown
 LC318700/Zambia/2016/2/mosquito	LC318700	2016-05-16	Zambia	Africa	2	mosquito	Culex	Zambia/unknown
 LC489409/Zambia/2019/1a/reptile	LC489409	2019-06-01	Zambia	Africa	1a	reptile	Crocodylus	Zambia/unknown
@@ -672,7 +673,8 @@ MH986056/Germany/2018/2/bird	MH986056	2018-06-01	Germany	Europe	2	bird	Turdus	Ge
 MK473443/Greece/2017/2/bird	MK473443	2017-07-01	Greece	Europe	2	bird	Pica	Greece/unknown
 MK947396/Slovenia/2018/2/mosquito	MK947396	2018-06-01	Slovenia	Europe	2	mosquito	Culicidae	Slovenia/unknown
 MK947397/Slovenia/2018/2/human	MK947397	2018-08-23	Slovenia	Europe	2	human	Homo	Slovenia/unknown
-MN149538/Russia/2006/1a/bird	MN149538	2006-05-01	Russia	Asia	1a	bird	Acrocephalus	Russia/unknown
+MN057643/Niger/2016/7_koutango/NA	MN057643	2016-06-01	Niger	Africa	7_koutango	NA	unknown	Niger/unknown
+MN149538/Russia/2006/1a/bird	MN149538	2006-05-01	Russia	Europe	1a	bird	Acrocephalus	Russia/unknown
 MN238669/Iran/2017/2/mosquito	MN238669	2017-06-01	Iran	Asia	2	mosquito	Culex	Iran/unknown
 MN238670/Iran/2018/2/mosquito	MN238670	2018-06-01	Iran	Asia	2	mosquito	Culex	Iran/unknown
 MN480792/Greece/2018/2/human	MN480792	2018-08-01	Greece	Europe	2	human	Homo	Greece/unknown
@@ -688,10 +690,10 @@ MN481594/Greece/2012/2/mosquito	MN481594	2012-09-05	Greece	Europe	2	mosquito	Cul
 MN481595/Greece/2010/2/bird	MN481595	2010-09-30	Greece	Europe	2	bird	Columbidae	Greece/unknown
 MN481596/Greece/2011/2/bird	MN481596	2011-07-06	Greece	Europe	2	bird	Gallus	Greece/unknown
 MN481597/Greece/2012/2/bird	MN481597	2012-08-27	Greece	Europe	2	bird	Gallus	Greece/unknown
-MN619800/Russia/2018/2/mosquito	MN619800	2018-06-01	Russia	Asia	2	mosquito	Culex	Russia/unknown
-MN619801/Russia/2018/2/mosquito	MN619801	2018-06-01	Russia	Asia	2	mosquito	Culex	Russia/unknown
-MN619802/Russia/2018/2/mosquito	MN619802	2018-06-01	Russia	Asia	2	mosquito	Culex	Russia/unknown
-MN619803/Russia/2018/2/mosquito	MN619803	2018-06-01	Russia	Asia	2	mosquito	Culex	Russia/unknown
+MN619800/Russia/2018/2/mosquito	MN619800	2018-06-01	Russia	Europe	2	mosquito	Culex	Russia/unknown
+MN619801/Russia/2018/2/mosquito	MN619801	2018-06-01	Russia	Europe	2	mosquito	Culex	Russia/unknown
+MN619802/Russia/2018/2/mosquito	MN619802	2018-06-01	Russia	Europe	2	mosquito	Culex	Russia/unknown
+MN619803/Russia/2018/2/mosquito	MN619803	2018-06-01	Russia	Europe	2	mosquito	Culex	Russia/unknown
 MN652878/Greece/2018/2/mosquito	MN652878	2018-07-01	Greece	Europe	2	mosquito	Culex	Greece/unknown
 MN652879/Greece/2018/2/mosquito	MN652879	2018-07-01	Greece	Europe	2	mosquito	Culex	Greece/unknown
 MN652880/Greece/2018/2/mosquito	MN652880	2018-08-01	Greece	Europe	2	mosquito	Culex	Greece/unknown
@@ -700,12 +702,12 @@ MN794936/Germany/2019/2/human	MN794936	2019-06-01	Germany	Europe	2	human	Homo	Ge
 MN794937/Germany/2019/2/bird	MN794937	2019-06-01	Germany	Europe	2	bird	Turdus	Germany/unknown
 MN794938/Germany/2019/2/bird	MN794938	2019-06-01	Germany	Europe	2	bird	Passer	Germany/unknown
 MN794939/Germany/2019/2/bird	MN794939	2019-06-01	Germany	Europe	2	bird	Prunella	Germany/unknown
-MN812757/Russia/2018/2/mosquito	MN812757	2018-06-01	Russia	Asia	2	mosquito	Culex	Russia/unknown
-MN812758/Russia/2018/2/mosquito	MN812758	2018-06-01	Russia	Asia	2	mosquito	Culex	Russia/unknown
-MN812759/Russia/2018/2/human	MN812759	2018-06-01	Russia	Asia	2	human	Homo	Russia/unknown
-MN812760/Russia/2018/2/human	MN812760	2018-06-01	Russia	Asia	2	human	Homo	Russia/unknown
-MN812761/Russia/2018/2/human	MN812761	2018-06-01	Russia	Asia	2	human	Homo	Russia/unknown
-MN812762/Russia/2018/2/human	MN812762	2018-06-01	Russia	Asia	2	human	Homo	Russia/unknown
+MN812757/Russia/2018/2/mosquito	MN812757	2018-06-01	Russia	Europe	2	mosquito	Culex	Russia/unknown
+MN812758/Russia/2018/2/mosquito	MN812758	2018-06-01	Russia	Europe	2	mosquito	Culex	Russia/unknown
+MN812759/Russia/2018/2/human	MN812759	2018-06-01	Russia	Europe	2	human	Homo	Russia/unknown
+MN812760/Russia/2018/2/human	MN812760	2018-06-01	Russia	Europe	2	human	Homo	Russia/unknown
+MN812761/Russia/2018/2/human	MN812761	2018-06-01	Russia	Europe	2	human	Homo	Russia/unknown
+MN812762/Russia/2018/2/human	MN812762	2018-06-01	Russia	Europe	2	human	Homo	Russia/unknown
 MN939557/Italy/2018/2/human	MN939557	2018-06-01	Italy	Europe	2	human	Homo	Italy/unknown
 MN939558/Italy/2016/2/human	MN939558	2016-06-01	Italy	Europe	2	human	Homo	Italy/unknown
 MN939559/Italy/2016/2/human	MN939559	2016-06-01	Italy	Europe	2	human	Homo	Italy/unknown
@@ -714,7 +716,7 @@ MN939561/Italy/2018/2/human	MN939561	2018-06-01	Italy	Europe	2	human	Homo	Italy/
 MN939562/Italy/2018/2/human	MN939562	2018-06-01	Italy	Europe	2	human	Homo	Italy/unknown
 MN939563/Italy/2018/2/human	MN939563	2018-06-01	Italy	Europe	2	human	Homo	Italy/unknown
 MN939564/Italy/2016/2/human	MN939564	2016-06-01	Italy	Europe	2	human	Homo	Italy/unknown
-MN954648/Australia/2016/kunjin/reptile	MN954648	2016-06-01	Australia	Oceania	kunjin	reptile	Crocodylus	Australia/unknown
+MN954648/Australia/2016/1b_kunjin/reptile	MN954648	2016-06-01	Australia	Oceania	1b_kunjin	reptile	Crocodylus	Australia/unknown
 MT341470/Greece/2019/2/mosquito	MT341470	2019-07-01	Greece	Europe	2	mosquito	Culex	Greece/unknown
 MT341471/Greece/2019/2/mosquito	MT341471	2019-07-01	Greece	Europe	2	mosquito	Culex	Greece/unknown
 MT341472/Bulgaria/2018/2/mosquito	MT341472	2018-08-01	Bulgaria	Europe	2	mosquito	Culex	Bulgaria/unknown
@@ -731,6 +733,7 @@ MW142226/Germany/2020/2/human	MW142226	2020-08-01	Germany	Europe	2	human	Homo	Ge
 MW142227/Germany/2020/2/human	MW142227	2020-08-01	Germany	Europe	2	human	Homo	Germany/unknown
 MW383507/Namibia/2020/2/mosquito	MW383507	2020-06-01	Namibia	Africa	2	mosquito	Culex	Namibia/unknown
 MW383508/Namibia/2020/2/mosquito	MW383508	2020-06-01	Namibia	Africa	2	mosquito	Culex	Namibia/unknown
+MW627239/Italy/2020/1a/bird	MW627239	2020-10-01	Italy	Europe	1a	bird	Accipiter	Italy/unknown
 MW915462/Spain/2017/1a/bird	MW915462	2017-09-01	Spain	Europe	1a	bird	Accipiter	Spain/unknown
 MZ605382/Hungary/2004/2/bird	MZ605382	2004-06-01	Hungary	Europe	2	bird	Accipiter	Hungary/unknown
 MZ964751/Germany/2021/2/human	MZ964751	2021-08-01	Germany	Europe	2	human	Homo	Germany/unknown

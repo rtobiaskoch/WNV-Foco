@@ -1,0 +1,95 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+align            1              1              1
+ancestral        1              1              1
+export           1              1              1
+filter           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+tree             1              1              1
+total            8              1              1
+
+Select jobs to execute...
+
+[Mon Mar 28 19:07:12 2022]
+Job 4: 
+        Filtering to
+          - 1000 sequence(s) per country year month
+          - from 1900 onwards
+          - excluding strains in config/dropped_strains.txt
+        
+
+[Mon Mar 28 19:07:13 2022]
+Finished job 4.
+1 of 8 steps (12%) done
+Select jobs to execute...
+
+[Mon Mar 28 19:07:13 2022]
+Job 3: 
+        Aligning sequences to config/reference.gb
+          - filling gaps with N
+        
+
+[Mon Mar 28 19:09:28 2022]
+Finished job 3.
+2 of 8 steps (25%) done
+Select jobs to execute...
+
+[Mon Mar 28 19:09:28 2022]
+Job 2: Building tree
+
+[Mon Mar 28 19:10:11 2022]
+Finished job 2.
+3 of 8 steps (38%) done
+Select jobs to execute...
+
+[Mon Mar 28 19:10:11 2022]
+Job 1: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Mon Mar 28 19:14:04 2022]
+Finished job 1.
+4 of 8 steps (50%) done
+Select jobs to execute...
+
+[Mon Mar 28 19:14:04 2022]
+Job 5: Inferring ancestral traits for country state region
+
+
+[Mon Mar 28 19:14:04 2022]
+Job 6: Reconstructing ancestral sequences and mutations
+
+[Mon Mar 28 19:14:15 2022]
+Finished job 5.
+5 of 8 steps (62%) done
+[Mon Mar 28 19:14:17 2022]
+Finished job 6.
+6 of 8 steps (75%) done
+Select jobs to execute...
+
+[Mon Mar 28 19:14:17 2022]
+Job 7: Translating amino acid sequences
+
+[Mon Mar 28 19:14:19 2022]
+Finished job 7.
+7 of 8 steps (88%) done
+Select jobs to execute...
+
+[Mon Mar 28 19:14:19 2022]
+Job 0: Exporting data files for for auspice
+
+[Mon Mar 28 19:14:21 2022]
+Finished job 0.
+8 of 8 steps (100%) done
+Complete log: /Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/.snakemake/log/2022-03-28T190712.308644.snakemake.log

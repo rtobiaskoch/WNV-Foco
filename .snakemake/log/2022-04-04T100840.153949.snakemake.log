@@ -1,0 +1,3 @@
+NameError in line 159 of /Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/Snakefile:
+name 'files' is not defined
+  File "/Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/Snakefile", line 159, in <module>

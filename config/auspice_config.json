@@ -54,6 +54,7 @@
     "region",
     "host",
     "lineage",
-    "host_genus"
+    "host_genus",
+    "Clade"
   ]
 }

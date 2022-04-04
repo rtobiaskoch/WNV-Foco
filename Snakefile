@@ -14,7 +14,8 @@ dropped_strains = "config/dropped_strains.txt",
 reference = "config/reference.gb",
 colors = "config/colors.tsv",
 lat_longs = "config/lat_longs.tsv",
-auspice_config = "config/auspice_config.json"
+auspice_config = "config/auspice_config.json",
+input_clades = "config/clades.tsv"
 
 rule filter:
     message:
@@ -32,7 +33,7 @@ rule filter:
         sequences = "results/filtered.fasta"
     params:
         group_by = "country year month",
-        sequences_per_group = 1000,
+        sequences_per_group = 100,
         min_date = 1900
     shell:
         """
@@ -98,7 +99,7 @@ rule refine:
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 10
+        clock_filter_iqd = 100
     shell:
         """
         augur refine \
@@ -111,8 +112,7 @@ rule refine:
             --coalescent {params.coalescent} \
             --date-confidence \
             --date-inference {params.date_inference} \
-            --clock-filter-iqd {params.clock_filter_iqd} \
-            --root KY703856/Senegal/1992/8/mosquito
+            --clock-filter-iqd {params.clock_filter_iqd}
         """
 
 rule ancestral:
@@ -150,6 +150,23 @@ rule translate:
             --output-node-data {output.node_data} \
         """
 
+rule clades:
+    message: " Labeling clades as specified in config/clades.tsv"
+    input:
+        tree = rules.refine.output.tree,
+        aa_muts = rules.translate.output.node_data,
+        nuc_muts = rules.ancestral.output.node_data,
+        clades = input_clades
+    output:
+        clade_data = "results/clades.json"
+    shell:
+        """
+        augur clades --tree {input.tree} \
+            --mutations {input.nuc_muts} {input.aa_muts} \
+            --clades {input.clades} \
+            --output {output.clade_data}
+        """
+
 rule traits:
     message: "Inferring ancestral traits for {params.columns!s}"
     input:
@@ -180,6 +197,7 @@ rule export:
         aa_muts = rules.translate.output.node_data,
         colors = colors,
         lat_longs = lat_longs,
+        clades = rules.clades.output.clade_data,
         auspice_config = auspice_config
     output:
         auspice_json = rules.all.input.auspice_json,
@@ -188,7 +206,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
+            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.clades} {input.aa_muts} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \

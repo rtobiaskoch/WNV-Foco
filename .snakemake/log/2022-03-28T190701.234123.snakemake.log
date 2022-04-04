@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in line 19 of /Users/user/Programming Directory/Grubaugh Lab/WNV-nextstrain/Snakefile:
+Missing input files for rule filter:
+data/sequences.fasta
+data/metadata.tsv

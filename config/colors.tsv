@@ -8,8 +8,9 @@ region	Oceania	#84ce92
 lineage	1a	#4671eb
 lineage	2	#ff933b
 lineage	4	#f0c847
-lineage	5	#bcd661
-lineage	7	#54a0db
+lineage	1c_5	#bcd661
+lineage	7_koutango	#54a0db
 lineage	8	#8f6ac0
-lineage	kunjin	#84ce92
-lineage	rabensburg	#f83628
+lineage	1b_kunjin	#84ce92
+lineage	3_rabensburg	#f83628
+lineage	usutu	#8f6ac0
