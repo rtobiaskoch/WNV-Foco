@@ -4,7 +4,7 @@ rule all:
 
 rule options:
 	params:
-		threads = 4
+		threads = 8
 
 options = rules.options.params
 
@@ -17,35 +17,6 @@ lat_longs = "config/lat_longs.tsv",
 auspice_config = "config/auspice_config.json",
 input_clades = "config/clades.tsv"
 
-rule filter:
-    message:
-        """
-        Filtering to
-          - {params.sequences_per_group} sequence(s) per {params.group_by!s}
-          - from {params.min_date} onwards
-          - excluding strains in {input.exclude}
-        """
-    input:
-        sequences = input_fasta,
-        metadata = input_metadata,
-        exclude = dropped_strains
-    output:
-        sequences = "results/filtered.fasta"
-    params:
-        group_by = "country year month",
-        sequences_per_group = 100,
-        min_date = 1900
-    shell:
-        """
-        augur filter \
-            --sequences {input.sequences} \
-            --metadata {input.metadata} \
-            --exclude {input.exclude} \
-            --output {output.sequences} \
-            --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
-            --min-date {params.min_date}
-        """
 
 rule align:
     message:
@@ -54,7 +25,7 @@ rule align:
           - filling gaps with N
         """
     input:
-        sequences = rules.filter.output.sequences,
+        sequences = input_fasta,
         reference = reference
     output:
         alignment = "results/aligned.fasta"
