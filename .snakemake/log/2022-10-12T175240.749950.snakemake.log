@@ -1,0 +1,53 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+align            1              1              1
+ancestral        1              1              1
+clades           1              1              1
+export           1              1              1
+filter           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+tree             1              1              1
+total            9              1              1
+
+Select jobs to execute...
+
+[Wed Oct 12 17:52:40 2022]
+Job 4: 
+        Filtering to
+          - 100 sequence(s) per country year month
+          - from 1900 onwards
+          - excluding strains in config/dropped_strains.txt
+        
+Reason: Missing output files: results/filtered.fasta
+
+[Wed Oct 12 17:52:42 2022]
+Finished job 4.
+1 of 9 steps (11%) done
+Select jobs to execute...
+
+[Wed Oct 12 17:52:42 2022]
+Job 3: 
+        Aligning sequences to config/reference.gb
+          - filling gaps with N
+        
+Reason: Missing output files: results/aligned.fasta; Input files updated by another job: results/filtered.fasta
+
+Terminating processes on user request, this might take some time.
+[Wed Oct 12 17:52:54 2022]
+Error in rule align:
+    jobid: 3
+    output: results/aligned.fasta
+    shell:
+        
+        augur align             --sequences results/filtered.fasta             --reference-sequence config/reference.gb             --output results/aligned.fasta             --fill-gaps
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2022-10-12T175240.749950.snakemake.log

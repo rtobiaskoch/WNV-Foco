@@ -146,7 +146,7 @@ rule traits:
     output:
         node_data = "results/traits.json",
     params:
-        columns = "country state region"
+        columns = "country continent region"
     shell:
         """
         augur traits \

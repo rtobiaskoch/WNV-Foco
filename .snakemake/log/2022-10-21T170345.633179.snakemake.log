@@ -1,0 +1,57 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+ancestral        1              1              1
+clades           1              1              1
+export           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+total            6              1              1
+
+Select jobs to execute...
+
+[Fri Oct 21 17:03:45 2022]
+Job 1: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 100 IQDs from clock expectation
+        
+Reason: Missing output files: results/branch_lengths.json, results/tree.nwk
+
+[Fri Oct 21 17:09:55 2022]
+Finished job 1.
+1 of 6 steps (17%) done
+Select jobs to execute...
+
+[Fri Oct 21 17:09:55 2022]
+Job 4: Inferring ancestral traits for country state region
+Reason: Missing output files: results/traits.json; Input files updated by another job: results/tree.nwk
+
+
+[Fri Oct 21 17:09:55 2022]
+Job 5: Reconstructing ancestral sequences and mutations
+Reason: Missing output files: results/nt_muts.json; Input files updated by another job: results/tree.nwk
+
+[Fri Oct 21 17:10:05 2022]
+Error in rule traits:
+    jobid: 4
+    output: results/traits.json
+    shell:
+        
+        augur traits             --tree results/tree.nwk             --metadata data/metadata.tsv             --output-node-data results/traits.json             --columns country state region             --confidence
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Oct 21 17:10:18 2022]
+Finished job 5.
+2 of 6 steps (33%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-10-21T170345.633179.snakemake.log

@@ -1,0 +1,80 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+align            1              1              1
+ancestral        1              1              1
+clades           1              1              1
+export           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+tree             1              1              1
+total            8              1              1
+
+Select jobs to execute...
+
+[Fri Oct 21 16:32:19 2022]
+Job 3: 
+        Aligning sequences to config/reference.gb
+          - filling gaps with N
+        
+Reason: Missing output files: results/aligned.fasta
+
+[Fri Oct 21 16:32:40 2022]
+Finished job 3.
+1 of 8 steps (12%) done
+Select jobs to execute...
+
+[Fri Oct 21 16:32:40 2022]
+Job 2: Building tree
+Reason: Missing output files: results/tree_raw.nwk; Input files updated by another job: results/aligned.fasta
+
+[Fri Oct 21 16:32:41 2022]
+Finished job 2.
+2 of 8 steps (25%) done
+Select jobs to execute...
+
+[Fri Oct 21 16:32:41 2022]
+Job 1: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 100 IQDs from clock expectation
+        
+Reason: Missing output files: results/branch_lengths.json, results/tree.nwk; Input files updated by another job: results/tree_raw.nwk, results/aligned.fasta
+
+[Fri Oct 21 16:32:52 2022]
+Finished job 1.
+3 of 8 steps (38%) done
+Select jobs to execute...
+
+[Fri Oct 21 16:32:52 2022]
+Job 4: Inferring ancestral traits for country state region
+Reason: Missing output files: results/traits.json; Input files updated by another job: results/tree.nwk
+
+
+[Fri Oct 21 16:32:52 2022]
+Job 5: Reconstructing ancestral sequences and mutations
+Reason: Missing output files: results/nt_muts.json; Input files updated by another job: results/tree.nwk, results/aligned.fasta
+
+[Fri Oct 21 16:32:53 2022]
+Error in rule traits:
+    jobid: 4
+    output: results/traits.json
+    shell:
+        
+        augur traits             --tree results/tree.nwk             --metadata data/metadata.tsv             --output-node-data results/traits.json             --columns country state region             --confidence
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Oct 21 16:32:54 2022]
+Finished job 5.
+4 of 8 steps (50%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-10-21T163219.100897.snakemake.log

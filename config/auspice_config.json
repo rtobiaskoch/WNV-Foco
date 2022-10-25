@@ -12,6 +12,11 @@
       "type": "continuous"
     },
     {
+      "key": "year_grp",
+      "title": "year",
+      "type": "categorical"
+    },
+    {
       "key": "country",
       "title": "country",
       "type": "categorical"
@@ -19,6 +24,11 @@
     {
       "key": "region",
       "title": "region",
+      "type": "categorical"
+    },
+    {
+      "key": "continent",
+      "title": "continent",
       "type": "categorical"
     },
     {
@@ -39,6 +49,7 @@
   ],
   "geo_resolutions": [
     "country",
+    "continent",
     "region"
   ],
   "panels": [
@@ -51,6 +62,8 @@
   },
   "filters": [
     "country",
+    "continent",
+    "year_grp",
     "region",
     "host",
     "lineage",

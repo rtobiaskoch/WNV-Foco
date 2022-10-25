@@ -1,0 +1,75 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+ancestral        1              1              1
+clades           1              1              1
+export           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+total            6              1              1
+
+Select jobs to execute...
+
+[Sat Oct 22 17:35:59 2022]
+Job 1: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 100 IQDs from clock expectation
+        
+Reason: Updated input files: data/metadata.tsv
+
+[Sat Oct 22 17:42:25 2022]
+Finished job 1.
+1 of 6 steps (17%) done
+Select jobs to execute...
+
+[Sat Oct 22 17:42:25 2022]
+Job 4: Inferring ancestral traits for country continent region
+Reason: Input files updated by another job: results/tree.nwk
+
+
+[Sat Oct 22 17:42:25 2022]
+Job 5: Reconstructing ancestral sequences and mutations
+Reason: Input files updated by another job: results/tree.nwk
+
+[Sat Oct 22 17:42:50 2022]
+Finished job 5.
+2 of 6 steps (33%) done
+Select jobs to execute...
+
+[Sat Oct 22 17:42:50 2022]
+Job 6: Translating amino acid sequences
+Reason: Input files updated by another job: results/tree.nwk, results/nt_muts.json
+
+[Sat Oct 22 17:42:53 2022]
+Finished job 6.
+3 of 6 steps (50%) done
+Select jobs to execute...
+
+[Sat Oct 22 17:42:53 2022]
+Job 7:  Labeling clades as specified in config/clades.tsv
+Reason: Input files updated by another job: results/aa_muts.json, results/tree.nwk, results/nt_muts.json
+
+[Sat Oct 22 17:42:54 2022]
+Finished job 7.
+4 of 6 steps (67%) done
+[Sat Oct 22 17:45:42 2022]
+Finished job 4.
+5 of 6 steps (83%) done
+Select jobs to execute...
+
+[Sat Oct 22 17:45:42 2022]
+Job 0: Exporting data files for for auspice
+Reason: Input files updated by another job: results/traits.json, results/branch_lengths.json, results/aa_muts.json, results/tree.nwk, results/clades.json, results/nt_muts.json
+
+[Sat Oct 22 17:45:45 2022]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: .snakemake/log/2022-10-22T173559.500302.snakemake.log

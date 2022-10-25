@@ -1,0 +1,49 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+clades           1              1              1
+export           1              1              1
+traits           1              1              1
+translate        1              1              1
+total            4              1              1
+
+Select jobs to execute...
+
+[Fri Oct 21 17:13:34 2022]
+Job 4: Inferring ancestral traits for country continent region
+Reason: Missing output files: results/traits.json
+
+
+[Fri Oct 21 17:13:34 2022]
+Job 6: Translating amino acid sequences
+Reason: Missing output files: results/aa_muts.json
+
+[Fri Oct 21 17:13:37 2022]
+Finished job 6.
+1 of 4 steps (25%) done
+Select jobs to execute...
+
+[Fri Oct 21 17:13:37 2022]
+Job 7:  Labeling clades as specified in config/clades.tsv
+Reason: Missing output files: results/clades.json; Input files updated by another job: results/aa_muts.json
+
+[Fri Oct 21 17:13:38 2022]
+Finished job 7.
+2 of 4 steps (50%) done
+[Fri Oct 21 17:16:13 2022]
+Finished job 4.
+3 of 4 steps (75%) done
+Select jobs to execute...
+
+[Fri Oct 21 17:16:13 2022]
+Job 0: Exporting data files for for auspice
+Reason: Missing output files: auspice/WNV-Global.json; Input files updated by another job: results/aa_muts.json, results/traits.json, results/clades.json
+
+[Fri Oct 21 17:16:16 2022]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: .snakemake/log/2022-10-21T171333.980540.snakemake.log

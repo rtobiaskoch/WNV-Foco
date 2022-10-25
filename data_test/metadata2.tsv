@@ -1,0 +1,275 @@
+strain	accession	date	country	continent	lineage	host	host_genus	region
+AY532665/Uganda_unknown/1937/2/human	AY532665	1937-06-01	Uganda	Africa	2	human	Homo	Uganda_unknown
+DQ116961/Hungary_Biharugra/2004/2/bird	DQ116961	2004-06-01	Hungary	Europe	2	bird	Accipiter	Hungary_Biharugra
+DQ176636/Madagascar_unknown/1978/2/bird	DQ176636	1978-06-01	Madagascar	Africa	2	bird	Coracopsis	Madagascar_unknown
+DQ318019/Senegal_unknown/1988/2/mosquito	DQ318019	1988-06-01	Senegal	Africa	2	mosquito	culex	Senegal_unknown
+DQ318020/CentralAfricanRepublic_unknown/1972/2/human	DQ318020	1972-06-01	Central African Republic	Africa	2	human	Homo	Central African Republic_unknown
+EF429197/SouthAfrica_unknown/1989/2/human	EF429197	1989-06-01	South Africa	Africa	2	human	Homo	South Africa_unknown
+EF429198/SouthAfrica_unknown/2001/2/human	EF429198	2001-06-01	South Africa	Africa	2	human	Homo	South Africa_unknown
+EF429199/SouthAfrica_unknown/2000/2/human	EF429199	2000-06-01	South Africa	Africa	2	human	Homo	South Africa_unknown
+EF429200/SouthAfrica_unknown/1958/2/human	EF429200	1958-06-01	South Africa	Africa	2	human	Homo	South Africa_unknown
+EU082200/Senegal_unknown/1968/7_koutango/unknown	EU082200	1968-06-01	Senegal	Africa	7_koutango	unknown	unknown	Senegal_unknown
+FJ159130/Russia_Volgograd/2005/4/mosquito	FJ159130	2005-06-01	Russia	Europe	4	mosquito	Uranotaenia	Russia_Volgograd
+FJ159131/Russia_Volgograd/2005/4/mosquito	FJ159131	2005-06-01	Russia	Europe	4	mosquito	Uranotaenia	Russia_Volgograd
+FJ425721/Russia_Volgograd/2007/2/human	FJ425721	2007-06-01	Russia	Europe	2	human	Homo	Russia_Volgograd
+GQ903680/Cyprus_unknown/1968/2/unknown	GQ903680	1968-06-01	Cyprus	Europe	2	unknown	unknown	Cyprus_unknown
+HM147822/SouthAfrica_unknown/1958/2/unknown	HM147822	1958-06-01	South Africa	Africa	2	unknown	unknown	South Africa_unknown
+HM147823/Madagascar_unknown/1988/2/unknown	HM147823	1988-06-01	Madagascar	Africa	2	unknown	unknown	Madagascar_unknown
+HM147824/DemocraticRepublicoftheCongo_unknown/1958/2/unknown	HM147824	1958-06-01	Democratic Republic of the Congo	Africa	2	unknown	unknown	Democratic Republic of the Congo_unknown
+HQ537483/Greece_NeaSanta/2010/2/mosquito	HQ537483	2010-06-01	Greece	Europe	2	mosquito	Culex	Greece_Nea Santa
+JN393308/SouthAfrica_TiegerpoortPretoria/2008/2/ungulate	JN393308	2008-04-15	South Africa	Africa	2	ungulate	Equus	South Africa_Tiegerpoort, Pretoria
+JN858070/Italy_unknown/2011/2/human	JN858070	2011-09-01	Italy	Europe	2	human	Homo	Italy_unknown
+JX041631/Ukraine_Lviv/1980/2/bird	JX041631	1980-06-01	Ukraine	Europe	2	bird	unknown	Ukraine_Lviv
+KC407673/Serbia_unknown/2012/2/bird	KC407673	2012-06-01	Serbia	Europe	2	bird	Accipiter	Serbia_unknown
+KC496015/Hungary_unknown/2010/2/ungulate	KC496015	2010-06-01	Hungary	Europe	2	ungulate	Equus	Hungary_unknown
+KC496016/Serbia_NoviSad/2010/2/mosquito	KC496016	2010-06-01	Serbia	Europe	2	mosquito	Culex	Serbia_Novi Sad
+KF179639/Greece_Kavala/2012/2/human	KF179639	2012-09-01	Greece	Europe	2	human	Homo	Greece_Kavala
+KF179640/Austria_unknown/2008/2/bird	KF179640	2008-06-01	Austria	Europe	2	bird	Accipiter	Austria_unknown
+KF588365/Italy_Rovigo/2013/2/human	KF588365	2013-08-01	Italy	Europe	2	human	Homo	Italy_Rovigo
+KF647248/Italy_Rovigo/2013/2/human	KF647248	2013-08-01	Italy	Europe	2	human	Homo	Italy_Rovigo
+KF647249/Italy_Rovigo/2013/2/human	KF647249	2013-08-01	Italy	Europe	2	human	Homo	Italy_Rovigo
+KF647250/Italy_Rovigo/2013/2/human	KF647250	2013-08-01	Italy	Europe	2	human	Homo	Italy_Rovigo
+KF647251/Italy_Padova/2013/2/human	KF647251	2013-08-01	Italy	Europe	2	human	Homo	Italy_Padova
+KF647252/Italy_Rovigo/2013/2/human	KF647252	2013-08-01	Italy	Europe	2	human	Homo	Italy_Rovigo
+KF823805/Italy_Rovigo/2013/2/human	KF823805	2013-08-01	Italy	Europe	2	human	Homo	Italy_Rovigo
+KF823806/Italy_Mantova/2013/2/human	KF823806	2013-10-01	Italy	Europe	2	human	Homo	Italy_Mantova
+KJ577738/Greece_unknown/2013/2/human	KJ577738	2013-06-01	Greece	Europe	2	human	Homo	Greece_unknown
+KJ577739/Greece_unknown/2013/2/human	KJ577739	2013-06-01	Greece	Europe	2	human	Homo	Greece_unknown
+KJ831223/Austria_Seehof/2013/4/mosquito	KJ831223	2013-08-01	Austria	Europe	4	mosquito	Uranotaenia	Austria_Seehof
+KJ883341/Greece_Xanthi/2013/2/human	KJ883341	2013-06-01	Greece	Europe	2	human	Homo	Greece_Xanthi
+KJ883342/Greece_Kavala/2013/2/human	KJ883342	2013-06-01	Greece	Europe	2	human	Homo	Greece_Kavala
+KJ883343/Greece_Xanthi/2013/2/human	KJ883343	2013-06-01	Greece	Europe	2	human	Homo	Greece_Xanthi
+KJ883344/Greece_Xanthi/2013/2/human	KJ883344	2013-06-01	Greece	Europe	2	human	Homo	Greece_Xanthi
+KJ883345/Greece_Xanthi/2013/2/human	KJ883345	2013-06-01	Greece	Europe	2	human	Homo	Greece_Xanthi
+KJ883346/Greece_Thessaloniki/2013/2/human	KJ883346	2013-06-01	Greece	Europe	2	human	Homo	Greece_Thessaloniki
+KJ883347/Greece_Serres/2013/2/human	KJ883347	2013-06-01	Greece	Europe	2	human	Homo	Greece_Serres
+KJ883348/Greece_Kavala/2013/2/human	KJ883348	2013-06-01	Greece	Europe	2	human	Homo	Greece_Kavala
+KJ883349/Greece_Xanthi/2013/2/human	KJ883349	2013-06-01	Greece	Europe	2	human	Homo	Greece_Xanthi
+KJ883350/Greece_Thessaloniki/2013/2/human	KJ883350	2013-06-01	Greece	Europe	2	human	Homo	Greece_Thessaloniki
+KJ934710/Romania_Enisala/2013/2/other	KJ934710	2013-08-27	Romania	Europe	2	other	Hyalomma	Romania_Enisala
+KM052152/SouthAfrica_unknown/1977/2/ungulate	KM052152	1977-06-01	South Africa	Africa	2	ungulate	Equus	South Africa_unknown
+KM203860/CzechRepublic_Brno/2013/2/mosquito	KM203860	2013-08-08	Czech Republic	Europe	2	mosquito	Culex	Czech Republic_Brno
+KM203861/CzechRepublic_Brno/2013/2/mosquito	KM203861	2013-08-08	Czech Republic	Europe	2	mosquito	Culex	Czech Republic_Brno
+KM203862/CzechRepublic_Brno/2013/2/mosquito	KM203862	2013-08-08	Czech Republic	Europe	2	mosquito	Culex	Czech Republic_Brno
+KM203863/CzechRepublic_Brno/2013/2/mosquito	KM203863	2013-08-08	Czech Republic	Europe	2	mosquito	Culex	Czech Republic_Brno
+KM659876/Austria_unknown/2014/2/human	KM659876	2014-06-01	Austria	Europe	2	human	Homo	Austria_unknown
+KP109691/Austria_Vienna/2014/2/human	KP109691	2014-06-01	Austria	Europe	2	human	Homo	Austria_Vienna
+KP109692/Austria_Vienna/2014/2/mosquito	KP109692	2014-06-01	Austria	Europe	2	mosquito	Culex	Austria_Vienna
+KP780837/Austria_unknown/2008/2/bird	KP780837	2008-08-29	Austria	Europe	2	bird	Nestor	Austria_unknown
+KP780838/Austria_unknown/2009/2/bird	KP780838	2009-09-16	Austria	Europe	2	bird	Nestor	Austria_unknown
+KP780839/Austria_unknown/2011/2/bird	KP780839	2011-03-14	Austria	Europe	2	bird	Nestor	Austria_unknown
+KP780840/Austria_unknown/2014/2/bird	KP780840	2014-08-21	Austria	Europe	2	bird	Nestor	Austria_unknown
+KP789953/Italy_Pavia/2014/2/human	KP789953	2014-06-01	Italy	Europe	2	human	Homo	Italy_Pavia
+KP789954/Italy_Cremona/2014/2/human	KP789954	2014-06-01	Italy	Europe	2	human	Homo	Italy_Cremona
+KP789955/Italy_Verona/2014/2/human	KP789955	2014-06-01	Italy	Europe	2	human	Homo	Italy_Verona
+KP789956/Italy_Verona/2014/2/human	KP789956	2014-06-01	Italy	Europe	2	human	Homo	Italy_Verona
+KP789957/Italy_Cremona/2014/2/human	KP789957	2014-06-01	Italy	Europe	2	human	Homo	Italy_Cremona
+KP789958/Italy_Pavia/2014/2/human	KP789958	2014-06-01	Italy	Europe	2	human	Homo	Italy_Pavia
+KP789959/Italy_Pavia/2014/2/human	KP789959	2014-06-01	Italy	Europe	2	human	Homo	Italy_Pavia
+KP789960/Italy_Mantova/2013/2/human	KP789960	2013-06-01	Italy	Europe	2	human	Homo	Italy_Mantova
+KT207791/Italy_unknown/2014/2/mosquito	KT207791	2014-07-15	Italy	Europe	2	mosquito	Culicidae	Italy_unknown
+KT207792/Italy_unknown/2014/2/mosquito	KT207792	2014-08-18	Italy	Europe	2	mosquito	Culicidae	Italy_unknown
+KT359349/Hungary_unknown/2014/2/human	KT359349	2014-06-01	Hungary	Europe	2	human	Homo	Hungary_unknown
+KT757318/Serbia_NoviSad/2013/2/mosquito	KT757318	2013-06-01	Serbia	Europe	2	mosquito	Culex	Serbia_Novi Sad
+KT757319/Serbia_NoviSad/2013/2/mosquito	KT757319	2013-06-01	Serbia	Europe	2	mosquito	Culex	Serbia_Novi Sad
+KT757320/Serbia_NoviSad/2013/2/mosquito	KT757320	2013-06-01	Serbia	Europe	2	mosquito	Culex	Serbia_Novi Sad
+KT757321/Serbia_NoviSad/2013/2/mosquito	KT757321	2013-06-01	Serbia	Europe	2	mosquito	Culex	Serbia_Novi Sad
+KT757322/Serbia_NoviSad/2013/2/mosquito	KT757322	2013-06-01	Serbia	Europe	2	mosquito	Culex	Serbia_Novi Sad
+KT757323/Serbia_NoviSad/2013/2/mosquito	KT757323	2013-06-01	Serbia	Europe	2	mosquito	Culex	Serbia_Novi Sad
+KU206781/Bulgaria_Sofia/2015/2/human	KU206781	2015-08-27	Bulgaria	Europe	2	human	Homo	Bulgaria_Sofia
+KU573080/Italy_unknown/2013/2/mosquito	KU573080	2013-06-01	Italy	Europe	2	mosquito	Culex	Italy_unknown
+KU573081/Italy_unknown/2013/2/bird	KU573081	2013-06-01	Italy	Europe	2	bird	Pica	Italy_unknown
+KU573082/Italy_unknown/2013/2/bird	KU573082	2013-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+KU573083/Italy_unknown/2013/2/mosquito	KU573083	2013-06-01	Italy	Europe	2	mosquito	Culex	Italy_unknown
+KU978767/Madagascar_unknown/1988/2/mosquito	KU978767	1988-02-12	Madagascar	Africa	2	mosquito	Culex	Madagascar_unknown
+KX375812/Serbia_NoviSad/2013/2/human	KX375812	2013-06-01	Serbia	Europe	2	human	Homo	Serbia_Novi Sad
+KY523178/Uganda_QueenElizabethNationalPark/2009/2/mosquito	KY523178	2009-06-01	Uganda	Africa	2	mosquito	Culex	Uganda_Queen Elizabeth National Park
+KY594040/Greece_unknown/2010/2/human	KY594040	2010-06-01	Greece	Europe	2	human	Homo	Greece_unknown
+KY703855/Senegal_unknown/1993/7_koutango/other	KY703855	1993-06-01	Senegal	Africa	7_koutango	other	Rhipicephalus	Senegal_unknown
+KY703856/Senegal_unknown/1992/8/mosquito	KY703856	1992-06-01	Senegal	Africa	8	mosquito	Culex	Senegal_unknown
+LC318700/Zambia_Mongudistrict/2016/2/mosquito	LC318700	2016-05-16	Zambia	Africa	2	mosquito	Culex	Zambia_Mongu district
+LR743421/Germany_Dresden/2019/2/bird	LR743421	2019-08-30	Germany	Europe	2	bird	Parus	Germany_Dresden
+LR743422/Germany_Neuruppin/2019/2/bird	LR743422	2019-08-26	Germany	Europe	2	bird	Accipiter	Germany_Neuruppin
+LR743423/Germany_Radebeul/2019/2/bird	LR743423	2019-08-31	Germany	Europe	2	bird	Accipiter	Germany_Radebeul
+LR743424/Germany_Berlin/2019/2/bird	LR743424	2019-08-04	Germany	Europe	2	bird	Bubo	Germany_Berlin
+LR743425/Germany_Berlin/2019/2/bird	LR743425	2019-07-03	Germany	Europe	2	bird	Bubo	Germany_Berlin
+LR743426/Germany_Berlin/2019/2/bird	LR743426	2019-08-31	Germany	Europe	2	bird	Bubo	Germany_Berlin
+LR743427/Germany_Berlin/2019/2/bird	LR743427	2019-07-14	Germany	Europe	2	bird	Accipiter	Germany_Berlin
+LR743428/Germany_Berlin/2019/2/bird	LR743428	2019-08-18	Germany	Europe	2	bird	Bubo	Germany_Berlin
+LR743429/Germany_BadLauchstaedt/2018/2/bird	LR743429	2018-09-19	Germany	Europe	2	bird	Strix	Germany_Bad Lauchstaedt
+LR743430/Germany_Radebeul/2019/2/bird	LR743430	2019-08-08	Germany	Europe	2	bird	Cyanistes	Germany_Radebeul
+LR743431/Germany_Kamenz/2019/2/bird	LR743431	2019-09-04	Germany	Europe	2	bird	Pluvialis	Germany_Kamenz
+LR743432/Germany_Berlin/2019/2/bird	LR743432	2019-08-30	Germany	Europe	2	bird	Phoenicoparrus	Germany_Berlin
+LR743433/Germany_KleinWeissandt/2018/2/bird	LR743433	2018-09-01	Germany	Europe	2	bird	Accipiter	Germany_Klein Weissandt
+LR743434/Germany_Poing/2018/2/bird	LR743434	2018-09-03	Germany	Europe	2	bird	Strix	Germany_Poing
+LR743435/Germany_Brieselang/2019/2/bird	LR743435	2019-08-20	Germany	Europe	2	bird	Accipiter	Germany_Brieselang
+LR743436/Germany_BadDuben/2018/2/bird	LR743436	2018-09-10	Germany	Europe	2	bird	Accipiter	Germany_Bad Duben
+LR743437/Germany_Poing/2018/2/bird	LR743437	2018-08-31	Germany	Europe	2	bird	Strix	Germany_Poing
+LR743442/Germany_Halle/2019/2/bird	LR743442	2019-08-08	Germany	Europe	2	bird	Cyanistes	Germany_Halle
+LR743443/Germany_Berlin/2018/2/bird	LR743443	2018-09-05	Germany	Europe	2	bird	Bubo	Germany_Berlin
+LR743444/Germany_Luhterstadt/2019/2/bird	LR743444	2019-08-06	Germany	Europe	2	bird	Strix	Germany_Luhterstadt
+LR743445/Germany_Chemnitz/2019/2/bird	LR743445	2019-09-03	Germany	Europe	2	bird	Strix	Germany_Chemnitz
+LR743446/Germany_Halle/2019/2/bird	LR743446	2019-08-19	Germany	Europe	2	bird	Trichoglossus	Germany_Halle
+LR743447/Germany_Berlin/2019/2/mosquito	LR743447	2019-09-24	Germany	Europe	2	mosquito	Culex	Germany_Berlin
+LR743448/Germany_Cottbus/2019/2/bird	LR743448	2019-09-09	Germany	Europe	2	bird	Spheniscus	Germany_Cottbus
+LR743449/Germany_Sandersdorf/2019/2/bird	LR743449	2019-09-04	Germany	Europe	2	bird	Accipiter	Germany_Sandersdorf
+LR743450/Germany_Leipzig/2019/2/bird	LR743450	2019-09-09	Germany	Europe	2	bird	Phoenicopterus	Germany_Leipzig
+LR743451/Germany_Magdeburg/2019/2/bird	LR743451	2019-09-04	Germany	Europe	2	bird	Bubo	Germany_Magdeburg
+LR743452/Germany_Chemnitz/2019/2/bird	LR743452	2019-09-04	Germany	Europe	2	bird	Strix	Germany_Chemnitz
+LR743453/Germany_Krostitz/2019/2/ungulate	LR743453	2019-08-14	Germany	Europe	2	ungulate	Equus	Germany_Krostitz
+LR743454/Germany_BadDuben/2019/2/bird	LR743454	2019-09-09	Germany	Europe	2	bird	Parus	Germany_Bad Duben
+LR743455/Germany_Berlin/2019/2/mosquito	LR743455	2019-09-17	Germany	Europe	2	mosquito	Culex	Germany_Berlin
+LR743456/Germany_Rackwitz/2019/2/bird	LR743456	2019-08-26	Germany	Europe	2	bird	Passer	Germany_Rackwitz
+LR743457/Germany_Merseburg/2019/2/bird	LR743457	2019-09-05	Germany	Europe	2	bird	Accipiter	Germany_Merseburg
+LR743458/Germany_Magdeburg/2019/2/bird	LR743458	2019-09-03	Germany	Europe	2	bird	Bubo	Germany_Magdeburg
+LR989885/Germany_Berlin/2019/2/bird	LR989885	2019-06-01	Germany	Europe	2	bird	Larus	Germany_Berlin
+LR989888/Germany_Berlin/2019/2/bird	LR989888	2019-06-01	Germany	Europe	2	bird	Larus	Germany_Berlin
+LR989891/Germany_Berlin/2019/2/bird	LR989891	2019-06-01	Germany	Europe	2	bird	Mergus	Germany_Berlin
+LR989893/Germany_Berlin/2018/2/bird	LR989893	2018-06-01	Germany	Europe	2	bird	Bubo	Germany_Berlin
+MF984337/Austria_Vienna/2015/2/human	MF984337	2015-06-01	Austria	Europe	2	human	Homo	Austria_Vienna
+MF984338/Austria_Vienna/2015/2/human	MF984338	2015-06-01	Austria	Europe	2	human	Homo	Austria_Vienna
+MF984339/Austria_Vienna/2015/2/human	MF984339	2015-06-01	Austria	Europe	2	human	Homo	Austria_Vienna
+MF984340/Austria_Vienna/2015/2/human	MF984340	2015-06-01	Austria	Europe	2	human	Homo	Austria_Vienna
+MF984341/Austria_Vienna/2015/2/human	MF984341	2015-06-01	Austria	Europe	2	human	Homo	Austria_Vienna
+MF984342/Austria_Vienna/2015/2/human	MF984342	2015-06-01	Austria	Europe	2	human	Homo	Austria_Vienna
+MF984343/Austria_Vienna/2015/2/human	MF984343	2015-06-01	Austria	Europe	2	human	Homo	Austria_Vienna
+MF984344/Austria_Vienna/2015/2/bird	MF984344	2015-06-01	Austria	Europe	2	bird	Accipiter	Austria_Vienna
+MF984345/Austria_Vienna/2015/2/bird	MF984345	2015-06-01	Austria	Europe	2	bird	Falco	Austria_Vienna
+MF984346/Austria_Vienna/2016/2/human	MF984346	2016-06-01	Austria	Europe	2	human	Homo	Austria_Vienna
+MF984347/Austria_Vienna/2016/2/human	MF984347	2016-06-01	Austria	Europe	2	human	Homo	Austria_Vienna
+MF984348/Austria_Vienna/2016/2/human	MF984348	2016-06-01	Austria	Europe	2	human	Homo	Austria_Vienna
+MF984349/Austria_Vienna/2016/2/ungulate	MF984349	2016-06-01	Austria	Europe	2	ungulate	Equus	Austria_Vienna
+MF984350/Austria_Vienna/2016/2/ungulate	MF984350	2016-06-01	Austria	Europe	2	ungulate	Equus	Austria_Vienna
+MF984351/Austria_Vienna/2016/2/mosquito	MF984351	2016-06-01	Austria	Europe	2	mosquito	Culex	Austria_Vienna
+MF984352/Austria_Vienna/2016/2/mosquito	MF984352	2016-06-01	Austria	Europe	2	mosquito	Culex	Austria_Vienna
+MH021189/Belgium_Antwerpen/2017/2/human	MH021189	2017-10-01	Belgium	Europe	2	human	Homo	Belgium_Antwerpen
+MH244510/Slovakia_VelkyBiel/2014/2/bird	MH244510	2014-06-01	Slovakia	Europe	2	bird	Accipiter	Slovakia_Velky Biel
+MH244511/Slovakia_VelkyBiel/2013/2/bird	MH244511	2013-06-01	Slovakia	Europe	2	bird	Accipiter	Slovakia_Velky Biel
+MH244512/Slovakia_VelkyBiel/2013/2/bird	MH244512	2013-06-01	Slovakia	Europe	2	bird	Accipiter	Slovakia_Velky Biel
+MH244513/Slovakia_Secovce/2013/2/bird	MH244513	2013-06-01	Slovakia	Europe	2	bird	Accipiter	Slovakia_Secovce
+MH549209/Greece_Peloponnesus/2017/2/bird	MH549209	2017-07-01	Greece	Europe	2	bird	Pica	Greece_Peloponnesus
+MH910045/Germany_unknown/2018/2/human	MH910045	2018-08-01	Germany	Europe	2	human	Homo	Germany_unknown
+MH924836/Germany_unknown/2018/2/bird	MH924836	2018-08-22	Germany	Europe	2	bird	Strix	Germany_unknown
+MH939153/Romania_Caraorman/2014/2/mosquito	MH939153	2014-06-01	Romania	Europe	2	mosquito	Anopheles	Romania_Caraorman
+MH939154/Romania_Caraorman/2014/2/mosquito	MH939154	2014-06-01	Romania	Europe	2	mosquito	Culex	Romania_Caraorman
+MH986055/Germany_Berlin/2018/2/bird	MH986055	2018-06-01	Germany	Europe	2	bird	Turdus	Germany_Berlin
+MH986056/Germany_Rostock/2018/2/bird	MH986056	2018-06-01	Germany	Europe	2	bird	Turdus	Germany_Rostock
+MK473443/Greece_Peloponnesus/2017/2/bird	MK473443	2017-07-01	Greece	Europe	2	bird	Pica	Greece_Peloponnesus
+MK947396/Slovenia_GornjaRadgona/2018/2/mosquito	MK947396	2018-06-01	Slovenia	Europe	2	mosquito	Culicidae	Slovenia_Gornja Radgona
+MK947397/Slovenia_Ljubljana/2018/2/human	MK947397	2018-08-23	Slovenia	Europe	2	human	Homo	Slovenia_Ljubljana
+MN057643/Niger_unknown/2016/7_koutango/unknown	MN057643	2016-06-01	Niger	Africa	7_koutango	unknown	unknown	Niger_unknown
+MN238669/Iran_unknown/2017/2/mosquito	MN238669	2017-06-01	Iran	Asia	2	mosquito	Culex	Iran_unknown
+MN238670/Iran_unknown/2018/2/mosquito	MN238670	2018-06-01	Iran	Asia	2	mosquito	Culex	Iran_unknown
+MN480792/Greece_Thessaloniki/2018/2/human	MN480792	2018-08-01	Greece	Europe	2	human	Homo	Greece_Thessaloniki
+MN480793/Greece_Pella/2018/2/human	MN480793	2018-08-01	Greece	Europe	2	human	Homo	Greece_Pella
+MN480794/Greece_Thessaloniki/2018/2/mosquito	MN480794	2018-09-01	Greece	Europe	2	mosquito	Culex	Greece_Thessaloniki
+MN480795/Greece_Pella/2018/2/human	MN480795	2018-08-01	Greece	Europe	2	human	Homo	Greece_Pella
+MN481589/Greece_Thessaloniki/2018/2/bird	MN481589	2018-07-17	Greece	Europe	2	bird	Gallus	Greece_Thessaloniki
+MN481590/Greece_Thessaloniki/2018/2/ungulate	MN481590	2018-07-17	Greece	Europe	2	ungulate	Equus	Greece_Thessaloniki
+MN481591/Greece_Rhodope/2018/2/other	MN481591	2018-08-23	Greece	Europe	2	other	Canis	Greece_Rhodope
+MN481592/Greece_Thessaloniki/2012/2/mosquito	MN481592	2012-08-02	Greece	Europe	2	mosquito	Culicidae	Greece_Thessaloniki
+MN481593/Greece_Thessaloniki/2012/2/mosquito	MN481593	2012-08-22	Greece	Europe	2	mosquito	Culicidae	Greece_Thessaloniki
+MN481594/Greece_Pella/2012/2/mosquito	MN481594	2012-09-05	Greece	Europe	2	mosquito	Culicidae	Greece_Pella
+MN481595/Greece_Thessaloniki/2010/2/bird	MN481595	2010-09-30	Greece	Europe	2	bird	Columbidae	Greece_Thessaloniki
+MN481596/Greece_Thessaloniki/2011/2/bird	MN481596	2011-07-06	Greece	Europe	2	bird	Gallus	Greece_Thessaloniki
+MN481597/Greece_Imathia/2012/2/bird	MN481597	2012-08-27	Greece	Europe	2	bird	Gallus	Greece_Imathia
+MN619800/Russia_Volgograd/2018/2/mosquito	MN619800	2018-06-01	Russia	Europe	2	mosquito	Culex	Russia_Volgograd
+MN619801/Russia_Volgograd/2018/2/mosquito	MN619801	2018-06-01	Russia	Europe	2	mosquito	Culex	Russia_Volgograd
+MN619802/Russia_Volgograd/2018/2/mosquito	MN619802	2018-06-01	Russia	Europe	2	mosquito	Culex	Russia_Volgograd
+MN619803/Russia_Volgograd/2018/2/mosquito	MN619803	2018-06-01	Russia	Europe	2	mosquito	Culex	Russia_Volgograd
+MN652878/Greece_Thessaloniki/2018/2/mosquito	MN652878	2018-07-01	Greece	Europe	2	mosquito	Culex	Greece_Thessaloniki
+MN652879/Greece_Pella/2018/2/mosquito	MN652879	2018-07-01	Greece	Europe	2	mosquito	Culex	Greece_Pella
+MN652880/Greece_Thessaloniki/2018/2/mosquito	MN652880	2018-08-01	Greece	Europe	2	mosquito	Culex	Greece_Thessaloniki
+MN794935/Germany_Leipzig/2019/2/human	MN794935	2019-06-01	Germany	Europe	2	human	Homo	Germany_Leipzig
+MN794936/Germany_Berlin/2019/2/human	MN794936	2019-06-01	Germany	Europe	2	human	Homo	Germany_Berlin
+MN794937/Germany_Schonebeck/2019/2/bird	MN794937	2019-06-01	Germany	Europe	2	bird	Turdus	Germany_Schonebeck
+MN794938/Germany_Jesewitz/2019/2/bird	MN794938	2019-06-01	Germany	Europe	2	bird	Passer	Germany_Jesewitz
+MN794939/Germany_Hamburg/2019/2/bird	MN794939	2019-06-01	Germany	Europe	2	bird	Prunella	Germany_Hamburg
+MN812757/Russia_Volgograd/2018/2/mosquito	MN812757	2018-06-01	Russia	Europe	2	mosquito	Culex	Russia_Volgograd
+MN812758/Russia_Volgograd/2018/2/mosquito	MN812758	2018-06-01	Russia	Europe	2	mosquito	Culex	Russia_Volgograd
+MN812759/Russia_Volgograd/2018/2/human	MN812759	2018-06-01	Russia	Europe	2	human	Homo	Russia_Volgograd
+MN812760/Russia_Volgograd/2018/2/human	MN812760	2018-06-01	Russia	Europe	2	human	Homo	Russia_Volgograd
+MN812761/Russia_Volgograd/2018/2/human	MN812761	2018-06-01	Russia	Europe	2	human	Homo	Russia_Volgograd
+MN812762/Russia_Volgograd/2018/2/human	MN812762	2018-06-01	Russia	Europe	2	human	Homo	Russia_Volgograd
+MN939557/Italy_Rovigo/2018/2/human	MN939557	2018-06-01	Italy	Europe	2	human	Homo	Italy_Rovigo
+MN939558/Italy_Rovigo/2016/2/human	MN939558	2016-06-01	Italy	Europe	2	human	Homo	Italy_Rovigo
+MN939559/Italy_Rovigo/2016/2/human	MN939559	2016-06-01	Italy	Europe	2	human	Homo	Italy_Rovigo
+MN939560/Italy_Vicenza/2016/2/human	MN939560	2016-06-01	Italy	Europe	2	human	Homo	Italy_Vicenza
+MN939561/Italy_Venice/2018/2/human	MN939561	2018-06-01	Italy	Europe	2	human	Homo	Italy_Venice
+MN939562/Italy_Treviso/2018/2/human	MN939562	2018-06-01	Italy	Europe	2	human	Homo	Italy_Treviso
+MN939563/Italy_Verona/2018/2/human	MN939563	2018-06-01	Italy	Europe	2	human	Homo	Italy_Verona
+MN939564/Italy_Rovigo/2016/2/human	MN939564	2016-06-01	Italy	Europe	2	human	Homo	Italy_Rovigo
+MT341470/Greece_Larissa/2019/2/mosquito	MT341470	2019-07-01	Greece	Europe	2	mosquito	Culex	Greece_Larissa
+MT341471/Greece_Kardita/2019/2/mosquito	MT341471	2019-07-01	Greece	Europe	2	mosquito	Culex	Greece_Kardita
+MT341472/Bulgaria_Pleven/2018/2/mosquito	MT341472	2018-08-01	Bulgaria	Europe	2	mosquito	Culex	Bulgaria_Pleven
+MT863560/France_unknown/2018/2/bird	MT863560	2018-09-08	France	Europe	2	bird	Buteo	France_unknown
+MT863561/France_unknown/2018/2/bird	MT863561	2018-10-06	France	Europe	2	bird	Accipiter	France_unknown
+MW036633/Netherlands_unknown/2020/2/mosquito	MW036633	2020-09-01	Netherlands	Europe	2	mosquito	Culex	Netherlands_unknown
+MW036634/Netherlands_unknown/2020/2/mosquito	MW036634	2020-08-01	Netherlands	Europe	2	mosquito	Culex	Netherlands_unknown
+MW142223/Germany_Leipzig/2020/2/human	MW142223	2020-08-01	Germany	Europe	2	human	Homo	Germany_Leipzig
+MW142224/Germany_Leipzig/2020/2/human	MW142224	2020-08-01	Germany	Europe	2	human	Homo	Germany_Leipzig
+MW142225/Germany_Leipzig/2020/2/human	MW142225	2020-08-01	Germany	Europe	2	human	Homo	Germany_Leipzig
+MW142226/Germany_Leipzig/2020/2/human	MW142226	2020-08-01	Germany	Europe	2	human	Homo	Germany_Leipzig
+MW142227/Germany_Leipzig/2020/2/human	MW142227	2020-08-01	Germany	Europe	2	human	Homo	Germany_Leipzig
+MW383507/Namibia_Namibia/2020/2/mosquito	MW383507	2020-06-01	Namibia	Africa	2	mosquito	Culex	Namibia_Namibia
+MW383508/Namibia_unknown/2020/2/mosquito	MW383508	2020-06-01	Namibia	Africa	2	mosquito	Culex	Namibia_unknown
+MW561633/Slovakia_Kavecany/2018/2/unknown	MW561633	2018-11-16	Slovakia	Europe	2	unknown	unknown	Slovakia_Kavecany
+MW751834/Serbia_Temerin/2018/2/mosquito	MW751834	2018-07-12	Serbia	Europe	2	mosquito	Culex	Serbia_Temerin
+MW751835/Serbia_Subotica/2018/2/unknown	MW751835	2018-08-28	Serbia	Europe	2	unknown	unknown	Serbia_Subotica
+MW751836/Serbia_MaliIdjos/2015/2/mosquito	MW751836	2015-08-10	Serbia	Europe	2	mosquito	Culex	Serbia_Mali Idjos
+MW751837/Serbia_Curug/2018/2/unknown	MW751837	2018-06-25	Serbia	Europe	2	unknown	unknown	Serbia_Curug
+MW751838/Serbia_Belgrade/2018/2/bird	MW751838	2018-10-16	Serbia	Europe	2	bird	unknown	Serbia_Belgrade
+MW751839/Serbia_NoviSad/2020/2/mosquito	MW751839	2020-09-15	Serbia	Europe	2	mosquito	Culex	Serbia_Novi Sad
+MW751840/Serbia_NoviSad/2020/2/mosquito	MW751840	2020-09-15	Serbia	Europe	2	mosquito	Culex	Serbia_Novi Sad
+MW751841/Serbia_NoviBecej/2018/2/mosquito	MW751841	2018-07-24	Serbia	Europe	2	mosquito	Culex	Serbia_Novi Becej
+MW751842/Serbia_Subotica/2018/2/mosquito	MW751842	2018-07-12	Serbia	Europe	2	mosquito	Culex	Serbia_Subotica
+MW751843/Serbia_Karavukovo/2018/2/mosquito	MW751843	2018-07-26	Serbia	Europe	2	mosquito	Culex	Serbia_Karavukovo
+MW751844/Serbia_Sombor/2018/2/mosquito	MW751844	2018-07-12	Serbia	Europe	2	mosquito	Culex	Serbia_Sombor
+MW751845/Serbia_Opovo/2018/2/mosquito	MW751845	2018-07-12	Serbia	Europe	2	mosquito	Culex	Serbia_Opovo
+MW751846/Serbia_Subotica/2018/2/mosquito	MW751846	2018-07-12	Serbia	Europe	2	mosquito	Culex	Serbia_Subotica
+MW862073/Italy_unknown/2012/2/bird	MW862073	2012-06-01	Italy	Europe	2	bird	Accipiter	Italy_unknown
+MW862074/Italy_unknown/2013/2/bird	MW862074	2013-06-01	Italy	Europe	2	bird	Accipiter	Italy_unknown
+MW862075/Italy_unknown/2015/2/bird	MW862075	2015-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862076/Italy_unknown/2015/2/bird	MW862076	2015-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862077/Italy_unknown/2015/2/bird	MW862077	2015-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862078/Italy_unknown/2015/2/bird	MW862078	2015-06-01	Italy	Europe	2	bird	Strigidae	Italy_unknown
+MW862079/Italy_unknown/2015/2/mosquito	MW862079	2015-06-01	Italy	Europe	2	mosquito	Culex	Italy_unknown
+MW862080/Italy_unknown/2015/2/bird	MW862080	2015-06-01	Italy	Europe	2	bird	Accipiter	Italy_unknown
+MW862081/Italy_unknown/2015/2/bird	MW862081	2015-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862082/Italy_unknown/2015/2/bird	MW862082	2015-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862083/Italy_unknown/2015/2/bird	MW862083	2015-06-01	Italy	Europe	2	bird	Accipiter	Italy_unknown
+MW862084/Italy_unknown/2015/2/bird	MW862084	2015-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862085/Italy_unknown/2015/2/bird	MW862085	2015-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862086/Italy_unknown/2016/2/unknown	MW862086	2016-06-01	Italy	Europe	2	unknown	unknown	Italy_unknown
+MW862087/Italy_unknown/2017/2/bird	MW862087	2017-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862088/Italy_unknown/2017/2/bird	MW862088	2017-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862089/Italy_unknown/2017/2/bird	MW862089	2017-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862090/Italy_unknown/2018/2/unknown	MW862090	2018-06-01	Italy	Europe	2	unknown	unknown	Italy_unknown
+MW862091/Italy_unknown/2018/2/bird	MW862091	2018-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862092/Italy_unknown/2018/2/unknown	MW862092	2018-06-01	Italy	Europe	2	unknown	unknown	Italy_unknown
+MW862093/Italy_unknown/2018/2/bird	MW862093	2018-06-01	Italy	Europe	2	bird	Accipiter	Italy_unknown
+MW862094/Italy_unknown/2018/2/unknown	MW862094	2018-06-01	Italy	Europe	2	unknown	unknown	Italy_unknown
+MW862095/Italy_unknown/2018/2/bird	MW862095	2018-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862096/Italy_unknown/2018/2/bird	MW862096	2018-06-01	Italy	Europe	2	bird	Accipiter	Italy_unknown
+MW862097/Italy_unknown/2018/2/bird	MW862097	2018-06-01	Italy	Europe	2	bird	Accipiter	Italy_unknown
+MW862098/Italy_unknown/2018/2/bird	MW862098	2018-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862099/Italy_unknown/2018/2/bird	MW862099	2018-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862100/Italy_unknown/2018/2/bird	MW862100	2018-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862101/Italy_unknown/2018/2/bird	MW862101	2018-06-01	Italy	Europe	2	bird	Accipiter	Italy_unknown
+MW862102/Italy_unknown/2019/2/bird	MW862102	2019-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862103/Italy_unknown/2019/2/bird	MW862103	2019-06-01	Italy	Europe	2	bird	Accipiter	Italy_unknown
+MW862104/Italy_unknown/2019/2/bird	MW862104	2019-06-01	Italy	Europe	2	bird	Strix	Italy_unknown
+MW862105/Italy_unknown/2019/2/bird	MW862105	2019-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862106/Italy_unknown/2019/2/mosquito	MW862106	2019-06-01	Italy	Europe	2	mosquito	Culex	Italy_unknown
+MW862107/Italy_unknown/2019/2/bird	MW862107	2019-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MW862108/Italy_unknown/2020/2/bird	MW862108	2020-06-01	Italy	Europe	2	bird	Corvus	Italy_unknown
+MZ605382/Hungary_Biharugra/2004/2/bird	MZ605382	2004-06-01	Hungary	Europe	2	bird	Accipiter	Hungary_Biharugra
+MZ964751/Germany_unknown/2021/2/human	MZ964751	2021-08-01	Germany	Europe	2	human	Homo	Germany_unknown
+MZ964752/Germany_unknown/2021/2/human	MZ964752	2021-08-01	Germany	Europe	2	human	Homo	Germany_unknown
+MZ964753/Germany_unknown/2021/2/human	MZ964753	2021-08-01	Germany	Europe	2	human	Homo	Germany_unknown
+OM037670/Spain_Lleida/2017/2/bird	OM037670	2017-09-01	Spain	Europe	2	bird	Accipiter	Spain_Lleida
+OM037671/Spain_Lleida/2020/2/bird	OM037671	2020-09-01	Spain	Europe	2	bird	Accipiter	Spain_Lleida
+OM037672/Spain_Tarragona/2020/2/bird	OM037672	2020-09-01	Spain	Europe	2	bird	Accipiter	Spain_Tarragona
+OM037673/Spain_Tarragona/2020/2/bird	OM037673	2020-09-01	Spain	Europe	2	bird	Accipiter	Spain_Tarragona
+OP009516/Italy_Verona/2021/2/mosquito	OP009516	2021-06-01	Italy	Europe	2	mosquito	Culex	Italy_Verona
+OP009517/Italy_Treviso/2021/2/mosquito	OP009517	2021-06-01	Italy	Europe	2	mosquito	Culex	Italy_Treviso

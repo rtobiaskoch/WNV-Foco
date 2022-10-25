@@ -1,10 +1,9 @@
-region	Europe	#ff933b
-region	North America	#4671eb
-region	South America	#f83628
-region	Africa	#54a0db
-region	Asia	#bcd661
-region	Oceania	#84ce92
-		
+continent	Europe	#ff933b
+continent	North America	#4671eb
+continent	South America	#f83628
+continent	Africa	#54a0db
+continent	Asia	#bcd661
+continent	Oceania	#84ce92
 lineage	1a	#4671eb
 lineage	2	#ff933b
 lineage	4	#f0c847
@@ -14,3 +13,218 @@ lineage	8	#8f6ac0
 lineage	1b_kunjin	#84ce92
 lineage	3_rabensburg	#f83628
 lineage	usutu	#8f6ac0
+country	USA	#000C66
+country	Egypt	#FFFFCC
+country	Romania	#7570B3
+country	Israel	#FCCDE5
+country	Portugal	#FFD92F
+country	Kenya	#FDCDAC
+country	France	#984EA3
+country	Tunisia	#B3B3B3
+country	Russia	#99004d
+country	Uganda	#BC80BD
+country	Morocco	#BE2114
+country	Mexico	#66A61E
+country	Hungary	#66C2A5
+country	Madagascar	#FF7F00
+country	India	#F2F2F2
+country	Senegal	#6A3D9A
+country	Central African Republic	#A6D854
+country	South Africa	#4DAF4A
+country	Italy	#00b300
+country	Spain	#008080
+country	Argentina	#FFFF99
+country	Australia	#CAB2D6
+country	Nigeria	#B3E2CD
+country	Cyprus	#A6CEE3
+country	Democratic Republic of the Congo	#FF7F00
+country	Greece	#0000ff
+country	Colombia	#CCCCCC
+country	Azerbaijan	#E41A1C
+country	Ukraine	#B3CDE3
+country	China	#FDB462
+country	Serbia	#ffd700
+country	Austria	#E31A1C
+country	British Virgin Islands	#DECBE4
+country	Turkey	#FC8D62
+country	Czech Republic	#FDC086
+country	Bulgaria	#B2DF8A
+country	United Arab Emirates	#FB8072
+country	Zambia	#999999
+country	Germany	#d9601e
+country	Belgium	#7FC97F
+country	Slovakia	#386CB0
+country	Brazil	#FDBF6F
+country	Canada	#FBB4AE
+country	Slovenia	#FB9A99
+country	Niger	#F4CAE4
+country	Iran	#D9D9D9
+country	Netherlands	#8DA0CB
+country	Namibia	#FFED6F
+region	USA_unknown	#808080
+region	USA_NY	#000C66
+region	USA_CO	#000C66
+region	USA_AZ	#000C66
+region	USA_NV	#000C66
+region	USA_Colorado	#000C66
+region	USA_ID	#000C66
+region	USA_Connecticut	#000C66
+region	USA_TX	#000C66
+region	USA_Illinois	#000C66
+region	USA_Texas	#000C66
+region	USA_California	#000C66
+region	USA_New York	#000C66
+region	USA_VA	#000C66
+region	USA_North Dakota	#000C66
+region	USA_GA	#000C66
+region	USA_MS	#000C66
+region	USA_WY	#000C66
+region	USA_Wisconsin	#000C66
+region	Egypt_unknown	#808080
+region	Romania_Bucharest	#E5D8BD
+region	Israel_unknown	#808080
+region	Portugal_Guia	#FFD92F
+region	Portugal_Alentejo	#FFD92F
+region	Kenya_unknown	#808080
+region	France_Arles	#984EA3
+region	Tunisia_unknown	#808080
+region	Russia_Volgograd	#99004d
+region	Uganda_unknown	#808080
+region	Morocco_Kenitra	#BE2114
+region	Mexico_Baja Calfornia Norte	#66A61E
+region	Mexico_Tamaulipas	#66A61E
+region	Mexico_Sonora	#66A61E
+region	Mexico_Florida	#66A61E
+region	Hungary_Biharugra	#66C2A5
+region	Hungary_unknown	#808080
+region	Madagascar_unknown	#808080
+region	India_unknown	#808080
+region	Senegal_unknown	#808080
+region	Central African Republic_unknown	#808080
+region	Russia_unknown	#808080
+region	South Africa_unknown	#808080
+region	Italy_Bologna	#00b300
+region	Spain_Toledo	#008080
+region	Argentina_unknown	#808080
+region	Australia_unknown	#808080
+region	Nigeria_unknown	#808080
+region	Cyprus_unknown	#808080
+region	Democratic Republic of the Congo_unknown	#808080
+region	Greece_Nea Santa	#0000ff
+region	Spain_Huelva	#008080
+region	Italy_unknown	#808080
+region	Spain_Lucena	#008080
+region	Mexico_unknown	#808080
+region	"South Africa_Tiegerpoort, Pretoria"	#4DAF4A
+region	Colombia_Medellin	#CCCCCC
+region	Italy_Treviso	#00b300
+region	"Mexico_Cuidad Juarez, Chihuahua State"	#66A61E
+region	Azerbaijan_unknown	#808080
+region	Ukraine_Lviv	#B3CDE3
+region	India_Madras state	#F2F2F2
+region	Russia_Astrakhan	#99004d
+region	China_unknown	#808080
+region	Italy_Venice	#00b300
+region	"Kenya_Ijara, North Eastern Province"	#FDCDAC
+region	Serbia_unknown	#808080
+region	Serbia_Novi Sad	#ffd700
+region	India_Kerala	#F2F2F2
+region	Italy_Portogruaro	#00b300
+region	Greece_Kavala	#0000ff
+region	Austria_unknown	#808080
+region	British Virgin Islands_British Virgin Islands	#DECBE4
+region	Italy_Rovigo	#00b300
+region	Italy_Padova	#00b300
+region	Italy_Mantova	#00b300
+region	Italy_Padua	#00b300
+region	Greece_unknown	#808080
+region	Austria_Seehof	#E31A1C
+region	Greece_Xanthi	#0000ff
+region	Greece_Thessaloniki	#0000ff
+region	Greece_Serres	#0000ff
+region	Romania_Enisala	#E5D8BD
+region	Turkey_unknown	#808080
+region	Czech Republic_Brno	#FDC086
+region	Austria_Vienna	#E31A1C
+region	Italy_Pavia	#00b300
+region	Italy_Cremona	#00b300
+region	Italy_Verona	#00b300
+region	Australia_Victoria	#CAB2D6
+region	Australia_New South Wales	#CAB2D6
+region	"Australia_Gulf of Carpentaria, Queensland"	#CAB2D6
+region	"Australia_Pilbara Region, Western Australia"	#CAB2D6
+region	"Australia_Kimberley Region, Western Australia"	#CAB2D6
+region	"Australia_Hallett, South Australia"	#CAB2D6
+region	Bulgaria_Sofia	#B2DF8A
+region	United Arab Emirates_unknown	#808080
+region	Colombia_unknown	#808080
+region	Uganda_Queen Elizabeth National Park	#BC80BD
+region	Zambia_Mongu district	#999999
+region	Zambia_unknown	#808080
+region	Germany_Dresden	#d9601e
+region	Germany_Neuruppin	#d9601e
+region	Germany_Radebeul	#d9601e
+region	Germany_Berlin	#d9601e
+region	Germany_Lutherstadt	#d9601e
+region	Germany_Bad Lauchstaedt	#d9601e
+region	Germany_Kamenz	#d9601e
+region	Germany_Klein Weissandt	#d9601e
+region	Germany_Poing	#d9601e
+region	Germany_Brieselang	#d9601e
+region	Germany_Bad Duben	#d9601e
+region	Germany_Halle	#d9601e
+region	Germany_Luhterstadt	#d9601e
+region	Germany_Chemnitz	#d9601e
+region	Germany_Cottbus	#d9601e
+region	Germany_Sandersdorf	#d9601e
+region	Germany_Leipzig	#d9601e
+region	Germany_Magdeburg	#d9601e
+region	Germany_Krostitz	#d9601e
+region	Germany_Rackwitz	#d9601e
+region	Germany_Merseburg	#d9601e
+region	Belgium_Antwerpen	#7FC97F
+region	Slovakia_Velky Biel	#386CB0
+region	Slovakia_Secovce	#386CB0
+region	Greece_Peloponnesus	#0000ff
+region	Brazil_unknown	#808080
+region	Canada_unknown	#808080
+region	Germany_unknown	#808080
+region	Romania_Caraorman	#E5D8BD
+region	Germany_Rostock	#d9601e
+region	Slovenia_Gornja Radgona	#FB9A99
+region	Slovenia_Ljubljana	#FB9A99
+region	Niger_Niger	#F4CAE4
+region	Russia_Tomsk	#99004d
+region	Iran_unknown	#808080
+region	Greece_Pella	#0000ff
+region	Greece_Rhodope	#0000ff
+region	Greece_Imathia	#0000ff
+region	Germany_Schonebeck	#d9601e
+region	Germany_Jesewitz	#d9601e
+region	Germany_Hamburg	#d9601e
+region	Italy_Vicenza	#00b300
+region	Greece_Larissa	#0000ff
+region	Greece_Kardita	#0000ff
+region	Bulgaria_Pleven	#B2DF8A
+region	France_unknown	#808080
+region	"Brazil_Espirito Santo state, Joao Neiva municipality"	#FDBF6F
+region	Netherlands_unknown	#808080
+region	Namibia_unknown	#808080
+region	Brazil_Piaui	#FDBF6F
+region	Brazil_Sao Paulo	#FDBF6F
+region	Brazil_Minas Gerais	#FDBF6F
+region	Slovakia_Kavecany	#386CB0
+region	Italy_Naples	#00b300
+region	Serbia_Temerin	#ffd700
+region	Serbia_Subotica	#ffd700
+region	Serbia_Mali Idjos	#ffd700
+region	Serbia_Curug	#ffd700
+region	Serbia_Belgrade	#ffd700
+region	Serbia_Novi Becej	#ffd700
+region	Serbia_Karavukovo	#ffd700
+region	Serbia_Sombor	#ffd700
+region	Serbia_Opovo	#ffd700
+region	Spain_Malaga	#008080
+region	Spain_Lleida	#008080
+region	Spain_Tarragona	#008080
+region	Italy_Venezia	#00b300
