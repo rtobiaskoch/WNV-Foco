@@ -1,9 +1,9 @@
 {
   "title": "Global West Nile virus",
   "maintainers": [
-    {"name": "Tobias Koch", "url": "http://grubaughlab.com/"}
+    {"name": "Tobias Koch and The Grubaugh Lab", "url": "http://grubaughlab.com/"}
   ],
-  "build_url": "https://github.com/rtobiaskoch/WNV-nextstrain",
+  "build_url": "https://github.com/rtobiaskoch/WNV-nextstrain/",
   "colorings": [
 
     {
