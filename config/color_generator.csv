@@ -1,216 +1,216 @@
-geo,x,col
-country,USA,#A65628
-country,Egypt,#FFFFCC
-country,Romania,#E5D8BD
-country,Israel,#FCCDE5
-country,Portugal,#FFD92F
-country,Kenya,#FDCDAC
-country,France,#984EA3
-country,Tunisia,#B3B3B3
-country,Russia,#FED9A6
-country,Uganda,#BC80BD
-country,Morocco,#7570B3
-country,Mexico,#66A61E
-country,Hungary,#66C2A5
-country,Madagascar,#FF7F00
-country,India,#F2F2F2
-country,Senegal,#6A3D9A
-country,Central African Republic,#A6D854
-country,South Africa,#4DAF4A
-country,Italy,#CBD5E8
-country,Spain,#CCEBC5
-country,Argentina,#FFFF99
-country,Australia,#CAB2D6
-country,Nigeria,#B3E2CD
-country,Cyprus,#A6CEE3
-country,Democratic Republic of the Congo,#FF7F00
-country,Greece,#1B9E77
-country,Colombia,#CCCCCC
-country,Azerbaijan,#E41A1C
-country,Ukraine,#B3CDE3
-country,China,#FDB462
-country,Serbia,#FFFFB3
-country,Austria,#E31A1C
-country,British Virgin Islands,#DECBE4
-country,Turkey,#FC8D62
-country,Czech Republic,#FDC086
-country,Bulgaria,#B2DF8A
-country,United Arab Emirates,#FB8072
-country,Zambia,#999999
-country,Germany,#8DD3C7
-country,Belgium,#7FC97F
-country,Slovakia,#386CB0
-country,Brazil,#FDBF6F
-country,Canada,#FBB4AE
-country,Slovenia,#FB9A99
-country,Niger,#F4CAE4
-country,Iran,#D9D9D9
-country,Netherlands,#8DA0CB
-country,Namibia,#FFED6F
-region,USA_unknown,#A65628
-region,USA_NY,#A65628
-region,USA_CO,#A65628
-region,USA_AZ,#A65628
-region,USA_NV,#A65628
-region,USA_Colorado,#A65628
-region,USA_ID,#A65628
-region,USA_Connecticut,#A65628
-region,USA_TX,#A65628
-region,USA_Illinois,#A65628
-region,USA_Texas,#A65628
-region,USA_California,#A65628
-region,USA_New York,#A65628
-region,USA_VA,#A65628
-region,USA_North Dakota,#A65628
-region,USA_GA,#A65628
-region,USA_MS,#A65628
-region,USA_WY,#A65628
-region,USA_Wisconsin,#A65628
-region,Egypt_unknown,#FFFFCC
-region,Romania_Bucharest,#E5D8BD
-region,Israel_unknown,#FCCDE5
-region,Portugal_Guia,#FFD92F
-region,Portugal_Alentejo,#FFD92F
-region,Kenya_unknown,#FDCDAC
-region,France_Arles,#984EA3
-region,Tunisia_unknown,#B3B3B3
-region,Russia_Volgograd,#FED9A6
-region,Uganda_unknown,#BC80BD
-region,Morocco_Kenitra,#7570B3
-region,Mexico_Baja Calfornia Norte,#66A61E
-region,Mexico_Tamaulipas,#66A61E
-region,Mexico_Sonora,#66A61E
-region,Mexico_Florida,#66A61E
-region,Hungary_Biharugra,#66C2A5
-region,Hungary_unknown,#66C2A5
-region,Madagascar_unknown,#FF7F00
-region,India_unknown,#F2F2F2
-region,Senegal_unknown,#6A3D9A
-region,Central African Republic_unknown,#A6D854
-region,Russia_unknown,#FED9A6
-region,South Africa_unknown,#4DAF4A
-region,Italy_Bologna,#CBD5E8
-region,Spain_Toledo,#CCEBC5
-region,Argentina_unknown,#FFFF99
-region,Australia_unknown,#CAB2D6
-region,Nigeria_Niger,#B3E2CD
-region,Cyprus_unknown,#A6CEE3
-region,Democratic Republic of the Congo_unknown,#FF7F00
-region,Greece_Nea Santa,#1B9E77
-region,Spain_Huelva,#CCEBC5
-region,Italy_unknown,#CBD5E8
-region,Spain_Lucena,#CCEBC5
-region,Mexico_unknown,#66A61E
-region,"South Africa_Tiegerpoort, Pretoria",#4DAF4A
-region,Colombia_Medellin,#CCCCCC
-region,Italy_Treviso,#CBD5E8
-region,"Mexico_Cuidad Juarez, Chihuahua State",#66A61E
-region,Azerbaijan_unknown,#E41A1C
-region,Ukraine_Lviv,#B3CDE3
-region,India_Madras state,#F2F2F2
-region,Russia_Astrakhan,#FED9A6
-region,China_unknown,#FDB462
-region,Italy_Venice,#CBD5E8
-region,"Kenya_Ijara, North Eastern Province",#FDCDAC
-region,Serbia_unknown,#FFFFB3
-region,Serbia_Novi Sad,#FFFFB3
-region,India_Kerala,#F2F2F2
-region,Italy_Portogruaro,#CBD5E8
-region,Greece_Kavala,#1B9E77
-region,Austria_unknown,#E31A1C
-region,British Virgin Islands_British Virgin Islands,#DECBE4
-region,Italy_Rovigo,#CBD5E8
-region,Italy_Padova,#CBD5E8
-region,Italy_Mantova,#CBD5E8
-region,Italy_Padua,#CBD5E8
-region,Greece_unknown,#1B9E77
-region,Austria_Seehof,#E31A1C
-region,Greece_Xanthi,#1B9E77
-region,Greece_Thessaloniki,#1B9E77
-region,Greece_Serres,#1B9E77
-region,Romania_Enisala,#E5D8BD
-region,Turkey_unknown,#FC8D62
-region,Czech Republic_Brno,#FDC086
-region,Austria_Vienna,#E31A1C
-region,Italy_Pavia,#CBD5E8
-region,Italy_Cremona,#CBD5E8
-region,Italy_Verona,#CBD5E8
-region,Australia_Victoria,#CAB2D6
-region,Australia_New South Wales,#CAB2D6
-region,"Australia_Gulf of Carpentaria, Queensland",#CAB2D6
-region,"Australia_Pilbara Region, Western Australia",#CAB2D6
-region,"Australia_Kimberley Region, Western Australia",#CAB2D6
-region,"Australia_Hallett, South Australia",#CAB2D6
-region,Bulgaria_Sofia,#B2DF8A
-region,United Arab Emirates_unknown,#FB8072
-region,Colombia_unknown,#CCCCCC
-region,Uganda_Queen Elizabeth National Park,#BC80BD
-region,Zambia_Mongu district,#999999
-region,Zambia_unknown,#999999
-region,Germany_Dresden,#8DD3C7
-region,Germany_Neuruppin,#8DD3C7
-region,Germany_Radebeul,#8DD3C7
-region,Germany_Berlin,#8DD3C7
-region,Germany_Lutherstadt,#8DD3C7
-region,Germany_Bad Lauchstaedt,#8DD3C7
-region,Germany_Kamenz,#8DD3C7
-region,Germany_Klein Weissandt,#8DD3C7
-region,Germany_Poing,#8DD3C7
-region,Germany_Brieselang,#8DD3C7
-region,Germany_Bad Duben,#8DD3C7
-region,Germany_Halle,#8DD3C7
-region,Germany_Luhterstadt,#8DD3C7
-region,Germany_Chemnitz,#8DD3C7
-region,Germany_Cottbus,#8DD3C7
-region,Germany_Sandersdorf,#8DD3C7
-region,Germany_Leipzig,#8DD3C7
-region,Germany_Magdeburg,#8DD3C7
-region,Germany_Krostitz,#8DD3C7
-region,Germany_Rackwitz,#8DD3C7
-region,Germany_Merseburg,#8DD3C7
-region,Belgium_Antwerpen,#7FC97F
-region,Slovakia_Velky Biel,#386CB0
-region,Slovakia_Secovce,#386CB0
-region,Greece_Peloponnesus,#1B9E77
-region,Brazil_unknown,#FDBF6F
-region,Canada_unknown,#FBB4AE
-region,Germany_unknown,#8DD3C7
-region,Romania_Caraorman,#E5D8BD
-region,Germany_Rostock,#8DD3C7
-region,Slovenia_Gornja Radgona,#FB9A99
-region,Slovenia_Ljubljana,#FB9A99
-region,Niger_Niger,#F4CAE4
-region,Russia_Tomsk,#FED9A6
-region,Iran_unknown,#D9D9D9
-region,Greece_Pella,#1B9E77
-region,Greece_Rhodope,#1B9E77
-region,Greece_Imathia,#1B9E77
-region,Germany_Schonebeck,#8DD3C7
-region,Germany_Jesewitz,#8DD3C7
-region,Germany_Hamburg,#8DD3C7
-region,Italy_Vicenza,#CBD5E8
-region,Greece_Larissa,#1B9E77
-region,Greece_Kardita,#1B9E77
-region,Bulgaria_Pleven,#B2DF8A
-region,France_unknown,#984EA3
-region,"Brazil_Espirito Santo state, Joao Neiva municipality",#FDBF6F
-region,Netherlands_unknown,#8DA0CB
-region,Namibia_Namibia,#FFED6F
-region,Brazil_Piaui,#FDBF6F
-region,Brazil_Sao Paulo,#FDBF6F
-region,Brazil_Minas Gerais,#FDBF6F
-region,Slovakia_Kavecany,#386CB0
-region,Italy_Naples,#CBD5E8
-region,Serbia_Temerin,#FFFFB3
-region,Serbia_Subotica,#FFFFB3
-region,Serbia_Mali Idjos,#FFFFB3
-region,Serbia_Curug,#FFFFB3
-region,Serbia_Belgrade,#FFFFB3
-region,Serbia_Novi Becej,#FFFFB3
-region,Serbia_Karavukovo,#FFFFB3
-region,Serbia_Sombor,#FFFFB3
-region,Serbia_Opovo,#FFFFB3
-region,Spain_Malaga,#CCEBC5
-region,Spain_Lleida,#CCEBC5
-region,Spain_Tarragona,#CCEBC5
-region,Italy_Venezia,#CBD5E8
+"geo","x","col"
+"country","USA","#FFFFCC"
+"country","Egypt","#E7298A"
+"country","Romania","#F781BF"
+"country","Israel","#CCCCCC"
+"country","Portugal","#DECBE4"
+"country","Kenya","#E6AB02"
+"country","France","#66A61E"
+"country","Tunisia","#E5D8BD"
+"country","Russia","#FBB4AE"
+"country","Uganda","#FB8072"
+"country","Morocco","#7570B3"
+"country","Mexico","#FFFFB3"
+"country","Hungary","#BF5B17"
+"country","Madagascar","#999999"
+"country","India","#6A3D9A"
+"country","Senegal","#1F78B4"
+"country","Central African Republic","#CCEBC5"
+"country","South Africa","#A6D854"
+"country","Italy","#80B1D3"
+"country","Spain","#FFFF99"
+"country","Argentina","#FFFF33"
+"country","Australia","#4DAF4A"
+"country","Nigeria","#E6F5C9"
+"country","Cyprus","#FDCDAC"
+"country","Democratic Republic of the Congo","#FCCDE5"
+"country","Greece","#7FC97F"
+"country","Colombia","#BC80BD"
+"country","Azerbaijan","#386CB0"
+"country","Ukraine","#B3CDE3"
+"country","China","#FFD92F"
+"country","Serbia","#FFF2AE"
+"country","Austria","#BEAED4"
+"country","British Virgin Islands","#D9D9D9"
+"country","Turkey","#CAB2D6"
+"country","Czech Republic","#A6761D"
+"country","Bulgaria","#CCEBC5"
+"country","United Arab Emirates","#B3B3B3"
+"country","Zambia","#F0027F"
+"country","Germany","#666666"
+"country","Belgium","#66C2A5"
+"country","Slovakia","#FF7F00"
+"country","Brazil","#FF7F00"
+"country","Canada","#B15928"
+"country","Slovenia","#377EB8"
+"country","Niger","#E41A1C"
+"country","Iran","#FFFF99"
+"country","Netherlands","#666666"
+"country","Namibia","#FED9A6"
+"region","USA_unknown","#FFFFCC"
+"region","USA_NY","#FFFFCC"
+"region","USA_CO","#FFFFCC"
+"region","USA_AZ","#FFFFCC"
+"region","USA_NV","#FFFFCC"
+"region","USA_Colorado","#FFFFCC"
+"region","USA_ID","#FFFFCC"
+"region","USA_Connecticut","#FFFFCC"
+"region","USA_TX","#FFFFCC"
+"region","USA_Illinois","#FFFFCC"
+"region","USA_Texas","#FFFFCC"
+"region","USA_California","#FFFFCC"
+"region","USA_New York","#FFFFCC"
+"region","USA_VA","#FFFFCC"
+"region","USA_North Dakota","#FFFFCC"
+"region","USA_GA","#FFFFCC"
+"region","USA_MS","#FFFFCC"
+"region","USA_WY","#FFFFCC"
+"region","USA_Wisconsin","#FFFFCC"
+"region","Egypt_unknown","#E7298A"
+"region","Romania_Bucharest","#F781BF"
+"region","Israel_unknown","#CCCCCC"
+"region","Portugal_Guia","#DECBE4"
+"region","Portugal_Alentejo","#DECBE4"
+"region","Kenya_unknown","#E6AB02"
+"region","France_Arles","#66A61E"
+"region","Tunisia_unknown","#E5D8BD"
+"region","Russia_Volgograd","#FBB4AE"
+"region","Uganda_unknown","#FB8072"
+"region","Morocco_Kenitra","#7570B3"
+"region","Mexico_Baja Calfornia Norte","#FFFFB3"
+"region","Mexico_Tamaulipas","#FFFFB3"
+"region","Mexico_Sonora","#FFFFB3"
+"region","Mexico_Florida","#FFFFB3"
+"region","Hungary_Biharugra","#BF5B17"
+"region","Hungary_unknown","#BF5B17"
+"region","Madagascar_unknown","#999999"
+"region","India_unknown","#6A3D9A"
+"region","Senegal_unknown","#1F78B4"
+"region","Central African Republic_unknown","#CCEBC5"
+"region","Russia_unknown","#FBB4AE"
+"region","South Africa_unknown","#A6D854"
+"region","Italy_Bologna","#80B1D3"
+"region","Spain_Toledo","#FFFF99"
+"region","Argentina_unknown","#FFFF33"
+"region","Australia_unknown","#4DAF4A"
+"region","Nigeria_Niger","#E6F5C9"
+"region","Cyprus_unknown","#FDCDAC"
+"region","Democratic Republic of the Congo_unknown","#FCCDE5"
+"region","Greece_Nea Santa","#7FC97F"
+"region","Spain_Huelva","#FFFF99"
+"region","Italy_unknown","#80B1D3"
+"region","Spain_Lucena","#FFFF99"
+"region","Mexico_unknown","#FFFFB3"
+"region","South Africa_Tiegerpoort, Pretoria","#A6D854"
+"region","Colombia_Medellin","#BC80BD"
+"region","Italy_Treviso","#80B1D3"
+"region","Mexico_Cuidad Juarez, Chihuahua State","#FFFFB3"
+"region","Azerbaijan_unknown","#386CB0"
+"region","Ukraine_Lviv","#B3CDE3"
+"region","India_Madras state","#6A3D9A"
+"region","Russia_Astrakhan","#FBB4AE"
+"region","China_unknown","#FFD92F"
+"region","Italy_Venice","#80B1D3"
+"region","Kenya_Ijara, North Eastern Province","#E6AB02"
+"region","Serbia_unknown","#FFF2AE"
+"region","Serbia_Novi Sad","#FFF2AE"
+"region","India_Kerala","#6A3D9A"
+"region","Italy_Portogruaro","#80B1D3"
+"region","Greece_Kavala","#7FC97F"
+"region","Austria_unknown","#BEAED4"
+"region","British Virgin Islands_British Virgin Islands","#D9D9D9"
+"region","Italy_Rovigo","#80B1D3"
+"region","Italy_Padova","#80B1D3"
+"region","Italy_Mantova","#80B1D3"
+"region","Italy_Padua","#80B1D3"
+"region","Greece_unknown","#7FC97F"
+"region","Austria_Seehof","#BEAED4"
+"region","Greece_Xanthi","#7FC97F"
+"region","Greece_Thessaloniki","#7FC97F"
+"region","Greece_Serres","#7FC97F"
+"region","Romania_Enisala","#F781BF"
+"region","Turkey_unknown","#CAB2D6"
+"region","Czech Republic_Brno","#A6761D"
+"region","Austria_Vienna","#BEAED4"
+"region","Italy_Pavia","#80B1D3"
+"region","Italy_Cremona","#80B1D3"
+"region","Italy_Verona","#80B1D3"
+"region","Australia_Victoria","#4DAF4A"
+"region","Australia_New South Wales","#4DAF4A"
+"region","Australia_Gulf of Carpentaria, Queensland","#4DAF4A"
+"region","Australia_Pilbara Region, Western Australia","#4DAF4A"
+"region","Australia_Kimberley Region, Western Australia","#4DAF4A"
+"region","Australia_Hallett, South Australia","#4DAF4A"
+"region","Bulgaria_Sofia","#CCEBC5"
+"region","United Arab Emirates_unknown","#B3B3B3"
+"region","Colombia_unknown","#BC80BD"
+"region","Uganda_Queen Elizabeth National Park","#FB8072"
+"region","Zambia_Mongu district","#F0027F"
+"region","Zambia_unknown","#F0027F"
+"region","Germany_Dresden","#666666"
+"region","Germany_Neuruppin","#666666"
+"region","Germany_Radebeul","#666666"
+"region","Germany_Berlin","#666666"
+"region","Germany_Lutherstadt","#666666"
+"region","Germany_Bad Lauchstaedt","#666666"
+"region","Germany_Kamenz","#666666"
+"region","Germany_Klein Weissandt","#666666"
+"region","Germany_Poing","#666666"
+"region","Germany_Brieselang","#666666"
+"region","Germany_Bad Duben","#666666"
+"region","Germany_Halle","#666666"
+"region","Germany_Luhterstadt","#666666"
+"region","Germany_Chemnitz","#666666"
+"region","Germany_Cottbus","#666666"
+"region","Germany_Sandersdorf","#666666"
+"region","Germany_Leipzig","#666666"
+"region","Germany_Magdeburg","#666666"
+"region","Germany_Krostitz","#666666"
+"region","Germany_Rackwitz","#666666"
+"region","Germany_Merseburg","#666666"
+"region","Belgium_Antwerpen","#66C2A5"
+"region","Slovakia_Velky Biel","#FF7F00"
+"region","Slovakia_Secovce","#FF7F00"
+"region","Greece_Peloponnesus","#7FC97F"
+"region","Brazil_unknown","#FF7F00"
+"region","Canada_unknown","#B15928"
+"region","Germany_unknown","#666666"
+"region","Romania_Caraorman","#F781BF"
+"region","Germany_Rostock","#666666"
+"region","Slovenia_Gornja Radgona","#377EB8"
+"region","Slovenia_Ljubljana","#377EB8"
+"region","Niger_Niger","#E41A1C"
+"region","Russia_Tomsk","#FBB4AE"
+"region","Iran_unknown","#FFFF99"
+"region","Greece_Pella","#7FC97F"
+"region","Greece_Rhodope","#7FC97F"
+"region","Greece_Imathia","#7FC97F"
+"region","Germany_Schonebeck","#666666"
+"region","Germany_Jesewitz","#666666"
+"region","Germany_Hamburg","#666666"
+"region","Italy_Vicenza","#80B1D3"
+"region","Greece_Larissa","#7FC97F"
+"region","Greece_Kardita","#7FC97F"
+"region","Bulgaria_Pleven","#CCEBC5"
+"region","France_unknown","#66A61E"
+"region","Brazil_Espirito Santo state, Joao Neiva municipality","#FF7F00"
+"region","Netherlands_Netherlands","#666666"
+"region","Namibia_Namibia","#FED9A6"
+"region","Brazil_Piaui","#FF7F00"
+"region","Brazil_Sao Paulo","#FF7F00"
+"region","Brazil_Minas Gerais","#FF7F00"
+"region","Slovakia_Kavecany","#FF7F00"
+"region","Italy_Naples","#80B1D3"
+"region","Serbia_Temerin","#FFF2AE"
+"region","Serbia_Subotica","#FFF2AE"
+"region","Serbia_Mali Idjos","#FFF2AE"
+"region","Serbia_Curug","#FFF2AE"
+"region","Serbia_Belgrade","#FFF2AE"
+"region","Serbia_Novi Becej","#FFF2AE"
+"region","Serbia_Karavukovo","#FFF2AE"
+"region","Serbia_Sombor","#FFF2AE"
+"region","Serbia_Opovo","#FFF2AE"
+"region","Spain_Malaga","#FFFF99"
+"region","Spain_Lleida","#FFFF99"
+"region","Spain_Tarragona","#FFFF99"
+"region","Italy_Venezia","#80B1D3"

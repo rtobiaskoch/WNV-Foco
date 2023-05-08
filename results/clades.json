@@ -2167,49 +2167,70 @@
     "NODE_0000000": {
       "clade_membership": "unassigned"
     },
+    "NODE_0000003": {
+      "clade_membership": "NY99"
+    },
+    "NODE_0000004": {
+      "clade_membership": "NY99"
+    },
     "NODE_0000005": {
       "clade_membership": "NY99"
     },
     "NODE_0000006": {
       "clade_membership": "NY99"
     },
-    "NODE_0000008": {
+    "NODE_0000007": {
       "clade_membership": "NY99"
     },
-    "NODE_0000009": {
+    "NODE_0000011": {
       "clade_membership": "NY99"
     },
     "NODE_0000012": {
       "clade_membership": "NY99"
     },
-    "NODE_0000014": {
+    "NODE_0000013": {
       "clade_membership": "NY99"
     },
     "NODE_0000015": {
       "clade_membership": "NY99"
     },
+    "NODE_0000016": {
+      "clade_membership": "NY99"
+    },
     "NODE_0000017": {
+      "clade_membership": "NY99"
+    },
+    "NODE_0000018": {
+      "clade_membership": "NY99"
+    },
+    "NODE_0000019": {
+      "clade_membership": "NY99"
+    },
+    "NODE_0000020": {
       "clade_membership": "NY99"
     },
     "NODE_0000021": {
       "clade_membership": "NY99"
     },
-    "NODE_0000024": {
+    "NODE_0000022": {
       "clade_membership": "NY99"
     },
-    "NODE_0000025": {
+    "NODE_0000023": {
+      "clade_membership": "NY99"
+    },
+    "NODE_0000024": {
       "clade_membership": "NY99"
     },
     "NODE_0000026": {
       "clade_membership": "NY99"
     },
-    "NODE_0000028": {
-      "clade_membership": "NY99"
-    },
     "NODE_0000029": {
       "clade_membership": "NY99"
     },
-    "NODE_0000033": {
+    "NODE_0000030": {
+      "clade_membership": "NY99"
+    },
+    "NODE_0000032": {
       "clade_membership": "NY99"
     },
     "NODE_0000034": {
@@ -2219,79 +2240,97 @@
       "clade_membership": "NY99"
     },
     "NODE_0000036": {
-      "clade_membership": "NY99"
+      "clade_annotation": "WN02",
+      "clade_membership": "WN02"
     },
     "NODE_0000037": {
-      "clade_membership": "NY99"
+      "clade_membership": "WN02"
     },
     "NODE_0000038": {
-      "clade_membership": "NY99"
+      "clade_membership": "EEA2"
     },
     "NODE_0000039": {
-      "clade_membership": "EEA2"
+      "clade_membership": "WN02"
     },
     "NODE_0000040": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000041": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000042": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000043": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000044": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000045": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000046": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000047": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000048": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000049": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000050": {
       "clade_membership": "EEA2"
     },
+    "NODE_0000042": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000043": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000044": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000045": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000046": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000047": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000048": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000049": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000050": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000051": {
-      "clade_membership": "NY99"
+      "clade_membership": "WN02"
+    },
+    "NODE_0000052": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000053": {
+      "clade_membership": "WN02"
     },
     "NODE_0000054": {
-      "clade_membership": "NY99"
+      "clade_membership": "WN02"
     },
     "NODE_0000055": {
-      "clade_membership": "NY99"
+      "clade_membership": "WN02"
+    },
+    "NODE_0000056": {
+      "clade_membership": "WN02"
     },
     "NODE_0000057": {
-      "clade_membership": "NY99"
+      "clade_membership": "WN02"
     },
-    "NODE_0000059": {
-      "clade_membership": "NY99"
+    "NODE_0000058": {
+      "clade_membership": "WN02"
     },
     "NODE_0000060": {
-      "clade_membership": "NY99"
+      "clade_membership": "WN02"
     },
     "NODE_0000061": {
-      "clade_annotation": "WN02",
       "clade_membership": "WN02"
     },
     "NODE_0000062": {
       "clade_membership": "WN02"
     },
+    "NODE_0000063": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000064": {
       "clade_membership": "WN02"
     },
+    "NODE_0000065": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000066": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000067": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000068": {
       "clade_membership": "WN02"
     },
     "NODE_0000069": {
@@ -2300,22 +2339,28 @@
     "NODE_0000070": {
       "clade_membership": "WN02"
     },
+    "NODE_0000071": {
+      "clade_membership": "SEE2"
+    },
     "NODE_0000072": {
-      "clade_membership": "WN02"
+      "clade_membership": "SEE2"
     },
     "NODE_0000073": {
-      "clade_membership": "WN02"
+      "clade_membership": "SEE2"
     },
     "NODE_0000074": {
-      "clade_membership": "SEE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000075": {
       "clade_membership": "WN02"
     },
     "NODE_0000076": {
-      "clade_membership": "SEE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000077": {
+      "clade_membership": "SEE2"
+    },
+    "NODE_0000078": {
       "clade_membership": "SEE2"
     },
     "NODE_0000079": {
@@ -2328,7 +2373,7 @@
       "clade_membership": "SEE2"
     },
     "NODE_0000082": {
-      "clade_membership": "SEE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000083": {
       "clade_membership": "WN02"
@@ -2337,12 +2382,9 @@
       "clade_membership": "SEE2"
     },
     "NODE_0000085": {
-      "clade_membership": "WN02"
+      "clade_membership": "SEE2"
     },
     "NODE_0000086": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000087": {
       "clade_membership": "WN02"
     },
     "NODE_0000088": {
@@ -2352,36 +2394,36 @@
       "clade_membership": "WN02"
     },
     "NODE_0000090": {
-      "clade_membership": "SEE2"
+      "clade_membership": "WN02"
     },
-    "NODE_0000091": {
-      "clade_membership": "SEE2"
+    "NODE_0000093": {
+      "clade_membership": "WN02"
     },
-    "NODE_0000092": {
+    "NODE_0000095": {
       "clade_membership": "WN02"
     },
     "NODE_0000097": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000099": {
       "clade_membership": "WN02"
     },
     "NODE_0000101": {
       "clade_membership": "WN02"
     },
     "NODE_0000102": {
-      "clade_membership": "WN02"
+      "clade_membership": "SEE2"
     },
     "NODE_0000103": {
-      "clade_membership": "WN02"
+      "clade_membership": "SEE2"
     },
     "NODE_0000104": {
       "clade_membership": "WN02"
     },
-    "NODE_0000105": {
+    "NODE_0000106": {
       "clade_membership": "WN02"
     },
     "NODE_0000107": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000108": {
       "clade_membership": "SEE2"
     },
     "NODE_0000109": {
@@ -2390,28 +2432,19 @@
     "NODE_0000110": {
       "clade_membership": "WN02"
     },
-    "NODE_0000111": {
-      "clade_membership": "CE2"
-    },
     "NODE_0000112": {
       "clade_membership": "WN02"
     },
-    "NODE_0000113": {
-      "clade_membership": "WN02"
-    },
     "NODE_0000114": {
-      "clade_membership": "SEE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000116": {
       "clade_membership": "WN02"
     },
     "NODE_0000117": {
-      "clade_membership": "SEE2"
+      "clade_membership": "WN02"
     },
-    "NODE_0000119": {
-      "clade_membership": "CE2"
-    },
-    "NODE_0000121": {
+    "NODE_0000118": {
       "clade_membership": "WN02"
     },
     "NODE_0000122": {
@@ -2420,17 +2453,17 @@
     "NODE_0000123": {
       "clade_membership": "WN02"
     },
-    "NODE_0000124": {
-      "clade_membership": "WN02"
-    },
     "NODE_0000125": {
       "clade_membership": "WN02"
     },
-    "NODE_0000126": {
+    "NODE_0000127": {
       "clade_membership": "WN02"
     },
     "NODE_0000128": {
       "clade_membership": "WN02"
+    },
+    "NODE_0000129": {
+      "clade_membership": "CE2"
     },
     "NODE_0000130": {
       "clade_membership": "WN02"
@@ -2445,19 +2478,19 @@
       "clade_membership": "WN02"
     },
     "NODE_0000134": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000135": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000136": {
       "clade_membership": "WN02"
     },
     "NODE_0000137": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000139": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000140": {
       "clade_membership": "WN02"
@@ -2466,7 +2499,7 @@
       "clade_membership": "WN02"
     },
     "NODE_0000142": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000143": {
       "clade_membership": "WN02"
@@ -2474,8 +2507,11 @@
     "NODE_0000144": {
       "clade_membership": "WN02"
     },
-    "NODE_0000146": {
+    "NODE_0000145": {
       "clade_membership": "WN02"
+    },
+    "NODE_0000146": {
+      "clade_membership": "CE2"
     },
     "NODE_0000147": {
       "clade_membership": "WN02"
@@ -2492,19 +2528,13 @@
     "NODE_0000151": {
       "clade_membership": "CE2"
     },
-    "NODE_0000152": {
-      "clade_membership": "WN02"
-    },
     "NODE_0000153": {
       "clade_membership": "WN02"
     },
     "NODE_0000154": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000155": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000156": {
       "clade_membership": "WN02"
     },
     "NODE_0000157": {
@@ -2537,22 +2567,10 @@
     "NODE_0000166": {
       "clade_membership": "WN02"
     },
-    "NODE_0000167": {
-      "clade_membership": "WN02"
-    },
     "NODE_0000168": {
       "clade_membership": "WN02"
     },
     "NODE_0000169": {
-      "clade_membership": "CE2"
-    },
-    "NODE_0000170": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000171": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000172": {
       "clade_membership": "WN02"
     },
     "NODE_0000173": {
@@ -2562,13 +2580,13 @@
       "clade_membership": "WN02"
     },
     "NODE_0000175": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000176": {
       "clade_membership": "WN02"
     },
     "NODE_0000177": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000178": {
       "clade_membership": "WN02"
@@ -2577,28 +2595,31 @@
       "clade_membership": "WN02"
     },
     "NODE_0000180": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000181": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000182": {
+      "clade_membership": "CE2"
+    },
+    "NODE_0000183": {
       "clade_membership": "CE2"
     },
     "NODE_0000184": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000185": {
       "clade_membership": "WN02"
     },
     "NODE_0000186": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
-    "NODE_0000189": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000190": {
-      "clade_membership": "WN02"
+    "NODE_0000187": {
+      "clade_membership": "CE2"
     },
     "NODE_0000191": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000192": {
       "clade_membership": "WN02"
@@ -2606,62 +2627,74 @@
     "NODE_0000193": {
       "clade_membership": "WN02"
     },
+    "NODE_0000194": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000195": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000196": {
       "clade_membership": "WN02"
     },
     "NODE_0000197": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000198": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000199": {
       "clade_membership": "WN02"
     },
     "NODE_0000200": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000201": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000202": {
       "clade_membership": "WN02"
     },
     "NODE_0000203": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000204": {
       "clade_membership": "WN02"
     },
     "NODE_0000205": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000206": {
+      "clade_membership": "CE2"
+    },
+    "NODE_0000207": {
       "clade_membership": "WN02"
+    },
+    "NODE_0000208": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000209": {
+      "clade_membership": "CE2"
     },
     "NODE_0000210": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000211": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000212": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000213": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000214": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000215": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000216": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000217": {
       "clade_membership": "WN02"
@@ -2670,7 +2703,7 @@
       "clade_membership": "WN02"
     },
     "NODE_0000219": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000220": {
       "clade_membership": "WN02"
@@ -2679,37 +2712,25 @@
       "clade_membership": "WN02"
     },
     "NODE_0000222": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000223": {
       "clade_membership": "WN02"
     },
     "NODE_0000224": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000225": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000226": {
       "clade_membership": "CE2"
     },
+    "NODE_0000225": {
+      "clade_membership": "CE2"
+    },
+    "NODE_0000226": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000227": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000228": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000229": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000230": {
       "clade_membership": "CE2"
     },
     "NODE_0000231": {
-      "clade_membership": "CE2"
-    },
-    "NODE_0000232": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000235": {
       "clade_membership": "WN02"
@@ -2718,10 +2739,10 @@
       "clade_membership": "WN02"
     },
     "NODE_0000237": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000238": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000239": {
       "clade_membership": "WN02"
@@ -2732,13 +2753,7 @@
     "NODE_0000241": {
       "clade_membership": "WN02"
     },
-    "NODE_0000242": {
-      "clade_membership": "WN02"
-    },
     "NODE_0000244": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000245": {
       "clade_membership": "WN02"
     },
     "NODE_0000246": {
@@ -2747,11 +2762,8 @@
     "NODE_0000247": {
       "clade_membership": "WN02"
     },
-    "NODE_0000248": {
-      "clade_membership": "WN02"
-    },
     "NODE_0000249": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000250": {
       "clade_membership": "WN02"
@@ -2777,6 +2789,9 @@
     "NODE_0000257": {
       "clade_membership": "CE2"
     },
+    "NODE_0000258": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000259": {
       "clade_membership": "WN02"
     },
@@ -2784,22 +2799,19 @@
       "clade_membership": "WN02"
     },
     "NODE_0000261": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000262": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000263": {
       "clade_membership": "WN02"
     },
     "NODE_0000264": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000265": {
       "clade_membership": "WN02"
     },
     "NODE_0000266": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000267": {
       "clade_membership": "WN02"
@@ -2807,14 +2819,8 @@
     "NODE_0000268": {
       "clade_membership": "CE2"
     },
-    "NODE_0000269": {
-      "clade_membership": "WN02"
-    },
     "NODE_0000270": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000271": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000272": {
       "clade_membership": "CE2"
@@ -2823,16 +2829,16 @@
       "clade_membership": "WN02"
     },
     "NODE_0000274": {
-      "clade_membership": "CE2"
-    },
-    "NODE_0000276": {
       "clade_membership": "WN02"
+    },
+    "NODE_0000275": {
+      "clade_membership": "CE2"
     },
     "NODE_0000277": {
       "clade_membership": "WN02"
     },
     "NODE_0000278": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000279": {
       "clade_membership": "WN02"
@@ -2841,13 +2847,13 @@
       "clade_membership": "WN02"
     },
     "NODE_0000281": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000282": {
       "clade_membership": "WN02"
     },
     "NODE_0000283": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000284": {
       "clade_membership": "WN02"
@@ -2862,79 +2868,73 @@
       "clade_membership": "WN02"
     },
     "NODE_0000288": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000289": {
       "clade_membership": "WN02"
     },
     "NODE_0000290": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
+    },
+    "NODE_0000291": {
+      "clade_membership": "WN02"
     },
     "NODE_0000292": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000293": {
-      "clade_membership": "CE2"
+      "clade_membership": "WN02"
     },
     "NODE_0000294": {
       "clade_membership": "WN02"
     },
     "NODE_0000295": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000296": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000297": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000298": {
       "clade_membership": "CE2"
-    },
-    "NODE_0000299": {
-      "clade_membership": "WN02"
     },
     "NODE_0000300": {
-      "clade_membership": "CE2"
+      "clade_membership": "NY99"
     },
     "NODE_0000301": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000303": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000304": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000305": {
       "clade_membership": "CE2"
     },
+    "NODE_0000303": {
+      "clade_membership": "NY99"
+    },
+    "NODE_0000304": {
+      "clade_membership": "NY99"
+    },
+    "NODE_0000305": {
+      "clade_membership": "NY99"
+    },
     "NODE_0000307": {
-      "clade_membership": "WN02"
+      "clade_membership": "NY99"
     },
-    "NODE_0000309": {
-      "clade_membership": "WN02"
+    "NODE_0000308": {
+      "clade_membership": "NY99"
     },
-    "NODE_0000312": {
-      "clade_membership": "WN02"
+    "NODE_0000310": {
+      "clade_membership": "NY99"
+    },
+    "NODE_0000311": {
+      "clade_membership": "NY99"
     },
     "NODE_0000314": {
-      "clade_membership": "WN02"
+      "clade_membership": "NY99"
     },
     "NODE_0000315": {
-      "clade_membership": "WN02"
+      "clade_membership": "CE2"
     },
     "NODE_0000316": {
-      "clade_membership": "WN02"
+      "clade_membership": "NY99"
     },
     "NODE_0000317": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000318": {
-      "clade_membership": "WN02"
+      "clade_membership": "NY99"
     },
     "NODE_0000319": {
-      "clade_membership": "WN02"
+      "clade_membership": "NY99"
     },
     "NODE_0000320": {
       "clade_membership": "NY99"
@@ -3026,13 +3026,10 @@
       "clade_membership": "SWE1"
     },
     "NODE_0000349": {
-      "clade_membership": "CE2"
+      "clade_membership": "unassigned"
     },
     "NODE_0000350": {
       "clade_membership": "SWE1"
-    },
-    "NODE_0000351": {
-      "clade_membership": "unassigned"
     },
     "NODE_0000352": {
       "clade_membership": "SWE1"
@@ -3097,6 +3094,9 @@
     "NODE_0000372": {
       "clade_membership": "SWE1"
     },
+    "NODE_0000373": {
+      "clade_membership": "SWE1"
+    },
     "NODE_0000376": {
       "clade_membership": "SWE1"
     },
@@ -3112,17 +3112,11 @@
     "NODE_0000380": {
       "clade_membership": "SWE1"
     },
-    "NODE_0000381": {
-      "clade_membership": "unassigned"
-    },
     "NODE_0000382": {
       "clade_membership": "SWE1"
     },
     "NODE_0000383": {
       "clade_membership": "SWE1"
-    },
-    "NODE_0000384": {
-      "clade_membership": "unassigned"
     },
     "NODE_0000385": {
       "clade_membership": "SWE1"
@@ -3164,6 +3158,9 @@
     "NODE_0000404": {
       "clade_membership": "ME1"
     },
+    "NODE_0000405": {
+      "clade_membership": "ME1"
+    },
     "NODE_0000406": {
       "clade_membership": "ME1"
     },
@@ -3189,7 +3186,7 @@
       "clade_membership": "unassigned"
     },
     "NODE_0000414": {
-      "clade_membership": "SWE1"
+      "clade_membership": "NY99"
     },
     "NODE_0000415": {
       "clade_membership": "unassigned"
@@ -3204,7 +3201,7 @@
       "clade_membership": "unassigned"
     },
     "NODE_0000419": {
-      "clade_membership": "ME1"
+      "clade_membership": "NY99"
     },
     "NODE_0000422": {
       "clade_membership": "unassigned"
@@ -3244,6 +3241,9 @@
     },
     "NODE_0000434": {
       "clade_membership": "unassigned"
+    },
+    "NODE_0000435": {
+      "clade_membership": "SWE1"
     },
     "NODE_0000437": {
       "clade_membership": "unassigned"
@@ -3294,10 +3294,7 @@
       "clade_membership": "unassigned"
     },
     "NODE_0000454": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000455": {
-      "clade_membership": "NY99"
+      "clade_membership": "SWE1"
     },
     "NODE_0000456": {
       "clade_membership": "unassigned"
@@ -3420,6 +3417,9 @@
     "NODE_0000495": {
       "clade_membership": "SWE1"
     },
+    "NODE_0000496": {
+      "clade_membership": "NY99"
+    },
     "NODE_0000497": {
       "clade_membership": "unassigned"
     },
@@ -3497,9 +3497,6 @@
     "NODE_0000521": {
       "clade_membership": "SWE1"
     },
-    "NODE_0000522": {
-      "clade_membership": "NY99"
-    },
     "NODE_0000523": {
       "clade_membership": "SEE2"
     },
@@ -3572,6 +3569,9 @@
     "NODE_0000549": {
       "clade_membership": "SEE2"
     },
+    "NODE_0000550": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000553": {
       "clade_membership": "SEE2"
     },
@@ -3586,6 +3586,9 @@
     },
     "NODE_0000558": {
       "clade_membership": "SWE1"
+    },
+    "NODE_0000559": {
+      "clade_membership": "WN02"
     },
     "NODE_0000560": {
       "clade_membership": "SEE2"
@@ -3604,6 +3607,9 @@
     },
     "NODE_0000565": {
       "clade_membership": "SEE2"
+    },
+    "NODE_0000566": {
+      "clade_membership": "WN02"
     },
     "NODE_0000567": {
       "clade_membership": "SEE2"
@@ -3641,9 +3647,6 @@
     },
     "NODE_0000578": {
       "clade_membership": "NY99"
-    },
-    "NODE_0000579": {
-      "clade_membership": "WN02"
     },
     "NODE_0000580": {
       "clade_membership": "CE2"
@@ -3690,9 +3693,6 @@
     "NODE_0000594": {
       "clade_membership": "NY99"
     },
-    "NODE_0000595": {
-      "clade_membership": "WN02"
-    },
     "NODE_0000596": {
       "clade_membership": "CE2"
     },
@@ -3711,6 +3711,9 @@
     "NODE_0000601": {
       "clade_membership": "CE2"
     },
+    "NODE_0000602": {
+      "clade_membership": "NY99"
+    },
     "NODE_0000603": {
       "clade_membership": "CE2"
     },
@@ -3722,9 +3725,6 @@
     },
     "NODE_0000606": {
       "clade_membership": "CE2"
-    },
-    "NODE_0000607": {
-      "clade_membership": "NY99"
     },
     "NODE_0000608": {
       "clade_membership": "CE2"
@@ -3774,6 +3774,9 @@
     "NODE_0000623": {
       "clade_membership": "NY99"
     },
+    "NODE_0000624": {
+      "clade_membership": "NY99"
+    },
     "NODE_0000625": {
       "clade_membership": "CE2"
     },
@@ -3792,12 +3795,6 @@
     "NODE_0000630": {
       "clade_membership": "CE2"
     },
-    "NODE_0000631": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000632": {
-      "clade_membership": "NY99"
-    },
     "NODE_0000633": {
       "clade_membership": "CE2"
     },
@@ -3813,16 +3810,16 @@
     "NODE_0000639": {
       "clade_membership": "CE2"
     },
-    "NODE_0000641": {
+    "NODE_0000643": {
       "clade_membership": "CE2"
+    },
+    "NODE_0000646": {
+      "clade_membership": "NY99"
     },
     "NODE_0000648": {
       "clade_membership": "CE2"
     },
     "NODE_0000649": {
-      "clade_membership": "NY99"
-    },
-    "NODE_0000651": {
       "clade_membership": "NY99"
     },
     "NODE_0000652": {
@@ -3837,12 +3834,6 @@
     "NODE_0000656": {
       "clade_membership": "CE2"
     },
-    "NODE_0000657": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000658": {
-      "clade_membership": "WN02"
-    },
     "NODE_0000659": {
       "clade_membership": "CE2"
     },
@@ -3851,18 +3842,6 @@
     },
     "NODE_0000661": {
       "clade_membership": "CE2"
-    },
-    "NODE_0000662": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000664": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000665": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000667": {
-      "clade_membership": "WN02"
     },
     "NODE_0000668": {
       "clade_membership": "CE2"
@@ -3894,9 +3873,6 @@
     "NODE_0000677": {
       "clade_membership": "CE2"
     },
-    "NODE_0000678": {
-      "clade_membership": "WN02"
-    },
     "NODE_0000679": {
       "clade_membership": "CE2"
     },
@@ -3906,17 +3882,11 @@
     "NODE_0000681": {
       "clade_membership": "CE2"
     },
-    "NODE_0000682": {
-      "clade_membership": "WN02"
-    },
     "NODE_0000683": {
       "clade_membership": "CE2"
     },
     "NODE_0000684": {
       "clade_membership": "CE2"
-    },
-    "NODE_0000685": {
-      "clade_membership": "WN02"
     },
     "NODE_0000689": {
       "clade_membership": "CE2"
@@ -3933,17 +3903,29 @@
     "NODE_0000699": {
       "clade_membership": "CE2"
     },
+    "NODE_0000700": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000701": {
       "clade_membership": "WN02"
     },
     "NODE_0000702": {
       "clade_membership": "CE2"
     },
+    "NODE_0000703": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000704": {
       "clade_membership": "CE2"
     },
+    "NODE_0000705": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000707": {
       "clade_membership": "CE2"
+    },
+    "NODE_0000708": {
+      "clade_membership": "WN02"
     },
     "NODE_0000709": {
       "clade_membership": "CE2"
@@ -3975,11 +3957,20 @@
     "NODE_0000718": {
       "clade_membership": "CE2"
     },
+    "NODE_0000719": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000720": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000721": {
       "clade_membership": "CE2"
     },
     "NODE_0000722": {
       "clade_membership": "CE2"
+    },
+    "NODE_0000723": {
+      "clade_membership": "WN02"
     },
     "NODE_0000724": {
       "clade_membership": "CE2"
@@ -4005,25 +3996,28 @@
     "NODE_0000731": {
       "clade_membership": "WN02"
     },
-    "NODE_0000732": {
-      "clade_membership": "WN02"
-    },
     "NODE_0000733": {
-      "clade_membership": "WN02"
-    },
-    "NODE_0000734": {
       "clade_membership": "WN02"
     },
     "NODE_0000735": {
       "clade_membership": "WN02"
     },
-    "NODE_0000736": {
+    "NODE_0000766": {
       "clade_membership": "WN02"
     },
-    "NODE_0000748": {
+    "NODE_0000769": {
       "clade_membership": "WN02"
     },
-    "NODE_0000776": {
+    "NODE_0000772": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000774": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000775": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000777": {
       "clade_membership": "WN02"
     },
     "NODE_0000778": {
@@ -4032,52 +4026,52 @@
     "NODE_0000782": {
       "clade_membership": "WN02"
     },
-    "NODE_0000783": {
+    "NODE_0000791": {
       "clade_membership": "WN02"
     },
-    "NODE_0000814": {
+    "NODE_0000792": {
       "clade_membership": "WN02"
     },
-    "NODE_0000817": {
+    "NODE_0000793": {
       "clade_membership": "WN02"
     },
-    "NODE_0000820": {
+    "NODE_0000795": {
       "clade_membership": "WN02"
     },
-    "NODE_0000822": {
+    "NODE_0000796": {
       "clade_membership": "WN02"
     },
-    "NODE_0000823": {
+    "NODE_0000797": {
       "clade_membership": "WN02"
     },
-    "NODE_0000824": {
+    "NODE_0000799": {
       "clade_membership": "WN02"
     },
-    "NODE_0000825": {
+    "NODE_0000811": {
       "clade_membership": "WN02"
     },
-    "NODE_0000827": {
+    "NODE_0000838": {
       "clade_membership": "WN02"
     },
-    "NODE_0000828": {
+    "NODE_0000840": {
       "clade_membership": "WN02"
     },
-    "NODE_0000830": {
+    "NODE_0000844": {
       "clade_membership": "WN02"
     },
-    "NODE_0000834": {
+    "NODE_0000845": {
       "clade_membership": "WN02"
     },
-    "NODE_0000850": {
+    "NODE_0000858": {
       "clade_membership": "WN02"
     },
-    "NODE_0000851": {
+    "NODE_0000859": {
       "clade_membership": "WN02"
     },
-    "NODE_0000852": {
+    "NODE_0000860": {
       "clade_membership": "WN02"
     },
-    "NODE_0000853": {
+    "NODE_0000861": {
       "clade_membership": "WN02"
     },
     "OM037670/Spain_Lleida/2017/2/bird": {

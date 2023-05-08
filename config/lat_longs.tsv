@@ -55,7 +55,6 @@ country	Brazil	-14.235004	-51.92528
 country	Slovenia	46.151241	14.995463
 country	Netherlands	52.132633	5.291266
 country	Namibia	-22.95764	18.49041
-			
 region	Argentina_unknown	-38.416097	-63.616672
 region	Australia_unknown	-25.274398	133.775136
 region	Australia_Victoria	-21.2309116	148.9741517
@@ -183,31 +182,104 @@ region	Spain_Lleida	41.6147605	0.6267842
 region	Spain_Tarragona	41.1172364	1.2546057
 region	Tunisia_unknown	33.886917	9.537499
 region	Turkey_unknown	38.963745	35.243322
-region	USA_unknown	37.09024	-95.712891
-region	USA_Colorado	39.579155	-104.8769227
-region	USA_Connecticut	41.8437058	-73.3292848
-region	USA_TX	36.4976726	-101.783898
-region	USA_Texas	40.3606638	-74.3693157
-region	USA_California	38.628683	-92.5659635
-region	USA_New York	40.7127281	-74.0060152
-region	USA_VA	43.982063	-117.2384564
-region	USA_GA	43.1514226	-77.7130004
-region	USA_WY	32.7440238	-90.0331404
-region	USA_Wisconsin	44.811349	-91.4984941
 region	Uganda_unknown	1.373333	32.290275
 region	Ukraine_Lviv	49.841952	24.0315921
 region	United Arab Emirates_unknown	23.424076	53.847818
 region	Zambia_unknown	-13.133897	27.849332
-region	Spain_Lleida	41.6147605	0.6267842
-region	Spain_Tarragona	41.1172364	1.2546057
-region	USA_Colorado	39.579155	-104.8769227
-region	USA_Connecticut	41.8437058	-73.3292848
-region	USA_TX	36.4976726	-101.783898
-region	USA_Texas	40.3606638	-74.3693157
-region	USA_California	38.628683	-92.5659635
-region	USA_New York	40.7127281	-74.0060152
-region	USA_VA	43.982063	-117.2384564
-region	USA_GA	43.1514226	-77.7130004
-region	USA_WY	32.7440238	-90.0331404
-region	USA_Wisconsin	44.811349	-91.4984941
-region	Ukraine_Lviv	49.841952	24.0315921
+region	Albania_unknown	41.1533	20.1683
+region	Austria_Leopoldstadt	48.2172	16.3912
+region	Austria_Illmitz	47.7621	16.8001
+region	Austria_Vienna International Airport	48.1126	16.5755
+region	Austria_Floridsdorf	48.2766	16.409
+region	Austria_Hietzing	48.1762	16.2757
+region	Austria_Leopoldstadt Vienna	48.2172	16.3912
+region	Austria_Marchegg	48.2774	16.9105
+region	Austria_Meidling	48.1674	16.316
+region	Austria_Strasshof	48.3163	16.6362
+region	Austrria_Donaustadt	48.2356	16.4624
+region	Austrria_H#tteldorf	48.2096	16.2713
+region	Belgium_unknown	50.5039	4.4699
+region	Croatia_unknown	45.1	15.2
+region	Czech Republic_South Moravia	48.9545	16.7677
+region	Czech Republic_unknown	49.8175	15.473
+region	Germany_Luhterstadt	51.5283282	11.5465911
+region	Greece_Aitoloakarnania	38.7084	21.3799
+region	Greece_East Macedonia-Thrace Avdira Xanthi	40.9815	24.9515
+region	Greece_Attica	38.0458	23.8585
+region	Greece_Macedonia	40.64031	22.93527
+region	Hungary_Cegled	47.1716	19.7941
+region	Italy_Padova province	45.4077172	11.8734455
+region	Italy_Tuscany	43.7711	11.2486
+region	Italy_Sardinia	40.1209	9.0129
+region	Italy_Emilia-Romagna region	44.5968	11.2186
+region	Italy_Veneto region	45.4415	12.3153
+region	Italy_Lombardy	45.4791	9.8452
+region	Namibia_Namibia	-22.95764	18.49041
+region	Portugal_southern Portugal	38.56065	-8.09502
+region	Portugal_unknown	39.4	8.2245
+region	Romania_Danube Delta	45.3075	29.7611
+region	Romania_Ialomita County	44.6031	27.379
+region	Romania_Sibiu county	45.9269	24.2255
+region	Romania_unknown	45.9432	24.9668
+region	Russia_Volgograd region	48.7081906	44.5153353
+region	Russia_Voronezh	51.6683	39.1919
+region	Russia_Astrakhan region	46.3498308	48.0326203
+region	Russia_Rostov	47.2357	39.7015
+region	Russia_Far Eastern Region	43.1198	131.8869
+region	Serbia_Besni Fok	44.9986	20.4015
+region	Serbia_Zemun	44.8531	20.3687
+region	Slovakia_unknown	48.669	19.699
+region	Slovenia_unknown	46.1512	14.9955
+region	Spain_unknown	40.4637	3.7492
+region	USA_Alabama	32.806671	-86.79113
+region	USA_Alaska	61.370716	-152.404419
+region	USA_Arizona	33.729759	-111.431221
+region	USA_Arkansas	34.969704	-92.373123
+region	USA_California	36.116203	-119.681564
+region	USA_Colorado	39.059811	-105.311104
+region	USA_Connecticut	41.597782	-72.755371
+region	USA_Delaware	39.318523	-75.507141
+region	USA_District of Columbia	38.897438	-77.026817
+region	USA_Florida	27.766279	-81.686783
+region	USA_Georgia	33.040619	-83.643074
+region	USA_Hawaii	21.094318	-157.498337
+region	USA_Idaho	44.240459	-114.478828
+region	USA_Illinois	40.349457	-88.986137
+region	USA_Indiana	39.849426	-86.258278
+region	USA_Iowa	42.011539	-93.210526
+region	USA_Kansas	38.5266	-96.726486
+region	USA_Kentucky	37.66814	-84.670067
+region	USA_Louisiana	31.169546	-91.867805
+region	USA_Maine	44.693947	-69.381927
+region	USA_Maryland	39.063946	-76.802101
+region	USA_Massachusetts	42.230171	-71.530106
+region	USA_Michigan	43.326618	-84.536095
+region	USA_Minnesota	45.694454	-93.900192
+region	USA_Mississippi	32.741646	-89.678696
+region	USA_Missouri	38.456085	-92.288368
+region	USA_Montana	46.921925	-110.454353
+region	USA_Nebraska	41.12537	-98.268082
+region	USA_Nevada	38.313515	-117.055374
+region	USA_New Hampshire	43.452492	-71.563896
+region	USA_New Jersey	40.298904	-74.521011
+region	USA_New Mexico	34.840515	-106.248482
+region	USA_New York	42.165726	-74.948051
+region	USA_North Carolina	35.630066	-79.806419
+region	USA_North Dakota	47.528912	-99.784012
+region	USA_Ohio	40.388783	-82.764915
+region	USA_Oklahoma	35.565342	-96.928917
+region	USA_Oregon	44.572021	-122.070938
+region	USA_Pennsylvania	40.590752	-77.209755
+region	USA_Rhode Island	41.680893	-71.51178
+region	USA_South Carolina	33.856892	-80.945007
+region	USA_South Dakota	44.299782	-99.438828
+region	USA_Tennessee	35.747845	-86.692345
+region	USA_Texas	31.054487	-97.563461
+region	USA_Utah	40.150032	-111.862434
+region	USA_Vermont	44.045876	-72.710686
+region	USA_Virginia	37.769337	-78.169968
+region	USA_Washington	47.400902	-121.490494
+region	USA_West Virginia	38.491226	-80.954453
+region	USA_Wisconsin	44.268543	-89.616508
+region	USA_Wyoming	42.755966	-107.30249
+region	USA_unknown	37.09024	-95.712891

@@ -1,0 +1,20 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+export        1              1              1
+total         1              1              1
+
+Select jobs to execute...
+
+[Thu Mar 16 14:42:06 2023]
+Job 0: Exporting data files for for auspice
+Reason: Updated input files: config/lat_longs.tsv
+
+[Thu Mar 16 14:42:10 2023]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2023-03-16T144206.688376.snakemake.log
