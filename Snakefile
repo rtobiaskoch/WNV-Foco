@@ -1,6 +1,6 @@
 rule all:
     input:
-        auspice_json = "auspice/WNV-nextstrain_Global.json",
+        auspice_json = "auspice/WNV-Global.json",
 
 rule options:
 	params:
