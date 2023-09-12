@@ -1,0 +1,35 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count
+---------  -------
+ancestral        1
+clades           1
+export           1
+refine           1
+traits           1
+translate        1
+total            6
+
+Select jobs to execute...
+
+[Tue Sep 12 16:37:03 2023]
+Job 1: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+Reason: Missing output files: results/branch_lengths.json, results/tree.nwk
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule refine in file /Users/user/Programming Directory/Ebel Lab/WNV-Foco-nextstrain2/Snakefile, line 78:
+Job 1  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+results/tree.nwk
+results/branch_lengths.json
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-09-12T163703.364187.snakemake.log

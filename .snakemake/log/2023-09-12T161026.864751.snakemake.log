@@ -1,0 +1,39 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count
+---------  -------
+ancestral        1
+clades           1
+export           1
+mask             1
+refine           1
+traits           1
+translate        1
+tree             1
+total            8
+
+Select jobs to execute...
+
+[Tue Sep 12 16:10:26 2023]
+Job 3: 
+        masking sites in config/masked_sites.txt
+        
+Reason: Missing output files: results/masked.fasta
+
+[Tue Sep 12 16:10:27 2023]
+Error in rule mask:
+    jobid: 3
+    input: results/aligned.fasta, config/masked_sites.txt
+    output: results/masked.fasta
+    shell:
+        
+        augur mask             --sequences results/aligned.fasta             --mask-sites config/masked_sites.txt             --output results/masked.fasta
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-09-12T161026.864751.snakemake.log

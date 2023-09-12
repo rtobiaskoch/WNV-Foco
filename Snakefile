@@ -11,11 +11,16 @@ options = rules.options.params
 input_fasta = "data/sequences.fasta",
 input_metadata = "data/metadata.csv",
 dropped_strains = "config/dropped_strains.txt",
+mask_index = "config/masked_sites.txt",
+#mask_index = "config/mask.json",
 reference = "config/reference.gb",
 #colors = "config/colors.tsv",
 lat_longs = "config/lat_longs.tsv",
 auspice_config = "config/auspice_config.json",
 input_clades = "config/clades.tsv"
+
+
+
 
 
 rule align:
@@ -38,10 +43,28 @@ rule align:
             --fill-gaps
         """
 
+rule mask:
+    message:
+        """
+        masking sites in {input.mask}
+        """
+    input:
+        fasta = rules.align.output.alignment,
+        mask = mask_index
+    output:
+        masked_alignment = "results/masked.fasta"
+    shell:
+        """
+        augur mask \
+            --sequences {input.fasta} \
+            --mask {input.mask} \
+            --output {output.masked_alignment}
+        """
+
 rule tree:
     message: "Building tree"
     input:
-        alignment = rules.align.output.alignment
+        alignment = rules.mask.output.masked_alignment
     output:
         tree = "results/tree_raw.nwk"
     shell:
@@ -70,7 +93,7 @@ rule refine:
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 100
+        clock_filter_iqd = 4
     shell:
         """
         augur refine \
@@ -83,8 +106,8 @@ rule refine:
             --coalescent {params.coalescent} \
             --date-confidence \
             --date-inference {params.date_inference} \
-            --clock-filter-iqd {params.clock_filter_iqd}
-            --root AF481864
+            --clock-filter-iqd {params.clock_filter_iqd} \
+            --root AF481864/1998/Israel/ISR/D/Eilat/pre-NY/unknown/Bird-other
         """
 
 rule ancestral:

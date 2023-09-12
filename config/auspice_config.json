@@ -27,6 +27,11 @@
       "type": "categorical"
     },
     {
+      "key": "CO",
+      "title": "CO",
+      "type": "categorical"
+    },
+    {
       "key": "division",
       "title": "Division",
       "type": "categorical"

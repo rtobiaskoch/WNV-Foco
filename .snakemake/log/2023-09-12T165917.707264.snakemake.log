@@ -1,0 +1,67 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count
+---------  -------
+align            1
+ancestral        1
+clades           1
+export           1
+mask             1
+refine           1
+traits           1
+translate        1
+tree             1
+total            9
+
+Select jobs to execute...
+
+[Tue Sep 12 16:59:18 2023]
+Job 4: 
+        Aligning sequences to config/reference.gb
+          - filling gaps with N
+        
+Reason: Missing output files: results/aligned.fasta
+
+[Tue Sep 12 16:59:32 2023]
+Finished job 4.
+1 of 9 steps (11%) done
+Select jobs to execute...
+
+[Tue Sep 12 16:59:32 2023]
+Job 3: 
+        masking sites in config/masked_sites.txt
+        
+Reason: Missing output files: results/masked.fasta; Input files updated by another job: results/aligned.fasta
+
+[Tue Sep 12 16:59:33 2023]
+Finished job 3.
+2 of 9 steps (22%) done
+Select jobs to execute...
+
+[Tue Sep 12 16:59:33 2023]
+Job 2: Building tree
+Reason: Missing output files: results/tree_raw.nwk; Input files updated by another job: results/masked.fasta
+
+[Tue Sep 12 16:59:35 2023]
+Finished job 2.
+3 of 9 steps (33%) done
+Select jobs to execute...
+
+[Tue Sep 12 16:59:35 2023]
+Job 1: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+Reason: Missing output files: results/branch_lengths.json, results/tree.nwk; Input files updated by another job: results/tree_raw.nwk, results/aligned.fasta
+
+RuleException in rule refine in file /Users/user/Programming Directory/Ebel Lab/WNV-Foco-nextstrain2/Snakefile, line 78:
+AttributeError: 'InputFiles' object has no attribute 'root', when formatting the following:
+
+        augur refine             --tree {input.tree}             --alignment {input.alignment}             --metadata {input.metadata}             --output-tree {output.tree}             --output-node-data {output.node_data}             --timetree             --coalescent {params.coalescent}             --date-confidence             --date-inference {params.date_inference}             --clock-filter-iqd {params.clock_filter_iqd}             --root {input.root}
+        

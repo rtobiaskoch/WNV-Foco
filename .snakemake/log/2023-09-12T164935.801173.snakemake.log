@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count
+---------  -------
+ancestral        1
+clades           1
+export           1
+refine           1
+traits           1
+translate        1
+total            6
+
+Select jobs to execute...
+
+[Tue Sep 12 16:49:36 2023]
+Job 1: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+Reason: Missing output files: results/branch_lengths.json, results/tree.nwk
+
+RuleException in rule refine in file /Users/user/Programming Directory/Ebel Lab/WNV-Foco-nextstrain2/Snakefile, line 79:
+AttributeError: 'InputFiles' object has no attribute 'root', when formatting the following:
+
+        augur refine             --tree {input.tree}             --alignment {input.alignment}             --metadata {input.metadata}             --output-tree {output.tree}             --output-node-data {output.node_data}             --timetree             --coalescent {params.coalescent}             --date-confidence             --date-inference {params.date_inference}             --clock-filter-iqd {params.clock_filter_iqd}             --root {input.root}
+        

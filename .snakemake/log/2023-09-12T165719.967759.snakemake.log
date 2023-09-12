@@ -1,0 +1,54 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count
+---------  -------
+ancestral        1
+clades           1
+export           1
+mask             1
+refine           1
+traits           1
+translate        1
+tree             1
+total            8
+
+Select jobs to execute...
+
+[Tue Sep 12 16:57:20 2023]
+Job 3: 
+        masking sites in config/masked_sites.txt
+        
+Reason: Missing output files: results/masked.fasta
+
+[Tue Sep 12 16:57:21 2023]
+Finished job 3.
+1 of 8 steps (12%) done
+Select jobs to execute...
+
+[Tue Sep 12 16:57:21 2023]
+Job 2: Building tree
+Reason: Missing output files: results/tree_raw.nwk; Input files updated by another job: results/masked.fasta
+
+[Tue Sep 12 16:57:23 2023]
+Finished job 2.
+2 of 8 steps (25%) done
+Select jobs to execute...
+
+[Tue Sep 12 16:57:23 2023]
+Job 1: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+Reason: Missing output files: results/branch_lengths.json, results/tree.nwk; Input files updated by another job: results/tree_raw.nwk
+
+RuleException in rule refine in file /Users/user/Programming Directory/Ebel Lab/WNV-Foco-nextstrain2/Snakefile, line 78:
+AttributeError: 'InputFiles' object has no attribute 'root', when formatting the following:
+
+        augur refine             --tree {input.tree}             --alignment {input.alignment}             --metadata {input.metadata}             --output-tree {output.tree}             --output-node-data {output.node_data}             --timetree             --coalescent {params.coalescent}             --date-confidence             --date-inference {params.date_inference}             --clock-filter-iqd {params.clock_filter_iqd}             --root {input.root}
+        

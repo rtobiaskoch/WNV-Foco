@@ -1,0 +1,3 @@
+AttributeError in file /Users/user/Programming Directory/Ebel Lab/WNV-Foco-nextstrain2/Snakefile, line 66:
+'Namedlist' object has no attribute 'alignment'
+  File "/Users/user/Programming Directory/Ebel Lab/WNV-Foco-nextstrain2/Snakefile", line 66, in <module>

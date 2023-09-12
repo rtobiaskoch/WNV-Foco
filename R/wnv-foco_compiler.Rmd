@@ -25,6 +25,10 @@ ns_names = c("strain", #basically everything to add to tip labels: accession/yea
 #because treetime can only handle 300 traits or less
 state_collapse = "AL|CAN|CT|MN|NY|OH|MD|GA|LA|VA|WI|MI|WA"
 
+
+#nucleotide position in aligment to mask till end
+mask_index = 10396
+
 #read in fasta_name_switch function
 source("https://raw.githubusercontent.com/rtobiaskoch/TK_useful_functions/main/fasta_name_switch.R")
 
@@ -291,6 +295,17 @@ fasta_c_char80 = fasta_c_char %>%
 
 
 fasta_c_cmplt = filter_fasta(fasta_c, fasta_c_char80$accession)
+
+
+```
+
+# * GENERATE MASKED_SITES.TXT
+```{r}
+#create file for masked sites
+t = as.character(mask_index:max(fasta_c_char$length))
+writeLines(t, "../config/masked_sites.txt")
+
+rm(t)
 ```
 
 # * MDATA_C_CMPLT: REMOVE METADATA WITH MISSING SEQ
