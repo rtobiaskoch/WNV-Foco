@@ -1,0 +1,450 @@
+# HEADER CODE
+
+```{r}
+rm(list = ls())
+pacman::p_load(readxl, tidyverse, lubridate, rquery,janitor, 
+               Biostrings) #phylo
+
+#COLUMN NAMES FOR THE BUILD
+ns_names = c("strain", #basically everything to add to tip labels: accession/year/country_state_city_trap/lineage/sublineage/host
+             "accession",	#CSU ID or accession number
+             "date", #YYYY-MM-DD
+             "year", #YYYY
+             "country", #USA
+             "state",	#ST ex. CO, TX, CA
+             "CO",
+             "division", #from the 20yr nextstrain has lat long and is essentially county
+             "zone", #for non FoCo data will be just city
+             "trap", #for non FoCo data will be just city
+             "lineage",	#NY99, WN02, SW03
+             "sublineage",	#TBD
+             "host" #ex. mosquito-culex or Bird-Crow or Human
+             )
+
+#Discrete Traits to Collapse
+#because treetime can only handle 300 traits or less
+state_collapse = "AL|CAN|CT|MN|NY|OH|MD|GA|LA|VA|WI|MI|WA"
+
+#read in fasta_name_switch function
+source("https://raw.githubusercontent.com/rtobiaskoch/TK_useful_functions/main/fasta_name_switch.R")
+
+#source fasta_filter function
+source("https://raw.githubusercontent.com/rtobiaskoch/TK_useful_functions/main/fasta_filter.R")
+```
+
+# COLORADO
+
+#### * TRAP DATA
+
+```{r}
+path = 'data_input/2013-2021 WNV Surveillance Trap Consolidation (from Kaitlynn).xlsx'
+
+trap = read_excel(path, 
+                  sheet = 'Zone-TrapID-Coordinates', 
+                  skip = 1) %>%
+  clean_names() %>%
+  dplyr::rename(trap = trap_id) %>%
+  select(-zone) %>% #already in the mdata
+  separate(coordinates, into = c("lat", "long"),
+           sep = ",",
+           extra = "merge") #seperate lat and long
+```
+
+#### * OLD METADATA (ORIGINAL BUILD)
+
+```{r}
+mdata_co_old0 = read_excel("data_input/Fort Collins WNV Metadata.xlsx")
+#NOTES
+# problem with this data is it doesn't include the trap ID so I will need to use the new data
+
+mdata_co_old = mdata_co_old0 %>%
+  clean_names() %>%
+  dplyr::rename(accession = sample_name,
+         date = collection_date,
+         host = host_spp) %>%
+  mutate(year = year(date)) %>%
+  mutate(accession = str_replace(accession, "-", "")) %>%
+  mutate(accession = str_replace(accession, "_", "")) %>%
+  select(-county,
+         -lineage) #want the lineage from the mdata other for now
+
+t = mdata_co_old %>%
+  group_by(year) %>%
+  dplyr::count() #missing 2021 when comparing it to the (from kaitlynn file)
+
+```
+
+
+#### * NEW METADATA
+
+```{r}
+sheet_names <- excel_sheets("data_input/2013-2021 WNV Surveillance Trap Consolidation (from Kaitlynn).xlsx")
+
+
+mdata_co_new0 <- map_df(sheet_names[2:10], ~ read_excel(path, #introduced in Trap data read in
+                                                 sheet = .x, 
+                                                 col_types = "text",
+                                                 skip =1))
+
+mdata_co_new = mdata_co_new0 %>%
+  clean_names() %>%
+  select(-coordinates, -x8, 
+         -full_id_year_city_zone_trap_id_id_number,
+         -sample_id_number#coordinates are more complete and will come from trap data.
+         ) %>% 
+  dplyr::rename(accession = sequenced_samples,
+         trap = trap_id) %>%
+  mutate(accession = str_replace(accession, "-", ""),
+         year = as.numeric(year)) %>% #make id match the previous nextstrain build CSUXXXX
+  mutate(state = "CO",
+         country = "USA"#,
+        # host = "Mosquito-Culex" #add missing columns that are all the same for the nextstrain build
+        )
+```
+
+#### * COMBINE OLD WITH NEW
+
+Combine old metadata with new to get the collection date and host from old trap data
+
+```{r}
+#temporary dataframe just to keep the variables that we want to merge with the new data
+mdata_co_old_t = mdata_co_old %>%
+  select(accession, date, host)
+  
+  
+mdata_co0 = full_join(mdata_co_new, mdata_co_old_t, by = c("accession")) %>%
+  mutate(date = as.Date(date))
+
+mdata_co = mdata_co0 %>%
+  filter(!is.na(date)) #696
+  
+
+rm(mdata_co_old_t)
+
+rm(mdata_co_new, mdata_co_new0,
+   mdata_co_old, mdata_co_old0)
+```
+
+#### * mdata_other = OUTSIDE COLORADO METADATA
+
+```{r}
+mdata_other0 = read.csv("data_input/other_mdata.csv", header = F)
+
+names = c("accession", "date", "country", "state", "city", "host", "lineage", "submission")
+colnames(mdata_other0) = names
+
+mdata_other = mdata_other0 %>%
+  select(-submission) %>%
+  distinct(accession, .keep_all = T) %>%
+  mutate(date = as.Date(date)) %>% #for full_join with mdata_co
+  mutate(year = year(date))
+```
+
+
+#### * MDATA = COMBINE CO WITH OTHER
+
+```{r}
+#temp just for the merge to only get the variables that we want.
+mdata_co_t = mdata_co %>%
+  select(accession, zone, trap)
+
+co_not_other = anti_join(mdata_co, mdata_other, by = "accession")
+
+mdata = full_join(mdata_other, mdata_co_t, by = "accession") #3553
+rm(mdata_co_t, mdata_other0)
+```
+
+#### * CLEAN AND FORMAT FOR NEXTSTRAIN
+```{r}
+mdata_c = mdata %>%
+  distinct(accession, .keep_all = T) %>% #3541 no duplicates were found
+  dplyr::rename(county = city) %>% #essentially county
+  mutate(CO = if_else(state == "CO", "CO", "not CO"),
+        division = paste0(state, "/", county), #to match format of 20 yr west nile that has lat and long already
+         #zone = if_else(is.na(zone), paste0(division, "/unknown"), paste0(division, "/", zone)),
+         #trap = if_else(is.na(trap), paste0(division, "/unknown"), trap),
+         zone = if_else(is.na(zone), paste0(division), paste0(division, "/", zone)),
+         trap = if_else(is.na(trap), paste0(division), trap),
+         lineage = if_else(is.na(lineage), "unknown", lineage),
+         sublineage = "unknown",
+         host = if_else(str_detect(string = host, pattern = "Culex"), "Mosquito-Culex", host), #remove "Culex sp." messing with nextstrain
+         strain = paste(accession, year, country, division, lineage, sublineage, host, sep = "/")
+          ) %>%
+  select(-county) %>%
+  select(all_of(ns_names))  %>%
+  #reduce the number of traits to less than 300 for treetime
+  mutate(division = if_else(str_detect(division, state_collapse),
+                         str_extract(division, ".*(?=/)"),
+                         division)) %>%
+  mutate(zone = if_else(str_detect(zone, state_collapse),
+                         str_extract(zone, ".*(?=/)"),
+                         zone)) %>%
+  mutate(trap = if_else(str_detect(trap, state_collapse),
+                         str_extract(trap, ".*(?=/)"),
+                         trap))
+  
+```
+
+
+# FASTA
+
+#### * FOCO FASTA FILES
+read in and switch the names
+```{r}
+fasta_co = Biostrings::readDNAStringSet("data_input/FortCollins_dataset.fasta")
+
+#Remove other shit so the names will match with the metadata
+t2 = str_extract(names(fasta_co), "^[^_]+_[^_]+")
+t2 = str_replace(t2, "_", "") #make it match the ID from the previous nextstrain build CSUXXXX
+names(fasta_co) = t2
+
+#remove any sequences in fasta file that are not in the metadata
+fasta_co_c = filter_fasta(fasta_co, mdata_co0$accession) #695 all samples in fasta are in mdata_co
+
+#list of missing fasta sequences that are listed in the metadata
+missing_fasta_co_c = setdiff(mdata_co$accession, names(fasta_co))
+
+#get the mdata of the missing sequences
+mdata_missing_fasta_co_c = mdata_co0 %>%
+  filter(accession %in% missing_fasta_co_c) #73 sequences 09-05-23
+
+write.csv(mdata_missing_fasta_co_c, "data_mid/missing_fasta.csv")
+```
+
+
+#### * FIND MISSING CO SEQUENCES
+remove sequences that are not in the metadata
+```{r}
+#remove any sequences in fasta file that are not in the metadata
+fasta_co_c = filter_fasta(fasta_co, mdata_co0$accession) #695 all samples in fasta are in mdata_co_new
+
+#list of missing fasta sequences that are in the metadata
+missing_fasta_co = setdiff(mdata_co0$accession, names(fasta_co))
+
+mdata_missing_fasta_co = mdata_co0 %>%
+  filter(accession %in% missing_fasta_co)
+
+write.csv(mdata_missing_fasta_co, "data_mid/missing_fasta_co.csv")
+```
+
+
+#### * fasta_other = OTHER FASTA
+read in fasta and remove sequences with missing metadata to get fasta_other_c
+```{r}
+fasta_other = readDNAStringSet("data_input/other.fasta")
+
+#remove any sequences in fasta file that are not in the metadata
+fasta_other_c = filter_fasta(fasta_other, mdata_other$accession) #695 all samples in fasta are in mdata_co
+
+#list of missing fasta sequences that are listed in the metadata
+missing_fasta_other_c = setdiff(mdata_other$accession, names(fasta_other))
+
+#get the mdata of the missing sequences
+mdata_missing_fasta_other = mdata_other %>%
+  filter(accession %in% missing_fasta_other_c)
+
+write.csv(mdata_missing_fasta_other, "data_mid/missing_fasta_other.csv") #3 sequences 09-05-23
+```
+
+#### * COMBINE & DEDUP
+combines CO fasta and the rest of the build fasta
+```{r}
+
+f_co_nm = names(fasta_co_c)
+f_other_nm = names(fasta_other_c)
+
+t = setdiff(f_co_nm, f_other_nm) #sequences in co that are not in other
+
+t3 = c(f_co_nm, f_other_nm)
+t4 = unique(t3)
+
+#fasta = c(fasta_co_c, fasta_other_c)
+#fasta_c = unique(fasta)
+
+#code above is removing more sequences than there are duplicates which makes no sense (3466 in other before and 3347 after merge and unique which seems impossible)
+#because there are no new sequences being added from the co data to the new data I am just going to use fasta_other as primary fasta file
+
+fasta = fasta_other_c
+
+#ensure that all sequences are in the mdata
+fasta_c = filter_fasta(fasta, mdata_c$accession)
+
+
+```
+
+
+#### * REMOVE LT<80% COVERAGE
+
+```{r}
+fasta_c_mat = alphabetFrequency(fasta_c)
+
+fasta_c_char = data.frame(
+  accession = names(fasta_c),
+  length = rowSums(fasta_c_mat),
+  unambig = rowSums(fasta_c_mat[,1:4],),
+  ambig = rowSums(fasta_c_mat[,5:18])
+            ) %>%
+  mutate(g_complete = unambig/(unambig + ambig))
+
+fasta_c_char80 = fasta_c_char %>%
+  filter(g_complete >= .80)
+
+
+fasta_c_cmplt = filter_fasta(fasta_c, fasta_c_char80$accession)
+```
+
+# * MDATA_C_CMPLT: REMOVE METADATA WITH MISSING SEQ
+```{r}
+mdata_c_cmplt = mdata_c %>%
+  filter(accession %in% names(fasta_c_cmplt))
+
+write.csv(mdata_c_cmplt, "data_output/mdata_c_cmplt.csv")
+write.csv(mdata_c_cmplt, "../data_test/metadata.csv")
+saveRDS(mdata_c_cmplt, "data_output/mdata_c_cmplt.rds")
+```
+
+
+# * MDATA TEST
+```{r}
+mdata_test = mdata_c_cmplt %>%
+  group_by(state) %>%
+  sample_n(1, replace = T) %>%
+  distinct_all()
+
+write.csv(mdata_test, "data_output/mdata_test.csv")
+
+write.csv(mdata_test, "../data_test/metadata(test).csv")
+```
+
+
+# * FASTA NAME SWITCH FOR NEXTSTRAIN
+```{r}
+ #fasta name switch if names in fasta match x swap names with y
+#all must be of same length
+
+#f = fasta  file
+#x list of fasta sequence names you want to match to
+#y new names for sequences you want to replace x with
+
+
+#fasta_ns: combined co and other with no missing sequences 
+fasta_ns = fasta_name_switch(fasta_c_cmplt, names(fasta_c_cmplt), mdata_c_cmplt$strain)
+
+writeXStringSet(fasta_ns, "../data_test/sequences.fasta")
+writeXStringSet(fasta_ns,"data_output/fasta_ns.fasta")
+```
+
+# * FASTA TEST
+```{r}
+#create subset for testing nextstrain
+fasta_test = filter_fasta(fasta_ns, mdata_test$strain)
+writeXStringSet(fasta_test, "../data_test/sequences(test).fasta")
+
+```
+
+
+# GEO: LAT LONG
+```{r}
+cache_geo = read_tsv("data_input/cache_coordinates.tsv") %>%
+  select(-geo) #want the lat long regardings of the geo resolution because many are going to the be same for county and the trap
+
+geo_list = mdata_c %>%
+  distinct(country, state, division, zone, trap) %>% # get unique location for each geo resolution 
+  mutate(x = "x") %>% #for the pivot longer
+  pivot_longer(cols = -x,
+               names_to = "geo",
+               values_to = "value") %>%
+  select(-x) %>%
+  distinct(geo, value) %>% #get unique location again
+  left_join(cache_geo, by = "value") %>%
+  rquery::natural_join(trap, by = c("value" = "trap"), jointype = "LEFT")
+
+
+#GET MISSING and extract parts that match to then natural_join with the geo_list
+geo_missing = geo_list %>%
+  filter(is.na(lat)) %>%
+  mutate(value2 = str_extract(value, "^[^/]+")) %>%
+  rquery::natural_join(cache_geo, by = c("value2" = "value"), jointype = "LEFT") %>%
+  select(-value2)
+
+
+geo_list2 = natural_join(geo_list, geo_missing, by = c("geo", "value"), jointype = "LEFT") %>%
+  distinct(geo, value, .keep_all = T)
+
+geo_list_cmplt = geo_list2 %>%
+  filter(!is.na(lat))
+  
+
+write_tsv(geo_list_cmplt, "data_output/lat_longs.tsv")
+write_tsv(geo_list_cmplt, "../data_test/lat_longs.tsv")
+
+geo_missing2 = geo_list2 %>%
+  filter(is.na(lat))
+
+write.csv(geo_missing2, "data_mid/missing_trap.csv")
+```
+# good to here
+
+# COLORS
+```{r}
+color_list = mdata_c %>%
+  distinct(year, country, state, division, 
+           zone, trap, lineage, sublineage, host) %>%
+  mutate(x = "x") %>%
+  mutate_all(as.character) %>% # so numeric and year can be in same variable
+  pivot_longer(cols = -x,
+               names_to = "color",
+               values_to = "value") %>%
+  distinct(color, value)
+
+
+
+```
+
+
+```{r}
+
+library(RColorBrewer)
+library(viridis)
+library(randomcoloR)
+
+
+data = readRDS("data_output/mdata_c_cmplt.rds")
+variable = "country"
+
+#set.seed(1)
+n <- length(unique(data[,variable]))
+
+#generate colors
+qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
+col_vector = unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
+col_vector = sample(col_vector,n)
+pie(rep(1,n), col=sample(col_vector, n), labels = unique(data[,variable]))
+
+#combine color df to match nextstrain format
+col_country = data.frame("geo" = rep("country", n), 
+                    "Country" = unique(c_cmplt_mdata_ds$Country),
+                    "col" = col_vector) %>%
+  rename(x = Country) #rename so rbind works
+
+n2 = length(unique(c_cmplt_mdata_ds$region))
+
+col_region = c_cmplt_mdata_ds %>%
+  select(Country, region) %>%
+  rename(x = region) %>% #rename so rbind works
+  distinct_all() %>%
+  left_join(col_country, by = c("Country" = "x")) %>% # get colors
+  select(-Country) %>% #drop country to conform to nextstrain format
+  mutate(geo = "region")
+
+col_df = rbind.data.frame(col_country,  col_region)
+
+write.csv(col_df, "data_mid/color_generator.csv", row.names = F)
+write.csv(col_df, "../WNV-nextstrain/config/color_generator.csv", row.names = F)
+
+rm(n, qual_col_pals, col_vector, col_country)
+```
+
+
+
+

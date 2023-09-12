@@ -1,0 +1,49 @@
+# Header
+
+```{r}
+rm(list = ls())
+pacman::p_load(treeio, ggtree, tidytree,  #phylo
+               tidyverse)
+
+```
+
+#### * Import Tree and mdata
+
+```{r}
+#import tree from nextstrain
+tree = read.tree("../results/tree.nwk")
+tree_raw = read.tree("../results/tree_raw.nwk")
+mdata = read_rds("data_output/mdata_c_cmplt.rds")
+```
+
+
+#### If missing lineages then extract lineages
+```{r}
+miss_lin = mdata %>% filter(lineage == "unknown") %>% nrow()
+
+if(miss_lin > 0) {
+  #figure out how to add lineage
+}
+
+```
+
+
+```{r}
+p_tree = ggtree(tree)# + 
+  #geom_tiplab()
+
+
+
+```
+
+#### * Extract Intros
+
+```{bash}
+python3 node_data_to_table.py \
+--tree results/tree.nwk \
+--jsons results/traits.json \
+--include-internal-nodes \
+--annotations build=wnv \
+--output traits.tsv
+
+```
