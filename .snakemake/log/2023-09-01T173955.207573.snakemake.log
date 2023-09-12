@@ -1,0 +1,20 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+clean        1              1              1
+total        1              1              1
+
+Select jobs to execute...
+
+[Fri Sep  1 17:39:55 2023]
+Job 0: Removing directories: results  auspice
+Reason: Rules with neither input nor output files are always executed.
+
+[Fri Sep  1 17:39:55 2023]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2023-09-01T173955.207573.snakemake.log

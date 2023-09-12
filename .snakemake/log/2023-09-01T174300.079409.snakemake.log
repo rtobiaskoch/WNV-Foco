@@ -1,0 +1,29 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+export        1              1              1
+total         1              1              1
+
+Select jobs to execute...
+
+[Fri Sep  1 17:43:00 2023]
+Job 0: Exporting data files for for auspice
+Reason: Missing output files: auspice/WNV-Foco_nextstrain2.json
+
+[Fri Sep  1 17:43:01 2023]
+Error in rule export:
+    jobid: 0
+    output: auspice/WNV-Foco_nextstrain2.json
+    shell:
+        
+        augur export v2             --tree results/tree.nwk             --metadata data/metadata.csv             --node-data results/branch_lengths.json results/traits.json results/nt_muts.json results/clades.json results/aa_muts.json             --lat-longs config/lat_longs.tsv             --auspice-config config/auspice_config.json             --output auspice/WNV-Foco_nextstrain2.json
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-09-01T174300.079409.snakemake.log

@@ -1,0 +1,6 @@
+Building DAG of jobs...
+MissingInputException in rule export in line 160 of /Users/user/Programming Directory/Ebel Lab/WNV-Foco/WNV-Foco-nextstrain2/Snakefile:
+Missing input files for rule export:
+    output: auspice/WNV-Foco_nextstrain2.json
+    affected files:
+        data/*.tsv
