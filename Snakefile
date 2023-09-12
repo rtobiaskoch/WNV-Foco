@@ -1,6 +1,6 @@
 rule all:
     input:
-        auspice_json = "auspice/WNV-nextstrain_Global.json",
+        auspice_json = "auspice/WNV-Foco_nextstrain2.json",
 
 rule options:
 	params:
@@ -9,10 +9,10 @@ rule options:
 options = rules.options.params
 
 input_fasta = "data/sequences.fasta",
-input_metadata = "data/metadata.tsv",
+input_metadata = "data/metadata.csv",
 dropped_strains = "config/dropped_strains.txt",
 reference = "config/reference.gb",
-colors = "config/colors.tsv",
+#colors = "config/colors.tsv",
 lat_longs = "config/lat_longs.tsv",
 auspice_config = "config/auspice_config.json",
 input_clades = "config/clades.tsv"
@@ -48,7 +48,7 @@ rule tree:
         """
        augur tree \
            --alignment {input.alignment} \
-            --output {output.tree}
+           --output {output.tree}
         """
 
 rule refine:
@@ -84,6 +84,7 @@ rule refine:
             --date-confidence \
             --date-inference {params.date_inference} \
             --clock-filter-iqd {params.clock_filter_iqd}
+            --root AF481864
         """
 
 rule ancestral:
@@ -146,7 +147,7 @@ rule traits:
     output:
         node_data = "results/traits.json",
     params:
-        columns = "country continent region"
+        columns = "country state division zone trap"
     shell:
         """
         augur traits \
@@ -166,7 +167,7 @@ rule export:
         traits = rules.traits.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
-        colors = colors,
+#        colors = colors,
         lat_longs = lat_longs,
         clades = rules.clades.output.clade_data,
         auspice_config = auspice_config
@@ -178,11 +179,12 @@ rule export:
             --tree {input.tree} \
             --metadata {input.metadata} \
             --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.clades} {input.aa_muts} \
-            --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
             --output {output.auspice_json}
         """
+
+# would need to add the following line above for colors  --colors {input.colors} \
 
 rule clean:
     message: "Removing directories: {params}"

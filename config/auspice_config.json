@@ -1,56 +1,68 @@
 {
   "title": "Global West Nile virus",
   "maintainers": [
-    {"name": "Tobias Koch and The Grubaugh Lab", "url": "http://grubaughlab.com/"}
+    {"name": "Tobias Koch and The Ebel Lab", "url": "https://labs.vetmedbiosci.colostate.edu/ebel/"}
   ],
-  "build_url": "https://github.com/rtobiaskoch/WNV-nextstrain/",
+  "build_url": "https://github.com/rtobiaskoch/WNV-FoCo-Nextstrain2/",
   "colorings": [
 
     {
-      "key": "num_date",
+      "key": "date",
       "title": "Date",
       "type": "continuous"
     },
     {
-      "key": "year_grp",
-      "title": "year",
-      "type": "categorical"
+      "key": "year",
+      "title": "Year",
+      "type": "continuous"
     },
     {
       "key": "country",
-      "title": "country",
+      "title": "Country",
       "type": "categorical"
     },
     {
-      "key": "region",
-      "title": "region",
+      "key": "state",
+      "title": "State",
       "type": "categorical"
     },
     {
-      "key": "continent",
-      "title": "continent",
+      "key": "division",
+      "title": "Division",
+      "type": "categorical"
+    },
+    {
+    "key": "zone",
+    "title": "Zone",
+    "type": "categorical"
+    },
+    {
+    "key": "trap",
+    "title": "Trap",
+    "type": "categorical"
+    },
+    {
+      "key": "lineage",
+      "title": "Lineage",
+      "type": "categorical"
+    },
+    {
+      "key": "sublineage",
+      "title": "Sublineage",
       "type": "categorical"
     },
     {
       "key": "host",
-      "title": "host",
-      "type": "categorical"
-    },
-    {
-      "key": "host_genus",
-      "title": "host_genus",
-      "type": "categorical"
-    },
-    {
-      "key": "lineage",
-      "title": "lineage",
+      "title": "Host",
       "type": "categorical"
     }
   ],
   "geo_resolutions": [
     "country",
-    "continent",
-    "region"
+    "state",
+    "division",
+    "zone",
+    "trap"
   ],
   "panels": [
      "tree",
@@ -61,12 +73,14 @@
     "map_triplicate": true
   },
   "filters": [
+    "year",
     "country",
-    "continent",
-    "year_grp",
-    "region",
-    "host",
+    "state",
+    "division",
+    "zone",
+    "trap",
     "lineage",
-    "host_genus"
+    "sublineage",
+    "host"
   ]
 }
