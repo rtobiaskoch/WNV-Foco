@@ -12,14 +12,11 @@ input_fasta = "data/sequences.fasta",
 input_metadata = "data/metadata.csv",
 dropped_strains = "config/dropped_strains.txt",
 mask_index = "config/masked_sites.txt",
-#mask_index = "config/mask.json",
 reference = "config/reference.gb",
-#colors = "config/colors.tsv",
+colors = "config/colors.tsv",
 lat_longs = "config/lat_longs.tsv",
 auspice_config = "config/auspice_config.json",
 input_clades = "config/clades.tsv"
-
-
 
 
 
@@ -71,6 +68,8 @@ rule tree:
         """
        augur tree \
            --alignment {input.alignment} \
+           --method iqtree \
+           --nthreads auto
            --output {output.tree}
         """
 
@@ -190,7 +189,7 @@ rule export:
         traits = rules.traits.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
-#        colors = colors,
+        colors = colors,
         lat_longs = lat_longs,
         clades = rules.clades.output.clade_data,
         auspice_config = auspice_config
@@ -203,6 +202,7 @@ rule export:
             --metadata {input.metadata} \
             --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.clades} {input.aa_muts} \
             --lat-longs {input.lat_longs} \
+            --colors {input.colors} \
             --auspice-config {input.auspice_config} \
             --output {output.auspice_json}
         """

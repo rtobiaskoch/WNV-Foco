@@ -41,9 +41,7 @@ source("https://raw.githubusercontent.com/rtobiaskoch/TK_useful_functions/main/f
 #### * TRAP DATA
 
 ```{r}
-path = 'data_input/2013-2021 WNV Surveillance Trap Consolidation (from Kaitlynn).xlsx'
-
-trap = read_excel(path, 
+trap = read_excel('data_input/2013-2021 WNV Surveillance Trap Consolidation (from Kaitlynn).xlsx', 
                   sheet = 'Zone-TrapID-Coordinates', 
                   skip = 1) %>%
   clean_names() %>%
@@ -52,6 +50,7 @@ trap = read_excel(path,
   separate(coordinates, into = c("lat", "long"),
            sep = ",",
            extra = "merge") #seperate lat and long
+
 ```
 
 #### * OLD METADATA (ORIGINAL BUILD)
@@ -425,9 +424,9 @@ library(randomcoloR)
 
 
 data = readRDS("data_output/mdata_c_cmplt.rds")
-variable = "country"
+variable = "state"
 
-#set.seed(1)
+set.seed(2)
 n <- length(unique(data[,variable]))
 
 #generate colors
@@ -437,29 +436,45 @@ col_vector = sample(col_vector,n)
 pie(rep(1,n), col=sample(col_vector, n), labels = unique(data[,variable]))
 
 #combine color df to match nextstrain format
-col_country = data.frame("geo" = rep("country", n), 
-                    "Country" = unique(c_cmplt_mdata_ds$Country),
-                    "col" = col_vector) %>%
-  rename(x = Country) #rename so rbind works
+col_country = data.frame("geo" = rep(variable, n), 
+                          "state" = unique(data[,variable]),
+                          "col" = col_vector)
 
-n2 = length(unique(c_cmplt_mdata_ds$region))
+colnames(col_country) <- NULL
 
-col_region = c_cmplt_mdata_ds %>%
-  select(Country, region) %>%
-  rename(x = region) %>% #rename so rbind works
-  distinct_all() %>%
-  left_join(col_country, by = c("Country" = "x")) %>% # get colors
-  select(-Country) %>% #drop country to conform to nextstrain format
-  mutate(geo = "region")
 
-col_df = rbind.data.frame(col_country,  col_region)
+write.table(col_country, "../config/colors.tsv", 
+            sep = "\t",
+            col.names = F, 
+            row.names = F)
 
-write.csv(col_df, "data_mid/color_generator.csv", row.names = F)
-write.csv(col_df, "../WNV-nextstrain/config/color_generator.csv", row.names = F)
-
-rm(n, qual_col_pals, col_vector, col_country)
 ```
 
+```{r}
+#method 2
 
+
+# Define your palette (you can replace this with your desired colors)
+my_palette <- c("#d9042b", "#730220", "#03658c", "#f29f05", "#f27b50",
+                "#c7522a", "#e5c185", "#fbf2c4", "#74a892", "#008585")
+
+# Create a function that interpolates colors from the palette
+color_interp <- colorRampPalette(my_palette)
+
+# Define the number of colors you want (replace n with your desired number)
+data = readRDS("data_output/mdata_c_cmplt.rds")
+variable = "state"
+
+#set.seed(1)
+n <- length(unique(data[,variable]))
+
+# Generate n colors from the palette
+generated_colors <- color_interp(n)
+
+pie(rep(1,n), 
+    col= generated_colors,
+    labels = unique(data[,variable]))
+
+```
 
 

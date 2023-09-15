@@ -3,19 +3,52 @@
 ```{r}
 rm(list = ls())
 pacman::p_load(treeio, ggtree, tidytree,  #phylo
-               tidyverse)
+               tidyverse, jsonlite, purrr)
 
 ```
+
+#run in terminal
+```{bash}
+treetime mugration 
+--tree results/tree.nwk
+--states data/metadata.csv 
+--attribute state 
+--confidence
+--outdir mugration
+
+```
+
 
 #### * Import Tree and mdata
 
 ```{r}
 #import tree from nextstrain
 tree = read.tree("../results/tree.nwk")
-tree_raw = read.tree("../results/tree_raw.nwk")
 mdata = read_rds("data_output/mdata_c_cmplt.rds")
+muts0 = jsonlite::read_json("../results/aa_muts.json")
+node = jsonlite::read_json("../results/branch_lengths.json")
+traits = jsonlite::read_json("../results/traits.json")
+mugration0 = read.csv("../mugration/confidence.csv")
+mugration_key = read_delim("../results/traitsstate.mugration_model.txt", delim = "\t")
 ```
 
+#MUGRATION
+```{r}
+n_state = length(unique(mdata$state))
+
+mugration_key= mugration_key %>%
+  slice(1:n_state) %>%
+  separate(`Map from character to field name`, into = c("key", "state"), sep = ":")
+
+mugration = mugration0 %>%
+  rename(node = X.name) %>%
+  pivot_longer(cols = -node, names_to = "key", values_to = "confidence") %>%
+  group_by(node) %>%
+  filter(confidence == max(confidence)) %>%
+  left_join(mugration_key, by = "key") %>%
+  dplyr::select(-key)
+
+```
 
 #### If missing lineages then extract lineages
 ```{r}
@@ -28,10 +61,42 @@ if(miss_lin > 0) {
 ```
 
 
-```{r}
-p_tree = ggtree(tree)# + 
-  #geom_tiplab()
 
+```{r}
+data(iris)
+rn <- paste0(iris[,5], "_", 1:150)
+rownames(iris) <- rn
+d_iris <- dist(iris[,-5], method="man")
+
+tree_iris <- ape::bionj(d_iris)
+grp <- list(setosa     = rn[1:50],
+            versicolor = rn[51:100],
+            virginica  = rn[101:150])
+
+p_iris <- ggtree(tree_iris, layout = 'circular', branch.length='none')
+groupOTU(p_iris, grp, 'Species') + aes(color=Species) +
+  theme(legend.position="right")
+
+
+df_tree = tidytree::as.treedata(p_iris)
+df_tree = as_tibble(df_tree)
+
+```
+
+```{r}
+
+grp = mdata %>%
+  group_by(CO) %>%
+  group_split
+
+options(ignore.negative.edge=TRUE)
+p_tree = ggtree(tree) +
+  geom_treescale()
+
+p_tree %<+% 
+
+df_tree = tidytree::as.treedata(p_tree)
+df_tree = as_tibble(df_tree)
 
 
 ```
@@ -39,11 +104,11 @@ p_tree = ggtree(tree)# +
 #### * Extract Intros
 
 ```{bash}
-python3 node_data_to_table.py \
+python3 py_scripts/node_data_to_table.py \
 --tree results/tree.nwk \
 --jsons results/traits.json \
 --include-internal-nodes \
 --annotations build=wnv \
---output traits.tsv
+--output results/traits.tsv
 
 ```
