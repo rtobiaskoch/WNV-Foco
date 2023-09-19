@@ -380,21 +380,6 @@
         "prM": []
       }
     },
-    "CSU6958/2014/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "aa_muts": {
-        "2K": [],
-        "NS1": [],
-        "NS2A": [],
-        "NS2B": [],
-        "NS3": [],
-        "NS4A": [],
-        "NS4B": [],
-        "NS5": [],
-        "capsid": [],
-        "env": [],
-        "prM": []
-      }
-    },
     "CSU8223/2015/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
       "aa_muts": {
         "2K": [],
@@ -1181,6 +1166,21 @@
         "prM": "VTLSNFQGKVMMTVNATDVTDVITIPTAAGKNLCIVRAMDVGYMCDDTITYECPVLSAGNDPEDIDCWCTKSAVYVRYGRCTKTRHSRRSRRSLTVQTHGESTLANKKGAWMDSTKATRYLVKTESWILRNPGYALVAAVIGWMLGSNTMQRVVFVVLLLLVAPAYS"
       }
     },
+    "NODE_0000002": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
     "NODE_0000003": {
       "aa_muts": {
         "2K": [],
@@ -1210,7 +1210,37 @@
         "prM": []
       }
     },
+    "NODE_0000004": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
     "NODE_0000005": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000006": {
       "aa_muts": {
         "2K": [],
         "NS1": [],
@@ -1244,6 +1274,36 @@
         "prM": []
       }
     },
+    "NODE_0000008": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000009": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
     "NODE_0000010": {
       "aa_muts": {
         "2K": [],
@@ -1251,6 +1311,21 @@
         "NS2A": [
           "A224T"
         ],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000011": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
         "NS2B": [],
         "NS3": [],
         "NS4A": [],
@@ -1342,6 +1417,21 @@
         "prM": []
       }
     },
+    "NODE_0000017": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
     "NODE_0000018": {
       "aa_muts": {
         "2K": [],
@@ -1400,9 +1490,7 @@
         "NS4B": [],
         "NS5": [],
         "capsid": [],
-        "env": [
-          "V159A"
-        ],
+        "env": [],
         "prM": []
       }
     },
@@ -1417,7 +1505,9 @@
         "NS4B": [],
         "NS5": [],
         "capsid": [],
-        "env": [],
+        "env": [
+          "V159A"
+        ],
         "prM": []
       }
     },
@@ -1558,6 +1648,21 @@
         "prM": [
           "F155L"
         ]
+      }
+    },
+    "NODE_0000034": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
       }
     },
     "NODE_0000035": {
@@ -1751,6 +1856,21 @@
         "prM": []
       }
     },
+    "NODE_0000048": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
     "NODE_0000049": {
       "aa_muts": {
         "2K": [],
@@ -1806,6 +1926,21 @@
       }
     },
     "NODE_0000052": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000053": {
       "aa_muts": {
         "2K": [],
         "NS1": [],
@@ -1909,6 +2044,21 @@
       }
     },
     "NODE_0000059": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000060": {
       "aa_muts": {
         "2K": [],
         "NS1": [],
@@ -2029,6 +2179,21 @@
       }
     },
     "NODE_0000070": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000071": {
       "aa_muts": {
         "2K": [],
         "NS1": [],
@@ -2174,6 +2339,81 @@
       }
     },
     "NODE_0000079": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000080": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000083": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000084": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000086": {
+      "aa_muts": {
+        "2K": [],
+        "NS1": [],
+        "NS2A": [],
+        "NS2B": [],
+        "NS3": [],
+        "NS4A": [],
+        "NS4B": [],
+        "NS5": [],
+        "capsid": [],
+        "env": [],
+        "prM": []
+      }
+    },
+    "NODE_0000091": {
       "aa_muts": {
         "2K": [],
         "NS1": [],

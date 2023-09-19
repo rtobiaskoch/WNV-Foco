@@ -5,7 +5,7 @@
         "clade": "NY99"
       }
     },
-    "NODE_0000021": {
+    "NODE_0000022": {
       "labels": {
         "clade": "WN02"
       }
@@ -67,9 +67,6 @@
       "clade_membership": "WN02"
     },
     "CSU6508/2014/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "clade_membership": "WN02"
-    },
-    "CSU6958/2014/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
       "clade_membership": "WN02"
     },
     "CSU8223/2015/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
@@ -195,16 +192,34 @@
     "NODE_0000000": {
       "clade_membership": "NY99"
     },
+    "NODE_0000002": {
+      "clade_membership": "NY99"
+    },
     "NODE_0000003": {
+      "clade_membership": "NY99"
+    },
+    "NODE_0000004": {
       "clade_membership": "NY99"
     },
     "NODE_0000005": {
       "clade_membership": "NY99"
     },
+    "NODE_0000006": {
+      "clade_membership": "NY99"
+    },
     "NODE_0000007": {
       "clade_membership": "NY99"
     },
+    "NODE_0000008": {
+      "clade_membership": "NY99"
+    },
+    "NODE_0000009": {
+      "clade_membership": "NY99"
+    },
     "NODE_0000010": {
+      "clade_membership": "NY99"
+    },
+    "NODE_0000011": {
       "clade_membership": "NY99"
     },
     "NODE_0000012": {
@@ -222,6 +237,9 @@
     "NODE_0000016": {
       "clade_membership": "NY99"
     },
+    "NODE_0000017": {
+      "clade_membership": "NY99"
+    },
     "NODE_0000018": {
       "clade_membership": "NY99"
     },
@@ -232,7 +250,7 @@
       "clade_membership": "NY99"
     },
     "NODE_0000021": {
-      "clade_membership": "WN02"
+      "clade_membership": "NY99"
     },
     "NODE_0000022": {
       "clade_membership": "WN02"
@@ -262,6 +280,9 @@
       "clade_membership": "WN02"
     },
     "NODE_0000033": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000034": {
       "clade_membership": "WN02"
     },
     "NODE_0000035": {
@@ -297,6 +318,9 @@
     "NODE_0000047": {
       "clade_membership": "WN02"
     },
+    "NODE_0000048": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000049": {
       "clade_membership": "WN02"
     },
@@ -307,6 +331,9 @@
       "clade_membership": "WN02"
     },
     "NODE_0000052": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000053": {
       "clade_membership": "WN02"
     },
     "NODE_0000054": {
@@ -325,6 +352,9 @@
       "clade_membership": "WN02"
     },
     "NODE_0000059": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000060": {
       "clade_membership": "WN02"
     },
     "NODE_0000061": {
@@ -348,6 +378,9 @@
     "NODE_0000070": {
       "clade_membership": "SW03"
     },
+    "NODE_0000071": {
+      "clade_membership": "WN02"
+    },
     "NODE_0000072": {
       "clade_membership": "SW03"
     },
@@ -370,6 +403,21 @@
       "clade_membership": "SW03"
     },
     "NODE_0000079": {
+      "clade_membership": "SW03"
+    },
+    "NODE_0000080": {
+      "clade_membership": "WN02"
+    },
+    "NODE_0000083": {
+      "clade_membership": "SW03"
+    },
+    "NODE_0000084": {
+      "clade_membership": "SW03"
+    },
+    "NODE_0000086": {
+      "clade_membership": "SW03"
+    },
+    "NODE_0000091": {
       "clade_membership": "SW03"
     },
     "W086/2015/USA/CA/San-Diego/SW03/unknown/Mosquito-Culex": {

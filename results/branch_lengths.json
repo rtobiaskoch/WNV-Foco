@@ -3,18 +3,18 @@
   "clock": {
     "cov": [
       [
-        7.208465083190653e-10,
-        -1.444348756639525e-06
+        7.720032037667041e-10,
+        -1.5468295014723542e-06
       ],
       [
-        -1.4443487566395248e-06,
-        0.002894137683307715
+        -1.546829501472354e-06,
+        0.0030994384028070255
       ]
     ],
-    "intercept": -0.6545776230419853,
-    "rate": 0.00032855309293293845,
-    "rate_std": 2.684858484760538e-05,
-    "rtt_Tmrca": 1992.3039445426627
+    "intercept": -0.6901590929826682,
+    "rate": 0.0003460400494217698,
+    "rate_std": 2.778494563188318e-05,
+    "rtt_Tmrca": 1994.448602512682
   },
   "generated_by": {
     "program": "augur",
@@ -23,10 +23,10 @@
   "input_tree": "results/tree_raw.nwk",
   "nodes": {
     "AF481864/1998/Israel/ISR/D/Eilat/pre-NY/unknown/Bird-other": {
-      "branch_length": 0.0010661559787786701,
-      "clock_length": 0.0010661559787786701,
+      "branch_length": 0.0010615668222133008,
+      "clock_length": 0.0010615668222133008,
       "date": "1998-08-28",
-      "mutation_length": 0.00027278562407435865,
+      "mutation_length": 0.0010928654541547738,
       "num_date_confidence": [
         1998.6561643835616,
         1998.6561643835616
@@ -35,10 +35,10 @@
       "raw_date": "1998-08-28"
     },
     "AY289214/2002/USA/TX/Jefferson/NY99/unknown/Human": {
-      "branch_length": 0.0011410782550056965,
-      "clock_length": 0.0011410782550056965,
+      "branch_length": 0.0011205501059285616,
+      "clock_length": 0.0011205501059285616,
       "date": "2002-08-15",
-      "mutation_length": 0.0021873048708946677,
+      "mutation_length": 0.002187304613697287,
       "num_date_confidence": [
         2002.6205479452055,
         2002.6205479452055
@@ -47,10 +47,10 @@
       "raw_date": "2002-08-15"
     },
     "CSU11099/2017/USA/CO/Larimer/NW/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.0021736688065151374,
-      "clock_length": 0.0021736688065151374,
+      "branch_length": 0.0021360035278927846,
+      "clock_length": 0.0021360035278927846,
       "date": "2017-08-02",
-      "mutation_length": 0.002001689343401581,
+      "mutation_length": 0.0020016890683846027,
       "num_date_confidence": [
         2017.5849315068492,
         2017.5849315068492
@@ -59,10 +59,10 @@
       "raw_date": "2017-08-02"
     },
     "CSU12338/2018/USA/CO/Larimer/NE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.00022534603617477712,
-      "clock_length": 0.00022534603617477712,
+      "branch_length": 0.00022565256939751028,
+      "clock_length": 0.00022565256939751028,
       "date": "2018-08-06",
-      "mutation_length": 0.0003631932418788913,
+      "mutation_length": 0.0003631931831255169,
       "num_date_confidence": [
         2018.5958904109589,
         2018.5958904109589
@@ -71,10 +71,10 @@
       "raw_date": "2018-08-06"
     },
     "CSU12417/2018/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.00022714632709493134,
-      "clock_length": 0.00022714632709493134,
+      "branch_length": 0.00022754867925732785,
+      "clock_length": 0.00022754867925732785,
       "date": "2018-08-08",
-      "mutation_length": 9.0768299628874e-05,
+      "mutation_length": 9.076828401240322e-05,
       "num_date_confidence": [
         2018.6013698630136,
         2018.6013698630136
@@ -83,10 +83,10 @@
       "raw_date": "2018-08-08"
     },
     "CSU12735/2018/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.0013688739303416454,
-      "clock_length": 0.0013688739303416454,
+      "branch_length": 0.0012239275077921387,
+      "clock_length": 0.0012239275077921387,
       "date": "2018-08-29",
-      "mutation_length": 0.0016383926882618744,
+      "mutation_length": 0.0016383925852314282,
       "num_date_confidence": [
         2018.658904109589,
         2018.658904109589
@@ -95,10 +95,10 @@
       "raw_date": "2018-08-29"
     },
     "CSU13782/2019/USA/CO/Larimer/NE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.000357487522678511,
-      "clock_length": 0.000357487522678511,
+      "branch_length": 0.0003657998084742385,
+      "clock_length": 0.0003657998084742385,
       "date": "2019-08-18",
-      "mutation_length": 0.0002722395067261552,
+      "mutation_length": 0.0002722395967594957,
       "num_date_confidence": [
         2019.6287671232876,
         2019.6287671232876
@@ -107,10 +107,10 @@
       "raw_date": "2019-08-18"
     },
     "CSU14000/2019/USA/CO/Larimer/NE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.003820388173376664,
-      "clock_length": 0.003820388173376664,
+      "branch_length": 0.004022460699025128,
+      "clock_length": 0.004022460699025128,
       "date": "2019-09-01",
-      "mutation_length": 0.0031060856965107264,
+      "mutation_length": 0.003106085986849462,
       "num_date_confidence": [
         2019.6671232876713,
         2019.6671232876713
@@ -119,10 +119,10 @@
       "raw_date": "2019-09-01"
     },
     "CSU15267/2020/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.0006926576685086802,
-      "clock_length": 0.0006926576685086802,
+      "branch_length": 0.0007188090977565853,
+      "clock_length": 0.0007188090977565853,
       "date": "2020-08-25",
-      "mutation_length": 0.0006399977175431354,
+      "mutation_length": 0.0006399981307759606,
       "num_date_confidence": [
         2020.6489071038252,
         2020.6489071038252
@@ -131,10 +131,10 @@
       "raw_date": "2020-08-25"
     },
     "CSU4336/2013/USA/CO/Larimer/LV/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.0008601178189536741,
-      "clock_length": 0.0008601178189536741,
+      "branch_length": 0.0008437088806602933,
+      "clock_length": 0.0008437088806602933,
       "date": "2013-07-15",
-      "mutation_length": 0.0016518171750360333,
+      "mutation_length": 0.001651817213818974,
       "num_date_confidence": [
         2013.535616438356,
         2013.535616438356
@@ -143,10 +143,10 @@
       "raw_date": "2013-07-15"
     },
     "CSU4439/2013/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.0012342114002727813,
-      "clock_length": 0.0012342114002727813,
+      "branch_length": 0.0011774215370135275,
+      "clock_length": 0.0011774215370135275,
       "date": "2013-07-16",
-      "mutation_length": 0.0013632792591248375,
+      "mutation_length": 0.001363279252913717,
       "num_date_confidence": [
         2013.5383561643835,
         2013.5383561643835
@@ -155,10 +155,10 @@
       "raw_date": "2013-07-16"
     },
     "CSU4601/2013/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 4.725319178641848e-05,
-      "clock_length": 4.725319178641848e-05,
+      "branch_length": 4.5298613703090556e-05,
+      "clock_length": 4.5298613703090556e-05,
       "date": "2013-07-23",
-      "mutation_length": 9.07476069534631e-05,
+      "mutation_length": 9.074757842368761e-05,
       "num_date_confidence": [
         2013.5575342465754,
         2013.5575342465754
@@ -167,8 +167,8 @@
       "raw_date": "2013-07-23"
     },
     "CSU4629/2013/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 4.725319178641848e-05,
-      "clock_length": 4.725319178641848e-05,
+      "branch_length": 4.5298613703090556e-05,
+      "clock_length": 4.5298613703090556e-05,
       "date": "2013-07-23",
       "mutation_length": 1.3524641277029489e-21,
       "num_date_confidence": [
@@ -179,10 +179,10 @@
       "raw_date": "2013-07-23"
     },
     "CSU4875/2013/USA/CO/Larimer/NE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.001029462471002196,
-      "clock_length": 0.001029462471002196,
+      "branch_length": 0.0010694902232212511,
+      "clock_length": 0.0010694902232212511,
       "date": "2013-08-05",
-      "mutation_length": 0.0007344943257654973,
+      "mutation_length": 0.000826384195093368,
       "num_date_confidence": [
         2013.5931506849315,
         2013.5931506849315
@@ -191,10 +191,10 @@
       "raw_date": "2013-08-05"
     },
     "CSU5070/2013/USA/CO/Larimer/NE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.0010357634892228106,
-      "clock_length": 0.0010357634892228106,
+      "branch_length": 0.0010761266077306919,
+      "clock_length": 0.0010761266077306919,
       "date": "2013-08-12",
-      "mutation_length": 0.0014587002473221246,
+      "mutation_length": 0.0013674089977931344,
       "num_date_confidence": [
         2013.6123287671232,
         2013.6123287671232
@@ -203,10 +203,10 @@
       "raw_date": "2013-08-12"
     },
     "CSU6508/2014/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.002373481618233527,
-      "clock_length": 0.002373481618233527,
+      "branch_length": 0.002506310681235329,
+      "clock_length": 0.002506310681235329,
       "date": "2014-08-05",
-      "mutation_length": 0.00018304246392386624,
+      "mutation_length": 0.00027458862091570105,
       "num_date_confidence": [
         2014.5931506849315,
         2014.5931506849315
@@ -214,23 +214,11 @@
       "numdate": 2014.5931506849315,
       "raw_date": "2014-08-05"
     },
-    "CSU6958/2014/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.004681985262979307,
-      "clock_length": 0.004681985262979307,
-      "date": "2014-08-21",
-      "mutation_length": 1.3524641277029489e-21,
-      "num_date_confidence": [
-        2014.63698630137,
-        2014.63698630137
-      ],
-      "numdate": 2014.63698630137,
-      "raw_date": "2014-08-21"
-    },
     "CSU8223/2015/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.0033613317107420225,
-      "clock_length": 0.0033613317107420225,
+      "branch_length": 0.0035544901157544013,
+      "clock_length": 0.0035544901157544013,
       "date": "2015-08-04",
-      "mutation_length": 0.004191081483395704,
+      "mutation_length": 0.003825233599145607,
       "num_date_confidence": [
         2015.5904109589042,
         2015.5904109589042
@@ -239,10 +227,10 @@
       "raw_date": "2015-08-04"
     },
     "CSU9322/2016/USA/CO/Larimer/NW/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.0015028788303529344,
-      "clock_length": 0.0015028788303529344,
+      "branch_length": 0.0015194668447141113,
+      "clock_length": 0.0015194668447141113,
       "date": "2016-07-18",
-      "mutation_length": 0.0019096731002229018,
+      "mutation_length": 0.0019096726975196539,
       "num_date_confidence": [
         2016.545081967213,
         2016.545081967213
@@ -251,10 +239,10 @@
       "raw_date": "2016-07-18"
     },
     "CSU9465/2016/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.0015100603187230433,
-      "clock_length": 0.0015100603187230433,
+      "branch_length": 0.0015270305616413523,
+      "clock_length": 0.0015270305616413523,
       "date": "2016-07-26",
-      "mutation_length": 0.0013634199428139383,
+      "mutation_length": 0.0013634201443226363,
       "num_date_confidence": [
         2016.5669398907103,
         2016.5669398907103
@@ -263,10 +251,10 @@
       "raw_date": "2016-07-26"
     },
     "CSU9757/2016/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.005146821593911031,
-      "clock_length": 0.005146821593911031,
+      "branch_length": 0.005430439436558276,
+      "clock_length": 0.005430439436558276,
       "date": "2016-08-10",
-      "mutation_length": 0.004744594718779323,
+      "mutation_length": 0.0047445940653415295,
       "num_date_confidence": [
         2016.6079234972678,
         2016.6079234972678
@@ -275,10 +263,10 @@
       "raw_date": "2016-08-10"
     },
     "CSU9981/2016/USA/CO/Larimer/SE/unknown/unknown/Mosquito-Culex": {
-      "branch_length": 0.0007066878252194177,
-      "clock_length": 0.0007066878252194177,
+      "branch_length": 0.0005264971153481524,
+      "clock_length": 0.0005264971153481524,
       "date": "2016-08-23",
-      "mutation_length": 0.0004539692962676051,
+      "mutation_length": 0.0004539694514991721,
       "num_date_confidence": [
         2016.6434426229507,
         2016.6434426229507
@@ -287,10 +275,10 @@
       "raw_date": "2016-08-23"
     },
     "DQ080067/2003/Mexico/MEX/BCN/Unknown/SW03/unknown/Bird-other": {
-      "branch_length": 0.0007153277980440544,
-      "clock_length": 0.0007153277980440544,
+      "branch_length": 0.0007200310293309174,
+      "clock_length": 0.0007200310293309174,
       "date": "2003-08-01",
-      "mutation_length": 0.0012747133086945786,
+      "mutation_length": 0.0012747129066787365,
       "num_date_confidence": [
         2003.5821917808219,
         2003.5821917808219
@@ -299,10 +287,10 @@
       "raw_date": "2003-08-01"
     },
     "GU828001/2003/USA/TX/Harris/WN02/unknown/Mosquito-Culex": {
-      "branch_length": 0.0008638979559372588,
-      "clock_length": 0.0008638979559372588,
+      "branch_length": 0.000862536417406713,
+      "clock_length": 0.000862536417406713,
       "date": "2003-08-01",
-      "mutation_length": 0.0008192295542800103,
+      "mutation_length": 0.0008192296843861171,
       "num_date_confidence": [
         2003.5821917808219,
         2003.5821917808219
@@ -311,10 +299,10 @@
       "raw_date": "2003-08-01"
     },
     "HM488125/1999/USA/CT/Fairfield/NY99/unknown/Bird-crow": {
-      "branch_length": 0.0001959255219109498,
-      "clock_length": 0.0001959255219109498,
+      "branch_length": 0.00012509242950978043,
+      "clock_length": 0.00012509242950978043,
       "date": "1999-09-29",
-      "mutation_length": 9.09352092777995e-05,
+      "mutation_length": 9.093522275960434e-05,
       "num_date_confidence": [
         1999.7438356164384,
         1999.7438356164384
@@ -323,10 +311,10 @@
       "raw_date": "1999-09-29"
     },
     "HM488126/1999/USA/CT/Fairfield/NY99/unknown/Bird-crow": {
-      "branch_length": 0.00027473041920887155,
-      "clock_length": 0.00027473041920887155,
+      "branch_length": 0.00022634247700637107,
+      "clock_length": 0.00022634247700637107,
       "date": "1999-09-25",
-      "mutation_length": 0.0002728567412844522,
+      "mutation_length": 0.00027285684180888435,
       "num_date_confidence": [
         1999.7328767123288,
         1999.7328767123288
@@ -335,10 +323,10 @@
       "raw_date": "1999-09-25"
     },
     "HM488129/2000/USA/CT/New-Haven/NY99/unknown/Mosquito-Culex": {
-      "branch_length": 0.0005999325608047499,
-      "clock_length": 0.0005999325608047499,
+      "branch_length": 0.00043887532815823846,
+      "clock_length": 0.00043887532815823846,
       "date": "2000-09-21",
-      "mutation_length": 0.0007281940714858285,
+      "mutation_length": 0.0007281941284730406,
       "num_date_confidence": [
         2000.7226775956285,
         2000.7226775956285
@@ -347,10 +335,10 @@
       "raw_date": "2000-09-21"
     },
     "HM488135/2001/USA/CT/Fairfield/NY99/unknown/Mosquito-other": {
-      "branch_length": 0.0002272198649508235,
-      "clock_length": 0.0002272198649508235,
+      "branch_length": 0.0001978740720547465,
+      "clock_length": 0.0001978740720547465,
       "date": "2001-09-06",
-      "mutation_length": 9.093605092115856e-05,
+      "mutation_length": 9.093606120648672e-05,
       "num_date_confidence": [
         2001.6808219178083,
         2001.6808219178083
@@ -359,10 +347,10 @@
       "raw_date": "2001-09-06"
     },
     "HM488175/2003/USA/CT/Hartford/NY99/unknown/Mosquito-Culex": {
-      "branch_length": 0.0008189892195137865,
-      "clock_length": 0.0008189892195137865,
+      "branch_length": 0.0008382944218979374,
+      "clock_length": 0.0008382944218979374,
       "date": "2003-08-19",
-      "mutation_length": 0.0010011863888855536,
+      "mutation_length": 0.0010011864646743665,
       "num_date_confidence": [
         2003.631506849315,
         2003.631506849315
@@ -371,10 +359,10 @@
       "raw_date": "2003-08-19"
     },
     "HM488191/2004/USA/IL/Unknown/SW03/unknown/Bird-crow": {
-      "branch_length": 0.0010442559515853583,
-      "clock_length": 0.0010442559515853583,
+      "branch_length": 0.0010085537606056294,
+      "clock_length": 0.0010085537606056294,
       "date": "2004-08-01",
-      "mutation_length": 0.0010923199290085756,
+      "mutation_length": 0.0010923198253162737,
       "num_date_confidence": [
         2004.5833333333333,
         2004.5833333333333
@@ -383,10 +371,10 @@
       "raw_date": "2004-08-01"
     },
     "HM488246/2001/USA/NY/Unknown/NY99/unknown/Bird-crow": {
-      "branch_length": 0.0001456804153662965,
-      "clock_length": 0.0001456804153662965,
+      "branch_length": 0.00012914933431580275,
+      "clock_length": 0.00012914933431580275,
       "date": "2001-08-01",
-      "mutation_length": 0.00018188527036719904,
+      "mutation_length": 0.00018188531249475608,
       "num_date_confidence": [
         2001.5821917808219,
         2001.5821917808219
@@ -395,10 +383,10 @@
       "raw_date": "2001-08-01"
     },
     "HQ671696/2001/USA/CT/Fairfield/NY99/unknown/Mosquito-Culex": {
-      "branch_length": 0.0001948146283875232,
-      "clock_length": 0.0001948146283875232,
+      "branch_length": 0.00020241906107129615,
+      "clock_length": 0.00020241906107129615,
       "date": "2001-08-01",
-      "mutation_length": 0.0001818987414226043,
+      "mutation_length": 0.0001818987056094916,
       "num_date_confidence": [
         2001.5821917808219,
         2001.5821917808219
@@ -407,10 +395,10 @@
       "raw_date": "2001-08-01"
     },
     "HQ671697/2001/USA/CT/Fairfield/NY99/unknown/Mosquito-Aedes": {
-      "branch_length": 0.0008823286047697585,
-      "clock_length": 0.0008823286047697585,
+      "branch_length": 0.0007363016592812563,
+      "clock_length": 0.0007363016592812563,
       "date": "2001-08-01",
-      "mutation_length": 0.0007280306120128354,
+      "mutation_length": 0.0007280305430524947,
       "num_date_confidence": [
         2001.5821917808219,
         2001.5821917808219
@@ -419,10 +407,10 @@
       "raw_date": "2001-08-01"
     },
     "HQ671706/1999/USA/CT/Fairfield/NY99/unknown/Mosquito-Aedes": {
-      "branch_length": 0.0001428169397655766,
-      "clock_length": 0.0001428169397655766,
+      "branch_length": 0.00012303566058418508,
+      "clock_length": 0.00012303566058418508,
       "date": "1999-08-01",
-      "mutation_length": 0.00027292514824364336,
+      "mutation_length": 0.00027292448798878005,
       "num_date_confidence": [
         1999.5821917808219,
         1999.5821917808219
@@ -431,10 +419,10 @@
       "raw_date": "1999-08-01"
     },
     "JF415916/2006/USA/TX/Harris/WN02/unknown/Bird-other": {
-      "branch_length": 0.0013683074195942066,
-      "clock_length": 0.0013683074195942066,
+      "branch_length": 0.0014113955139564045,
+      "clock_length": 0.0014113955139564045,
       "date": "2006-08-01",
-      "mutation_length": 0.003009421576150715,
+      "mutation_length": 0.003283898125123126,
       "num_date_confidence": [
         2006.5821917808219,
         2006.5821917808219
@@ -443,10 +431,10 @@
       "raw_date": "2006-08-01"
     },
     "JF957165/2006/USA/ID/Unknown/SW03/unknown/Human": {
-      "branch_length": 0.0006987718908860316,
-      "clock_length": 0.0006987718908860316,
+      "branch_length": 0.0007168615519649226,
+      "clock_length": 0.0007168615519649226,
       "date": "2006-08-01",
-      "mutation_length": 0.0007278873863396165,
+      "mutation_length": 0.0007278875407478482,
       "num_date_confidence": [
         2006.5821917808219,
         2006.5821917808219
@@ -455,10 +443,10 @@
       "raw_date": "2006-08-01"
     },
     "JX015517/2008/USA/TX/El-Paso/SW03/unknown/Mosquito-Culex": {
-      "branch_length": 0.0024615385872003076,
-      "clock_length": 0.0024615385872003076,
+      "branch_length": 0.0026222066991921375,
+      "clock_length": 0.0026222066991921375,
       "date": "2008-08-26",
-      "mutation_length": 0.002918782977679557,
+      "mutation_length": 0.0029187827679296703,
       "num_date_confidence": [
         2008.6516393442623,
         2008.6516393442623
@@ -467,10 +455,10 @@
       "raw_date": "2008-08-26"
     },
     "KJ501270/2002/USA/NJ/Unknown/NY99/unknown/Bird-other": {
-      "branch_length": 0.00038657470721481513,
-      "clock_length": 0.00038657470721481513,
+      "branch_length": 0.0003704725156073894,
+      "clock_length": 0.0003704725156073894,
       "date": "2002-09-16",
-      "mutation_length": 0.0004548812114316699,
+      "mutation_length": 0.000454881249183731,
       "num_date_confidence": [
         2002.7082191780821,
         2002.7082191780821
@@ -479,10 +467,10 @@
       "raw_date": "2002-09-16"
     },
     "KJ501278/2001/USA/PA/Unknown/NY99/unknown/Bird-crow": {
-      "branch_length": 0.00027500067745535317,
-      "clock_length": 0.00027500067745535317,
+      "branch_length": 0.0002724770464588378,
+      "clock_length": 0.0002724770464588378,
       "date": "2001-10-24",
-      "mutation_length": 0.0005458584761610269,
+      "mutation_length": 0.0005458584738210478,
       "num_date_confidence": [
         2001.8123287671233,
         2001.8123287671233
@@ -491,10 +479,10 @@
       "raw_date": "2001-10-24"
     },
     "KJ501320/2003/USA/MD/Unknown/NY99/unknown/Bird-crow": {
-      "branch_length": 0.0010546914473096355,
-      "clock_length": 0.0010546914473096355,
+      "branch_length": 0.001070680519610844,
+      "clock_length": 0.001070680519610844,
       "date": "2003-09-11",
-      "mutation_length": 0.0012746199556302087,
+      "mutation_length": 0.0012746196662033848,
       "num_date_confidence": [
         2003.694520547945,
         2003.694520547945
@@ -503,10 +491,10 @@
       "raw_date": "2003-09-11"
     },
     "KJ501362/2001/USA/OH/Cuyahoga/NY99/unknown/Bird-crow": {
-      "branch_length": 0.00025745404752746184,
-      "clock_length": 0.00025745404752746184,
+      "branch_length": 0.00027177937954092624,
+      "clock_length": 0.00027177937954092624,
       "date": "2001-10-01",
-      "mutation_length": 0.0002728355245561207,
+      "mutation_length": 0.0002728354166337689,
       "num_date_confidence": [
         2001.7493150684932,
         2001.7493150684932
@@ -515,10 +503,10 @@
       "raw_date": "2001-10-01"
     },
     "KJ501375/2002/USA/NJ/Unknown/NY99/unknown/Bird-crow": {
-      "branch_length": 0.0003514690342712838,
-      "clock_length": 0.0003514690342712838,
+      "branch_length": 0.0003334983733403931,
+      "clock_length": 0.0003334983733403931,
       "date": "2002-08-08",
-      "mutation_length": 0.0003638707840715939,
+      "mutation_length": 0.00036387073631357497,
       "num_date_confidence": [
         2002.6013698630136,
         2002.6013698630136
@@ -527,10 +515,10 @@
       "raw_date": "2002-08-08"
     },
     "KJ501378/2001/USA/PA/Bucks/NY99/unknown/Bird-crow": {
-      "branch_length": 0.00024439573181228146,
-      "clock_length": 0.00024439573181228146,
+      "branch_length": 0.00024024317884146443,
+      "clock_length": 0.00024024317884146443,
       "date": "2001-09-20",
-      "mutation_length": 0.00018188690627213096,
+      "mutation_length": 0.0001818869255767216,
       "num_date_confidence": [
         2001.7191780821918,
         2001.7191780821918
@@ -539,10 +527,10 @@
       "raw_date": "2001-09-20"
     },
     "KJ501493/2001/USA/DC/District-Of-Columbia/NY99/unknown/Bird-other": {
-      "branch_length": 0.0004511552204015355,
-      "clock_length": 0.0004511552204015355,
+      "branch_length": 0.0004264670869326241,
+      "clock_length": 0.0004264670869326241,
       "date": "2001-10-02",
-      "mutation_length": 0.0008190107625896576,
+      "mutation_length": 0.0008190106555865153,
       "num_date_confidence": [
         2001.7520547945205,
         2001.7520547945205
@@ -551,10 +539,10 @@
       "raw_date": "2001-10-02"
     },
     "KJ786934/2001/USA/NY/Unknown/NY99/unknown/Human": {
-      "branch_length": 0.0001948146283875232,
-      "clock_length": 0.0001948146283875232,
+      "branch_length": 0.00016374409457747645,
+      "clock_length": 0.00016374409457747645,
       "date": "2001-08-01",
-      "mutation_length": 0.00045484494578653956,
+      "mutation_length": 0.0004548447071596552,
       "num_date_confidence": [
         2001.5821917808219,
         2001.5821917808219
@@ -563,10 +551,10 @@
       "raw_date": "2001-08-01"
     },
     "KR348919/2009/USA/CA/Contra-Costa/SW03/unknown/Mosquito-Culex": {
-      "branch_length": 0.002343014202283616,
-      "clock_length": 0.002343014202283616,
+      "branch_length": 0.0024363608669817826,
+      "clock_length": 0.0024363608669817826,
       "date": "2009-07-29",
-      "mutation_length": 0.002187676244121167,
+      "mutation_length": 0.002188242998163191,
       "num_date_confidence": [
         2009.5739726027398,
         2009.5739726027398
@@ -575,10 +563,10 @@
       "raw_date": "2009-07-29"
     },
     "KR348933/2008/USA/CA/Riverside/SW03/unknown/Mosquito-Culex": {
-      "branch_length": 0.0010658670521388617,
-      "clock_length": 0.0010658670521388617,
+      "branch_length": 0.0010347756966538864,
+      "clock_length": 0.0010347756966538864,
       "date": "2008-03-09",
-      "mutation_length": 0.0013658000996406754,
+      "mutation_length": 0.0013658004743401034,
       "num_date_confidence": [
         2008.1871584699454,
         2008.1871584699454
@@ -587,10 +575,10 @@
       "raw_date": "2008-03-09"
     },
     "KR349008/2005/USA/CA/Yolo/WN02/unknown/Mosquito-Culex": {
-      "branch_length": 0.0010173057614099807,
-      "clock_length": 0.0010173057614099807,
+      "branch_length": 0.0010090265839895586,
+      "clock_length": 0.0010090265839895586,
       "date": "2005-07-15",
-      "mutation_length": 0.001092832437950007,
+      "mutation_length": 0.0010928319193427031,
       "num_date_confidence": [
         2005.535616438356,
         2005.535616438356
@@ -599,10 +587,10 @@
       "raw_date": "2005-07-15"
     },
     "KX547484/2002/USA/NY/Genesee/NY99/unknown/Bird-crow": {
-      "branch_length": 0.0005904035058012626,
-      "clock_length": 0.0005904035058012626,
+      "branch_length": 0.0005906496338331981,
+      "clock_length": 0.0005906496338331981,
       "date": "2002-10-01",
-      "mutation_length": 0.0005459443317930424,
+      "mutation_length": 0.0005459444663283323,
       "num_date_confidence": [
         2002.7493150684932,
         2002.7493150684932
@@ -611,10 +599,10 @@
       "raw_date": "2002-10-01"
     },
     "KX547501/2004/USA/NY/Queens/WN02/unknown/Bird-crow": {
-      "branch_length": 0.0012312831705581506,
-      "clock_length": 0.0012312831705581506,
+      "branch_length": 0.0013049731147492197,
+      "clock_length": 0.0013049731147492197,
       "date": "2004-09-10",
-      "mutation_length": 0.0017311219435220994,
+      "mutation_length": 0.0017311216964272557,
       "num_date_confidence": [
         2004.6926229508197,
         2004.6926229508197
@@ -623,10 +611,10 @@
       "raw_date": "2004-09-10"
     },
     "KX547533/2004/USA/NY/Cattaraugus/WN02/unknown/Bird-crow": {
-      "branch_length": 0.001130574222922025,
-      "clock_length": 0.001130574222922025,
+      "branch_length": 0.001200430744992681,
+      "clock_length": 0.001200430744992681,
       "date": "2004-05-20",
-      "mutation_length": 0.0020962419458181777,
+      "mutation_length": 0.0020962417932319263,
       "num_date_confidence": [
         2004.3838797814208,
         2004.3838797814208
@@ -635,10 +623,10 @@
       "raw_date": "2004-05-20"
     },
     "MF175859/2014/USA/TX/Fort-Bend/WN02/unknown/Mosquito-Culex": {
-      "branch_length": 0.0012075739665485313,
-      "clock_length": 0.0012075739665485313,
+      "branch_length": 0.0012096580836104638,
+      "clock_length": 0.0012096580836104638,
       "date": "2014-08-05",
-      "mutation_length": 0.001458224603764275,
+      "mutation_length": 0.0014582246412773248,
       "num_date_confidence": [
         2014.5931506849315,
         2014.5931506849315
@@ -647,10 +635,10 @@
       "raw_date": "2014-08-05"
     },
     "MH166899/2002/USA/VA/Norfolk/NY99/unknown/Mosquito-unknown": {
-      "branch_length": 0.0005310982673948734,
-      "clock_length": 0.0005310982673948734,
+      "branch_length": 0.0005599880782373896,
+      "clock_length": 0.0005599880782373896,
       "date": "2002-08-01",
-      "mutation_length": 0.0014568658600520815,
+      "mutation_length": 0.001456865536054787,
       "num_date_confidence": [
         2002.5821917808219,
         2002.5821917808219
@@ -659,10 +647,10 @@
       "raw_date": "2002-08-01"
     },
     "MH170236/2006/USA/CO/Weld/WN02/unknown/Mosquito-unknown": {
-      "branch_length": 0.0018521068539650437,
-      "clock_length": 0.0018521068539650437,
+      "branch_length": 0.001958839606069013,
+      "clock_length": 0.001958839606069013,
       "date": "2006-08-01",
-      "mutation_length": 0.0021871295266394373,
+      "mutation_length": 0.0021871293170300167,
       "num_date_confidence": [
         2006.5821917808219,
         2006.5821917808219
@@ -671,10 +659,10 @@
       "raw_date": "2006-08-01"
     },
     "MH170237/2003/USA/CO/Larimer/SW03/unknown/Mosquito-Culex": {
-      "branch_length": 0.0007153277980440544,
-      "clock_length": 0.0007153277980440544,
+      "branch_length": 0.0006621186882963979,
+      "clock_length": 0.0006621186882963979,
       "date": "2003-08-01",
-      "mutation_length": 0.0005458645138876801,
+      "mutation_length": 0.0005458643725853395,
       "num_date_confidence": [
         2003.5821917808219,
         2003.5821917808219
@@ -683,10 +671,10 @@
       "raw_date": "2003-08-01"
     },
     "MH819447/2013/Canada/CAN/QC/Chateauguay/WN02/unknown/Mosquito-Culex": {
-      "branch_length": 0.0018373857523631483,
-      "clock_length": 0.0018373857523631483,
+      "branch_length": 0.0016138454723917074,
+      "clock_length": 0.0016138454723917074,
       "date": "2013-08-26",
-      "mutation_length": 0.001913943492044946,
+      "mutation_length": 0.0018226402354597597,
       "num_date_confidence": [
         2013.650684931507,
         2013.650684931507
@@ -695,10 +683,10 @@
       "raw_date": "2013-08-26"
     },
     "MH819465/2015/Canada/CAN/QC/Saint-Bruno/WN02/unknown/Mosquito-Culex": {
-      "branch_length": 0.001561467712165249,
-      "clock_length": 0.001561467712165249,
+      "branch_length": 0.0015745872415905,
+      "clock_length": 0.0015745872415905,
       "date": "2015-09-09",
-      "mutation_length": 0.0014579449909167244,
+      "mutation_length": 0.001457945278182881,
       "num_date_confidence": [
         2015.6890410958904,
         2015.6890410958904
@@ -709,666 +697,853 @@
     "NODE_0000000": {
       "branch_length": 0.001,
       "clock_length": 0.001,
-      "date": "1995-05-31",
+      "date": "1995-08-03",
       "mutation_length": 0.001,
       "num_date_confidence": [
-        1994.6626000962553,
-        1996.6897466548999
+        1994.4662478955004,
+        1996.6565415507532
       ],
-      "numdate": 1995.41116075489
+      "numdate": 1995.588407272825
+    },
+    "NODE_0000002": {
+      "branch_length": 2.699468703997593e-06,
+      "clock_length": 2.699468703997593e-06,
+      "date": "1998-12-26",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        1998.462636185036,
+        1999.3041486141565
+      ],
+      "numdate": 1998.9853256830222
     },
     "NODE_0000003": {
-      "branch_length": 0.0011451827253852707,
-      "clock_length": 0.0011451827253852707,
-      "date": "1998-11-24",
-      "mutation_length": 0.001909963573923602,
+      "branch_length": 0.0011727703458423357,
+      "clock_length": 0.0011727703458423357,
+      "date": "1998-12-23",
+      "mutation_length": 0.001089873688264948,
       "num_date_confidence": [
-        1998.6325337367064,
-        1999.3976847465535
+        1997.9242536308311,
+        1999.1833403393014
       ],
-      "numdate": 1998.8966939914285
+      "numdate": 1998.977524653319
+    },
+    "NODE_0000004": {
+      "branch_length": 5.3878471939893674e-05,
+      "clock_length": 5.3878471939893674e-05,
+      "date": "1999-05-20",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        1999.1217124622287,
+        1999.60706825702
+      ],
+      "numdate": 1999.382338646019
     },
     "NODE_0000005": {
-      "branch_length": 8.240547913830436e-05,
-      "clock_length": 8.240547913830436e-05,
-      "date": "1999-02-23",
-      "mutation_length": 0.0001814810780890288,
+      "branch_length": 8.350391339661915e-05,
+      "clock_length": 8.350391339661915e-05,
+      "date": "1999-03-24",
+      "mutation_length": 0.00018148106032799707,
       "num_date_confidence": [
-        1998.9443709761154,
-        1999.3989226168876
+        1999.0535491350631,
+        1999.4764913309648
       ],
-      "numdate": 1999.1475072721762
+      "numdate": 1999.226638541277
+    },
+    "NODE_0000006": {
+      "branch_length": 3.234011812020855e-05,
+      "clock_length": 3.234011812020855e-05,
+      "date": "1999-01-29",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        1998.7856184607838,
+        1999.4326012723745
+      ],
+      "numdate": 1999.0787834147911
     },
     "NODE_0000007": {
-      "branch_length": 0.0006875139763822353,
-      "clock_length": 0.0006875139763822353,
-      "date": "2000-12-28",
-      "mutation_length": 0.0010900590751290171,
+      "branch_length": 0.0005600581913799748,
+      "clock_length": 0.0005600581913799748,
+      "date": "2000-12-30",
+      "mutation_length": 0.0010900591542360196,
       "num_date_confidence": [
-        2000.7404886894576,
-        2001.2689476001576
+        2000.746731065025,
+        2001.2787314910693
       ],
-      "numdate": 2000.9892446055314
+      "numdate": 2000.9972333015662
+    },
+    "NODE_0000008": {
+      "branch_length": 5.133606063786704e-05,
+      "clock_length": 5.133606063786704e-05,
+      "date": "1999-03-24",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        1998.7603741157322,
+        1999.4629384339496
+      ],
+      "numdate": 1999.2271363604218
+    },
+    "NODE_0000009": {
+      "branch_length": 5.246624161499812e-05,
+      "clock_length": 5.246624161499812e-05,
+      "date": "1999-05-19",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        1998.752140095383,
+        1999.5425242100748
+      ],
+      "numdate": 1999.378755347018
     },
     "NODE_0000010": {
-      "branch_length": 0.00048698240289382806,
-      "clock_length": 0.00048698240289382806,
-      "date": "2000-05-18",
-      "mutation_length": 0.0004538271180492195,
+      "branch_length": 0.00037034438987899355,
+      "clock_length": 0.00037034438987899355,
+      "date": "2000-04-18",
+      "mutation_length": 0.00045382698722502905,
       "num_date_confidence": [
-        1999.64156887336,
-        2000.6190289896251
+        1999.9201573255677,
+        2000.7364059337615
       ],
-      "numdate": 2000.3788970610956
+      "numdate": 2000.2973719892104
+    },
+    "NODE_0000011": {
+      "branch_length": 2.6175593170014652e-05,
+      "clock_length": 2.6175593170014652e-05,
+      "date": "1999-06-15",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        1998.7661808716227,
+        1999.7113232016143
+      ],
+      "numdate": 1999.4543985947105
     },
     "NODE_0000012": {
-      "branch_length": 0.00019595774306817824,
-      "clock_length": 0.00019595774306817824,
-      "date": "2000-12-22",
-      "mutation_length": 0.0003630279200208743,
+      "branch_length": 0.00025175867184196177,
+      "clock_length": 0.00025175867184196177,
+      "date": "2001-01-10",
+      "mutation_length": 0.00036302784480596957,
       "num_date_confidence": [
-        2000.6737860301862,
-        2001.3791354954672
+        2000.6799014299988,
+        2001.3681913407793
       ],
-      "numdate": 2000.9753234752222
+      "numdate": 2001.024913995584
     },
     "NODE_0000013": {
-      "branch_length": 0.00011803546202869379,
-      "clock_length": 0.00011803546202869379,
-      "date": "2000-09-27",
-      "mutation_length": 9.074353689839024e-05,
+      "branch_length": 0.00011383036625443183,
+      "clock_length": 0.00011383036625443183,
+      "date": "2000-11-06",
+      "mutation_length": 9.074355653648071e-05,
       "num_date_confidence": [
-        2000.2938251346934,
-        2001.0261576371418
+        2000.3590641102114,
+        2001.1121331289607
       ],
-      "numdate": 2000.73815547189
+      "numdate": 2000.8485850337208
     },
     "NODE_0000014": {
-      "branch_length": 0.00013163032448094015,
-      "clock_length": 0.00013163032448094015,
-      "date": "2001-02-20",
-      "mutation_length": 0.0001814945994907845,
+      "branch_length": 0.00012470798070717513,
+      "clock_length": 0.00012470798070717513,
+      "date": "2001-03-18",
+      "mutation_length": 0.0001814944944474348,
       "num_date_confidence": [
-        2000.8207763827495,
-        2001.4396685296374
+        2000.8589389402011,
+        2001.4669797569304
       ],
-      "numdate": 2001.138791860079
+      "numdate": 2001.2089710090308
     },
     "NODE_0000015": {
-      "branch_length": 7.036920004444003e-05,
-      "clock_length": 7.036920004444003e-05,
-      "date": "2000-12-14",
-      "mutation_length": 9.0739527313363e-05,
+      "branch_length": 6.707908133685506e-05,
+      "clock_length": 6.707908133685506e-05,
+      "date": "2001-01-16",
+      "mutation_length": 9.073952714579384e-05,
       "num_date_confidence": [
-        2000.6571373922961,
-        2001.4255494090487
+        2000.736069427322,
+        2001.4773608769872
       ],
-      "numdate": 2000.9523345545347
+      "numdate": 2001.042432773163
     },
     "NODE_0000016": {
-      "branch_length": 0.00019032661668506607,
-      "clock_length": 0.00019032661668506607,
-      "date": "2001-07-14",
-      "mutation_length": 0.000272289682160676,
+      "branch_length": 0.00020595629427693982,
+      "clock_length": 0.00020595629427693982,
+      "date": "2001-08-21",
+      "mutation_length": 0.00027228968151379786,
       "num_date_confidence": [
-        2001.2118300694365,
-        2002.053905074821
+        2001.2749243332582,
+        2002.0907401791433
       ],
-      "numdate": 2001.5316218014939
+      "numdate": 2001.6376132865778
+    },
+    "NODE_0000017": {
+      "branch_length": 3.86749664938197e-05,
+      "clock_length": 3.86749664938197e-05,
+      "date": "2001-02-09",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        2000.8308944329735,
+        2001.3425467921406
+      ],
+      "numdate": 2001.1089977246684
     },
     "NODE_0000018": {
-      "branch_length": 0.00016054795569329927,
-      "clock_length": 0.00016054795569329927,
-      "date": "1999-05-21",
-      "mutation_length": 0.00036302901997714224,
+      "branch_length": 0.00014916752321230548,
+      "clock_length": 0.00014916752321230548,
+      "date": "1999-05-30",
+      "mutation_length": 0.0003630289966669352,
       "num_date_confidence": [
-        1999.0714359249632,
-        1999.7949373574172
+        1998.984474699527,
+        1999.7909868440925
       ],
-      "numdate": 1999.3853454731727
+      "numdate": 1999.408594766335
     },
     "NODE_0000019": {
-      "branch_length": 0.00036110135149638664,
-      "clock_length": 0.00036110135149638664,
-      "date": "2000-06-26",
-      "mutation_length": 0.0007263257922679595,
+      "branch_length": 0.0004124214496755464,
+      "clock_length": 0.0004124214496755464,
+      "date": "2000-08-07",
+      "mutation_length": 0.000726325817780831,
       "num_date_confidence": [
-        2000.051522979699,
-        2000.9305677883383
+        2000.0674411129353,
+        2000.9340681990009
       ],
-      "numdate": 2000.4844109187993
+      "numdate": 2000.600426319835
     },
     "NODE_0000020": {
-      "branch_length": 0.00015813412311813796,
-      "clock_length": 0.00015813412311813796,
-      "date": "2000-12-19",
-      "mutation_length": 0.00036303116429337327,
+      "branch_length": 0.00012578213982487006,
+      "clock_length": 0.00012578213982487006,
+      "date": "2000-12-18",
+      "mutation_length": 0.0003630308710601486,
       "num_date_confidence": [
-        2000.679746370453,
-        2001.3769200889647
+        2000.6156439977738,
+        2001.3754995049233
       ],
-      "numdate": 2000.9657155435907
+      "numdate": 2000.9639164419611
     },
     "NODE_0000021": {
-      "branch_length": 0.0003289885034271937,
-      "clock_length": 0.0003289885034271937,
-      "date": "2000-05-21",
-      "mutation_length": 0.00036302970316664547,
+      "branch_length": 7.69114229098658e-05,
+      "clock_length": 7.69114229098658e-05,
+      "date": "2000-07-09",
+      "mutation_length": 1.3524641277029489e-21,
       "num_date_confidence": [
-        2000.1686991258011,
-        2001.0045143754007
+        2000.0152722849748,
+        2000.7635867789618
       ],
-      "numdate": 2000.3866707095
+      "numdate": 2000.5196336119284
     },
     "NODE_0000022": {
-      "branch_length": 0.00011696274141848387,
-      "clock_length": 0.00011696274141848387,
-      "date": "2000-09-28",
-      "mutation_length": 9.07326957592176e-05,
+      "branch_length": 0.00038291147896583715,
+      "clock_length": 0.00038291147896583715,
+      "date": "2000-07-07",
+      "mutation_length": 0.000453828219005802,
       "num_date_confidence": [
-        2000.4211667269324,
-        2000.967390609345
+        2000.2424054805444,
+        2000.7981692023645
       ],
-      "numdate": 2000.7426641362379
+      "numdate": 2000.5151472581801
     },
     "NODE_0000023": {
-      "branch_length": 6.648801493043012e-05,
-      "clock_length": 6.648801493043012e-05,
-      "date": "2000-12-11",
-      "mutation_length": 9.073271543398657e-05,
+      "branch_length": 0.00014060078039003499,
+      "clock_length": 0.00014060078039003499,
+      "date": "2000-12-03",
+      "mutation_length": 9.073273434501379e-05,
       "num_date_confidence": [
-        2000.637294088431,
-        2001.4478034620915
+        2000.5120982254357,
+        2001.392560615014
       ],
-      "numdate": 2000.9450302571497
+      "numdate": 2000.9214608644374
     },
     "NODE_0000026": {
-      "branch_length": 6.575843933863054e-05,
-      "clock_length": 6.575843933863054e-05,
-      "date": "2000-12-11",
-      "mutation_length": 9.073266191886363e-05,
+      "branch_length": 0.0001383056485491467,
+      "clock_length": 0.0001383056485491467,
+      "date": "2000-11-30",
+      "mutation_length": 9.073268739175308e-05,
       "num_date_confidence": [
-        2000.6101835846962,
-        2001.405050085843
+        2000.4757278159707,
+        2001.33378209331
       ],
-      "numdate": 2000.9428096857794
+      "numdate": 2000.914828303135
     },
     "NODE_0000027": {
-      "branch_length": 0.0005502874493012672,
-      "clock_length": 0.0005502874493012672,
-      "date": "2002-06-02",
-      "mutation_length": 0.0012718134243739699,
+      "branch_length": 0.0006518211679960272,
+      "clock_length": 0.0006518211679960272,
+      "date": "2002-07-03",
+      "mutation_length": 0.0009990070647218439,
       "num_date_confidence": [
-        2001.9236899861446,
-        2003.239654196075
+        2001.8974203504763,
+        2003.2545268539857
       ],
-      "numdate": 2002.4175454906908
+      "numdate": 2002.5034861040806
     },
     "NODE_0000028": {
-      "branch_length": 0.0009666539816289366,
-      "clock_length": 0.0009666539816289366,
-      "date": "2005-05-12",
-      "mutation_length": 0.0007263547024178403,
+      "branch_length": 0.0009741100077877369,
+      "clock_length": 0.0009741100077877369,
+      "date": "2005-04-27",
+      "mutation_length": 0.0008172194988780333,
       "num_date_confidence": [
-        2004.044258416206,
-        2006.434781357592
+        2004.1274108393548,
+        2006.792720721155
       ],
-      "numdate": 2005.3597000538996
+      "numdate": 2005.3185071093528
     },
     "NODE_0000029": {
-      "branch_length": 0.0006601971450356341,
-      "clock_length": 0.0006601971450356341,
-      "date": "2007-05-15",
-      "mutation_length": 0.0005445951450249445,
+      "branch_length": 0.0007030874400272115,
+      "clock_length": 0.0007030874400272115,
+      "date": "2007-05-08",
+      "mutation_length": 0.0008171139916147421,
       "num_date_confidence": [
-        2006.4038092419785,
-        2009.1260637398289
+        2006.1297963747174,
+        2009.6405478941483
       ],
-      "numdate": 2007.3691078459315
+      "numdate": 2007.3503165522254
     },
     "NODE_0000030": {
-      "branch_length": 0.0002201628369440118,
-      "clock_length": 0.0002201628369440118,
-      "date": "2008-01-15",
-      "mutation_length": 0.0003629956234032475,
+      "branch_length": 0.00023964771242698194,
+      "clock_length": 0.00023964771242698194,
+      "date": "2008-01-16",
+      "mutation_length": 0.0002722219349522312,
       "num_date_confidence": [
-        2007.1763604876107,
-        2009.6024357833728
+        2006.8748884125873,
+        2009.930658044421
       ],
-      "numdate": 2008.0392060482604
+      "numdate": 2008.0428598368176
     },
     "NODE_0000031": {
-      "branch_length": 0.0004012285802939544,
-      "clock_length": 0.0004012285802939544,
-      "date": "2009-04-06",
-      "mutation_length": 0.0006354920994949783,
+      "branch_length": 0.00037512596349345215,
+      "clock_length": 0.00037512596349345215,
+      "date": "2009-02-16",
+      "mutation_length": 0.0006354921609335695,
       "num_date_confidence": [
-        2008.620610737687,
-        2010.2961717928251
+        2008.319503809262,
+        2010.5782000383788
       ],
-      "numdate": 2009.260404657935
+      "numdate": 2009.1269134430988
     },
     "NODE_0000032": {
-      "branch_length": 0.000561380236898933,
-      "clock_length": 0.000561380236898933,
-      "date": "2010-12-20",
-      "mutation_length": 0.0003630256241484337,
+      "branch_length": 0.00042778597583056216,
+      "clock_length": 0.00042778597583056216,
+      "date": "2011-05-31",
+      "mutation_length": 0.0003630255678781822,
       "num_date_confidence": [
-        2009.910031584719,
-        2012.0315541059497
+        2009.8821578366894,
+        2012.4620059651681
       ],
-      "numdate": 2010.9690485543829
+      "numdate": 2011.4122253953399
     },
     "NODE_0000033": {
-      "branch_length": 0.0011576518965288867,
-      "clock_length": 0.0011576518965288867,
-      "date": "2014-06-29",
-      "mutation_length": 0.0010899107172005489,
+      "branch_length": 0.0012837135526303483,
+      "clock_length": 0.0012837135526303483,
+      "date": "2015-02-14",
+      "mutation_length": 0.001089910509355277,
       "num_date_confidence": [
-        2013.5661382790713,
-        2015.4929881938806
+        2013.5852429440633,
+        2015.6057133976074
       ],
-      "numdate": 2014.4925335600929
+      "numdate": 2015.1219507718545
+    },
+    "NODE_0000034": {
+      "branch_length": 3.62237045066164e-05,
+      "clock_length": 3.62237045066164e-05,
+      "date": "2000-08-14",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        2000.3255045485002,
+        2001.0096713903295
+      ],
+      "numdate": 2000.6198279290074
     },
     "NODE_0000035": {
-      "branch_length": 0.00017132279858799934,
-      "clock_length": 0.00017132279858799934,
-      "date": "2009-10-13",
-      "mutation_length": 9.073129413306486e-05,
+      "branch_length": 0.00029291704915996447,
+      "clock_length": 0.00029291704915996447,
+      "date": "2010-02-19",
+      "mutation_length": 9.073129889214154e-05,
       "num_date_confidence": [
-        2008.9319729303368,
-        2010.798160316118
+        2008.4402354813417,
+        2010.9356004553003
       ],
-      "numdate": 2009.78185096988
+      "numdate": 2010.1357975906549
     },
     "NODE_0000036": {
-      "branch_length": 0.0026705338834246157,
-      "clock_length": 0.0026705338834246157,
-      "date": "2017-11-29",
-      "mutation_length": 0.002730180165517779,
+      "branch_length": 0.002701878368253267,
+      "clock_length": 0.002701878368253267,
+      "date": "2017-12-11",
+      "mutation_length": 0.002730179976698482,
       "num_date_confidence": [
-        2016.920600158289,
-        2018.3317183000145
+        2016.8969550521751,
+        2018.3201937840136
       ],
-      "numdate": 2017.9100163740927
+      "numdate": 2017.9437908352752
     },
     "NODE_0000038": {
-      "branch_length": 0.000658422969484174,
-      "clock_length": 0.000658422969484174,
-      "date": "2011-04-07",
-      "mutation_length": 0.000726343924555743,
+      "branch_length": 0.0005385917309717889,
+      "clock_length": 0.0005385917309717889,
+      "date": "2011-09-25",
+      "mutation_length": 0.0007263438596745923,
       "num_date_confidence": [
-        2010.344704745536,
-        2012.5117966579303
+        2010.6832064025616,
+        2012.7679703498404
       ],
-      "numdate": 2011.2644124839046
+      "numdate": 2011.732436178243
     },
     "NODE_0000039": {
-      "branch_length": 0.00239064706447872,
-      "clock_length": 0.00239064706447872,
-      "date": "2018-07-17",
-      "mutation_length": 0.0021829347379480903,
+      "branch_length": 0.0023666469419996367,
+      "clock_length": 0.0023666469419996367,
+      "date": "2018-07-28",
+      "mutation_length": 0.002182933748154512,
       "num_date_confidence": [
-        2017.7653755125584,
-        2019.1964002075044
+        2017.9287357251392,
+        2019.1900164295141
       ],
-      "numdate": 2018.5407009009086
+      "numdate": 2018.571664602682
     },
     "NODE_0000040": {
-      "branch_length": 4.5465777186046163e-05,
-      "clock_length": 4.5465777186046163e-05,
-      "date": "2009-05-26",
-      "mutation_length": 9.073136329822506e-05,
+      "branch_length": 7.645367780799179e-05,
+      "clock_length": 7.645367780799179e-05,
+      "date": "2009-05-07",
+      "mutation_length": 9.073143305638297e-05,
       "num_date_confidence": [
-        2008.823367853353,
-        2010.4009318097726
+        2008.5383552611465,
+        2010.6578234508752
       ],
-      "numdate": 2009.39878648469
+      "numdate": 2009.3478522562095
     },
     "NODE_0000041": {
-      "branch_length": 0.0005052148956803523,
-      "clock_length": 0.0005052148956803523,
-      "date": "2010-12-08",
-      "mutation_length": 0.00045387613030793515,
+      "branch_length": 0.0006197180578854551,
+      "clock_length": 0.0006197180578854551,
+      "date": "2011-02-20",
+      "mutation_length": 0.00045387569909786723,
       "num_date_confidence": [
-        2010.1797374260796,
-        2012.051185685256
+        2010.2061688063586,
+        2012.166605625449
       ],
-      "numdate": 2010.9364828465484
+      "numdate": 2011.1387376144824
     },
     "NODE_0000042": {
-      "branch_length": 0.0003398437577623783,
-      "clock_length": 0.0003398437577623783,
-      "date": "2011-12-21",
-      "mutation_length": 0.00027226561659903637,
+      "branch_length": 0.0003513448222959327,
+      "clock_length": 0.0003513448222959327,
+      "date": "2012-02-26",
+      "mutation_length": 0.0002722656923390045,
       "num_date_confidence": [
-        2011.0626302262158,
-        2012.9075577556373
+        2011.0849489302898,
+        2013.0475632463551
       ],
-      "numdate": 2011.9708476572055
+      "numdate": 2012.1540675535546
     },
     "NODE_0000043": {
-      "branch_length": 0.00014715893644747045,
-      "clock_length": 0.00014715893644747045,
-      "date": "2009-11-06",
-      "mutation_length": 0.0003630239078071285,
+      "branch_length": 0.00027264663464019855,
+      "clock_length": 0.00027264663464019855,
+      "date": "2010-02-19",
+      "mutation_length": 0.0003630238417905416,
       "num_date_confidence": [
-        2009.260933233946,
-        2010.6555894113183
+        2009.0179012722667,
+        2010.776596834809
       ],
-      "numdate": 2009.8466865033256
+      "numdate": 2010.1357571102742
     },
     "NODE_0000044": {
-      "branch_length": 0.001171957311661535,
-      "clock_length": 0.001171957311661535,
-      "date": "2013-06-01",
-      "mutation_length": 0.000999064081161155,
+      "branch_length": 0.0011312825484322054,
+      "clock_length": 0.0011312825484322054,
+      "date": "2013-06-05",
+      "mutation_length": 0.0009990638511840253,
       "num_date_confidence": [
-        2013.019179397971,
-        2013.5398861073154
+        2013.0689992699317,
+        2013.5425585884145
       ],
-      "numdate": 2013.413712158752
+      "numdate": 2013.4266285500273
     },
     "NODE_0000046": {
-      "branch_length": 0.0001473489259216608,
-      "clock_length": 0.0001473489259216608,
-      "date": "2010-04-18",
-      "mutation_length": 0.0002722419287058499,
+      "branch_length": 0.00012131373131821048,
+      "clock_length": 0.00012131373131821048,
+      "date": "2010-06-27",
+      "mutation_length": 0.0002722419790757389,
       "num_date_confidence": [
-        2009.7397999730315,
-        2011.1269399528974
+        2009.6008671875754,
+        2011.2343770285522
       ],
-      "numdate": 2010.295164783065
+      "numdate": 2010.486334251622
     },
     "NODE_0000047": {
-      "branch_length": 0.000351891520813513,
-      "clock_length": 0.000351891520813513,
-      "date": "2010-12-01",
-      "mutation_length": 0.0006354654248201461,
+      "branch_length": 0.00032528784203557457,
+      "clock_length": 0.00032528784203557457,
+      "date": "2011-02-05",
+      "mutation_length": 0.0006354651382637417,
       "num_date_confidence": [
-        2010.3057129827523,
-        2011.5894854630515
+        2010.2416079126144,
+        2011.888447296317
       ],
-      "numdate": 2010.9177204652106
+      "numdate": 2011.097433684452
+    },
+    "NODE_0000048": {
+      "branch_length": 7.490767220666092e-06,
+      "clock_length": 7.490767220666092e-06,
+      "date": "2010-02-27",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        2009.1231440495385,
+        2010.9020843855603
+      ],
+      "numdate": 2010.1574042208708
     },
     "NODE_0000049": {
-      "branch_length": 0.002403584403565197,
-      "clock_length": 0.002403584403565197,
-      "date": "2008-01-22",
-      "mutation_length": 0.0025473725205343687,
+      "branch_length": 0.002895352928761228,
+      "clock_length": 0.002895352928761228,
+      "date": "2008-12-27",
+      "mutation_length": 0.0026385981603559826,
       "num_date_confidence": [
-        2007.1270989634925,
-        2010.4354794648946
+        2006.6878120316878,
+        2009.474278531243
       ],
-      "numdate": 2008.0583292608874
+      "numdate": 2008.9869314871053
     },
     "NODE_0000050": {
-      "branch_length": 0.0007890202266990333,
-      "clock_length": 0.0007890202266990333,
-      "date": "2010-06-17",
-      "mutation_length": 0.0007264558367528992,
+      "branch_length": 0.0005244460956420555,
+      "clock_length": 0.0005244460956420555,
+      "date": "2010-07-03",
+      "mutation_length": 0.0007264592635023052,
       "num_date_confidence": [
-        2009.637107382312,
-        2011.7178117164744
+        2009.7994102095051,
+        2011.5975505066833
       ],
-      "numdate": 2010.4598291818152
+      "numdate": 2010.502496221645
     },
     "NODE_0000051": {
-      "branch_length": 4.581986522282904e-05,
-      "clock_length": 4.581986522282904e-05,
-      "date": "2000-11-18",
-      "mutation_length": 9.073266191886363e-05,
+      "branch_length": 3.914853168616138e-05,
+      "clock_length": 3.914853168616138e-05,
+      "date": "2000-08-17",
+      "mutation_length": 9.073268739175308e-05,
       "num_date_confidence": [
-        2000.5222382756467,
-        2001.0550085168293
+        2000.4170799962415,
+        2001.0185078368786
       ],
-      "numdate": 2000.8821236823765
+      "numdate": 2000.6282802084024
     },
     "NODE_0000052": {
-      "branch_length": 0.0005116136765081899,
-      "clock_length": 0.0005116136765081899,
-      "date": "2002-06-10",
-      "mutation_length": 0.0013627181682145328,
+      "branch_length": 0.0006490162289734362,
+      "clock_length": 0.0006490162289734362,
+      "date": "2002-07-03",
+      "mutation_length": 0.001362717725195898,
       "num_date_confidence": [
-        2002.1178535887564,
-        2002.9883396662874
+        2002.0264808080258,
+        2003.316419223321
       ],
-      "numdate": 2002.4392956814013
+      "numdate": 2002.5038325615417
+    },
+    "NODE_0000053": {
+      "branch_length": 5.619727112114118e-05,
+      "clock_length": 5.619727112114118e-05,
+      "date": "2009-04-16",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        2008.370192875408,
+        2010.7291971382197
+      ],
+      "numdate": 2009.2893145039443
     },
     "NODE_0000054": {
-      "branch_length": 0.00032744161534044823,
-      "clock_length": 0.00032744161534044823,
-      "date": "2003-06-09",
-      "mutation_length": 0.000453826682984171,
+      "branch_length": 0.00047319353810647106,
+      "clock_length": 0.00047319353810647106,
+      "date": "2003-12-27",
+      "mutation_length": 0.00045382635435729064,
       "num_date_confidence": [
-        2003.0528878754435,
-        2004.6522023687214
+        2002.8547385790785,
+        2004.57244243098
       ],
-      "numdate": 2003.4359127347286
+      "numdate": 2003.9871452519185
     },
     "NODE_0000055": {
-      "branch_length": 0.000309128543904625,
-      "clock_length": 0.000309128543904625,
-      "date": "2004-05-17",
-      "mutation_length": 0.00018148149316416195,
+      "branch_length": 0.0001808270906588057,
+      "clock_length": 0.0001808270906588057,
+      "date": "2004-07-05",
+      "mutation_length": 0.00018148145203710498,
       "num_date_confidence": [
-        2003.4505327873817,
-        2005.1461138559825
+        2003.4411616141065,
+        2005.2380857637309
       ],
-      "numdate": 2004.3767912428111
+      "numdate": 2004.509706414885
     },
     "NODE_0000056": {
-      "branch_length": 6.21850073608968e-05,
-      "clock_length": 6.21850073608968e-05,
-      "date": "2002-08-18",
-      "mutation_length": 9.073167868071064e-05,
+      "branch_length": 0.00013531821672343146,
+      "clock_length": 0.00013531821672343146,
+      "date": "2002-11-23",
+      "mutation_length": 9.073160835951186e-05,
       "num_date_confidence": [
-        2002.3245166662027,
-        2003.2517965963466
+        2002.1796884422067,
+        2003.4352699428784
       ],
-      "numdate": 2002.6285649614613
+      "numdate": 2002.894880409759
     },
     "NODE_0000057": {
-      "branch_length": 0.0002561542556370217,
-      "clock_length": 0.0002561542556370217,
-      "date": "2003-05-29",
-      "mutation_length": 0.0003630227905397716,
+      "branch_length": 0.00020102521746425978,
+      "clock_length": 0.00020102521746425978,
+      "date": "2003-06-23",
+      "mutation_length": 0.0003630225311472439,
       "num_date_confidence": [
-        2003.0472078385021,
-        2004.472687582601
+        2003.057710687554,
+        2004.9422925362405
       ],
-      "numdate": 2003.4082083772341
+      "numdate": 2003.4758109055215
     },
     "NODE_0000058": {
-      "branch_length": 0.00222623508446668,
-      "clock_length": 0.00222623508446668,
-      "date": "2010-03-09",
-      "mutation_length": 0.0030953621759991297,
+      "branch_length": 0.002313145136332808,
+      "clock_length": 0.002313145136332808,
+      "date": "2010-02-28",
+      "mutation_length": 0.0030953620268430017,
       "num_date_confidence": [
-        2009.2182892138192,
-        2010.8627363706742
+        2009.3397124864587,
+        2010.9367971605295
       ],
-      "numdate": 2010.1840845821832
+      "numdate": 2010.1604277300714
     },
     "NODE_0000059": {
-      "branch_length": 2.3217768936570522e-05,
-      "clock_length": 2.3217768936570522e-05,
-      "date": "2000-12-14",
-      "mutation_length": 9.073264199628729e-05,
+      "branch_length": 0.00010458908966027268,
+      "clock_length": 0.00010458908966027268,
+      "date": "2000-12-06",
+      "mutation_length": 9.073270687828782e-05,
       "num_date_confidence": [
-        2000.7225027324391,
-        2001.2354194625962
+        2000.5831764064255,
+        2001.1846420843044
       ],
-      "numdate": 2000.9527904008946
+      "numdate": 2000.9305258294946
+    },
+    "NODE_0000060": {
+      "branch_length": 0.00030682621394591096,
+      "clock_length": 0.00030682621394591096,
+      "date": "2010-03-06",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        2008.1274974341572,
+        2010.6334207086957
+      ],
+      "numdate": 2010.1759928362894
     },
     "NODE_0000061": {
-      "branch_length": 6.794204516666433e-05,
-      "clock_length": 6.794204516666433e-05,
-      "date": "2001-02-28",
-      "mutation_length": 0.0001814815110087429,
+      "branch_length": 4.960780304917589e-05,
+      "clock_length": 4.960780304917589e-05,
+      "date": "2001-01-27",
+      "mutation_length": 0.00018148158050065448,
       "num_date_confidence": [
-        2000.8872649554203,
-        2001.4414247598888
+        2000.8204872488204,
+        2001.4478770894468
       ],
-      "numdate": 2001.1595820781852
+      "numdate": 2001.0738843890952
     },
     "NODE_0000062": {
-      "branch_length": 8.062811272654003e-05,
-      "clock_length": 8.062811272654003e-05,
-      "date": "2001-05-28",
-      "mutation_length": 0.00036303003757743555,
+      "branch_length": 0.00012651750018877542,
+      "clock_length": 0.00012651750018877542,
+      "date": "2001-06-10",
+      "mutation_length": 0.00036302984617547453,
       "num_date_confidence": [
-        2001.2666019587243,
-        2001.8324571212086
+        2001.1348718361958,
+        2001.8061858296533
       ],
-      "numdate": 2001.4049856810148
+      "numdate": 2001.4394995842154
     },
     "NODE_0000065": {
-      "branch_length": 0.0003055876568831299,
-      "clock_length": 0.0003055876568831299,
-      "date": "2002-05-03",
-      "mutation_length": 0.000544645863804939,
+      "branch_length": 0.0002447212179627336,
+      "clock_length": 0.0002447212179627336,
+      "date": "2002-02-23",
+      "mutation_length": 0.0005446455084423244,
       "num_date_confidence": [
-        2001.7315189232163,
-        2002.6008378031022
+        2001.7748796461315,
+        2002.6736769311676
       ],
-      "numdate": 2002.3350869750102
+      "numdate": 2002.146704482526
     },
     "NODE_0000067": {
-      "branch_length": 0.0008568491375867612,
-      "clock_length": 0.0008568491375867612,
-      "date": "2004-12-11",
-      "mutation_length": 0.0010898900828426423,
+      "branch_length": 0.0009902423155943802,
+      "clock_length": 0.0009902423155943802,
+      "date": "2005-03-13",
+      "mutation_length": 0.0010898898238072823,
       "num_date_confidence": [
-        2004.000158171854,
-        2005.8237998894576
+        2003.8980642133629,
+        2005.9044559074082
       ],
-      "numdate": 2004.9430342322946
+      "numdate": 2005.196823396352
     },
     "NODE_0000068": {
-      "branch_length": 0.002788560680176121,
-      "clock_length": 0.002788560680176121,
-      "date": "2013-06-07",
-      "mutation_length": 0.0027294486523890657,
+      "branch_length": 0.0028543485734407507,
+      "clock_length": 0.0028543485734407507,
+      "date": "2013-06-12",
+      "mutation_length": 0.0027294483925051666,
       "num_date_confidence": [
-        2012.4116029554232,
-        2014.0127093234858
+        2012.5365132753498,
+        2014.067678897896
       ],
-      "numdate": 2013.4304316732473
+      "numdate": 2013.4454309728749
     },
     "NODE_0000069": {
-      "branch_length": 0.0005650632569489584,
-      "clock_length": 0.0005650632569489584,
-      "date": "2015-02-24",
-      "mutation_length": 0.0007262584740895744,
+      "branch_length": 0.0005983630800022004,
+      "clock_length": 0.0005983630800022004,
+      "date": "2015-03-05",
+      "mutation_length": 0.0007262588229290292,
       "num_date_confidence": [
-        2014.6442904111052,
-        2015.4494489099486
+        2014.7098012941037,
+        2015.4560667641927
       ],
-      "numdate": 2015.1502853867057
+      "numdate": 2015.1746038850915
     },
     "NODE_0000070": {
-      "branch_length": 3.534406009470838e-05,
-      "clock_length": 3.534406009470838e-05,
-      "date": "2002-06-11",
-      "mutation_length": 9.073711847351715e-05,
+      "branch_length": 0.00012450352662767526,
+      "clock_length": 0.00012450352662767526,
+      "date": "2002-07-04",
+      "mutation_length": 9.073714931930902e-05,
       "num_date_confidence": [
-        2002.1272150349785,
-        2003.0760469857757
+        2002.0421491424654,
+        2003.1112897715707
       ],
-      "numdate": 2002.4426618566806
+      "numdate": 2002.5064996184813
+    },
+    "NODE_0000071": {
+      "branch_length": 4.0092058579435826e-05,
+      "clock_length": 4.0092058579435826e-05,
+      "date": "2002-08-15",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        2002.1220830683783,
+        2003.418996650375
+      ],
+      "numdate": 2002.619692152495
     },
     "NODE_0000072": {
-      "branch_length": 0.001040728539567692,
-      "clock_length": 0.001040728539567692,
-      "date": "2005-08-11",
-      "mutation_length": 0.001453705767442974,
+      "branch_length": 0.0010791847186931644,
+      "clock_length": 0.0010791847186931644,
+      "date": "2005-08-26",
+      "mutation_length": 0.0013627252266257591,
       "num_date_confidence": [
-        2004.8215439073465,
-        2006.1724924802088
+        2005.020107173402,
+        2006.258105458618
       ],
-      "numdate": 2005.610273308082
+      "numdate": 2005.6519521587004
     },
     "NODE_0000073": {
-      "branch_length": 0.0005218957333150663,
-      "clock_length": 0.0005218957333150663,
-      "date": "2007-03-14",
-      "mutation_length": 0.00045384587586859963,
+      "branch_length": 0.0005414535955635177,
+      "clock_length": 0.0005414535955635177,
+      "date": "2007-03-21",
+      "mutation_length": 0.00045384583011883286,
       "num_date_confidence": [
-        2006.7488988614127,
-        2007.415020228889
+        2006.7938253266577,
+        2007.4239229935583
       ],
-      "numdate": 2007.1987402698635
+      "numdate": 2007.2166658283124
     },
     "NODE_0000074": {
-      "branch_length": 0.00028008954323519367,
-      "clock_length": 0.00028008954323519367,
-      "date": "2003-04-18",
-      "mutation_length": 0.00018146787605073143,
+      "branch_length": 0.000248008986567301,
+      "clock_length": 0.000248008986567301,
+      "date": "2003-03-23",
+      "mutation_length": 0.00018146786578838688,
       "num_date_confidence": [
-        2002.4799388512656,
-        2003.88229585449
+        2002.5191026371385,
+        2003.9491557578326
       ],
-      "numdate": 2003.2951558652894
+      "numdate": 2003.2232056384398
     },
     "NODE_0000075": {
-      "branch_length": 0.0003811939257438064,
-      "clock_length": 0.0003811939257438064,
-      "date": "2004-06-15",
-      "mutation_length": 0.00027222581868817575,
+      "branch_length": 0.0004454821787520302,
+      "clock_length": 0.0004454821787520302,
+      "date": "2004-07-05",
+      "mutation_length": 0.00027222576876596247,
       "num_date_confidence": [
-        2003.5474854900128,
-        2005.2688101621775
+        2003.675620792499,
+        2005.3660600630135
       ],
-      "numdate": 2004.4553760365286
+      "numdate": 2004.5105773732907
     },
     "NODE_0000076": {
-      "branch_length": 0.002733153422693206,
-      "clock_length": 0.002733153422693206,
-      "date": "2012-10-10",
-      "mutation_length": 0.0019998628304931424,
+      "branch_length": 0.0030180051151966966,
+      "clock_length": 0.0030180051151966966,
+      "date": "2013-03-26",
+      "mutation_length": 0.0019998626535299756,
       "num_date_confidence": [
-        2011.392941289308,
-        2013.7167220534957
+        2011.474098062774,
+        2013.7762115320972
       ],
-      "numdate": 2012.7741332830205
+      "numdate": 2013.2321259924167
     },
     "NODE_0000077": {
-      "branch_length": 0.0016328398232642524,
-      "clock_length": 0.0016328398232642524,
-      "date": "2008-04-06",
-      "mutation_length": 0.002273293990833822,
+      "branch_length": 0.0018573267654617307,
+      "clock_length": 0.0018573267654617307,
+      "date": "2008-08-04",
+      "mutation_length": 0.0022732939417639967,
       "num_date_confidence": [
-        2007.707826780387,
-        2008.8906013721364
+        2007.8316071596623,
+        2008.8994130866502
       ],
-      "numdate": 2008.2649457056107
+      "numdate": 2008.5905807979489
     },
     "NODE_0000078": {
-      "branch_length": 0.0002035872793135999,
-      "clock_length": 0.0002035872793135999,
-      "date": "2008-11-19",
-      "mutation_length": 0.00018148462803357142,
+      "branch_length": 8.794293478642072e-05,
+      "clock_length": 8.794293478642072e-05,
+      "date": "2008-11-05",
+      "mutation_length": 0.0001814846037637761,
       "num_date_confidence": [
-        2008.3389349977822,
-        2009.1184759090015
+        2008.4478394410578,
+        2009.2139647555011
       ],
-      "numdate": 2008.884593743303
+      "numdate": 2008.844721712948
     },
     "NODE_0000079": {
-      "branch_length": 4.9190720038498614e-05,
-      "clock_length": 4.9190720038498614e-05,
-      "date": "2009-01-13",
-      "mutation_length": 9.073394096461516e-05,
+      "branch_length": 8.219801452172965e-05,
+      "clock_length": 8.219801452172965e-05,
+      "date": "2009-01-31",
+      "mutation_length": 9.073395568118209e-05,
       "num_date_confidence": [
-        2008.6859483436403,
-        2009.2970292148234
+        2008.766757727715,
+        2009.3124576213954
       ],
-      "numdate": 2009.0343129853268
+      "numdate": 2009.0822607338189
+    },
+    "NODE_0000080": {
+      "branch_length": 5.504619944059208e-05,
+      "clock_length": 5.504619944059208e-05,
+      "date": "2001-02-02",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        2000.7311249573502,
+        2001.712318325081
+      ],
+      "numdate": 2001.089600478607
+    },
+    "NODE_0000083": {
+      "branch_length": 2.1426284278436465e-05,
+      "clock_length": 2.1426284278436465e-05,
+      "date": "2001-07-03",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        2001.2350801345535,
+        2001.9590544006473
+      ],
+      "numdate": 2001.5014180942671
+    },
+    "NODE_0000084": {
+      "branch_length": 5.791234103451944e-05,
+      "clock_length": 5.791234103451944e-05,
+      "date": "2001-09-02",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        2001.3031957439835,
+        2002.269174244025
+      ],
+      "numdate": 2001.6687754308855
+    },
+    "NODE_0000086": {
+      "branch_length": 6.522098408827306e-05,
+      "clock_length": 6.522098408827306e-05,
+      "date": "2002-05-03",
+      "mutation_length": 1.3524641277029489e-21,
+      "num_date_confidence": [
+        2001.8106013414595,
+        2002.7227551251308
+      ],
+      "numdate": 2002.3351826202365
+    },
+    "NODE_0000091": {
+      "branch_length": 9.267833778054714e-06,
+      "clock_length": 9.267833778054714e-06,
+      "date": "2002-07-14",
+      "mutation_length": 9.07258890172538e-05,
+      "num_date_confidence": [
+        2002.160905111759,
+        2003.31773248008
+      ],
+      "numdate": 2002.533282165165
     },
     "W086/2015/USA/CA/San-Diego/SW03/unknown/Mosquito-Culex": {
-      "branch_length": 0.00016620810906680219,
-      "clock_length": 0.00016620810906680219,
+      "branch_length": 0.00016663921869018586,
+      "clock_length": 0.00016663921869018586,
       "date": "2015-08-28",
       "mutation_length": 1.3524641277029489e-21,
       "num_date_confidence": [
@@ -1379,10 +1554,10 @@
       "raw_date": "2015-08-28"
     },
     "W0926/2016/USA/WA/Spokane/SW03/unknown/": {
-      "branch_length": 0.001251524458130576,
-      "clock_length": 0.001251524458130576,
+      "branch_length": 0.0011596519538733864,
+      "clock_length": 0.0011596519538733864,
       "date": "2016-08-01",
-      "mutation_length": 0.0011834581100272344,
+      "mutation_length": 0.0011834581675152565,
       "num_date_confidence": [
         2016.5833333333333,
         2016.5833333333333
@@ -1391,10 +1566,10 @@
       "raw_date": "2016-08-01"
     },
     "W0944/2017/USA/OR/Umatilla/SW03/unknown/": {
-      "branch_length": 0.0015797024904551488,
-      "clock_length": 0.0015797024904551488,
+      "branch_length": 0.001505296980407694,
+      "clock_length": 0.001505296980407694,
       "date": "2017-08-01",
-      "mutation_length": 0.001365660313073757,
+      "mutation_length": 0.0013656602409754148,
       "num_date_confidence": [
         2017.5821917808219,
         2017.5821917808219
@@ -1403,10 +1578,10 @@
       "raw_date": "2017-08-01"
     },
     "W1440/2003/USA/MN/CrowWing/WN02/unknown/Bird-crow": {
-      "branch_length": 0.0008611975195570278,
-      "clock_length": 0.0008611975195570278,
+      "branch_length": 0.0008596922526169868,
+      "clock_length": 0.0008596922526169868,
       "date": "2003-07-29",
-      "mutation_length": 0.0004560072051166634,
+      "mutation_length": 0.00045600717403722455,
       "num_date_confidence": [
         2003.5739726027398,
         2003.5739726027398
@@ -1415,10 +1590,10 @@
       "raw_date": "2003-07-29"
     },
     "W156/2013/USA/CA/Losangeles/WN02/unknown/bird": {
-      "branch_length": 0.0011155584847703484,
-      "clock_length": 0.0011155584847703484,
+      "branch_length": 0.0011831193463014314,
+      "clock_length": 0.0011831193463014314,
       "date": "2013-07-31",
-      "mutation_length": 0.0014660787297755117,
+      "mutation_length": 0.001466078651457198,
       "num_date_confidence": [
         2013.5794520547945,
         2013.5794520547945
@@ -1427,10 +1602,10 @@
       "raw_date": "2013-07-31"
     },
     "W176/2004/USA/CA/Losangeles/WN02/unknown/mosquito": {
-      "branch_length": 0.0006709711480265565,
-      "clock_length": 0.0006709711480265565,
+      "branch_length": 0.0006145272008289846,
+      "clock_length": 0.0006145272008289846,
       "date": "2004-09-02",
-      "mutation_length": 0.0010927513911438637,
+      "mutation_length": 0.0010927514408680381,
       "num_date_confidence": [
         2004.6707650273224,
         2004.6707650273224
@@ -1439,10 +1614,10 @@
       "raw_date": "2004-09-02"
     },
     "W1793/2014/USA/CO/Larimer/WN02/unknown/Mosquito-Culex": {
-      "branch_length": 0.0014112164159803065,
-      "clock_length": 0.0014112164159803065,
+      "branch_length": 0.001420174906618585,
+      "clock_length": 0.001420174906618585,
       "date": "2014-08-04",
-      "mutation_length": 0.0019133420999382959,
+      "mutation_length": 0.0019133415116273983,
       "num_date_confidence": [
         2014.5904109589042,
         2014.5904109589042
@@ -1451,10 +1626,10 @@
       "raw_date": "2014-08-04"
     },
     "W1817/2015/USA/CO/Larimer/WN02/unknown/Mosquito-Culex": {
-      "branch_length": 0.0017766754727769306,
-      "clock_length": 0.0017766754727769306,
+      "branch_length": 0.001805085208167169,
+      "clock_length": 0.001805085208167169,
       "date": "2015-09-14",
-      "mutation_length": 0.0035592479243634566,
+      "mutation_length": 0.003559247610231664,
       "num_date_confidence": [
         2015.7027397260274,
         2015.7027397260274
@@ -1463,10 +1638,10 @@
       "raw_date": "2015-09-14"
     },
     "W1827/2016/USA/CO/Larimer/WN02/unknown/Mosquito-Culex": {
-      "branch_length": 0.0017601155007929549,
-      "clock_length": 0.0017601155007929549,
+      "branch_length": 0.001691841195910033,
+      "clock_length": 0.001691841195910033,
       "date": "2016-08-15",
-      "mutation_length": 0.002278335781510489,
+      "mutation_length": 0.0022783356571591004,
       "num_date_confidence": [
         2016.6215846994535,
         2016.6215846994535
@@ -1475,10 +1650,10 @@
       "raw_date": "2016-08-15"
     },
     "W196/2012/USA/CA/Los-Angeles/WN02/unknown/Mosquito-Culex": {
-      "branch_length": 0.0007936667141834526,
-      "clock_length": 0.0007936667141834526,
+      "branch_length": 0.0008440951623924827,
+      "clock_length": 0.0008440951623924827,
       "date": "2012-08-07",
-      "mutation_length": 0.0010926170959351868,
+      "mutation_length": 0.001092617053035612,
       "num_date_confidence": [
         2012.5997267759562,
         2012.5997267759562
@@ -1487,10 +1662,10 @@
       "raw_date": "2012-08-07"
     },
     "W290/2007/USA/CA/Kern/SW03/unknown/Bird-other": {
-      "branch_length": 9.267879789190935e-05,
-      "clock_length": 9.267879789190935e-05,
+      "branch_length": 9.140858626418766e-05,
+      "clock_length": 9.140858626418766e-05,
       "date": "2007-06-25",
-      "mutation_length": 9.106230723100401e-05,
+      "mutation_length": 9.106228908718133e-05,
       "num_date_confidence": [
         2007.4808219178083,
         2007.4808219178083
@@ -1499,10 +1674,10 @@
       "raw_date": "2007-06-25"
     },
     "W292/2007/USA/CA/Kern/SW03/unknown/Bird-other": {
-      "branch_length": 9.627937973221822e-05,
-      "clock_length": 9.627937973221822e-05,
+      "branch_length": 9.520080598382236e-05,
+      "clock_length": 9.520080598382236e-05,
       "date": "2007-06-29",
-      "mutation_length": 9.106253194320406e-05,
+      "mutation_length": 9.106257760508265e-05,
       "num_date_confidence": [
         2007.4917808219177,
         2007.4917808219177
@@ -1511,10 +1686,10 @@
       "raw_date": "2007-06-29"
     },
     "W293/2007/USA/CA/Kern/SW03/unknown/Bird-other": {
-      "branch_length": 0.0006235759858078966,
-      "clock_length": 0.0006235759858078966,
+      "branch_length": 0.0006423427311269513,
+      "clock_length": 0.0006423427311269513,
       "date": "2007-07-05",
-      "mutation_length": 0.0010036603962050915,
+      "mutation_length": 0.0010036605173858607,
       "num_date_confidence": [
         2007.5082191780823,
         2007.5082191780823
@@ -1523,10 +1698,10 @@
       "raw_date": "2007-07-05"
     },
     "W305/2009/USA/CA/Kern/SW03/unknown/Bird-other": {
-      "branch_length": 0.000180590138005963,
-      "clock_length": 0.000180590138005963,
+      "branch_length": 0.00020399921251832483,
+      "clock_length": 0.00020399921251832483,
       "date": "2009-06-08",
-      "mutation_length": 0.00018214211818457732,
+      "mutation_length": 0.00018214215403421897,
       "num_date_confidence": [
         2009.4342465753425,
         2009.4342465753425
@@ -1535,10 +1710,10 @@
       "raw_date": "2009-06-08"
     },
     "W306/2009/USA/CA/Kern/SW03/unknown/Bird-other": {
-      "branch_length": 0.00013860058164815673,
-      "clock_length": 0.00013860058164815673,
+      "branch_length": 0.0001293856374359444,
+      "clock_length": 0.0001293856374359444,
       "date": "2009-06-16",
-      "mutation_length": 0.00027332317719960906,
+      "mutation_length": 0.0002733231898398938,
       "num_date_confidence": [
         2009.4561643835616,
         2009.4561643835616
@@ -1547,10 +1722,10 @@
       "raw_date": "2009-06-16"
     },
     "W310/2009/USA/CA/Kern/SW03/unknown/Bird-other": {
-      "branch_length": 0.0001629045090706131,
-      "clock_length": 0.0001629045090706131,
+      "branch_length": 0.000154983120543877,
+      "clock_length": 0.000154983120543877,
       "date": "2009-07-13",
-      "mutation_length": 0.00018188994472075583,
+      "mutation_length": 0.00018188991230496721,
       "num_date_confidence": [
         2009.5301369863014,
         2009.5301369863014
@@ -1559,10 +1734,10 @@
       "raw_date": "2009-07-13"
     },
     "W320/2010/USA/CA/Kern/SW03/unknown/Bird-other": {
-      "branch_length": 0.0007577377832570309,
-      "clock_length": 0.0007577377832570309,
+      "branch_length": 0.0006853849432226665,
+      "clock_length": 0.0006853849432226665,
       "date": "2010-07-28",
-      "mutation_length": 0.00045594963730975714,
+      "mutation_length": 0.00045594960634239316,
       "num_date_confidence": [
         2010.5712328767124,
         2010.5712328767124
@@ -1571,10 +1746,10 @@
       "raw_date": "2010-07-28"
     },
     "W352/2004/USA/CA/Kern/SW03/unknown/Mosquito-Culex": {
-      "branch_length": 0.000748542841211175,
-      "clock_length": 0.000748542841211175,
+      "branch_length": 0.0007883502946425848,
+      "clock_length": 0.0007883502946425848,
       "date": "2004-08-12",
-      "mutation_length": 0.0017338780176081208,
+      "mutation_length": 0.001733878185770392,
       "num_date_confidence": [
         2004.613387978142,
         2004.613387978142
@@ -1583,10 +1758,10 @@
       "raw_date": "2004-08-12"
     },
     "W505/2008/USA/CA/San-Diego/WN02/unknown/Bird-crow": {
-      "branch_length": 0.0016365676013559809,
-      "clock_length": 0.0016365676013559809,
+      "branch_length": 0.0017002793256134085,
+      "clock_length": 0.0017002793256134085,
       "date": "2008-05-22",
-      "mutation_length": 0.0012745618646505105,
+      "mutation_length": 0.001274561752264394,
       "num_date_confidence": [
         2008.389344262295,
         2008.389344262295
@@ -1595,10 +1770,10 @@
       "raw_date": "2008-05-22"
     },
     "W551/2015/USA/CA/San-Diego/SW03/unknown/Bird-crow": {
-      "branch_length": 0.0006331555108659323,
-      "clock_length": 0.0006331555108659323,
+      "branch_length": 0.0006616643113308254,
+      "clock_length": 0.0006616643113308254,
       "date": "2015-05-11",
-      "mutation_length": 0.0004602687600496495,
+      "mutation_length": 0.000460268770568804,
       "num_date_confidence": [
         2015.3575342465754,
         2015.3575342465754
@@ -1607,10 +1782,10 @@
       "raw_date": "2015-05-11"
     },
     "W561/2015/USA/CA/San-Diego/SW03/unknown/Bird-crow": {
-      "branch_length": 0.00015810679992595824,
-      "clock_length": 0.00015810679992595824,
+      "branch_length": 0.00015810672432084883,
+      "clock_length": 0.00015810672432084883,
       "date": "2015-08-19",
-      "mutation_length": 0.00036622874434603806,
+      "mutation_length": 0.0003662285692190715,
       "num_date_confidence": [
         2015.631506849315,
         2015.631506849315
@@ -1619,10 +1794,10 @@
       "raw_date": "2015-08-19"
     },
     "W591/2017/USA/CA/San-Diego/WN02/unknown/Bird-crow": {
-      "branch_length": 0.0043152714082194,
-      "clock_length": 0.0043152714082194,
+      "branch_length": 0.004498954053916261,
+      "clock_length": 0.004498954053916261,
       "date": "2017-07-06",
-      "mutation_length": 0.00514287933601584,
+      "mutation_length": 0.00514287902537776,
       "num_date_confidence": [
         2017.5109589041097,
         2017.5109589041097
@@ -1631,10 +1806,10 @@
       "raw_date": "2017-07-06"
     },
     "W797/2006/USA/CA/Sacramento/WN02/unknown/Bird-other": {
-      "branch_length": 0.0010724259666079214,
-      "clock_length": 0.0010724259666079214,
+      "branch_length": 0.0009387563911002544,
+      "clock_length": 0.0009387563911002544,
       "date": "2006-09-13",
-      "mutation_length": 0.0010013259025234182,
+      "mutation_length": 0.0010013255770633272,
       "num_date_confidence": [
         2006.7,
         2006.7
@@ -1643,10 +1818,10 @@
       "raw_date": "2006-09-13"
     },
     "W798/2006/USA/CA/Yolo/WN02/unknown/Bird-other": {
-      "branch_length": 0.0007641975681633734,
-      "clock_length": 0.0007641975681633734,
+      "branch_length": 0.0007588773553713572,
+      "clock_length": 0.0007588773553713572,
       "date": "2006-09-14",
-      "mutation_length": 0.0008276684761574601,
+      "mutation_length": 0.0008276683413556625,
       "num_date_confidence": [
         2006.7027397260274,
         2006.7027397260274

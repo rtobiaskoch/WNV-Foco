@@ -93,7 +93,7 @@ expectation
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 10
+        clock_filter_iqd = 4
     shell:
         """
         augur refine \
@@ -103,6 +103,7 @@ expectation
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
             --timetree \
+            --stochastic-resolve \
             --coalescent {params.coalescent} \
             --date-confidence \
             --date-inference {params.date_inference} \
