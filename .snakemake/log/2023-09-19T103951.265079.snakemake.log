@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count
+------  -------
+clades        1
+export        1
+total         2
+
+Select jobs to execute...
+
+[Tue Sep 19 10:39:51 2023]
+Job 8:  Labeling clades as specified in config/clades.tsv
+Reason: Updated input files: config/clades.tsv
+
+[Tue Sep 19 10:39:52 2023]
+Finished job 8.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Tue Sep 19 10:39:52 2023]
+Job 0: Exporting data files for for auspice
+Reason: Input files updated by another job: results/clades.json
+
+[Tue Sep 19 10:39:53 2023]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2023-09-19T103951.265079.snakemake.log

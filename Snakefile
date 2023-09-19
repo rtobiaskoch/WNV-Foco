@@ -69,7 +69,7 @@ rule tree:
        augur tree \
            --alignment {input.alignment} \
            --method iqtree \
-           --nthreads auto
+           --nthreads auto \
            --output {output.tree}
         """
 
@@ -80,7 +80,8 @@ rule refine:
           - estimate timetree
           - use {params.coalescent} coalescent timescale
           - estimate {params.date_inference} node dates
-          - filter tips more than {params.clock_filter_iqd} IQDs from clock expectation
+          - filter tips more than {params.clock_filter_iqd} IQDs from clock
+expectation
         """
     input:
         tree = rules.tree.output.tree,
@@ -92,7 +93,7 @@ rule refine:
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 4
+        clock_filter_iqd = 10
     shell:
         """
         augur refine \
@@ -200,14 +201,14 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.clades} {input.aa_muts} \
+            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} {input.clades} \
             --lat-longs {input.lat_longs} \
             --colors {input.colors} \
             --auspice-config {input.auspice_config} \
             --output {output.auspice_json}
         """
 
-# would need to add the following line above for colors  --colors {input.colors} \
+# would need to add the following line above             --clades {input.clades} {input.aa_muts} \
 
 rule clean:
     message: "Removing directories: {params}"

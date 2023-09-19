@@ -8,13 +8,12 @@ pacman::p_load(treeio, ggtree, tidytree,  #phylo
 ```
 
 #run in terminal
-```{bash}
-treetime mugration 
---tree results/tree.nwk
---states data/metadata.csv 
---attribute state 
---confidence
---outdir mugration
+```{bash, engine.opts = '-l'}
+conda activate nextstrain
+
+treetime mugration --tree results/tree.nwk --states data/metadata.csv --attribute state --confidence --outdir mugration/state
+treetime mugration --tree results/tree.nwk --states data/metadata.csv --attribute CO --confidence --outdir mugration/CO
+treetime mugration --tree results/tree.nwk --states data/metadata.csv --attribute trap --confidence --outdir mugration/trap
 
 ```
 
@@ -28,8 +27,31 @@ mdata = read_rds("data_output/mdata_c_cmplt.rds")
 muts0 = jsonlite::read_json("../results/aa_muts.json")
 node = jsonlite::read_json("../results/branch_lengths.json")
 traits = jsonlite::read_json("../results/traits.json")
+clades = jsonlite::read_json("../results/clades.json")
 mugration0 = read.csv("../mugration/confidence.csv")
 mugration_key = read_delim("../results/traitsstate.mugration_model.txt", delim = "\t")
+```
+
+
+#CLADES FOR LINEAGES
+
+```{r}
+
+
+# Initialize empty lists to store node and clade membership
+nodes <- character(0)
+clade_membership <- character(0)
+
+# Extract node and clade membership information
+for (node_id in names(clades$nodes)) {
+  node <- clades$nodes[[node_id]]
+  nodes <- c(nodes, node_id)
+  clade_membership <- c(clade_membership, node$clade_membership)
+}
+
+# Create a dataframe
+clade_df <- data.frame(Node = nodes, Clade_Membership = clade_membership)
+
 ```
 
 #MUGRATION
