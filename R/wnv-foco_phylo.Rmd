@@ -1,19 +1,42 @@
-# Header
 
-```{r}
-rm(list = ls())
-pacman::p_load(treeio, ggtree, tidytree,  #phylo
-               tidyverse, jsonlite, purrr)
 
-```
-
-#run in terminal
-```{bash, engine.opts = '-l'}
+# Get node trait confidence
+```{bash, eval =F, engine.opts = '-l'}
 conda activate nextstrain
 
 treetime mugration --tree results/tree.nwk --states data/metadata.csv --attribute state --confidence --outdir mugration/state
 treetime mugration --tree results/tree.nwk --states data/metadata.csv --attribute CO --confidence --outdir mugration/CO
 treetime mugration --tree results/tree.nwk --states data/metadata.csv --attribute trap --confidence --outdir mugration/trap
+
+```
+
+#### * Extract Intros
+
+```{bash, eval = F}
+python3 scripts/node_data_to_table.py \
+--tree results/tree.nwk \
+--jsons results/traits.json \
+--include-internal-nodes \
+--annotations build=wnv \
+--output results/traits.tsv
+
+```
+
+# Header
+
+```{r}
+rm(list = ls())
+pacman::p_load(treeio, ggtree, tidytree, ape, Biostrings, #phylo
+               tidyverse, jsonlite, purrr)
+
+CO_col = c("Boulder" =  "#FFF6DC",
+           "Not CO" = "#96B6C5",
+           "Park" = "#9E9FA5",
+           "Mesa" = "#C4C1A4",
+           "Weld" ="#9E9FA5", 
+           "FoCo" = "#FFC6AC"
+          )
+
 
 ```
 
@@ -24,20 +47,30 @@ treetime mugration --tree results/tree.nwk --states data/metadata.csv --attribut
 #import tree from nextstrain
 tree = read.tree("../results/tree.nwk")
 mdata = read_rds("data_output/mdata_c_cmplt.rds")
-muts0 = jsonlite::read_json("../results/aa_muts.json")
-node = jsonlite::read_json("../results/branch_lengths.json")
-traits = jsonlite::read_json("../results/traits.json")
+fasta = readDNAStringSet("data_output/fasta_ns.fasta")
+node_date0 = jsonlite::read_json("../results/branch_lengths.json")
+traits = read.delim("../results/traits.tsv")
 clades = jsonlite::read_json("../results/clades.json")
-mugration0 = read.csv("../mugration/confidence.csv")
-mugration_key = read_delim("../results/traitsstate.mugration_model.txt", delim = "\t")
+mugration_state0 = read.csv("../mugration/state/confidence.csv")
+mugration_CO0 = read.csv("../mugration/CO/confidence.csv")
+mugration_CO_key0 = read_delim("../results/traitsCO.mugration_model.txt", delim = "\t")
 ```
 
 
-#CLADES FOR LINEAGES
-
 ```{r}
 
+t2 = data.frame(f = sort(names(fasta)), m = sort(mdata$strain)) %>%
+  mutate(same = f==m) %>%
+  filter(same == "FALSE")
 
+if(nrow(t2) == 0) {
+  rm(t2)
+}
+```
+
+# Get Clade for Lineages
+
+```{r}
 # Initialize empty lists to store node and clade membership
 nodes <- character(0)
 clade_membership <- character(0)
@@ -50,24 +83,81 @@ for (node_id in names(clades$nodes)) {
 }
 
 # Create a dataframe
-clade_df <- data.frame(Node = nodes, Clade_Membership = clade_membership)
+clade_df <- data.frame(node = nodes, 
+                       clade = clade_membership)
+
+rm(nodes, node, clade_membership)
 
 ```
 
-#MUGRATION
+
+Get Inferred Dates for the Nodes
 ```{r}
-n_state = length(unique(mdata$state))
 
-mugration_key= mugration_key %>%
-  slice(1:n_state) %>%
-  separate(`Map from character to field name`, into = c("key", "state"), sep = ":")
+node_index = which(grepl("^NODE", names(node_date0$nodes)))
 
-mugration = mugration0 %>%
-  rename(node = X.name) %>%
+node_date = node_date0$nodes[node_index]
+
+inferred_dates = lapply(node_date, function(node) node$date)
+
+inferred_dates = as.data.frame(inferred_dates)
+
+inferred_dates = data.frame(t(inferred_dates))
+
+inferred_dates$node = row.names(inferred_dates)
+
+row.names(inferred_dates) = NULL
+
+inferred_dates = inferred_dates %>%
+  dplyr::rename("inferred_date" = `t.inferred_dates.`) %>%
+  mutate(inferred_date = as.Date(inferred_date))
+
+```
+
+# MDATA_PHYLO:
+desc: phylogenetic data (clade, trait confidence, time) & Mdata merge
+```{r}
+mdata_phylo = mdata %>%
+  left_join(clade_df, by = c("strain" = "node")) %>%
+  mutate(lineage = if_else(lineage == "unknown",
+                           clade,
+                           lineage))
+
+#these should match the pruned samples
+missing_mdata_phylo = mdata_phylo %>%
+  filter(is.na(clade))
+
+```
+
+#plot of foco lineages
+```{r}
+foco = mdata_phylo %>%
+  filter(CO == "FoCo")
+
+ggplot(foco, aes(x = year, fill = lineage)) +
+  geom_bar() + 
+  theme_minimal()
+
+```
+
+# CO MUGRATION
+```{r}
+
+n_CO = length(unique(mdata$CO))
+
+mugration_CO_key = mugration_CO_key0 %>%
+  dplyr::slice(1:n_CO) %>%
+  separate(`Map from character to field name`, into = c("key", "inferred_state"), sep = ":")
+
+rm(mugration_CO_key0)
+
+mugration_CO = mugration_CO0 %>%
+  dplyr::rename(node = X.name) %>%
   pivot_longer(cols = -node, names_to = "key", values_to = "confidence") %>%
   group_by(node) %>%
   filter(confidence == max(confidence)) %>%
-  left_join(mugration_key, by = "key") %>%
+  left_join(mugration_CO_key, by = "key") %>%
+  mutate(inferred_state = gsub("\t", "", inferred_state)) %>%
   dplyr::select(-key)
 
 ```
@@ -82,55 +172,148 @@ if(miss_lin > 0) {
 
 ```
 
-
-
+GET SAMPLE CLADE FOR TESTING
 ```{r}
-data(iris)
-rn <- paste0(iris[,5], "_", 1:150)
-rownames(iris) <- rn
-d_iris <- dist(iris[,-5], method="man")
 
-tree_iris <- ape::bionj(d_iris)
-grp <- list(setosa     = rn[1:50],
-            versicolor = rn[51:100],
-            virginica  = rn[101:150])
-
-p_iris <- ggtree(tree_iris, layout = 'circular', branch.length='none')
-groupOTU(p_iris, grp, 'Species') + aes(color=Species) +
-  theme(legend.position="right")
-
-
-df_tree = tidytree::as.treedata(p_iris)
-df_tree = as_tibble(df_tree)
+#tree = ape::extract.clade(as.phylo(tree), 4723)
 
 ```
 
+
+# convert tree to df add mdata convert back to tree
 ```{r}
 
-grp = mdata %>%
-  group_by(CO) %>%
-  group_split
+df_tree = tidytree::as_tibble(tree)
 
-options(ignore.negative.edge=TRUE)
-p_tree = ggtree(tree) +
+df_tree2 = left_join(df_tree, mugration_CO, by = c("label" = "node")) %>%
+           left_join(inferred_dates, by = c("label" = "node")) %>%
+           left_join(clade_df, by = c("label" = "node")) %>%
+           left_join(mdata, by = c("label" = "strain")) %>%
+           mutate(tip = !str_detect(label, "^NODE")) %>%
+           mutate(inferred_date = dplyr::if_else(is.na(inferred_date),
+                                         date,
+                                         inferred_date)
+                  ) 
+
+
+tree2 = as.treedata(df_tree2)
+
+p_tree = ggtree(tree2) +
+  geom_nodepoint(aes(color = inferred_state)) +
+  geom_text(aes(label=node), ,size = 2, hjust=-.3) +
+  #scale_color_manual(values = CO_col) +
+  # geom_tippoint(aes(color = CO)) +
+  # scale_color_manual(values = CO_col) +
   geom_treescale()
 
-p_tree %<+% 
+p_tree
+```
 
-df_tree = tidytree::as.treedata(p_tree)
-df_tree = as_tibble(df_tree)
 
+#starting from node method 2
+```{r}
+tree_data = df_tree2
+trait = "FoCo"
+
+#get the node numbers for your inferred_state trait of interest
+intro_node = tree_data %>% 
+  filter(tip == F) %>%
+  filter(inferred_state == trait)
+
+#extract the node numbers from the dataframe
+intro_node_num = intro_node$node
+
+#extract the inferred date to filter to the intro node from the tip 
+intro_node_date = intro_node$inferred_date
+
+#get list of nodes of parents a of your node of inferred state of interest
+intro_node_list <- map(intro_node_num, ~parent(tree_data, .x))
+
+#add parent nodes inferred state and inferred date to a dataframe for filtering
+parent_node = lapply(intro_node_list, function(df) df[, c("node", "inferred_state", "inferred_date")])
+
+#remove nodes where parent interred state is the same as node of interest. AKA keep nodes with a change in the inferred_state aka introduction
+parent_node = do.call(rbind, parent_node) %>% 
+  dplyr::rename("parent_node" = node,
+                "parent_inferred_state" = inferred_state,
+                "parent_inferred_date" = inferred_date) %>%
+  mutate(intro_node_num = intro_node_num,
+         intro_node_date = intro_node_date) %>%
+  filter(parent_inferred_state != trait)
+
+#get numbers in a list for the for loop
+node_num = parent_node$intro_node_num
+
+#get all the j tip sequences that are in the intro nodes i filter for above
+intro_df_list = map(node_num, ~offspring(tree_data, .x, tiponly = T))
+                    
+
+#get add the intro node i of the j tips
+intro_df_list2 = list()
+
+for(i in 1:(length(intro_df_list))){
+  intro_df_list2[[i]]= cbind(intro_df_list[[i]], parent_node[i, c("intro_node_num", "intro_node_date")])
+}
+
+
+#intro_df_list2 = sample(intro_df_list2, 3)
 
 ```
 
-#### * Extract Intros
+FOR LOOP TO FILTER TIPS WITH K ANCESTORS NOT EQUAL TO THE INFERRED STATE
+```{r}
 
-```{bash}
-python3 py_scripts/node_data_to_table.py \
---tree results/tree.nwk \
---jsons results/traits.json \
---include-internal-nodes \
---annotations build=wnv \
---output results/traits.tsv
+intro_df_list3 = list()
+intro_tree = list()
 
+for(i in seq_along(intro_df_list2)){
+  
+#get node date for the intro node i  
+node_date = unique(intro_df_list2[[i]]$intro_node_date)
+  
+#get the number of tip j node for offspring of node i
+
+#j = 1
+
+tip_ij = as.numeric(intro_df_list2[[i]][,"node"])
+
+  tip_ij_anc=  tip_ij %>%
+    map(~ancestor(tree_data, .x))  %>% 
+    map(~filter(.x, inferred_date >= node_date))
+
+#add the name of tip_ij to match it with its ancestor nodes 
+for(j in 1:length(tip_ij)) {
+
+  tip_ij_anc[[j]] = mutate(tip_ij_anc[[j]], tip_ij = tip_ij[j])
+}
+
+#function for true false do all of the inferred state equal the inferred state of interest?
+all_ij_trait_ancestor = function(df, x){
+  all(grepl(trait, df$inferred_state))
+}
+
+#only keep the tips with ancestor nodes that are all the inferred state of interest indicating it is a continued transmission and didn't leave that state
+tip_ij_anc2 = keep(tip_ij_anc, all_ij_trait_ancestor)
+
+#extract the tip_ij whos ancestor k were all trait of interest (FoCo)
+tip_ij_keep = map_dbl(tip_ij_anc2, ~(unique(.x$tip_ij)))
+
+intro_df_list3[[i]] = intro_df_list2[[i]] %>%
+  mutate(tip_keep = if_else(node %in% tip_ij_keep,T,F))
+
+}
+                     
+map_dbl(intro_df_list3, ~filter(.x, tip_keep == T) %>% nrow()) 
 ```
+
+Get single tips of trait intro 
+```{r}
+
+#get the node numbers for your inferred_state trait of interest
+intro_single = tree_data %>% 
+  filter(tip == T) %>%
+  filter(inferred_state == trait)
+
+
+
+   

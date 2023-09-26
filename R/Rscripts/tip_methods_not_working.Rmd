@@ -1,0 +1,404 @@
+#starting from tip method
+
+```{r}
+tree_data = df_tree2
+trait = "FoCo"
+
+#get the tip node numbers for your inferred_state trait of interest
+node_num = tree_data %>% 
+  filter(tip == TRUE) %>%
+  filter(inferred_state == trait)
+
+#extract the number from the dataframe
+node_num = node_num$node
+
+#create empty list for loop 
+intro_df_list <- list()
+
+# Loop
+for (i in node_num) {
+  
+  #keep only inferred states that match your trait of interest
+  a = ancestor(tree_data, i) %>%
+    filter(inferred_state == trait)
+  
+  
+  #else a == 0 then just return a because it is a single sample without a clade and therefore no ancestors
+  if(nrow(a) > 0) {
+    
+    #return the number of the last node by date before the inferred state changes
+    a = a %>%
+      filter(inferred_date == min(inferred_date))
+    
+    a = as.numeric(a$node)
+    
+    ##get all the offspring of that last node a and add that ancestor node to the dataframe for reference 
+    intro_df_list[[i]] = offspring(tree_data, a) %>%
+      mutate(parent_node = a)
+  } else {
+    #return the single sample 
+    intro_df_list[[i]] = tree_data %>% 
+      filter(node == i) %>%
+      mutate(parent_node = i)
+  } #end of if else statement to account for single samples
+  
+} #end of for loop
+
+#remove null lists
+intro_df_list0 = discard(intro_df_list, ~is.null(.x)) #2486
+
+#remove duplicate data frames that are tips within the same clade if the list is bigger than 1
+if(length(intro_df_list0) > 1){
+  duplicated_intros <- which(duplicated(intro_df_list0))
+  intro_df_list <- intro_df_list0[-duplicated_intros]
+}
+
+```
+
+# Tip method no single samples
+```{r}
+tree_data = df_tree2
+trait = "FoCo"
+
+#get the tip node numbers for your inferred_state trait of interest
+node_num = tree_data %>% 
+  filter(tip == TRUE) %>%
+  filter(inferred_state == trait)
+
+#extract the number from the dataframe
+node_num = node_num$node
+
+node_num = 1164
+
+#create empty list for loop 
+intro_df_list <- list()
+
+# Loop
+for (i in node_num) {
+  
+  #keep only inferred states that match your trait of interest
+  a = ancestor(tree_data, i) %>%
+    filter(inferred_state == trait)
+  
+  
+  #else a == 0 then just return a because it is a single sample without a clade and therefore no ancestors
+  if(nrow(a) > 0) {
+    
+    #return the number of the last node by date before the inferred state changes
+    a = a %>%
+      filter(inferred_date == min(inferred_date))
+    
+    a_date = as.Date(a$inferred_date) #for use in filter out tips with other nodes inbetween
+    a = as.numeric(a$node)
+    
+    ##get all the offspring of that last node a and add that ancestor node to the dataframe for reference 
+    intro_df_list[[i]] = offspring(tree_data, a, tiponly = T) %>%
+      mutate(parent_node = a)
+    
+    #loop through and remove tip with other inferred states nodes
+    
+    ####stuck here 
+    
+    
+    for(i in intro_df_list0) {
+      
+      
+      tip_j_anc =  ancestor(tree_data, as.numeric(intro_df_list[[i]][j,"node"])) %>%
+        filter(inferred_date > a_date)
+      
+      if(tip_j_anc %>% filter(inferred_state != trait) %>% nrow()>0) {
+        intro_df_list[[i]]
+        
+      }
+      
+    }
+    
+    
+    
+  } else {
+    #return the single sample 
+    intro_df_list[[i]] = tree_data %>% 
+      filter(node == i) %>%
+      mutate(parent_node = i)
+  } #end of if else statement to account for single samples
+  
+} #end of for loop
+
+#remove null lists
+intro_df_list0 = discard(intro_df_list, ~is.null(.x)) #2486
+
+#remove duplicate data frames that are tips within the same clade if the list is bigger than 1
+if(length(intro_df_list0) > 1){
+  duplicated_intros <- which(duplicated(intro_df_list0))
+  intro_df_list <- intro_df_list0[-duplicated_intros]
+}
+```
+
+
+FOR LOOP Previous attempt
+```{r}
+tip_ij_anc = c()
+#WORKING FOR LOOP
+
+all = sum(map_dbl(intro_df_list, ~nrow(.x)))
+
+#for all tips x in each node i
+
+# for i intro nodes in j tips
+ for(i in 1:length(intro_df_list)) {
+    
+  #get node date for the intro node i  
+  node_date = unique(intro_df_list[[i]]$intro_node_date)
+  
+  for(j in 1:nrow(intro_df_list[[i]])){
+
+  #get the number of tip j node for offspring of node i
+  tip_ij = as.numeric(intro_df_list[[i]][j,"node"])  
+  for(x in 1:all){
+ #get list of ancestor nodes from tip j in intro node i and filter to the intro node i inferred_date  
+    tip_ij_anc[[x]] =  ancestor(tree_data, tip_ij) %>%
+                     filter(inferred_date >= node_date) %>%
+                     mutate(tip_ij = tip_ij)
+    
+
+      } #end of x loop
+  
+  } #end of j loop
+} # end of i loop
+
+```
+
+
+
+   
+```{r}
+#get list of ancestor nodes from tip j in intro node i and filter to the intro node i inferred_date 
+   node_date = unique(intro_df_list[[i]]$intro_node_date)
+   
+   tip_ij = as.numeric(intro_df_list[[i]][j,"node"])
+   
+      tip_ij_anc =  ancestor(tree_data, tip_ij) %>%
+        filter(inferred_date >= node_date)
+      
+#if there are any nodes in tip j between intro node i that have an inferred_other other than trait of interest remove that tip
+     if(tip_ij_anc %>% filter(inferred_state != trait) %>% nrow()>0) {
+         intro_df_list[[i]] %>% filter(node != tip_j)
+              } #end of if statement
+      
+      
+View(intro_df_list[[i]])
+#remove null lists
+intro_df_list0 = discard(intro_df_list, ~is.null(.x)) #2486
+
+#remove duplicate data frames that are tips within the same clade if the list is bigger than 1
+if(length(intro_df_list0) > 1){
+  duplicated_intros <- which(duplicated(intro_df_list0))
+  intro_df_list <- intro_df_list0[-duplicated_intros]
+}
+
+```
+
+# Tip method no single samples
+```{r}
+tree_data = df_tree2
+trait = "FoCo"
+
+#get the tip node numbers for your inferred_state trait of interest
+node_num = tree_data %>% 
+  filter(tip == TRUE) %>%
+  filter(inferred_state == trait)
+
+#extract the number from the dataframe
+node_num = node_num$node
+
+node_num = 1164
+
+#create empty list for loop 
+intro_df_list <- list()
+
+# Loop
+for (i in node_num) {
+  
+#keep only inferred states that match your trait of interest
+a = ancestor(tree_data, i) %>%
+  filter(inferred_state == trait)
+
+
+#else a == 0 then just return a because it is a single sample without a clade and therefore no ancestors
+if(nrow(a) > 0) {
+
+ #return the number of the last node by date before the inferred state changes
+ a = a %>%
+  filter(inferred_date == min(inferred_date))
+ 
+  a_date = as.Date(a$inferred_date) #for use in filter out tips with other nodes inbetween
+  a = as.numeric(a$node)
+  
+  ##get all the offspring of that last node a and add that ancestor node to the dataframe for reference 
+  intro_df_list[[i]] = offspring(tree_data, a, tiponly = T) %>%
+      mutate(parent_node = a)
+  
+  #loop through and remove tip with other inferred states nodes
+  
+  ####stuck here 
+  
+  
+  for(i in intro_df_list0) {
+         
+        
+         tip_j_anc =  ancestor(tree_data, as.numeric(intro_df_list[[i]][j,"node"])) %>%
+              filter(inferred_date > a_date)
+
+         if(tip_j_anc %>% filter(inferred_state != trait) %>% nrow()>0) {
+           intro_df_list[[i]]
+           
+         }
+         
+  }
+    
+
+  
+      } else {
+        #return the single sample 
+  intro_df_list[[i]] = tree_data %>% 
+      filter(node == i) %>%
+      mutate(parent_node = i)
+          } #end of if else statement to account for single samples
+
+} #end of for loop
+
+#remove null lists
+intro_df_list0 = discard(intro_df_list, ~is.null(.x)) #2486
+
+#remove duplicate data frames that are tips within the same clade if the list is bigger than 1
+if(length(intro_df_list0) > 1){
+  duplicated_intros <- which(duplicated(intro_df_list0))
+  intro_df_list <- intro_df_list0[-duplicated_intros]
+}
+
+```
+
+
+
+```{r}
+
+#add in some data from the parrent node
+parent_intro_node = df_tree2 %>%
+  dplyr::select(node, label, inferred_state, inferred_date) %>%
+  dplyr::rename("parent_node" = node,
+                "parent_label" = label,
+                "parent_inferred_state" = inferred_state,
+                "parent_inferred_date" = inferred_date)
+
+
+intros = bind_rows(intro_df_list0) %>%
+  left_join(parent_intro_node, by = c("parent_node"))
+
+t = distinct(intros, parent_node, parent_label)
+
+intro_trap = intros %>%
+  group_by(parent_node) %>%
+  filter(CO == "FoCo" & tip == T) %>%
+  filter(date == min(date)) %>%
+  select(parent_node, trap,zone, date)  %>%
+  mutate(trap_number = row_number()) %>%
+  pivot_wider(names_from = trap_number, values_from = trap, names_prefix = "trap") %>%
+  dplyr::rename("foco_date" = date)
+
+
+#get size of all samples in each clade to keep smallest clade with FoCO
+intro_size = intros %>%
+  group_by(parent_node) %>%
+  count()
+
+#get size of foco sample in each clade
+intro_FoCo_size = intros %>%
+  group_by(parent_node) %>%
+  filter(CO == "FoCo") %>%
+  summarize(foco_n = n())
+
+
+ 
+#inferred_date = read.csv("data_input/inferred_date.csv") %>%
+#  mutate(inferred_date = as.Date(inferred_date))
+
+intro_stats = intros %>%
+  group_by(parent_node, parent_label) %>%
+  arrange(inferred_date) %>%
+  summarise(source_inferred_date = min(inferred_date),
+            last_inferred_date = max(inferred_date)) %>%
+  ungroup() %>%
+  left_join(intro_size, by = c("parent_node")) %>%
+  left_join(intro_FoCo_size, by = c("parent_node")) %>%
+  left_join(intro_trap, by = c("parent_node")) %>%
+  mutate(foco_duration = last_inferred_date - foco_date,
+  intro = row_number())
+
+#%>%
+ # mutate(inferred_foco_delay = foco_date - inferred_date)
+```
+
+
+```{r}
+p_intro = ggplot(intro_stats, aes(y = intro)) +
+  geom_line(aes(x = source_date, group = intro), 
+            size = 1.5, alpha = 0.8) +
+  geom_point(aes(x = year, fill = lineage,  
+                 shape = type, size = size_grp), color = "grey20") +
+ geom_text(aes(x = year, y = intro, label = text), 
+           color = "white", size = 5) +
+  scale_color_manual(values = col_lin1) +
+  scale_fill_manual(values = col_lin1) +
+  scale_shape_manual(values = type_val) +
+  scale_size(range = c(7,20)) +
+  scale_y_reverse(breaks = seq(min(intro$intro),max(intro$intro),1), labels = ylab) +
+  theme_classic() +
+  theme(text = element_text(family = text_font),
+        axis.text = element_text(size = axis_text_size),
+        axis.title = element_blank(),
+        legend.text = element_text(size = legend_text_size),
+        legend.title = element_text(size = axis_title_size),
+        plot.margin = margin(margin_top, #top
+                             10, #right
+                             10, #bottom
+                             margin_left, #left
+                             "pt")) +
+  scale_x_continuous(breaks = seq(1950, 2020, 10)) +
+  guides(size = "none",
+         shape = "none",
+         fill = "none",
+         color = "none") +
+ coord_cartesian(xlim = c(1950, 2023))
+
+
+```
+
+
+```{r}
+intro_trees= list()
+
+
+for(i in 1:nrow(intro_stats)) {
+  t = ape::extract.clade(tree, intro_stats[[i, "parent_node"]])
+  intro_trees[[i]] = t
+}
+
+p_trees = list()
+
+  for(i in nrow(intro_stats)) {
+    
+   p_trees[[i]] =  ggtree(intro_trees[[i]]) +
+            geom_tiplab() +
+            ggtitle(paste0("Intro ", i))
+  }
+
+p_trees[[1]]
+  for(i in nrow(intro_stats)) {
+
+
+```
+
+
+
+
+

@@ -1,4 +1,3 @@
-"","accession","date","country","state","city","host","lineage","year"
-"1","CSU8565",2015-08-25,"USA","CO","Larimer","Mosquito-Culex",NA,2015
-"2","MK352483",2019-04-29,"USA","DC","District-Of-Columbia","Mosquito-Other","WN02",2019
-"3","MT905060",2019-06-13,"Brazil","BRA/ES","Joao-Neiva","Horse","NY99",2019
+"","accession","date","country","state","city","host","lineage","year","zone","trap"
+"1","MK352483",2019-04-29,"USA","DC","District-Of-Columbia","Mosquito-Other","WN02",2019,NA,NA
+"2","MT905060",2019-06-13,"Brazil","BRA/ES","Joao-Neiva","Horse","NY99",2019,NA,NA

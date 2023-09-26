@@ -171,7 +171,7 @@ rule traits:
     output:
         node_data = "results/traits.json",
     params:
-        columns = "country state division zone trap"
+        columns = "country state CO division zone trap"
     shell:
         """
         augur traits \
