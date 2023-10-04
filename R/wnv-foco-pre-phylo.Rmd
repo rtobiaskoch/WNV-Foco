@@ -53,7 +53,6 @@ trap = read_excel('data_input/2013-2021 WNV Surveillance Trap Consolidation (fro
                   skip = 1) %>%
   clean_names() %>%
   dplyr::rename(trap = trap_id) %>%
-  select(-zone) %>% #already in the mdata
   separate(coordinates, into = c("lat", "long"),
            sep = ",",
            extra = "merge") #seperate lat and long
@@ -62,6 +61,8 @@ supp_trap = read.csv("data_input/supp_trap.csv")
 
 #add in lat and long data identified in geo_missing2
 trap = rbind(trap, supp_trap) %>% distinct_all()
+
+rm(supp_trap)
 
 
 
@@ -77,11 +78,13 @@ mdata_co_trap0 <- map_df(sheet_names[2:10], ~ read_excel('data_input/2013-2021 W
                                                  sheet = .x, 
                                                  col_types = "text",
                                                  skip =1))
+t_trap = trap %>% dplyr::select(-lat, -long)
 
 mdata_co_trap = mdata_co_trap0 %>%
   clean_names() %>%
   select(-coordinates, -x8, 
          -full_id_year_city_zone_trap_id_id_number,
+         -zone, #will add from trap sheet
          -sample_id_number#coordinates are more complete and will come from trap data.
          ) %>% 
   dplyr::rename(accession = sequenced_samples,
@@ -92,9 +95,9 @@ mdata_co_trap = mdata_co_trap0 %>%
          country = "USA"#,
         # host = "Mosquito-Culex" #add missing columns that are all the same for the nextstrain build
         ) %>%
-  mutate(zone = if_else(is.na(zone) & city != "FC",
-                        city,
-                        zone))
+  left_join(t_trap, by = "trap")
+
+rm(sheet_names, t_trap)
 ```
 
 #### * MDATA_CO_DATE: from original build
@@ -353,7 +356,6 @@ write.csv(mdata_c_cmplt, "data_output/mdata_c_cmplt.csv", row.names = F)
 write.csv(mdata_c_cmplt, "../data_test/metadata.csv", row.names = F)
 saveRDS(mdata_c_cmplt, "data_output/mdata_c_cmplt.rds")
 ```
-
 
 # * MDATA TEST
 ```{r}

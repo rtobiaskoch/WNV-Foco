@@ -69,6 +69,8 @@ rule tree:
        augur tree \
            --alignment {input.alignment} \
            --method iqtree \
+           --override-default-args \
+           --tree-builder-args="-ninit 10 -n 4"\
            --nthreads auto \
            --output {output.tree}
         """
@@ -93,7 +95,7 @@ expectation
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 4
+        clock_filter_iqd = 100
     shell:
         """
         augur refine \
@@ -105,11 +107,13 @@ expectation
             --timetree \
             --stochastic-resolve \
             --coalescent {params.coalescent} \
-            --date-confidence \
+            --date-confidence True\
             --date-inference {params.date_inference} \
             --clock-filter-iqd {params.clock_filter_iqd} \
+            --seed 1 \
             --root AF481864/1998/Israel/ISR/D/Eilat/pre-NY/unknown/Bird-other
         """
+#remove/add ## to --seed to ensure same/stochastic results for refine
 
 rule ancestral:
     message: "Reconstructing ancestral sequences and mutations"

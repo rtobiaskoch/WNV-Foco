@@ -1,0 +1,279 @@
+
+# Header
+
+```{r}
+rm(list = ls())
+pacman::p_load(treeio, ggtree, tidytree, ape, Biostrings, #phylo
+               tidyverse, jsonlite, purrr, tidymodels)
+
+CO_col = c("Boulder" =  "#FFF6DC",
+           "Not CO" = "#96B6C5",
+           "Park" = "#9E9FA5",
+           "Mesa" = "#C4C1A4",
+           "Weld" ="#9E9FA5", 
+           "FoCo" = "#FFC6AC"
+          )
+
+zone_col = c("CO/FC/NW" = "#FFF6DC",
+             "CO/FC/SE"= "#96B6C5",
+             "CO/FC/NE"= "#C4C1A4",
+             "CO/LV/LV"= "#9E9FA5",
+             "CO/FC/SW" = "#FFC6AC",
+             "CO/BE/BE" = "gray",
+             "CO/FC"= "#FFC6AC",
+             "CO/LV/SE"= "#9E9FA5",
+             "CO/LV/NE"= "#9E9FA5")
+
+```
+
+# READ IN DATA
+```{r}
+df_tree2 = read_rds("data_output/df_tree2.rds")
+intro_samples = read_rds("data_output/intro_samples.rds")
+tree = read.tree("../results/tree.nwk")
+intro_nodes_all = unique(intro_samples$intro_node_num)
+```
+
+#plot trees
+```{r}
+df_tree2= df_tree2 %>%
+  mutate(intro_tip_state = if_else(!is.na(tip_keep)&CO=="FoCo",
+                                   "FoCo",
+                                   NA
+                                   )
+         )
+
+
+t = intro_samples %>% 
+  filter(intro_node_num != node) %>% # remove single intro where tip is the same as the intro
+  arrange(inferred_date)
+
+
+intro_nodes = unique(t$intro_node_num)
+
+intro_date = df_tree2 %>%
+  filter(node %in% intro_nodes)
+
+last_date = intro_samples %>%
+  filter(intro_node_num != node) %>%
+  distinct(intro_node_num, .keep_all = T) %>%
+  group_by(intro_node_num) %>%
+  filter(date == max(date))
+
+intro_date = paste0(year(intro_date$inferred_date),"-",year(last_date$inferred_date), " (", last_date$intro_node_num,")")
+
+rm(t)
+
+t = df_tree2 %>% select(label, intro_tip_state, inferred_date, tip_keep)
+
+intro_trees = map(intro_nodes, ~extract.clade(tree, .x))
+intro_trees = map(intro_trees, ~tidytree::as_tibble(.x)) #make intro clade trees a table
+intro_trees = map(intro_trees, ~left_join(.x, t, by = c("label"))) #add metadata
+intro_trees = map(intro_trees, ~as.treedata(.x)) #convert back to a trees
+
+p_trees = map2(intro_trees,intro_date, ~ggtree(.x) +
+                geom_tippoint(aes(color = intro_tip_state), alpha = 0.5) +
+                ggtitle(as.character(.y))+
+               # scale_color_manual(values = zone_col) +
+                theme(legend.position = "none")
+              )
+                        
+patchwork::wrap_plots(p_trees, guides = "collect")
+```
+
+# Intro Stats
+
+```{r}
+
+zone_4_intro_trap = df_tree2 %>%
+  select(trap, zone) %>%
+  rename(inferred_zone = zone) %>%
+  distinct_all()
+
+#get trap and date info for the intro nodes
+intro_node_mdata = df_tree2 %>%
+  filter(node %in% intro_nodes_all) %>%
+  dplyr::select(node, label, inferred_trap,inferred_date) %>%
+  left_join(zone_4_intro_trap, by = c("inferred_trap" = "trap")) %>% # nodes dont have associated zone information so needed to add
+  dplyr::rename(intro_inferred_date = inferred_date,
+                intro_label = label)
+
+
+intro_trap = intro_samples %>%
+  filter(inferred_state == "FoCo") %>%
+  group_by(intro_node_num) %>%
+  filter(date == min(date)) %>%
+  select(intro_node_num, trap) %>%
+  mutate(trap_num = row_number()) %>%
+  pivot_wider(names_from = trap_num, values_from = trap, names_prefix = "intro_trap_")
+
+
+intro_zone = intro_samples %>%
+  filter(inferred_state == "FoCo") %>%
+  group_by(intro_node_num) %>%
+  filter(date == min(date)) %>%
+  select(intro_node_num, zone) %>%
+  mutate(zone_num = row_number()) %>%
+  pivot_wider(names_from = zone_num, values_from = zone, names_prefix = "intro_zone_")
+
+
+  
+#get size of all samples in each clade to keep smallest clade with FoCO
+intro_size = intro_samples %>%
+  group_by(intro_node_num) %>%
+  count()
+
+#get size of foco sample in each clade
+intro_FoCo_size = intro_samples %>%
+  group_by(intro_node_num) %>%
+  filter(CO == "FoCo") %>%
+  summarize(foco_n = n())
+
+
+#inferred_date = read.csv("data_input/inferred_date.csv") %>%
+#  mutate(inferred_date = as.Date(inferred_date))
+
+intro_grp_stats = intro_samples %>%
+ #distinct(intro_node_num, .keep_all = T) %>%
+  group_by(intro_node_num) %>%
+  arrange(inferred_date) %>%
+  summarise(fst_sample_date = min(inferred_date),
+            last_sample_date = max(inferred_date)) %>%
+  ungroup() %>%
+  left_join(intro_node_mdata, by = c("intro_node_num" = "node")) %>%
+  left_join(intro_trap, by = c("intro_node_num")) %>%
+  left_join(intro_zone, by = c("intro_node_num")) %>%
+  mutate(zone_match = if_else(inferred_zone == intro_zone_1, T,F)) %>%
+  left_join(intro_size, by = c("intro_node_num")) %>%
+  left_join(intro_FoCo_size, by = c("intro_node_num")) %>%
+  mutate(inferred_duration = round(as.numeric(last_sample_date - intro_inferred_date)/365,2),
+         sample_duration = round(as.numeric(last_sample_date - fst_sample_date)/365,2),
+        # inferred
+         intro = row_number(),
+         intro_year = year(fst_sample_date),
+         intro_month = as.factor(month(fst_sample_date)),
+         intro_month0 = month(fst_sample_date) - min(month(fst_sample_date)),
+         inferred_persistence = if_else(inferred_duration > 1,
+                               "long",
+                               "short"),
+         persistence = if_else(sample_duration > 1,
+                               "long",
+                               "short")) %>% #did intro last longer than a year?
+  distinct(intro_node_num, .keep_all = T)
+
+
+write.csv(intro_grp_stats, "data_output/intro_grp_stats.csv")
+
+rm(intro_size, intro_FoCo_size, intro_trap)
+#%>%
+ # mutate(inferred_foco_delay = foco_date - inferred_date)
+```
+
+# More stats
+```{r}
+
+ggplot(intro_grp_stats, aes(sample_duration, fill = persistence, color = persistence)) +
+  geom_histogram() +
+ # facet_wrap(~zone) +
+  theme_classic()
+
+ggplot(intro_grp_stats, aes(inferred_duration, fill = persistence, color = persistence)) +
+  geom_histogram(alpha = 0.7) +
+ # facet_wrap(~zone) +
+  ggtitle("Inferred Persistence Discrepancy") +
+  theme_classic()
+
+
+trap_stats = intro_grp_stats %>%
+  group_by(inferred_zone, persistence) %>%
+  count()
+
+ggplot(trap_stats, aes(x = inferred_zone, y = n, fill = persistence))+
+  geom_col() +
+  theme_minimal()
+
+ggplot(intro_grp_stats, aes(x = inferred_zone, y = inferred_duration, fill = inferred_zone)) +
+  geom_boxplot(alpha = 0.5) +
+  geom_point(aes(fill = inferred_zone, color = inferred_zone), size = 3, shape = 21) +
+  theme_classic()
+
+ggplot(intro_grp_stats, aes(x = intro_zone_1, y = inferred_duration, fill = intro_zone_1)) +
+  geom_boxplot(alpha = 0.5) +
+  geom_point(aes(fill = intro_zone_1, color = intro_zone_1), size = 3, shape = 21) +
+  facet_wrap(~zone_match) +
+  ggtitle("First Sample Trap Zone") +
+  labs(caption = ("faceted by whether it matches inferred zone")) +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 90))
+
+ggplot(intro_grp_stats, aes(x = intro_zone_1, y = inferred_duration, fill = intro_zone_1)) +
+  geom_boxplot(alpha = 0.5) +
+  geom_point(aes(fill = intro_zone_1, color = intro_zone_1), size = 3, shape = 21) +
+  #facet_wrap(~zone_match) +
+  ggtitle("First Sample Trap Zone") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 90))
+
+  
+
+
+ggplot(intro_grp_stats, aes(x = intro_month, fill = persistence))+
+  geom_bar() +
+  theme_minimal()
+
+ggplot(intro_grp_stats, aes(x = intro_month, fill = inferred_persistence)) +
+  geom_bar()
+
+year_intro = intro_grp_stats %>%
+  group_by(intro_year, inferred_persistence) %>%
+  count()
+
+ggplot(year_intro, aes(x = intro_year, y = n, fill = inferred_persistence))+
+  geom_col() +
+  theme_minimal()
+
+
+
+```
+
+
+
+Regression
+
+```{r}
+mod1 = lm(sample_duration ~ intro_zone_1 + intro_month0, data = intro_grp_stats)
+
+summary(mod1)
+
+mod1_df = broom::tidy(mod1, conf.int = T) %>%
+  mutate_if(is.numeric, ~round(.,2))
+
+ggplot(mod1_df, aes(x = term, y = estimate)) +
+      geom_point(size = 3) +
+      geom_errorbar(aes(ymin=conf.low,ymax=conf.high,width=0.2)) +
+      geom_hline(yintercept = 1, color = "red", linetype = "dashed") +
+      theme_classic() +
+      theme(axis.text.x = element_text(angle = 90, size = 8, vjust = 0.5),
+            axis.title.x = element_blank(),
+            legend.position = "none")
+
+
+mod2 = lm(inferred_duration ~ inferred_zone + intro_month0, data = intro_grp_stats)
+
+summary(mod2)
+
+
+
+mod2_df = broom::tidy(mod2, conf.int = T) %>%
+  mutate_if(is.numeric, ~round(.,2))
+
+ggplot(mod2_df, aes(x = term, y = estimate)) +
+      geom_point(size = 3) +
+      geom_errorbar(aes(ymin=conf.low,ymax=conf.high,width=0.2)) +
+      geom_hline(yintercept = 1, color = "red", linetype = "dashed") +
+      theme_classic() +
+      theme(axis.text.x = element_text(angle = 90, size = 8, vjust = 0.5),
+            axis.title.x = element_blank(),
+            legend.position = "none")
+
+```
