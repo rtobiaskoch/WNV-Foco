@@ -4,7 +4,7 @@
 ```{r}
 rm(list = ls())
 pacman::p_load(treeio, ggtree, tidytree, ape, Biostrings, #phylo
-               tidyverse, jsonlite, purrr, tidymodels)
+               tidyverse, jsonlite, purrr, tidymodels, patchwork)
 
 CO_col = c("Boulder" =  "#FFF6DC",
            "Not CO" = "#96B6C5",
@@ -32,6 +32,8 @@ df_tree2 = read_rds("data_output/df_tree2.rds")
 intro_samples = read_rds("data_output/intro_samples.rds")
 tree = read.tree("../results/tree.nwk")
 intro_nodes_all = unique(intro_samples$intro_node_num)
+intro_nodes_all_mdata = df_tree2 %>% 
+  filter(node %in% intro_nodes_all)
 ```
 
 #plot trees
@@ -45,40 +47,45 @@ df_tree2= df_tree2 %>%
 
 
 t = intro_samples %>% 
-  filter(intro_node_num != node) %>% # remove single intro where tip is the same as the intro
-  arrange(inferred_date)
+ filter(intro_node_num != node) %>% # remove single intro where tip is the same as the intro
+  arrange(intro_node_date)
 
 
 intro_nodes = unique(t$intro_node_num)
 
-intro_date = df_tree2 %>%
-  filter(node %in% intro_nodes)
+intro_date = unique(t$intro_node_date)
 
 last_date = intro_samples %>%
   filter(intro_node_num != node) %>%
-  distinct(intro_node_num, .keep_all = T) %>%
+  distinct(intro_node_num,date, .keep_all = T) %>% #some samples had two samples with same date
   group_by(intro_node_num) %>%
-  filter(date == max(date))
+  filter(date == max(date)) %>%
+  arrange(intro_node_date)
 
-intro_date = paste0(year(intro_date$inferred_date),"-",year(last_date$inferred_date), " (", last_date$intro_node_num,")")
+intro_date = paste0(year(intro_date),"-",year(last_date$inferred_date), " (", last_date$intro_node_num,")")
 
 rm(t)
 
-t = df_tree2 %>% select(label, intro_tip_state, inferred_date, tip_keep)
+t = df_tree2 %>% 
+  select(label, intro_node_num, intro_tip_state, intro_node_date, inferred_date, inferred_state, tip_keep) %>%
+  arrange(intro_node_date)
 
 intro_trees = map(intro_nodes, ~extract.clade(tree, .x))
 intro_trees = map(intro_trees, ~tidytree::as_tibble(.x)) #make intro clade trees a table
+t2 = map(intro_trees, ~left_join(.x, t, by = c("label"))) #add metadata
 intro_trees = map(intro_trees, ~left_join(.x, t, by = c("label"))) #add metadata
 intro_trees = map(intro_trees, ~as.treedata(.x)) #convert back to a trees
 
 p_trees = map2(intro_trees,intro_date, ~ggtree(.x) +
-                geom_tippoint(aes(color = intro_tip_state), alpha = 0.5) +
+               # geom_tippoint(aes(color = intro_tip_state), alpha = 0.5) +
+                geom_nodepoint(aes(color = inferred_state), size = 2, alpha = 0.7) +
                 ggtitle(as.character(.y))+
-               # scale_color_manual(values = zone_col) +
                 theme(legend.position = "none")
               )
                         
 patchwork::wrap_plots(p_trees, guides = "collect")
+
+rm(t,t2)
 ```
 
 # Intro Stats
@@ -93,29 +100,34 @@ zone_4_intro_trap = df_tree2 %>%
 #get trap and date info for the intro nodes
 intro_node_mdata = df_tree2 %>%
   filter(node %in% intro_nodes_all) %>%
-  dplyr::select(node, label, inferred_trap,inferred_date) %>%
+  dplyr::select(node, label, inferred_state, inferred_trap,inferred_date) %>%
   left_join(zone_4_intro_trap, by = c("inferred_trap" = "trap")) %>% # nodes dont have associated zone information so needed to add
   dplyr::rename(intro_inferred_date = inferred_date,
                 intro_label = label)
 
-
+#get trap info for the fst sample from foco
 intro_trap = intro_samples %>%
   filter(inferred_state == "FoCo") %>%
   group_by(intro_node_num) %>%
   filter(date == min(date)) %>%
   select(intro_node_num, trap) %>%
   mutate(trap_num = row_number()) %>%
-  pivot_wider(names_from = trap_num, values_from = trap, names_prefix = "intro_trap_")
+  pivot_wider(id_cols = c(intro_node_num),
+              names_from = trap_num, 
+              values_from = trap, 
+              names_prefix = "intro_trap_")
 
-
+#get zone info for the fst sample from foco
 intro_zone = intro_samples %>%
   filter(inferred_state == "FoCo") %>%
   group_by(intro_node_num) %>%
   filter(date == min(date)) %>%
   select(intro_node_num, zone) %>%
   mutate(zone_num = row_number()) %>%
-  pivot_wider(names_from = zone_num, values_from = zone, names_prefix = "intro_zone_")
-
+  pivot_wider(id_cols = intro_node_num,
+              names_from = zone_num,
+              values_from = zone,
+              names_prefix = "intro_zone_")
 
   
 #get size of all samples in each clade to keep smallest clade with FoCO
@@ -130,13 +142,9 @@ intro_FoCo_size = intro_samples %>%
   summarize(foco_n = n())
 
 
-#inferred_date = read.csv("data_input/inferred_date.csv") %>%
-#  mutate(inferred_date = as.Date(inferred_date))
-
 intro_grp_stats = intro_samples %>%
  #distinct(intro_node_num, .keep_all = T) %>%
   group_by(intro_node_num) %>%
-  arrange(inferred_date) %>%
   summarise(fst_sample_date = min(inferred_date),
             last_sample_date = max(inferred_date)) %>%
   ungroup() %>%
@@ -149,17 +157,25 @@ intro_grp_stats = intro_samples %>%
   mutate(inferred_duration = round(as.numeric(last_sample_date - intro_inferred_date)/365,2),
          sample_duration = round(as.numeric(last_sample_date - fst_sample_date)/365,2),
         # inferred
-         intro = row_number(),
          intro_year = year(fst_sample_date),
+         intro_year0 = year(fst_sample_date) - min(year(fst_sample_date)),
+         inferred_intro_year = year(intro_inferred_date),
+         inferred_intro_year0 = year(intro_inferred_date) - min(year(intro_inferred_date)), 
          intro_month = as.factor(month(fst_sample_date)),
          intro_month0 = month(fst_sample_date) - min(month(fst_sample_date)),
+         intro_week = week(fst_sample_date),
+         intro_week0 = week(fst_sample_date) - min(week(fst_sample_date)),
+         inferred_intro_week = week(intro_inferred_date),
+         inferred_intro_week0 = week(intro_inferred_date) - min(week(intro_inferred_date)), 
          inferred_persistence = if_else(inferred_duration > 1,
                                "long",
                                "short"),
          persistence = if_else(sample_duration > 1,
                                "long",
                                "short")) %>% #did intro last longer than a year?
-  distinct(intro_node_num, .keep_all = T)
+  #distinct(intro_node_num, .keep_all = T) %>%
+  arrange(intro_inferred_date) %>%
+  mutate(intro_num = 1:nrow(.))
 
 
 write.csv(intro_grp_stats, "data_output/intro_grp_stats.csv")
@@ -169,8 +185,45 @@ rm(intro_size, intro_FoCo_size, intro_trap)
  # mutate(inferred_foco_delay = foco_date - inferred_date)
 ```
 
+# 1st zone
+```{r}
+t = intro_grp_stats %>% 
+  dplyr::select(intro_node_num, intro_year, intro_zone_1, foco_n, inferred_persistence, persistence)
+
+zone_season = intro_samples %>%
+  mutate(year = year(inferred_date)) %>%
+  group_by(intro_node_num, year) %>%
+  filter(CO == "FoCo" &
+         inferred_date == min(inferred_date)) %>% #keep the zone of the first sample every year 
+  dplyr::select(intro_node_num, inferred_date, zone) %>% 
+  ungroup() %>%
+  left_join(t, by = c("intro_node_num")) %>%
+  filter(persistence == "long")
+
+#most common fst zones from empirical data
+zone_season2 = zone_season %>%
+  group_by(zone) %>%
+  count()
+
+ggplot(zone_season2, aes(x = zone, y = n)) +
+  geom_col() +
+  theme_classic() +
+  ggtitle("First Zone by Long Intro in FoCo of Empirical Data")
+```
+
 # More stats
 ```{r}
+zone_intro_discrepancy = intro_grp_stats %>% 
+  group_by(inferred_zone, intro_zone_1, zone_match) %>% 
+  count() %>%
+  pivot_wider(id_cols = c("inferred_zone", "intro_zone_1"), 
+              names_from = zone_match, values_from = n,
+              values_fill = 0)
+
+zone_intro_discrepancy0 = intro_grp_stats %>%
+  group_by(zone_match) %>%
+  count()
+
 
 ggplot(intro_grp_stats, aes(sample_duration, fill = persistence, color = persistence)) +
   geom_histogram() +
@@ -185,38 +238,36 @@ ggplot(intro_grp_stats, aes(inferred_duration, fill = persistence, color = persi
 
 
 trap_stats = intro_grp_stats %>%
-  group_by(inferred_zone, persistence) %>%
+  group_by(intro_zone_1, persistence) %>%
   count()
 
-ggplot(trap_stats, aes(x = inferred_zone, y = n, fill = persistence))+
-  geom_col() +
+ggplot(intro_grp_stats, aes(x = intro_zone_1, fill = persistence))+
+  geom_bar() +
   theme_minimal()
 
-ggplot(intro_grp_stats, aes(x = inferred_zone, y = inferred_duration, fill = inferred_zone)) +
+zone_box_2 = ggplot(intro_grp_stats, aes(x = intro_zone_1, y = sample_duration, fill = intro_zone_1)) +
   geom_boxplot(alpha = 0.5) +
-  geom_point(aes(fill = inferred_zone, color = inferred_zone), size = 3, shape = 21) +
-  theme_classic()
-
-ggplot(intro_grp_stats, aes(x = intro_zone_1, y = inferred_duration, fill = intro_zone_1)) +
-  geom_boxplot(alpha = 0.5) +
-  geom_point(aes(fill = intro_zone_1, color = intro_zone_1), size = 3, shape = 21) +
-  facet_wrap(~zone_match) +
   ggtitle("First Sample Trap Zone") +
-  labs(caption = ("faceted by whether it matches inferred zone")) +
+  geom_point(aes(fill = intro_zone_1, color = intro_zone_1), size = 3, shape = 21) +
   theme_classic() +
-  theme(axis.text.x = element_text(angle = 90))
+  theme(axis.text.x = element_text(angle = 90),
+        legend.position = "none")
 
-ggplot(intro_grp_stats, aes(x = intro_zone_1, y = inferred_duration, fill = intro_zone_1)) +
+
+zone_box_1 = ggplot(intro_grp_stats, aes(x = intro_zone_1, y = inferred_duration, fill = intro_zone_1)) +
   geom_boxplot(alpha = 0.5) +
   geom_point(aes(fill = intro_zone_1, color = intro_zone_1), size = 3, shape = 21) +
   #facet_wrap(~zone_match) +
   ggtitle("First Sample Trap Zone") +
   theme_classic() +
-  theme(axis.text.x = element_text(angle = 90))
+  theme(axis.text.x = element_text(angle = 90),
+        legend.position = "none")
 
+zone_box_2 + zone_box_1
   
+#SEASONALITY
 
-
+#MONTH
 ggplot(intro_grp_stats, aes(x = intro_month, fill = persistence))+
   geom_bar() +
   theme_minimal()
@@ -224,24 +275,125 @@ ggplot(intro_grp_stats, aes(x = intro_month, fill = persistence))+
 ggplot(intro_grp_stats, aes(x = intro_month, fill = inferred_persistence)) +
   geom_bar()
 
-year_intro = intro_grp_stats %>%
-  group_by(intro_year, inferred_persistence) %>%
-  count()
+#WEEK 
+p_bar_week = ggplot(intro_grp_stats, aes(x = intro_week, fill = persistence)) +
+  geom_bar() +
+  theme_classic()
 
-ggplot(year_intro, aes(x = intro_year, y = n, fill = inferred_persistence))+
-  geom_col() +
-  theme_minimal()
+p_bar_week1 = ggplot(intro_grp_stats, aes(x = inferred_intro_week, fill = inferred_persistence)) +
+  geom_bar() +
+  theme_classic()
 
+p_bar_week + p_bar_week1
+
+#YEAR
+p_bar_year = ggplot(intro_grp_stats, aes(x = intro_year, fill = persistence)) +
+  geom_bar() +
+  theme_classic()
+
+p_bar_year0 = ggplot(intro_grp_stats, aes(x = inferred_intro_year, fill = inferred_persistence)) +
+  geom_bar() +
+  theme_classic()
+
+p_bar_year + p_bar_year0
+
+# ggplot(intro_grp_stats, aes(x = intro_year, y = inferred_duration, group = intro_year, fill = intro_year)) +
+#   geom_boxplot(alpha = 0.5) +
+#   #facet_wrap(~zone_match) +
+#  # ggtitle("First Sample Trap Zone") +
+#   theme_classic() +
+#   theme(axis.text.x = element_text(angle = 90))
 
 
 ```
 
+Intro Timeline Data Prep
+```{r}
 
+t = intro_grp_stats %>%
+  dplyr::select(intro_num, inferred_persistence)
+
+#create data frame in format for intro timeline
+intro_long = intro_grp_stats %>%
+  dplyr::select(intro_num, intro_zone_1, foco_n, intro_inferred_date, fst_sample_date, last_sample_date) %>%
+  pivot_longer(cols = c(intro_inferred_date, fst_sample_date, last_sample_date), names_to = "type", values_to = "year") %>%
+  mutate(clade_size = if_else(type == "last_sample_date", 
+                              foco_n,
+                              as.integer(1))) %>%
+  mutate(size_grp = cut(clade_size, 
+                        breaks = c(0,1,10,50,100),
+                        labels = c("0-1", "2-10", "11-50", "51-100"),
+                        right = T
+          )) %>%
+  mutate(size_grp = scale(clade_size)) %>%
+  mutate(size_grp = as.numeric(size_grp)) %>%
+  mutate(text = if_else(type == "last_sample_date", #make it character for the label
+                        as.character(clade_size),
+                        " ")) %>%
+  mutate(lineage = "WN02") %>% #temporary may want to remove for subclade work
+  left_join(t, by = c("intro_num")) %>%
+  rename(fst_sample_loc = intro_zone_1,
+         intro = intro_num) #change names to match script from original plot from EU WNV paper
+
+
+clade_size = c("0-1" = as.integer(8),
+               "2-10" = as.integer(9),
+               "11-50" = as.integer(10),
+               "51-100" = as.integer(15))
+
+type_val = c( "fst_sample_date" = 23,
+             "intro_inferred_date" = 22,
+             "last_sample_date" = 21)
+
+ylab = unique(paste0(intro_long$intro, " (",intro_long$fst_sample_loc, ")"))
+
+```
+
+Plot intro timeline
+```{r}
+
+#temp
+col_lin1 = c("WN02" = "#F8766D")
+
+color_col = intro_long$fst_sample_loc
+
+p_intro = ggplot(intro_long, aes(y = intro)) +
+  geom_line(aes(x = year, group = intro, color = color_col), 
+            size = 1, alpha = 0.8) +
+  geom_point(aes(x = year, fill = color_col,  
+                 shape = type, size = size_grp), color = "grey20") +
+# geom_text(aes(x = year, y = intro, label = text), 
+#           color = "white", size = 5) +
+  #scale_color_manual(values = col_lin1) +
+ # scale_fill_manual(values = col_lin1) +
+  scale_shape_manual(values = type_val) +
+  scale_size(range = c(2,10)) +
+  #scale_y_reverse(breaks = seq(min(intro$intro),max(intro$intro),1), labels = ylab) +
+  theme_classic() +
+  # theme(text = element_text(family = text_font),
+  #       axis.text = element_text(size = axis_text_size),
+  #       axis.title = element_blank(),
+  #       legend.text = element_text(size = legend_text_size),
+  #       legend.title = element_text(size = axis_title_size),
+  #       plot.margin = margin(margin_top, #top
+  #                            10, #right
+  #                            10, #bottom
+  #                            margin_left, #left
+  #                            "pt")) +
+ # scale_x_continuous(breaks = seq(2000, 2020, 2)) +
+  guides(size = "none",
+         shape = "none",
+         fill = "none",
+        # color = "none"
+         )
+
+p_intro
+```
 
 Regression
 
 ```{r}
-mod1 = lm(sample_duration ~ intro_zone_1 + intro_month0, data = intro_grp_stats)
+mod1 = lm(sample_duration ~ intro_zone_1 + intro_year0 + intro_week0 -1 , data = intro_grp_stats)
 
 summary(mod1)
 
@@ -251,14 +403,14 @@ mod1_df = broom::tidy(mod1, conf.int = T) %>%
 ggplot(mod1_df, aes(x = term, y = estimate)) +
       geom_point(size = 3) +
       geom_errorbar(aes(ymin=conf.low,ymax=conf.high,width=0.2)) +
-      geom_hline(yintercept = 1, color = "red", linetype = "dashed") +
+      geom_hline(yintercept = 0, color = "red", linetype = "dashed") +
       theme_classic() +
       theme(axis.text.x = element_text(angle = 90, size = 8, vjust = 0.5),
             axis.title.x = element_blank(),
             legend.position = "none")
 
 
-mod2 = lm(inferred_duration ~ inferred_zone + intro_month0, data = intro_grp_stats)
+mod2 = lm(inferred_duration ~ inferred_zone + intro_month0 + intro_year0 -1, data = intro_grp_stats)
 
 summary(mod2)
 
@@ -270,10 +422,12 @@ mod2_df = broom::tidy(mod2, conf.int = T) %>%
 ggplot(mod2_df, aes(x = term, y = estimate)) +
       geom_point(size = 3) +
       geom_errorbar(aes(ymin=conf.low,ymax=conf.high,width=0.2)) +
-      geom_hline(yintercept = 1, color = "red", linetype = "dashed") +
+      geom_hline(yintercept = 0, color = "red", linetype = "dashed") +
       theme_classic() +
       theme(axis.text.x = element_text(angle = 90, size = 8, vjust = 0.5),
             axis.title.x = element_blank(),
             legend.position = "none")
 
 ```
+
+

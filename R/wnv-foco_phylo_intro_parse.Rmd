@@ -7,7 +7,7 @@ conda activate nextstrain
 treetime mugration --tree results/tree.nwk --states data/metadata.csv --attribute state --confidence --outdir mugration/state
 treetime mugration --tree results/tree.nwk --states data/metadata.csv --attribute CO --confidence --outdir mugration/CO
 treetime mugration --tree results/tree.nwk --states data/metadata.csv --attribute trap --confidence --outdir mugration/trap
-
+treetime mugration --tree results/tree.nwk --states data/metadata.csv --attribute zone --confidence --outdir mugration/zone
 ```
 
 #### * Extract Intros
@@ -62,9 +62,13 @@ fasta = readDNAStringSet("data_output/fasta_ns.fasta")
 node_date0 = jsonlite::read_json("../results/branch_lengths.json")
 #traits = read.delim("../results/traits.tsv")
 clades = jsonlite::read_json("../results/clades.json")
-mugration_state0 = read.csv("../mugration/state/confidence.csv")
+
 mugration_CO0 = read.csv("../mugration/CO/confidence.csv")
 mugration_CO_key0 = read_delim("../results/traitsCO.mugration_model.txt", delim = "\t")
+
+mugration_zone0 = read.csv("../mugration/zone/confidence.csv")
+mugration_zone_key0 = read_delim("../results/traitszone.mugration_model.txt", delim = "\t")
+
 mugration_trap0 = read.csv("../mugration/trap/confidence.csv")
 mugration_trap_key0 = read_delim("../results/traitstrap.mugration_model.txt", delim = "\t")
 ```
@@ -200,12 +204,24 @@ mugration_CO = mugration_clean_fun(discreet_state = mdata$CO,
                                      mugration_key = mugration_CO_key0,
                                      mugration_data = mugration_CO0,
                                      col_name = "inferred_state")
+
+mugration_zone = mugration_clean_fun(discreet_state = mdata$zone,
+                                     mugration_key = mugration_zone_key0,
+                                     mugration_data = mugration_zone0,
+                                     col_name = "inferred_zone")
+
 mugration_CO = mugration_CO %>%
   rename(confidence_state = confidence)
 
 mugration_trap = mugration_trap %>%
   rename(confidence_trap = confidence)
 
+mugration_zone = mugration_zone %>%
+  rename(confidence_zone = confidence)
+
+rm(mugration_trap0, mugration_trap_key0,
+   mugration_CO0, mugration_CO_key0,
+   mugration_zone0, mugration_zone_key0)
 ```
 
 
@@ -225,8 +241,10 @@ if(miss_lin > 0) {
 
 df_tree = tidytree::as_tibble(tree)
 
-df_tree2 = left_join(df_tree, mugration_CO, by = c("label" = "node")) %>%
+df_tree2 = df_tree %>%
+           left_join(mugration_CO, by = c("label" = "node")) %>%
            left_join(mugration_trap, by = c("label" = "node")) %>%
+           left_join(mugration_zone, by = c("label" = "node")) %>%            
            left_join(inferred_dates, by = c("label" = "node")) %>%
            left_join(clade_df, by = c("label" = "node")) %>%
            left_join(mdata, by = c("label" = "strain")) %>%
